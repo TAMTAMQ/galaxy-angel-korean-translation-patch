@@ -2,7 +2,7 @@
   "schema": "galaxy-angel-remaining-container/v1",
   "source_container": "GADAT002.DAT",
   "stats": {
-    "unique_units": 623
+    "unique_units": 631
   },
   "units": [
     {
@@ -53831,6 +53831,1366 @@
           "block_offset": 71116096,
           "line": 5368,
           "section": "WE803",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        }
+      ]
+    },
+    {
+      "id": "remaining-compressed:00727",
+      "original": "カメラスムーズON\n",
+      "translation": "카메라 스무스 ON\n",
+      "state": "battle_ui",
+      "use_translation": true,
+      "occurrences": [
+        {
+          "file": "GADAT002.DAT",
+          "block_offset": 4775936,
+          "line": 213,
+          "section": "PARAMS",
+          "coverage": "battle_messages_extracted"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 195728,
+          "line": 213,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 3031648,
+          "line": 213,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 6281856,
+          "line": 213,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 9201344,
+          "line": 213,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 12228720,
+          "line": 213,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 14921616,
+          "line": 213,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 18064016,
+          "line": 213,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 21888720,
+          "line": 213,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 25308496,
+          "line": 213,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 29239328,
+          "line": 213,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 32586848,
+          "line": 213,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 35967616,
+          "line": 213,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 39155920,
+          "line": 213,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 42503712,
+          "line": 213,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 46081312,
+          "line": 213,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 49468320,
+          "line": 213,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 52969920,
+          "line": 213,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 57017456,
+          "line": 213,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 60812288,
+          "line": 213,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 64443984,
+          "line": 213,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 67786192,
+          "line": 213,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 71016448,
+          "line": 213,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        }
+      ]
+    },
+    {
+      "id": "remaining-compressed:00728",
+      "original": "カメラ回転の同期ON\n",
+      "translation": "카메라 회전 동기화 ON\n",
+      "state": "battle_ui",
+      "use_translation": true,
+      "occurrences": [
+        {
+          "file": "GADAT002.DAT",
+          "block_offset": 4775936,
+          "line": 216,
+          "section": "PARAMS",
+          "coverage": "battle_messages_extracted"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 195728,
+          "line": 216,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 3031648,
+          "line": 216,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 6281856,
+          "line": 216,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 9201344,
+          "line": 216,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 12228720,
+          "line": 216,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 14921616,
+          "line": 216,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 18064016,
+          "line": 216,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 21888720,
+          "line": 216,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 25308496,
+          "line": 216,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 29239328,
+          "line": 216,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 32586848,
+          "line": 216,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 35967616,
+          "line": 216,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 39155920,
+          "line": 216,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 42503712,
+          "line": 216,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 46081312,
+          "line": 216,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 49468320,
+          "line": 216,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 52969920,
+          "line": 216,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 57017456,
+          "line": 216,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 60812288,
+          "line": 216,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 64443984,
+          "line": 216,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 67786192,
+          "line": 216,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 71016448,
+          "line": 216,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        }
+      ]
+    },
+    {
+      "id": "remaining-compressed:00729",
+      "original": "オートカメラモードON\n",
+      "translation": "오토 카메라 모드 ON\n",
+      "state": "battle_ui",
+      "use_translation": true,
+      "occurrences": [
+        {
+          "file": "GADAT002.DAT",
+          "block_offset": 4775936,
+          "line": 219,
+          "section": "PARAMS",
+          "coverage": "battle_messages_extracted"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 195728,
+          "line": 219,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 3031648,
+          "line": 219,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 6281856,
+          "line": 219,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 9201344,
+          "line": 219,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 12228720,
+          "line": 219,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 14921616,
+          "line": 219,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 18064016,
+          "line": 219,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 21888720,
+          "line": 219,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 25308496,
+          "line": 219,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 29239328,
+          "line": 219,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 32586848,
+          "line": 219,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 35967616,
+          "line": 219,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 39155920,
+          "line": 219,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 42503712,
+          "line": 219,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 46081312,
+          "line": 219,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 49468320,
+          "line": 219,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 52969920,
+          "line": 219,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 57017456,
+          "line": 219,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 60812288,
+          "line": 219,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 64443984,
+          "line": 219,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 67786192,
+          "line": 219,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 71016448,
+          "line": 219,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        }
+      ]
+    },
+    {
+      "id": "remaining-compressed:00730",
+      "original": "ユニットインフォすべて表示\n",
+      "translation": "유닛 인포 전체 표시\n",
+      "state": "battle_ui",
+      "use_translation": true,
+      "occurrences": [
+        {
+          "file": "GADAT002.DAT",
+          "block_offset": 4775936,
+          "line": 222,
+          "section": "PARAMS",
+          "coverage": "battle_messages_extracted"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 195728,
+          "line": 222,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 3031648,
+          "line": 222,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 6281856,
+          "line": 222,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 9201344,
+          "line": 222,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 12228720,
+          "line": 222,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 14921616,
+          "line": 222,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 18064016,
+          "line": 222,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 21888720,
+          "line": 222,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 25308496,
+          "line": 222,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 29239328,
+          "line": 222,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 32586848,
+          "line": 222,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 35967616,
+          "line": 222,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 39155920,
+          "line": 222,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 42503712,
+          "line": 222,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 46081312,
+          "line": 222,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 49468320,
+          "line": 222,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 52969920,
+          "line": 222,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 57017456,
+          "line": 222,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 60812288,
+          "line": 222,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 64443984,
+          "line": 222,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 67786192,
+          "line": 222,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 71016448,
+          "line": 222,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        }
+      ]
+    },
+    {
+      "id": "remaining-compressed:00731",
+      "original": "レーダーパネル開\n",
+      "translation": "레이더 패널 열기\n",
+      "state": "battle_ui",
+      "use_translation": true,
+      "occurrences": [
+        {
+          "file": "GADAT002.DAT",
+          "block_offset": 4775936,
+          "line": 226,
+          "section": "PARAMS",
+          "coverage": "battle_messages_extracted"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 195728,
+          "line": 226,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 3031648,
+          "line": 226,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 6281856,
+          "line": 226,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 9201344,
+          "line": 226,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 12228720,
+          "line": 226,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 14921616,
+          "line": 226,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 18064016,
+          "line": 226,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 21888720,
+          "line": 226,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 25308496,
+          "line": 226,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 29239328,
+          "line": 226,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 32586848,
+          "line": 226,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 35967616,
+          "line": 226,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 39155920,
+          "line": 226,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 42503712,
+          "line": 226,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 46081312,
+          "line": 226,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 49468320,
+          "line": 226,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 52969920,
+          "line": 226,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 57017456,
+          "line": 226,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 60812288,
+          "line": 226,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 64443984,
+          "line": 226,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 67786192,
+          "line": 226,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 71016448,
+          "line": 226,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        }
+      ]
+    },
+    {
+      "id": "remaining-compressed:00732",
+      "original": "ボタンパネル開\n",
+      "translation": "버튼 패널 열기\n",
+      "state": "battle_ui",
+      "use_translation": true,
+      "occurrences": [
+        {
+          "file": "GADAT002.DAT",
+          "block_offset": 4775936,
+          "line": 229,
+          "section": "PARAMS",
+          "coverage": "battle_messages_extracted"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 195728,
+          "line": 229,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 3031648,
+          "line": 229,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 6281856,
+          "line": 229,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 9201344,
+          "line": 229,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 12228720,
+          "line": 229,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 14921616,
+          "line": 229,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 18064016,
+          "line": 229,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 21888720,
+          "line": 229,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 25308496,
+          "line": 229,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 29239328,
+          "line": 229,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 32586848,
+          "line": 229,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 35967616,
+          "line": 229,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 39155920,
+          "line": 229,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 42503712,
+          "line": 229,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 46081312,
+          "line": 229,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 49468320,
+          "line": 229,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 52969920,
+          "line": 229,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 57017456,
+          "line": 229,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 60812288,
+          "line": 229,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 64443984,
+          "line": 229,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 67786192,
+          "line": 229,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 71016448,
+          "line": 229,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        }
+      ]
+    },
+    {
+      "id": "remaining-compressed:00733",
+      "original": "ロックオンマーカー表示\n",
+      "translation": "록온 마커 표시\n",
+      "state": "battle_ui",
+      "use_translation": true,
+      "occurrences": [
+        {
+          "file": "GADAT002.DAT",
+          "block_offset": 4775936,
+          "line": 232,
+          "section": "PARAMS",
+          "coverage": "battle_messages_extracted"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 195728,
+          "line": 232,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 3031648,
+          "line": 232,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 6281856,
+          "line": 232,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 9201344,
+          "line": 232,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 12228720,
+          "line": 232,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 14921616,
+          "line": 232,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 18064016,
+          "line": 232,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 21888720,
+          "line": 232,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 25308496,
+          "line": 232,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 29239328,
+          "line": 232,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 32586848,
+          "line": 232,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 35967616,
+          "line": 232,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 39155920,
+          "line": 232,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 42503712,
+          "line": 232,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 46081312,
+          "line": 232,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 49468320,
+          "line": 232,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 52969920,
+          "line": 232,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 57017456,
+          "line": 232,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 60812288,
+          "line": 232,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 64443984,
+          "line": 232,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 67786192,
+          "line": 232,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 71016448,
+          "line": 232,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        }
+      ]
+    },
+    {
+      "id": "remaining-compressed:00734",
+      "original": "移動するポイントを選択してください\n",
+      "translation": "이동할 지점을 선택해 주세요\n",
+      "state": "battle_ui",
+      "use_translation": true,
+      "occurrences": [
+        {
+          "file": "GADAT002.DAT",
+          "block_offset": 4775936,
+          "line": 236,
+          "section": "PARAMS",
+          "coverage": "battle_messages_extracted"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 195728,
+          "line": 236,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 3031648,
+          "line": 236,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 6281856,
+          "line": 236,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 9201344,
+          "line": 236,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 12228720,
+          "line": 236,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 14921616,
+          "line": 236,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 18064016,
+          "line": 236,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 21888720,
+          "line": 236,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 25308496,
+          "line": 236,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 29239328,
+          "line": 236,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 32586848,
+          "line": 236,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 35967616,
+          "line": 236,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 39155920,
+          "line": 236,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 42503712,
+          "line": 236,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 46081312,
+          "line": 236,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 49468320,
+          "line": 236,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 52969920,
+          "line": 236,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 57017456,
+          "line": 236,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 60812288,
+          "line": 236,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 64443984,
+          "line": 236,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 67786192,
+          "line": 236,
+          "section": "PARAMS",
+          "coverage": "runtime_copy_of_gadat002.dat"
+        },
+        {
+          "file": "SLGINIT.DAT",
+          "block_offset": 71016448,
+          "line": 236,
+          "section": "PARAMS",
           "coverage": "runtime_copy_of_gadat002.dat"
         }
       ]
