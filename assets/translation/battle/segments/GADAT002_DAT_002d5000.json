@@ -1,0 +1,901 @@
+{
+  "schema": "galaxy-angel-battle-segment/v1",
+  "container": "GADAT002",
+  "block_offset": 2969600,
+  "units": [
+    {
+      "id": "GADAT002_DAT_002d5000:MESSAGE203:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 2969600,
+        "section": "MESSAGE203",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "1-1",
+        "header_comments": [
+          "使用ステージ：\t1-1",
+          "皇国軍一般艦長より入電",
+          "0\tpgf71_01\t\tノーマル（予備）",
+          "1\tpgf71_01\t\tノーマル",
+          "2\tpgf71_02\t\t笑顔",
+          "3\tpgf71_03\t\t驚き",
+          "4\tpgf71_01\t\tノーマル（予備）",
+          "5\tpgf71_01\t\tノーマル（予備）",
+          "6\tpgf71_01\t\tノーマル（予備）",
+          "7\tpgf71_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11
+        ],
+        "raw_offsets": [
+          1920
+        ],
+        "byte_lengths": [
+          12
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 123472
+          }
+        ]
+      },
+      "original": "目標、撃破！\n",
+      "translation": "목표, 격파!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002d5000:MESSAGE203:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 2969600,
+        "section": "MESSAGE203",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "1-1",
+        "header_comments": [
+          "使用ステージ：\t1-1",
+          "皇国軍一般艦長より入電",
+          "0\tpgf71_01\t\tノーマル（予備）",
+          "1\tpgf71_01\t\tノーマル",
+          "2\tpgf71_02\t\t笑顔",
+          "3\tpgf71_03\t\t驚き",
+          "4\tpgf71_01\t\tノーマル（予備）",
+          "5\tpgf71_01\t\tノーマル（予備）",
+          "6\tpgf71_01\t\tノーマル（予備）",
+          "7\tpgf71_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          2029,
+          2049
+        ],
+        "byte_lengths": [
+          12,
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 123472
+          }
+        ]
+      },
+      "original": "目標、沈黙！\nやりました、マイヤーズ司令！\n",
+      "translation": "목표, 침묵!\n해냈습니다, 마이어스 사령관님!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002d5000:MESSAGE203:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 2969600,
+        "section": "MESSAGE203",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "1-1",
+        "header_comments": [
+          "使用ステージ：\t1-1",
+          "皇国軍一般艦長より入電",
+          "0\tpgf71_01\t\tノーマル（予備）",
+          "1\tpgf71_01\t\tノーマル",
+          "2\tpgf71_02\t\t笑顔",
+          "3\tpgf71_03\t\t驚き",
+          "4\tpgf71_01\t\tノーマル（予備）",
+          "5\tpgf71_01\t\tノーマル（予備）",
+          "6\tpgf71_01\t\tノーマル（予備）",
+          "7\tpgf71_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          2166,
+          2186
+        ],
+        "byte_lengths": [
+          12,
+          24
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 123472
+          }
+        ]
+      },
+      "original": "敵艦、大破！\nもしかして俺たち、強い？\n",
+      "translation": "적함, 대파!\n혹시 우리들, 강한 거야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002d5000:MESSAGE20a:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 2969600,
+        "section": "MESSAGE20a",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "1-1",
+        "header_comments": [
+          "使用ステージ：\t1-1",
+          "皇国軍一般艦長より入電",
+          "0\tpgf71_01\t\tノーマル（予備）",
+          "1\tpgf71_01\t\tノーマル",
+          "2\tpgf71_02\t\t笑顔",
+          "3\tpgf71_03\t\t驚き",
+          "4\tpgf71_01\t\tノーマル（予備）",
+          "5\tpgf71_01\t\tノーマル（予備）",
+          "6\tpgf71_01\t\tノーマル（予備）",
+          "7\tpgf71_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          4572,
+          4594
+        ],
+        "byte_lengths": [
+          14,
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 123472
+          }
+        ]
+      },
+      "original": "わああ～っ！！\nだ、大ダメージを受けました！\n",
+      "translation": "와아아~!!\n큰, 큰 데미지를 입었습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002d5000:MESSAGE20a:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 2969600,
+        "section": "MESSAGE20a",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "1-1",
+        "header_comments": [
+          "使用ステージ：\t1-1",
+          "皇国軍一般艦長より入電",
+          "0\tpgf71_01\t\tノーマル（予備）",
+          "1\tpgf71_01\t\tノーマル",
+          "2\tpgf71_02\t\t笑顔",
+          "3\tpgf71_03\t\t驚き",
+          "4\tpgf71_01\t\tノーマル（予備）",
+          "5\tpgf71_01\t\tノーマル（予備）",
+          "6\tpgf71_01\t\tノーマル（予備）",
+          "7\tpgf71_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          4711,
+          4745
+        ],
+        "byte_lengths": [
+          26,
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 123472
+          }
+        ]
+      },
+      "original": "敵の攻撃がはげしすぎます！\n我々の装甲が役に立ちません！\n",
+      "translation": "적의 공격이 너무 격렬합니다!\n우리의 장갑이 도움이 되지 않습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002d5000:MESSAGE20b:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 2969600,
+        "section": "MESSAGE20b",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "1-1",
+        "header_comments": [
+          "使用ステージ：\t1-1",
+          "皇国軍一般艦長より入電",
+          "0\tpgf71_01\t\tノーマル（予備）",
+          "1\tpgf71_01\t\tノーマル",
+          "2\tpgf71_02\t\t笑顔",
+          "3\tpgf71_03\t\t驚き",
+          "4\tpgf71_01\t\tノーマル（予備）",
+          "5\tpgf71_01\t\tノーマル（予備）",
+          "6\tpgf71_01\t\tノーマル（予備）",
+          "7\tpgf71_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          5237,
+          5269
+        ],
+        "byte_lengths": [
+          24,
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 123472
+          }
+        ]
+      },
+      "original": "敵から攻撃を受けました！\nこちらも、は、反撃します！\n",
+      "translation": "적에게 공격을 받았습니다!\n이쪽도, 반, 반격하겠습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002d5000:MESSAGE20b:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 2969600,
+        "section": "MESSAGE20b",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "1-1",
+        "header_comments": [
+          "使用ステージ：\t1-1",
+          "皇国軍一般艦長より入電",
+          "0\tpgf71_01\t\tノーマル（予備）",
+          "1\tpgf71_01\t\tノーマル",
+          "2\tpgf71_02\t\t笑顔",
+          "3\tpgf71_03\t\t驚き",
+          "4\tpgf71_01\t\tノーマル（予備）",
+          "5\tpgf71_01\t\tノーマル（予備）",
+          "6\tpgf71_01\t\tノーマル（予備）",
+          "7\tpgf71_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21
+        ],
+        "raw_offsets": [
+          5385
+        ],
+        "byte_lengths": [
+          18
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 123472
+          }
+        ]
+      },
+      "original": "ひ、被弾しました！\n",
+      "translation": "피, 피탄되었습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002d5000:MESSAGE20b:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 2969600,
+        "section": "MESSAGE20b",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "1-1",
+        "header_comments": [
+          "使用ステージ：\t1-1",
+          "皇国軍一般艦長より入電",
+          "0\tpgf71_01\t\tノーマル（予備）",
+          "1\tpgf71_01\t\tノーマル",
+          "2\tpgf71_02\t\t笑顔",
+          "3\tpgf71_03\t\t驚き",
+          "4\tpgf71_01\t\tノーマル（予備）",
+          "5\tpgf71_01\t\tノーマル（予備）",
+          "6\tpgf71_01\t\tノーマル（予備）",
+          "7\tpgf71_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          5501,
+          5527
+        ],
+        "byte_lengths": [
+          18,
+          18
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 123472
+          }
+        ]
+      },
+      "original": "攻撃を受けました！\nこれが、実戦……！\n",
+      "translation": "공격을 받았습니다!\n이것이, 실전……!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002d5000:MESSAGE20d:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 2969600,
+        "section": "MESSAGE20d",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "1-1",
+        "header_comments": [
+          "使用ステージ：\t1-1",
+          "皇国軍一般艦長より入電",
+          "0\tpgf71_01\t\tノーマル（予備）",
+          "1\tpgf71_01\t\tノーマル",
+          "2\tpgf71_02\t\t笑顔",
+          "3\tpgf71_03\t\t驚き",
+          "4\tpgf71_01\t\tノーマル（予備）",
+          "5\tpgf71_01\t\tノーマル（予備）",
+          "6\tpgf71_01\t\tノーマル（予備）",
+          "7\tpgf71_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          6311,
+          6347
+        ],
+        "byte_lengths": [
+          28,
+          16
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 123472
+          }
+        ]
+      },
+      "original": "船体の耐久力が落ちてる……。\nま、まだまだぁ！\n",
+      "translation": "선체의 내구력이 떨어지고 있어…….\n아, 아직이야!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002d5000:MESSAGE20d:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 2969600,
+        "section": "MESSAGE20d",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "1-1",
+        "header_comments": [
+          "使用ステージ：\t1-1",
+          "皇国軍一般艦長より入電",
+          "0\tpgf71_01\t\tノーマル（予備）",
+          "1\tpgf71_01\t\tノーマル",
+          "2\tpgf71_02\t\t笑顔",
+          "3\tpgf71_03\t\t驚き",
+          "4\tpgf71_01\t\tノーマル（予備）",
+          "5\tpgf71_01\t\tノーマル（予備）",
+          "6\tpgf71_01\t\tノーマル（予備）",
+          "7\tpgf71_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          6453,
+          6487
+        ],
+        "byte_lengths": [
+          26,
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 123472
+          }
+        ]
+      },
+      "original": "しまった、また被弾したか。\n少し損傷が増えてきました。\n",
+      "translation": "이런, 또 피탄됐나.\n조금씩 손상이 늘어나고 있습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002d5000:MESSAGE20d:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 2969600,
+        "section": "MESSAGE20d",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "1-1",
+        "header_comments": [
+          "使用ステージ：\t1-1",
+          "皇国軍一般艦長より入電",
+          "0\tpgf71_01\t\tノーマル（予備）",
+          "1\tpgf71_01\t\tノーマル",
+          "2\tpgf71_02\t\t笑顔",
+          "3\tpgf71_03\t\t驚き",
+          "4\tpgf71_01\t\tノーマル（予備）",
+          "5\tpgf71_01\t\tノーマル（予備）",
+          "6\tpgf71_01\t\tノーマル（予備）",
+          "7\tpgf71_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          6603,
+          6633
+        ],
+        "byte_lengths": [
+          22,
+          24
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 123472
+          }
+        ]
+      },
+      "original": "ま、また撃たれました！\n司令、そろそろ危険です！\n",
+      "translation": "또, 또 공격받았습니다!\n사령관님, 슬슬 위험합니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002d5000:MESSAGE20e:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 2969600,
+        "section": "MESSAGE20e",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "1-1",
+        "header_comments": [
+          "使用ステージ：\t1-1",
+          "皇国軍一般艦長より入電",
+          "0\tpgf71_01\t\tノーマル（予備）",
+          "1\tpgf71_01\t\tノーマル",
+          "2\tpgf71_02\t\t笑顔",
+          "3\tpgf71_03\t\t驚き",
+          "4\tpgf71_01\t\tノーマル（予備）",
+          "5\tpgf71_01\t\tノーマル（予備）",
+          "6\tpgf71_01\t\tノーマル（予備）",
+          "7\tpgf71_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          7112,
+          7146
+        ],
+        "byte_lengths": [
+          26,
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 123472
+          }
+        ]
+      },
+      "original": "本艦のダメージは深刻です！\n応急処置も追いつきません！\n",
+      "translation": "본함의 데미지는 심각합니다!\n응급처치도 따라가지 못합니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002d5000:MESSAGE20e:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 2969600,
+        "section": "MESSAGE20e",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "1-1",
+        "header_comments": [
+          "使用ステージ：\t1-1",
+          "皇国軍一般艦長より入電",
+          "0\tpgf71_01\t\tノーマル（予備）",
+          "1\tpgf71_01\t\tノーマル",
+          "2\tpgf71_02\t\t笑顔",
+          "3\tpgf71_03\t\t驚き",
+          "4\tpgf71_01\t\tノーマル（予備）",
+          "5\tpgf71_01\t\tノーマル（予備）",
+          "6\tpgf71_01\t\tノーマル（予備）",
+          "7\tpgf71_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          7282,
+          7316
+        ],
+        "byte_lengths": [
+          26,
+          22
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 123472
+          }
+        ]
+      },
+      "original": "これ以上の戦闘は危険です！\n後退の許可を求めます！\n",
+      "translation": "이 이상의 전투는 위험합니다!\n후퇴 허가를 요청합니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002d5000:MESSAGE20e:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 2969600,
+        "section": "MESSAGE20e",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "1-1",
+        "header_comments": [
+          "使用ステージ：\t1-1",
+          "皇国軍一般艦長より入電",
+          "0\tpgf71_01\t\tノーマル（予備）",
+          "1\tpgf71_01\t\tノーマル",
+          "2\tpgf71_02\t\t笑顔",
+          "3\tpgf71_03\t\t驚き",
+          "4\tpgf71_01\t\tノーマル（予備）",
+          "5\tpgf71_01\t\tノーマル（予備）",
+          "6\tpgf71_01\t\tノーマル（予備）",
+          "7\tpgf71_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          7448,
+          7484
+        ],
+        "byte_lengths": [
+          28,
+          22
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 123472
+          }
+        ]
+      },
+      "original": "マイヤーズ司令、撃沈されそう\nです、助けてください！\n",
+      "translation": "마이어스 사령관님, 격침당할 것\n같습니다, 도와주세요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002d5000:MESSAGE20f:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 2969600,
+        "section": "MESSAGE20f",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "1-1",
+        "header_comments": [
+          "使用ステージ：\t1-1",
+          "皇国軍一般艦長より入電",
+          "0\tpgf71_01\t\tノーマル（予備）",
+          "1\tpgf71_01\t\tノーマル",
+          "2\tpgf71_02\t\t笑顔",
+          "3\tpgf71_03\t\t驚き",
+          "4\tpgf71_01\t\tノーマル（予備）",
+          "5\tpgf71_01\t\tノーマル（予備）",
+          "6\tpgf71_01\t\tノーマル（予備）",
+          "7\tpgf71_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          7975,
+          7997
+        ],
+        "byte_lengths": [
+          14,
+          22
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 123472
+          }
+        ]
+      },
+      "original": "もう限界です！\n助けてください、司令！\n",
+      "translation": "이제 한계입니다!\n도와주세요, 사령관님!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002d5000:MESSAGE20f:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 2969600,
+        "section": "MESSAGE20f",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "1-1",
+        "header_comments": [
+          "使用ステージ：\t1-1",
+          "皇国軍一般艦長より入電",
+          "0\tpgf71_01\t\tノーマル（予備）",
+          "1\tpgf71_01\t\tノーマル",
+          "2\tpgf71_02\t\t笑顔",
+          "3\tpgf71_03\t\t驚き",
+          "4\tpgf71_01\t\tノーマル（予備）",
+          "5\tpgf71_01\t\tノーマル（予備）",
+          "6\tpgf71_01\t\tノーマル（予備）",
+          "7\tpgf71_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          8129,
+          8163
+        ],
+        "byte_lengths": [
+          26,
+          14
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 123472
+          }
+        ]
+      },
+      "original": "このままでは撃沈されます！\n死にたくない！\n",
+      "translation": "이대로라면 격침됩니다!\n죽고 싶지 않아!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002d5000:MESSAGE20f:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 2969600,
+        "section": "MESSAGE20f",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "1-1",
+        "header_comments": [
+          "使用ステージ：\t1-1",
+          "皇国軍一般艦長より入電",
+          "0\tpgf71_01\t\tノーマル（予備）",
+          "1\tpgf71_01\t\tノーマル",
+          "2\tpgf71_02\t\t笑顔",
+          "3\tpgf71_03\t\t驚き",
+          "4\tpgf71_01\t\tノーマル（予備）",
+          "5\tpgf71_01\t\tノーマル（予備）",
+          "6\tpgf71_01\t\tノーマル（予備）",
+          "7\tpgf71_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          8287,
+          8321
+        ],
+        "byte_lengths": [
+          26,
+          20
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 123472
+          }
+        ]
+      },
+      "original": "もう持ちこたえられません！\n後退させてください！\n",
+      "translation": "더는 버틸 수 없습니다!\n후퇴시켜 주세요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002d5000:MESSAGE219:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 2969600,
+        "section": "MESSAGE219",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "1-1",
+        "header_comments": [
+          "使用ステージ：\t1-1",
+          "皇国軍一般艦長より入電",
+          "0\tpgf71_01\t\tノーマル（予備）",
+          "1\tpgf71_01\t\tノーマル",
+          "2\tpgf71_02\t\t笑顔",
+          "3\tpgf71_03\t\t驚き",
+          "4\tpgf71_01\t\tノーマル（予備）",
+          "5\tpgf71_01\t\tノーマル（予備）",
+          "6\tpgf71_01\t\tノーマル（予備）",
+          "7\tpgf71_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          11694,
+          11724
+        ],
+        "byte_lengths": [
+          22,
+          18
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 123472
+          }
+        ]
+      },
+      "original": "これ以上は戦えません！\n後方に下がります！\n",
+      "translation": "이 이상은 싸울 수 없습니다!\n후방으로 물러납니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002d5000:MESSAGE219:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 2969600,
+        "section": "MESSAGE219",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "1-1",
+        "header_comments": [
+          "使用ステージ：\t1-1",
+          "皇国軍一般艦長より入電",
+          "0\tpgf71_01\t\tノーマル（予備）",
+          "1\tpgf71_01\t\tノーマル",
+          "2\tpgf71_02\t\t笑顔",
+          "3\tpgf71_03\t\t驚き",
+          "4\tpgf71_01\t\tノーマル（予備）",
+          "5\tpgf71_01\t\tノーマル（予備）",
+          "6\tpgf71_01\t\tノーマル（予備）",
+          "7\tpgf71_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          11852,
+          11872
+        ],
+        "byte_lengths": [
+          12,
+          16
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 123472
+          }
+        ]
+      },
+      "original": "もうダメだ！\n総員、脱出せよ！\n",
+      "translation": "이제 끝이다!\n총원, 탈출하라!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002d5000:MESSAGE219:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 2969600,
+        "section": "MESSAGE219",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "1-1",
+        "header_comments": [
+          "使用ステージ：\t1-1",
+          "皇国軍一般艦長より入電",
+          "0\tpgf71_01\t\tノーマル（予備）",
+          "1\tpgf71_01\t\tノーマル",
+          "2\tpgf71_02\t\t笑顔",
+          "3\tpgf71_03\t\t驚き",
+          "4\tpgf71_01\t\tノーマル（予備）",
+          "5\tpgf71_01\t\tノーマル（予備）",
+          "6\tpgf71_01\t\tノーマル（予備）",
+          "7\tpgf71_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          11998,
+          12026
+        ],
+        "byte_lengths": [
+          20,
+          18
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 123472
+          }
+        ]
+      },
+      "original": "本艦は戦闘不能です！\n戦線を離脱します！\n",
+      "translation": "본함은 전투 불능입니다!\n전선에서 이탈합니다!\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_0007b800.txt",
+    "encoding": "cp932",
+    "sha256": "bd971302410ad1cda3530f91109f8d325e3df594502543061a170ac51b7a5c85",
+    "dialogue_count": 22
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_0007b800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0"
+      },
+      "original": "ふぅ……。\nどうしたら、この状況を乗り切れるんだろう？\n",
+      "translation": "후우…… 어떻게 해야, 이 상황을 헤쳐 나갈\n수 있을까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0007b800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0"
+      },
+      "original": "だめだ、頭が働かない。\n少し休もうかな……？\n",
+      "translation": "안 되겠어, 머리가 돌아가지 않아. 잠시\n쉴까……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0007b800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0"
+      },
+      "original": "いや、まだ大丈夫だ。\nそれに、みんなの話を聞いているうちに、悩みも\n解消されるかもしれないしな。\n",
+      "translation": "아니, 아직 괜찮아. 게다가, 모두의 이야기를\n듣고 있으면 고민도 해소될지도 모르니까\n말이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0007b800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0"
+      },
+      "original": "うん、思い切って休もう。\n人間、疲れてるとロクなこと考えないものだしな。\n音楽でも聴いて、リラックスしよう。\n",
+      "translation": "응, 마음먹고 쉬자. 인간, 지쳐 있으면 제대로\n된 생각을 못 하는 법이니까. 음악이라도\n들으면서, 릴랙스하자.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0007b800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0"
+      },
+      "original": "……おっと、もうこんな時間か。\nまぁ、少しは落ち着いた、かな。\nそろそろブリッジに戻ろう。\n",
+      "translation": "……앗, 벌써 이런 시간인가. 뭐, 조금은\n진정됐을, 크나. 슬슬 브릿지로 돌아가자.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0007b800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,221,0",
+        "voice": "GA520001,3"
+      },
+      "original": "おう、タクトか。\nもう戻ってきたのか？\n",
+      "translation": "오우, 택트인가. 벌써 돌아온 거냐?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0007b800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,221,0",
+        "voice": "GA520001,3"
+      },
+      "original": "あ、うん……。\n",
+      "translation": "아, 응……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0007b800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GA520002,3"
+      },
+      "original": "それで、これからどうするんだ？\n",
+      "translation": "그래서, 이제부터 어떻게 할 거냐?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0007b800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,223,0",
+        "voice": "GA520002,3"
+      },
+      "original": "うーん……とりあえず、何とかするよ。\n",
+      "translation": "으음…… 일단은, 어떻게든 해볼게.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0007b800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,224,0",
+        "voice": "GA520003,3"
+      },
+      "original": "その様子じゃ、まだ気は晴れてないようだな。\nもう少し、ぶらついてきてもいいぞ。\n",
+      "translation": "그 모습으론, 아직 기분이 풀리지 않은\n모양이구나. 좀 더, 돌아다녀도 좋다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0007b800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,224,0",
+        "voice": "GA520003,3"
+      },
+      "original": "そうだな……。\n",
+      "translation": "그렇네……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0007b800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,341,0,0",
+        "voice": "GA520004,3"
+      },
+      "original": "あ、そうだ。\nマイヤーズ司令、艦内に大福のオバケが出るって\nいう話、あれから何かわかりました？\n",
+      "translation": "아, 맞다. 마이어스 사령관님, 함내에 다이후쿠\n유령이 나온다는 이야기, 그 뒤로 뭔가 알아낸\n게 있나요?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0007b800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,341,0,0",
+        "voice": "GA520004,3"
+      },
+      "original": "ああ……そういえば、そんな話もあったな。\n",
+      "translation": "아아…… 그러고 보니, 그런 이야기도 있었지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0007b800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,341,0,0",
+        "voice": "GA520005,3"
+      },
+      "original": "夜になると出没するっていううわさだから、もう\nそろそろ出てくるかと思うんですけど。\n",
+      "translation": "밤이 되면 출몰한다는 소문이니까, 이제 슬슬\n나타날 때가 됐다고 생각하는데요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0007b800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,341,0,336",
+        "voice": "GA520006,3"
+      },
+      "original": "アルモったら、今はそんなことを気にしてる場合\nじゃないでしょ？\n",
+      "translation": "아르모 입장에서는, 지금 그런 걸 신경 쓰고\n있을 때가 아니잖아?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0007b800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,341,0,336",
+        "voice": "GA520006,3"
+      },
+      "original": "いや、エオニア軍も問題だけど、本当にオバケが\n出るとしたら、それも困るしな。\n注意しておくよ。\n",
+      "translation": "아니, 에오니아군도 문제지만, 정말로 유령이\n나온다면 그것도 곤란하니까 말이야. 주의해\n둘게.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0007b800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,341,0,336",
+        "voice": "GA520006,3"
+      },
+      "original": "それじゃ、オレはこれで。\nみんな、ブリッジを頼む。\n",
+      "translation": "그럼, 나는 이만. 모두, 브릿지를 부탁한다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0007b800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,341,0,336",
+        "voice": "GA520007,3"
+      },
+      "original": "はい、お気をつけて。\n",
+      "translation": "네, 조심하세요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0007b800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,341,0,336",
+        "voice": "GA520008,3"
+      },
+      "original": "気をつけてくださいね。\nオバケは、落ちこんでいる人や絶望している人の\nところに引き寄せられるといいますから。\n",
+      "translation": "조심하세요. 유령은, 낙담한 사람이나 절망하고\n있는 사람의 곳으로 끌려온다고 하니까요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0007b800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "voice": "GA520008,3",
+        "speaker": "001",
+        "face": "009,341,0,336"
+      },
+      "original": "……そういう「気をつけて」かよ……。\n",
+      "translation": "……그런 의미의 「조심해」냐……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0007b800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,221,0",
+        "voice": "GA520009,3"
+      },
+      "original": "とりあえず、行ってこい。\n自分が何をするべきか、その答えを見つけられる\nまでな。\n",
+      "translation": "일단, 다녀와라. 자신이 무엇을 해야 하는지,\n그 답을 찾을 때까지 말이다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0007b800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,221,0",
+        "voice": "GA520009,3"
+      },
+      "original": "……ああ、わかった。\nそれじゃ、もうしばらくここを頼む。\n",
+      "translation": "……아아, 알았어. 그럼, 당분간 여기를\n부탁할게.\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

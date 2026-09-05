@@ -1,0 +1,933 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_0006b800.txt",
+    "encoding": "cp932",
+    "sha256": "ab8be5d3f0884bbb6758cbba9232536b9060b10f4bf315b77d23f5ed1037b5d3",
+    "dialogue_count": 71
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GA414052,3"
+      },
+      "original": "エルシオール、間もなく戦闘宙域に入ります。\n",
+      "translation": "에르시올, 곧 전투 우역에 진입합니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA414052,3"
+      },
+      "original": "了解。\nエンジェル隊、準備はいいか？\n",
+      "translation": "네. 엔젤대, 준비는 됐나?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "025,0,0,0",
+        "voice": "GA414053,3"
+      },
+      "original": "はい、いつでも発進できます！\n",
+      "translation": "네, 언제든 발진할 수 있습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "064,0,0,0",
+        "voice": "GA414070,3"
+      },
+      "original": "こっちも準備完了！\n行くわよ、ミルフィー！\n",
+      "translation": "이쪽도 준비 완료! 가자, 밀피!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "025,0,0,0",
+        "voice": "GA414071,3"
+      },
+      "original": "うん、ランファ！\n",
+      "translation": "응, 란파!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA414071,3"
+      },
+      "original": "ああ、よろしく頼む。\n",
+      "translation": "아아, 잘 부탁한다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GA414071,3"
+      },
+      "original": "……って、あれ？\nミルフィーとランファ、いつの間にか仲直りして\nいたんだな。\n",
+      "translation": "……앗, 어라? 밀피와 란파, 어느새 화해하고\n있었구나.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "065,0,0,0",
+        "voice": "GA414072,3"
+      },
+      "original": "え、何か言った？\n",
+      "translation": "에, 방금 뭐라고 했어?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA414072,3"
+      },
+      "original": "いや、別に。\nそれならそれでいいんだ。\n",
+      "translation": "아니, 별거 아냐. 그렇다면 그걸로 됐다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "103,0,0,0",
+        "voice": "GA414054,3"
+      },
+      "original": "データを拝見いたしました。\n現在のところ、商船団の被害は軽微ですが、この\nままでは持ちませんわ。\n",
+      "translation": "데이터를 확인했습니다. 현재로서는 상선단의\n피해는 경미합니다만, 이 대로라면 버티지\n못할 거예요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "103,0,0,0",
+        "voice": "GA414055,3"
+      },
+      "original": "ブラマンシュの船は、足はそれなりに速いですが、\nしょせんは民間船です。\n積荷も心配ですし、早く救助に向かいましょう。\n",
+      "translation": "브라만슈의 배는 속도는 제법 빠릅니다만,\n결국은 민간선입니다. 적재물도 걱정되니,\n빨리 구출하러 가죠.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "173,0,0,0",
+        "voice": "GA414056,3"
+      },
+      "original": "いや、ちょいとお待ち。\n補給も大事だけど、無理に戦ってエルシオールが\n落とされたら、元も子もない。\n",
+      "translation": "아니, 잠시만 기다려 줘. 보급도 중요하지만,\n무리하게 싸우다 에르시올이 격침되면 모든 게\n끝장이라고.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "143,0,0,0",
+        "voice": "GA414057,3"
+      },
+      "original": "ここはエルシオールの護衛に何機か残しておいた\n方がいいんじゃないかい？\n",
+      "translation": "여기는 에르시올의 호위를 위해 몇 기 남겨두는\n게 좋지 않을까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0",
+        "voice": "GA414057,3"
+      },
+      "original": "うーん……。\n",
+      "translation": "으음……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA414057,3"
+      },
+      "original": "よし、商船団の救出を最優先しよう。\n物資はともかく、人命がかかっているんだ。\n",
+      "translation": "좋아, 상선단의 구출을 최우선으로 하자.\n물자는 둘째치고, 인명이 걸려 있으니까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "face": "103,0,0,0",
+        "voice": "GA414058,3",
+        "speaker": "004"
+      },
+      "original": "了解ですわ。\nありがとうございます。\n",
+      "translation": "알겠습니다. 감사합니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA414058,3"
+      },
+      "original": "やっぱり、エルシオールの安全が第一だ。\n非情なようだが、商船団にいくらか被害が出ても、\nこの場合やむを得ない。\n",
+      "translation": "역시, 에르시올의 안전이 제일이다. 비정한 것\n같지만, 상선단에 어느 정도 피해가 나더라도,\n이 경우에는 어쩔 수 없어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "face": "143,0,0,0",
+        "voice": "GA414059,3",
+        "speaker": "005"
+      },
+      "original": "それでいい。\nエルシオールを守ることが、あたしたちの本来の\n任務なんだからね。\n",
+      "translation": "그게 맞아. 에르시올을 지키는 것이 우리들의\n본래 임무니까 말이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "103,0,0,0",
+        "voice": "GA414060,3"
+      },
+      "original": "……わかりましたわ。\nタクトさんの決定に従います。\n",
+      "translation": "……알겠습니다. 택트 씨의 결정에 따르겠습니\n다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA414060,3"
+      },
+      "original": "では、その方針で作戦を立てよう。\n現在の状況をモニターに出してくれ。\n",
+      "translation": "그럼, 그 방침으로 작전을 짜자. 현재 상황을\n모니터에 띄워줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "face": "501,0,0,0",
+        "speaker": "017",
+        "voice": "GA299001_BL,3"
+      },
+      "original": "了解。\n",
+      "translation": "네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA498002_BL,3"
+      },
+      "original": "これが我々と敵艦隊、そしてブラマンシュ商会の\n船団の位置だ。\n",
+      "translation": "이것이 우리와 적 함대, 그리고 브라만슈\n상회의 선단 위치다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA498003_BL,3"
+      },
+      "original": "我々が今いるのは、ここ。\n",
+      "translation": "우리가 지금 있는 곳은 여기.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA498004_BL,3"
+      },
+      "original": "我々から見て、小惑星をはさんだ反対側に、商船\n団がいる。\n",
+      "translation": "우리 입장에서 보면, 소행성을 사이에 둔\n반대편에 상선 단이 있다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA498005_BL,3"
+      },
+      "original": "一方、敵は商船団を攻撃している集団と……。\n",
+      "translation": "한편, 적은 상선단을 공격하고 있는 집단\n과…… .\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA498006_BL,3"
+      },
+      "original": "我々の近くにいる、この集団とに分かれている。\n",
+      "translation": "우리 근처에 있는, 이 집단으로 나뉘어 있다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA498007_BL,3"
+      },
+      "original": "敵の編成は、駆逐艦と……。\n",
+      "translation": "적의 편성은, 구축함과……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA498008_BL,3"
+      },
+      "original": "巡洋艦だ。\n",
+      "translation": "순양함이다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA498008_BL,3"
+      },
+      "original": "今から、攻撃を受けているブラマンシュ商会の船\nを救出する。\n",
+      "translation": "지금부터, 공격받고 있는 브라만슈 상회의 배\n를 구출한다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA498008_BL,3"
+      },
+      "original": "商船団が敵から逃げ切るには、このようなルート\nを通って……。\n",
+      "translation": "상선단이 적으로부터 도망치려면, 이러한 루트\n를 통해서……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA498008_BL,3"
+      },
+      "original": "この宙域まで到達すれば、とりあえず安全だろう。\nそのように通信を送るつもりだ。\n",
+      "translation": "이 해역까지 도달하면, 일단은 안전할 것이다.\n그렇게 통신을 보낼 생각이다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA498008_BL,3"
+      },
+      "original": "敵の攻撃を避けるため、エルシオールも同じ宙域\nを目指して移動する。\n",
+      "translation": "적의 공격을 피하기 위해, 에르시올도 같은 해역\n을 목표로 이동한다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "voice": "GA498008_BL,3",
+        "speaker": "001",
+        "face": "003,0,0,0"
+      },
+      "original": "エンジェル隊は、商船団に近づく敵をかたっぱし\nから撃退してくれ。\n",
+      "translation": "엔젤대는, 상선단에 접근하는 적을 차례차례\n격퇴해 줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "face": "005,0,0,0",
+        "voice": "GA498008_BL,3",
+        "speaker": "001"
+      },
+      "original": "何としても彼らを守り抜くんだ。\n",
+      "translation": "어떻게 해서든 그들을 지켜내는 거다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA498008_BL,3"
+      },
+      "original": "よろしく頼むぞ。\n以上だ。\n",
+      "translation": "잘 부탁한다. 이상이다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0036",
+      "channel": 0,
+      "context": {
+        "speaker": "094",
+        "face": "0,0,0,0"
+      },
+      "original": "～敵部隊の編成～\n　駆逐艦×４　　　　　　巡洋艦×５\n　\n～勝利条件～\n　商船団が目標エリアまで移動\n　敵の全滅\n　\n～敗北条件～\n　エルシオールの破壊\n　タイムオーバー\n",
+      "translation": "～적 부대의 편성～\n　구축함×4　　　　　　순양함×5\n　\n～승리 조건～\n　상선단이 목표 지역까지 이동\n　적의 전멸\n　\n～패배 조건～\n　에르시올의 파괴\n　타임 오버\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0037",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA498002_BL,3"
+      },
+      "original": "これが我々と敵艦隊、そしてブラマンシュ商会の\n船団の位置だ。\n",
+      "translation": "이것이 우리와 적 함대, 그리고 브라만슈\n상회의 선단 위치다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0038",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA498003_BL,3"
+      },
+      "original": "我々が今いるのは、ここ。\n",
+      "translation": "우리가 지금 있는 곳은, 여기.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0039",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA498004_BL,3"
+      },
+      "original": "我々から見て、小惑星をはさんだ反対側に、商船\n団がいる。\n",
+      "translation": "우리 입장에서 보면, 소행성을 사이에 둔\n반대편에, 상선 단이 있다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0040",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA498005_BL,3"
+      },
+      "original": "一方、敵は商船団を攻撃している集団と……。\n",
+      "translation": "한편, 적은 상선단을 공격하고 있는 집단\n과…… .\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0041",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA498006_BL,3"
+      },
+      "original": "我々の近くにいる、この集団とに分かれている。\n",
+      "translation": "우리 근처에 있는, 이 집단으로 나뉘어 있다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0042",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA498007_BL,3"
+      },
+      "original": "敵の編成は、駆逐艦と……。\n",
+      "translation": "적의 편성은, 구축함과……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0043",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA498008_BL,3"
+      },
+      "original": "巡洋艦だ。\n",
+      "translation": "순양함이다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0044",
+      "channel": 1,
+      "context": {
+        "face": "003,0,0,0",
+        "voice": "GA498008_BL,3",
+        "speaker": "001"
+      },
+      "original": "１番機と４番機は、エルシオールに接近する敵を\n撃退してほしい。\n",
+      "translation": "1번기와 4번기는, 에르시올에 접근하는 적을\n격퇴해 주길 바란다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0045",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA498008_BL,3"
+      },
+      "original": "２番機、３番機、５番機は、商船団の方にいる敵\nの攻撃に向かってくれ。\n",
+      "translation": "2번기, 3번기, 5번기는, 상선단 쪽에 있는 적\n의 공격을 향해 가라.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0046",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA498008_BL,3"
+      },
+      "original": "そして、どちらかの敵艦隊が先に片づいた時点で、\n残った敵の掃討に移る。\n",
+      "translation": "그리고, 어느 쪽의 적 함대가 먼저 정리된\n시점에, 남은 적의 소탕으로 옮긴다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0047",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA498008_BL,3"
+      },
+      "original": "よろしく頼むぞ。\n以上だ。\n",
+      "translation": "잘 부탁한다. 이상이다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0048",
+      "channel": 0,
+      "context": {
+        "speaker": "094",
+        "face": "0,0,0,0",
+        "voice": "GA498008_BL,3"
+      },
+      "original": "～敵部隊の編成～\n　駆逐艦×４　　　　　　巡洋艦×５\n　\n～勝利条件～\n　敵の全滅\n　\n～敗北条件～\n　エルシオールの破壊\n　タイムオーバー\n",
+      "translation": "～적 부대의 편성～\n　구축함×4　　　　　　순양함×5\n　\n～승리 조건～\n　적의 전멸\n　\n～패배 조건～\n　에르시올의 파괴\n　타임 오버\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0049",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,221,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "もう一度、作戦内容を確認するか？\n",
+      "translation": "다시 한번, 작전 내용을 확인할까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0050",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,221,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "そうだなぁ……。\n",
+      "translation": "글쎄...\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0051",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "うん。\n念のため、もう一度確認しておこう。\n",
+      "translation": "응. 만약을 위해, 다시 한번 확인해 두자.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0052",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "いや、その必要はない。\nみんな、準備はいいな？\n",
+      "translation": "아니, 그럴 필요는 없다. 모두, 준비는 됐나?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0053",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "エンジェル隊、出撃！\n",
+      "translation": "엔젤대, 출격!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0054",
+      "channel": 1,
+      "context": {
+        "speaker": "099",
+        "face": "0,0,0,0",
+        "voice": "GA199012_BL,3"
+      },
+      "original": "了解！\n",
+      "translation": "네！\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0055",
+      "channel": 1,
+      "context": {
+        "face": "501,0,0,0",
+        "speaker": "017",
+        "voice": "GA499001_BL,3"
+      },
+      "original": "エンジェル隊、出撃準備完了。\n戦闘態勢、整いました。\n",
+      "translation": "엔젤대, 출격 준비 완료. 전투 태세, 갖추었습\n니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0056",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GA499002_BL,3"
+      },
+      "original": "敵艦隊、さらに接近中。\n間もなく交戦圏内に入ります。\n",
+      "translation": "적 함대, 계속해서 접근 중. 곧 교전 범위\n내로 진입합니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0057",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA499002_BL,3"
+      },
+      "original": "了解。\n作戦図をモニターに出してくれ。\n",
+      "translation": "네. 작전도를 모니터에 띄워줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0058",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA499003_BL,3"
+      },
+      "original": "これが現在の状況だ。\n",
+      "translation": "이것이 현재 상황이다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0059",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA499004_BL,3"
+      },
+      "original": "敵は、装甲ミサイル艦に……。\n",
+      "translation": "적은, 장갑 미사일함에...\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0060",
+      "channel": 1,
+      "context": {
+        "face": "223,0,0,0",
+        "voice": "GA499005_BL,3",
+        "speaker": "007"
+      },
+      "original": "大型戦闘母艦……。\n",
+      "translation": "대형 전투 모함...\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0061",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA499006_BL,3"
+      },
+      "original": "そして例の戦闘機５機だ。\n",
+      "translation": "그리고 예의 그 전투기 5기다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0062",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0",
+        "voice": "GA499006_BL,3"
+      },
+      "original": "無人艦は攻撃パターンが単純だからまだいいが、\n戦闘機はやっかいだな。\n",
+      "translation": "무인함은 공격 패턴이 단순해서 아직 괜찮지만,\n전투기는 까다롭군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0063",
+      "channel": 1,
+      "context": {
+        "face": "003,0,0,0",
+        "voice": "GA499006_BL,3",
+        "speaker": "001"
+      },
+      "original": "よし、ヘル・ハウンズ隊の戦闘機を優先して攻撃\nしよう。\n",
+      "translation": "좋아, 헬・하운즈대의 전투기를 우선적으로\n공격 하자.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0064",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA499006_BL,3"
+      },
+      "original": "というわけだ、みんな。\n頼んだぞ。\n",
+      "translation": "라는 말씀이다, 모두. 부탁한다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0065",
+      "channel": 0,
+      "context": {
+        "speaker": "094",
+        "face": "0,0,0,0",
+        "voice": "GA499006_BL,3"
+      },
+      "original": "～敵部隊の編成～\n　装甲ミサイル艦×４　　大型戦闘空母×２\n　高速戦闘機×５\n　\n～勝利条件～\n　高速戦闘機の撃退\n　\n～敗北条件～\n　エルシオールの破壊\n　タイムオーバー\n",
+      "translation": "～적 부대의 편성～\n　장갑 미사일함×4　　대형 전투 항공모함×2\n　고속 전투기×5\n　\n～승리 조건～\n　고속 전투기의 격퇴\n　\n～패배 조건～\n　에르시올의 파괴\n　타임 오버\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0066",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,221,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "もう一度、作戦内容を確認するか？\n",
+      "translation": "다시 한번, 작전 내용을 확인할까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0067",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,221,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "そうだなぁ……。\n",
+      "translation": "글쎄...\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0068",
+      "channel": 1,
+      "context": {
+        "face": "001,0,0,0",
+        "voice": "GA198010_BL,3",
+        "speaker": "001"
+      },
+      "original": "うん。\n念のため、もう一度確認しておこう。\n",
+      "translation": "응. 만약을 위해, 다시 한번 확인해 두자.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0069",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "いや、その必要はない。\nみんな、準備はいいな？\n",
+      "translation": "아니, 그럴 필요는 없다. 모두, 준비는 됐나?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0070",
+      "channel": 1,
+      "context": {
+        "voice": "GA198010_BL,3",
+        "speaker": "001",
+        "face": "011,0,0,0"
+      },
+      "original": "エンジェル隊、出撃！\n",
+      "translation": "엔젤대, 출격!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006b800:dialogue:0071",
+      "channel": 1,
+      "context": {
+        "speaker": "099",
+        "face": "0,0,0,0",
+        "voice": "GA199012_BL,3"
+      },
+      "original": "了解！\n",
+      "translation": "네！\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

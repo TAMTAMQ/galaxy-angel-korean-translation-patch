@@ -1,0 +1,803 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000b6000.txt",
+    "encoding": "cp932",
+    "sha256": "cfa704169e4f8e72c245ebb8ce2583a4dc2123269596186e0ac21af573716fe8",
+    "dialogue_count": 61
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0"
+      },
+      "original": "クロノ・ブレイク・キャノンで、エオニアの旗艦\nを撃ち落とす！\nエネルギーチャージは、どうなっている？\n",
+      "translation": "크로노・브레이크・캐논으로, 에오니아의\n기함을 격추한다! 에너지 충전은 어떻게 되어\n있지?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "019",
+        "face": "524,0,0,0",
+        "voice": "GAE27001,3"
+      },
+      "original": "ようやく出力が安定しました。\nエネルギーは、あと１０分ほどでチャージが完了\nします！\n",
+      "translation": "겨우 출력이 안정되었습니다. 에너지는 앞으로\n10분 정도면 충전이 완료 됩니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GAE27001,3"
+      },
+      "original": "よし、前進！\nエオニアの旗艦に照準をセットしろ！\n",
+      "translation": "좋아, 전진! 에오니아의 기함에 조준을\n설정해라!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GAE27002,3"
+      },
+      "original": "了解！\n",
+      "translation": "알았다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "044",
+        "face": "403,0,0,0",
+        "voice": "GAE27003,3"
+      },
+      "original": "くっそぉぉぉぉ！\nなぜアイツらに勝てんのだぁぁぁぁ！\n",
+      "translation": "크으으으으윽! 왜 저 녀석들에게 이길 수 없는\n거냐아아아아!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "045",
+        "face": "422,0,0,0",
+        "voice": "GAE27004,3"
+      },
+      "original": "あの翼のせいで、エンジェル隊の紋章機の方が、\n性能で上回っている。\n機械の力を借りるとは、なんて卑怯なヤツらだ！\n",
+      "translation": "저 날개 때문에, 엔젤대의 문장기가, 성능에서\n앞서고 있어. 기계의 힘을 빌리다니, 정말\n비겁한 녀석들이다!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "046",
+        "face": "442,0,0,0",
+        "voice": "GAE27005,3"
+      },
+      "original": "……今のままでは、勝てんな……。\n",
+      "translation": "……지금 이대로라면, 이길 수 없겠군……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "047",
+        "face": "462,0,0,0",
+        "voice": "GAE27006,3"
+      },
+      "original": "冷静に分析してる場合かよ！\nこれじゃ、負けちまうじゃん！\n",
+      "translation": "냉정하게 분석하고 있을 때냐! 이래선,\n져버리잖아!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "043",
+        "face": "384,0,0,0",
+        "voice": "GAE27007,3"
+      },
+      "original": "ともかく、いったん引くぞ。\nノアなら……『黒き月』なら、ボクたちの紋章機\nを、さらに強化できるかもしれない。\n",
+      "translation": "어쨌든, 일단 후퇴한다. 노아라면…… 『흑색\n달』이라면, 우리들의 문장기 를 더욱 강화할\n수 있을지도 몰라.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "043",
+        "face": "384,0,0,0",
+        "voice": "GAE27008,3"
+      },
+      "original": "うおっ！？\nな、何だ……？\n",
+      "translation": "우앗!? 뭐, 뭐야……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "045",
+        "face": "423,0,0,0",
+        "voice": "GAE27009,3"
+      },
+      "original": "て、敵だ！\n後方から、新手の敵が！\n",
+      "translation": "적이다! 후방에서, 새로운 적이!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GAE27009,3"
+      },
+      "original": "今の攻撃は、どこから？\nいったい誰が……？\n",
+      "translation": "지금 공격은 어디서? 도대체 누가……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "492,0,0,0",
+        "voice": "GAE27010,3"
+      },
+      "original": "レーダーでキャッチしました！\nこの識別信号は、友軍のものです！\n",
+      "translation": "레이더로 포착했습니다! 이 식별 신호는, 아군\n것입니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "face": "502,0,0,0",
+        "voice": "GAE27011,3",
+        "speaker": "017"
+      },
+      "original": "友軍から通信！\n……ルフト准将です！\n",
+      "translation": "아군으로부터 통신! ……루프트 준장입니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "voice": "GAE27012,3",
+        "speaker": "009",
+        "face": "251,0,0,0"
+      },
+      "original": "タクト、待たせたのう。\n",
+      "translation": "택트, 기다리게 했구나.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "face": "002,0,0,0",
+        "voice": "GAE27012,3",
+        "speaker": "001"
+      },
+      "original": "ルフト准将！\nオイシイところを持っていくなぁ、もう。\n",
+      "translation": "루프트 준장! 좋은 타이밍에 나타나지 말라고,\n정말.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "face": "253,0,0,0",
+        "voice": "GAE27013,3",
+        "speaker": "009"
+      },
+      "original": "わははは！\nたまには年寄りにも見せ場をよこせ。\n",
+      "translation": "와하하하! 가끔은 노인네에게도 볼거리를 좀\n주게나.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "009",
+        "face": "252,0,0,0",
+        "voice": "GAE27014,3"
+      },
+      "original": "それよりも、協力して敵を追いつめるぞ！\n",
+      "translation": "그것보다, 협력해서 적을 몰아넣자!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GAE27014,3"
+      },
+      "original": "了解です！\n",
+      "translation": "알겠습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "012",
+        "face": "312,0,288,0",
+        "voice": "GAE27015,3"
+      },
+      "original": "いかんな……。\nノア、態勢を立て直そう。\nヘル・ハウンズ隊を『黒き月』に収容してくれ。\n",
+      "translation": "안 되겠군…… 노아, 태세를 재정비하자.\n헬・하운즈대를 『흑색 달』에 수용해 줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "012",
+        "face": "312,0,289,0",
+        "voice": "GAE27016,3"
+      },
+      "original": "……ノア？\nなぜ返事をしないんだ。\n",
+      "translation": "……노아? 왜 대답이 없는 거냐.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "012",
+        "face": "312,0,291,0",
+        "voice": "GAE27017,3"
+      },
+      "original": "聞こえないのか、ノア？\n何をしている！\n",
+      "translation": "들리지 않는 거냐, 노아? 무엇을 하고 있는\n거냐!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "013",
+        "face": "334,0,0,0",
+        "voice": "GAE27018,3"
+      },
+      "original": "聞こえているわ、お兄さま。\n",
+      "translation": "듣고 있어요, 오라버니.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "face": "334,0,0,0",
+        "voice": "GAE27019,3",
+        "speaker": "013"
+      },
+      "original": "でも、ちょっと待ってて。\n今から、とびっきりの舞台が始まるから。\n",
+      "translation": "하지만, 잠시만 기다려 줘. 지금부터, 최고의\n무대가 시작될 테니까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "speaker": "012",
+        "face": "312,0,289,0",
+        "voice": "GAE27020,3"
+      },
+      "original": "何だと……？\n",
+      "translation": "뭐라고……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "043",
+        "face": "384,0,0,0",
+        "voice": "GAE27021,3"
+      },
+      "original": "『黒き月』、応答せよ！\n　我々を回収してくれ！\n",
+      "translation": "『흑색 달』, 응답하라! 　우리를 회수해 줘!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "face": "404,0,0,0",
+        "voice": "GAE27022,3",
+        "speaker": "044"
+      },
+      "original": "なぜ返事をしない！？\nオレたちを見捨てる気かぁぁぁぁ！\n",
+      "translation": "왜 대답이 없는 거야!? 우리들을 버릴 셈이냐아\n아아아!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "face": "423,0,0,0",
+        "voice": "GAE27023,3",
+        "speaker": "045"
+      },
+      "original": "早く援護を！\nこのままでは、撃墜されてしまう！\n",
+      "translation": "빨리 원호를! 이대로라면, 격추당하고 말 거야!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "speaker": "046",
+        "face": "442,0,0,0",
+        "voice": "GAE27024,3"
+      },
+      "original": "……ここが死に場所か……。\n",
+      "translation": "……여기가 죽을 자리인가……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "speaker": "047",
+        "face": "463,0,0,0",
+        "voice": "GAE27025,3"
+      },
+      "original": "イ……イヤだぁ！\n死にたくない！\n死ぬのはイヤだぁ！\n",
+      "translation": "시…… 싫어! 죽고 싶지 않아! 죽는 건\n싫다아아!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "speaker": "013",
+        "face": "334,0,0,0",
+        "voice": "GAE27026,3"
+      },
+      "original": "……本当に？\n本当に死にたくない？\n",
+      "translation": "……정말로? 정말로 죽고 싶지 않아?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "speaker": "043",
+        "face": "384,0,0,0",
+        "voice": "GAE27027,3"
+      },
+      "original": "ノア！\n今まで何を……。\n",
+      "translation": "노아! 지금까지 뭘 하고 있었던 거야……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "speaker": "013",
+        "face": "334,0,0,0",
+        "voice": "GAE27028,3"
+      },
+      "original": "質問に答えて。\n死にたくない？\n",
+      "translation": "질문에 답해. 죽고 싶지 않아?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "speaker": "047",
+        "face": "462,0,0,0",
+        "voice": "GAE27029,3"
+      },
+      "original": "当たり前だ！\n早く何とかしてくれぇ！\n",
+      "translation": "당연하지! 빨리 어떻게든 해줘어어!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "speaker": "013",
+        "face": "334,0,0,0",
+        "voice": "GAE27030,3"
+      },
+      "original": "エンジェル隊に勝ちたい？\n",
+      "translation": "엔젤대에 이기고 싶어?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0036",
+      "channel": 1,
+      "context": {
+        "voice": "GAE27031,3",
+        "speaker": "045",
+        "face": "422,0,0,0"
+      },
+      "original": "ああ……！\n選ばれし者である僕が、こんなところで終わって\nいいはずがない！\n",
+      "translation": "아아……! 선택받은 존재인 내가, 이런 곳에서\n끝날 수 있을 리가 없어!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0037",
+      "channel": 1,
+      "context": {
+        "face": "334,0,0,0",
+        "voice": "GAE27032,3",
+        "speaker": "013"
+      },
+      "original": "そのための力が……ほしい？\n",
+      "translation": "그것을 위한 힘이…… 갖고 싶어?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0038",
+      "channel": 1,
+      "context": {
+        "speaker": "044",
+        "face": "403,0,0,0",
+        "voice": "GAE27033,3"
+      },
+      "original": "むろんだぁぁぁ！\nオレに、ヤツらを倒す力をくれぇぇぇぇ！！\n",
+      "translation": "당연하잖아아아아! 나에게, 녀석들을 쓰러뜨릴\n힘을 줘어어어어!!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0039",
+      "channel": 1,
+      "context": {
+        "face": "334,0,0,0",
+        "voice": "GAE27034,3",
+        "speaker": "013"
+      },
+      "original": "どんなことをしても？\n",
+      "translation": "어떤 일을 해도?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0040",
+      "channel": 1,
+      "context": {
+        "speaker": "046",
+        "face": "442,0,0,0",
+        "voice": "GAE27035,3"
+      },
+      "original": "……滅びを与えるために、手段を問うつもりなど\nない……。\n",
+      "translation": "……멸망을 가져오기 위해서라면, 수단은\n가리지 않을 생각이다……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0041",
+      "channel": 1,
+      "context": {
+        "voice": "GAE27036,3",
+        "speaker": "013",
+        "face": "332,0,0,0"
+      },
+      "original": "そう……その言葉が聞きたかったの。\nその絶望と執着心……それでこそ人間よ。\n",
+      "translation": "그래…… 그 말을 듣고 싶었어. 그 절망과\n집착심…… 그래야 인간이지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0042",
+      "channel": 1,
+      "context": {
+        "speaker": "043",
+        "face": "384,0,0,0",
+        "voice": "GAE27037,3"
+      },
+      "original": "なに……？\n",
+      "translation": "뭐……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0043",
+      "channel": 1,
+      "context": {
+        "face": "338,0,0,0",
+        "voice": "GAE27038,3",
+        "speaker": "013"
+      },
+      "original": "望みどおり、お前たちには力をくれてやろう。\nこれで、私の最高傑作が誕生する！\n",
+      "translation": "바라는 대로, 너희에게 힘을 주마. 이것으로,\n나의 최고 걸작이 탄생한다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0044",
+      "channel": 1,
+      "context": {
+        "voice": "GAE27039,3",
+        "speaker": "043",
+        "face": "384,0,0,0"
+      },
+      "original": "ど、どういう意味だ？\nそれに、その声……お前は、何者だ！？\n",
+      "translation": "도, 도대체 무슨 의미냐? 게다가 그 목소리……\n너는, 누구냐!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0045",
+      "channel": 1,
+      "context": {
+        "speaker": "013",
+        "face": "338,0,0,0",
+        "voice": "GAE27040,3"
+      },
+      "original": "単なる部品であるお前たちには、教えたところで\nらちもない。\n",
+      "translation": "단순한 부품인 너희에게는, 알려줘 봤자 아무\n소용도 없다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0046",
+      "channel": 1,
+      "context": {
+        "speaker": "013",
+        "face": "338,0,0,0",
+        "voice": "GAE27041,3"
+      },
+      "original": "さあ、好きなだけ踊るがいい！\n黒き翼で、死の舞いを！！\n",
+      "translation": "자, 마음껏 춤추거라! 검은 날개로, 죽음의\n무도를!!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0047",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GAE27041,3"
+      },
+      "original": "な……何だ！？\n向こうの紋章機にも、翼が生えた！\n",
+      "translation": "뭐…… 뭐야!? 저쪽 문장기에도, 날개가\n돋아났다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0048",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "224,0,0,0",
+        "voice": "GAE27042,3"
+      },
+      "original": "まさか、ヤツらもパワーアップしたのか！？\n",
+      "translation": "설마, 저 녀석들도 파워업한 건가!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0049",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "143,0,0,0",
+        "voice": "GAE27043,3"
+      },
+      "original": "どうやら、そのようだよ。\nだけど……。\n",
+      "translation": "아무래도, 그런 모양이야. 하지만……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0050",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GAE27043,3"
+      },
+      "original": "だけど……何だい？\n",
+      "translation": "하지만…… 뭐야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0051",
+      "channel": 1,
+      "context": {
+        "voice": "GAE27044,3",
+        "speaker": "002",
+        "face": "023,0,0,0"
+      },
+      "original": "……なんか、ヘンな感じです。\n紋章機から、ヘンな感覚が流れ込んでくるんです。\n",
+      "translation": "……왠지, 이상한 느낌이에요. 문장기에서,\n이상한 감각이 흘러들어오고 있어요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0052",
+      "channel": 1,
+      "context": {
+        "voice": "GAE27045,3",
+        "speaker": "002",
+        "face": "042,0,0,0"
+      },
+      "original": "アレ……何だか、怖い……。\n",
+      "translation": "어라…… 왠지, 무서워……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0053",
+      "channel": 1,
+      "context": {
+        "voice": "GAE27046,3",
+        "speaker": "004",
+        "face": "123,0,0,0"
+      },
+      "original": "敵の機体の中に、生命反応はあります。\nただ……。\n",
+      "translation": "적의 기체 안에, 생명 반응은 있습니다.\n다만……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0054",
+      "channel": 1,
+      "context": {
+        "face": "068,0,0,0",
+        "voice": "GAE27047,3",
+        "speaker": "003"
+      },
+      "original": "ただ……アタシのカンが正しければ、中に乗って\nいる連中……もう死んでるわ。\n",
+      "translation": "다만…… 내 감이 맞다면, 안에 타고 있는\n녀석들…… 이미 죽었어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0055",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GAE27047,3"
+      },
+      "original": "えっ！？\n",
+      "translation": "엣!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0056",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "068,0,0,0",
+        "voice": "GAE27048,3"
+      },
+      "original": "死んでるというか……もう、人間じゃない……。\n",
+      "translation": "죽었다기보다…… 이제, 인간이 아니야……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0057",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "182,0,0,0",
+        "voice": "GAE27049,3"
+      },
+      "original": "……彼らの魂は、すでに彼ら自身のものではない。\n……私たちの紋章機が、そう教えてくれています。\n",
+      "translation": "……그들의 영혼은, 이미 그들 자신의 것이\n아니다. ……우리의 문장기가, 그렇게 알려주고\n있습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0058",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "143,0,0,0",
+        "voice": "GAE27050,3"
+      },
+      "original": "ヤツらは、機械に取り込まれちまったんだ。\nいや、違う……機械が、ヤツらを飲み込んだ……。\n",
+      "translation": "놈들은, 기계에 먹혀버린 거야. 아니, 아니\n야… … 기계가, 놈들을 삼켜버렸어……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0059",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "123,0,0,0",
+        "voice": "GAE27051,3"
+      },
+      "original": "なんておぞましい姿……。\nあんなものが、同じロストテクノロジーだなんて、\n信じられませんわ！\n",
+      "translation": "이 얼마나 끔찍한 모습인지…… 저런 것이,\n똑같은 로스트 테크놀로지라니, 믿을 수\n없어요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0060",
+      "channel": 1,
+      "context": {
+        "face": "195,0,0,0",
+        "voice": "GAE27052,3",
+        "speaker": "006"
+      },
+      "original": "いえ……。\nおそらく、あれが『黒き月』のロストテクノロジー\nの本性……。\n",
+      "translation": "아니요…… 아마도, 저것이 『흑색 달』의\n로스트 테크놀로지 의 본성……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b6000:dialogue:0061",
+      "channel": 1,
+      "context": {
+        "face": "010,0,0,0",
+        "speaker": "001",
+        "voice": "GAE27052,3"
+      },
+      "original": "そうなのか……。\nパイロットを……人間を、道具のように利用して\nいるというのか……？\n",
+      "translation": "그런 건가…… 파일럿을…… 인간을, 도구처럼\n이용하고 있다는 건가……?\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

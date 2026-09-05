@@ -1,0 +1,23 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000b8800.txt",
+    "encoding": "cp932",
+    "sha256": "7ff104ca7c3919a5989b3bd4ca8ed27e0c8b053fe53bf9e629c084484102e9e1",
+    "dialogue_count": 1
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000b8800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "0",
+        "face": "0,0,0,0"
+      },
+      "original": "■ギャラクシーエンジェル　１０章　終了■\n",
+      "translation": "■갤럭시 엔젤 10장 종료■\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

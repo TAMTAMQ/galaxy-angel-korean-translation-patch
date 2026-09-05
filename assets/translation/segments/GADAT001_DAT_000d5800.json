@@ -1,0 +1,218 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000d5800.txt",
+    "encoding": "cp932",
+    "sha256": "3275f881262bf5401f7674ba58c554ba0ed8af2c5236f122661fa8724b0cd6b5",
+    "dialogue_count": 16
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000d5800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0"
+      },
+      "original": "みんな、お疲れさま。\nブリッジの様子はどうだい？\n",
+      "translation": "모두, 수고했어. 브릿지의 상황은 어떤가?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000d5800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GA705001,3"
+      },
+      "original": "別に、これといって何も。\n強いて言えば、引き継ぎの準備を進めてるぐらい\nだが。\n",
+      "translation": "딱히, 별다른 건 없어. 굳이 말하자면,\n인수인계 준비를 진행하고 있는 정도 뿐이지만.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000d5800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,221,0",
+        "voice": "GA705002,3"
+      },
+      "original": "それよりもお前、もう舞踏会の件は片づいたのか？\n",
+      "translation": "그것보다 너, 무도회 건은 벌써 정리된 건가?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000d5800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,343,0,0",
+        "voice": "GA705003,3"
+      },
+      "original": "あーっ！\nその花束持ってるってことは、まだパートナーに\nする人のところに行ってないんですね？\n",
+      "translation": "아앗! 그 꽃다발을 들고 있다는 건, 아직\n파트너로 할 사람에게 가지 않은 거네요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000d5800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,343,0,0",
+        "voice": "GA705003,3"
+      },
+      "original": "いやぁ、まぁ……。\nじっくり考えてからにしようと思って。\n",
+      "translation": "이야, 뭐…… 천천히 생각한 다음에 하려고\n해서.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000d5800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,343,0,336",
+        "voice": "GA705004,3"
+      },
+      "original": "それもいいですが、あまり待たせちゃだめですよ？\nエンジェル隊のみなさんも、きっと司令がお誘い\nに来てくれるのを待っているはずですから。\n",
+      "translation": "그것도 좋지만, 너무 기다리게 하면 안 돼요?\n엔젤대 여러분도, 분명 사령관님이 권하러 와\n주기를 기다리고 있을 테니까요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000d5800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,343,0,336",
+        "voice": "GA705004,3"
+      },
+      "original": "うん、わかってる。\nいずれ、誰かのところにこの花束を届けに行くよ。\n",
+      "translation": "응, 알고 있어. 언젠가, 누군가에게 이\n꽃다발을 전하러 갈게.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000d5800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,342,0,336",
+        "voice": "GA705005,3"
+      },
+      "original": "でも、いいなぁ。\nあたしも行きたかったなぁ、舞踏会。\nもちろん、誰かステキなひとのエスコートつきで。\n",
+      "translation": "그치만, 좋겠다. 나도 가고 싶었어, 무도회.\n물론, 누군가 멋진 사람의 에스코트와 함께\n말이야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000d5800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,342,0,221",
+        "voice": "GA705006,3"
+      },
+      "original": "そんなに行きたきゃ、俺の分の招待ワクをやるよ。\n今からルフト准将に頼めば、キャンセルの取り消\nしぐらいできるだろう。\n",
+      "translation": "그렇게 가고 싶다면, 내 몫의 초대권을 줄게.\n지금 루프트 준장에게 부탁하면, 취소 철회\n정도는 할 수 있을 거다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000d5800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,341,0,221",
+        "voice": "GA705007,3"
+      },
+      "original": "そ、それじゃ意味ないんです！\n",
+      "translation": "그, 그거라면 의미가 없잖아요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000d5800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,341,0,223",
+        "voice": "GA705008,3"
+      },
+      "original": "はぁ？\n",
+      "translation": "하아?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000d5800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,343,0,223",
+        "voice": "GA705009,3"
+      },
+      "original": "あ……。\nいえ、何でもないです。\n",
+      "translation": "아…… 아니, 아무것도 아니에요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000d5800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "voice": "GA705010,3",
+        "speaker": "016",
+        "face": "491,0,336,0"
+      },
+      "original": "いいですか、副司令。\nいえ、レスターさん。\n少しは女の子の気持ちをですねぇ……。\n",
+      "translation": "알겠습니까, 부사령관님. 아니, 레스터 씨.\n여자아이의 마음을 조금은 말이죠……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000d5800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,343,336,0",
+        "voice": "GA705011,3"
+      },
+      "original": "きゃ～っ、やめてってば、ココ～！\n",
+      "translation": "꺄～앗, 그만하라니까, 코코～!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000d5800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "face": "221,0,223,0",
+        "speaker": "007",
+        "voice": "GA705012,3"
+      },
+      "original": "何なんだ……？\n",
+      "translation": "뭐냐……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000d5800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,223,0",
+        "voice": "GA705012,3"
+      },
+      "original": "あ、あはは……。\nこっちはこっちで、大変そうだね。\nじゃあオレ、用事を思い出したから、これで！\n",
+      "translation": "아, 아하하…… 이쪽은 이쪽대로, 소란스럽네.\n그럼 난, 볼일이 생각나서 이만!\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

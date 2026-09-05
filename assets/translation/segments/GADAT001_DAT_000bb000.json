@@ -1,0 +1,100 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000bb000.txt",
+    "encoding": "cp932",
+    "sha256": "a0d8f8c1fc7368c9307abce4468798759a5d71aac8306ef82443102066d520e1",
+    "dialogue_count": 7
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000bb000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0"
+      },
+      "original": "エンジェル隊のみんな、よくがんばってくれた。\nあとは任せろ！\n",
+      "translation": "엔젤대 모두들, 정말 수고했다. 남은 건 내게\n맡겨라!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0"
+      },
+      "original": "これで終わりにしてやる！\nクロノ・ブレイク・キャノンのチャージは？\n",
+      "translation": "이것으로 끝내주마! 크로노・브레이크・캐논의\n충전은?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GAF03001,3"
+      },
+      "original": "現在、エネルギー充てん９８パーセント！\nあと少しです！\n",
+      "translation": "현재, 에너지 충전 98퍼센트! 조금만 더 하면\n됩니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GAF03001,3"
+      },
+      "original": "よし、このまま前進だ！\nチャージが終わりしだい、即座にコアを撃つ！\n",
+      "translation": "좋아, 이대로 전진이다! 충전이 끝나는 대로\n즉시 코어를 쏜다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GAF03002,3"
+      },
+      "original": "エネルギー１００パーセント、充てん完了です！\n",
+      "translation": "에너지 100퍼센트, 충전 완료입니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GAF03002,3"
+      },
+      "original": "よし、クロノ・ブレイク・キャノン発射準備！\n",
+      "translation": "좋아, 크로노・브레이크・캐논 발사 준비!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GAF03003,3"
+      },
+      "original": "発射準備！\n照準合わせっ！\n",
+      "translation": "발사 준비! 조준 맞추기!\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

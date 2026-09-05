@@ -1,0 +1,1142 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000a3000.txt",
+    "encoding": "cp932",
+    "sha256": "03942963d61918b37e5936d899bded6efdd62df08714684b0ca86d5dfe177bac",
+    "dialogue_count": 87
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GAE01001,3"
+      },
+      "original": "敵艦隊の全滅を確認。\n航路、確保しました。\n",
+      "translation": "적 함대의 전멸을 확인. 항로, 확보했습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,221,0",
+        "voice": "GAE01002,3"
+      },
+      "original": "やれやれ……これで最後だろうな。\nトランスバール星系に到着してから、これで何度\n目の戦闘だ？\n",
+      "translation": "이런 이런…… 이걸로 마지막이겠군. 트랜스벌\n성계에 도착하고 나서, 벌써 몇 번째 전투지?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,221,0",
+        "voice": "GAE01003,3"
+      },
+      "original": "あたしたちが『白き月』を脱出するときよりも、\n格段に無人艦の数が増えているのは確かですね。\n",
+      "translation": "저희가 『백색 달』을 탈출할 때보다, 무인함의\n수가 격단히 늘어난 건 확실하네요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,224,0",
+        "voice": "GAE01004,3"
+      },
+      "original": "あの『黒き月』が、ポコポコ造り出していったん\nだろうな。\nまったく、手間かけさせやがって。\n",
+      "translation": "저 『흑색 달』이, 툭툭 만들어낸 거겠지.\n정말이지, 번거롭게 말이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "066,0,0,0",
+        "voice": "GAE01005,3"
+      },
+      "original": "けどさぁ、本星の方に残ってるのって、昔戦った\n駆逐艦や巡洋艦クラスの無人艦ばかりで、大した\nことなかったわね。\n",
+      "translation": "하지만 말이야, 본성 쪽에 남아있는 건,\n예전에 싸웠던 구축함이나 순양함 클래스의\n무인함뿐이라, 별거 없었어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "102,0,0,0",
+        "voice": "GAE01006,3"
+      },
+      "original": "おまけに、戦法も単調でしたし。\n私たちと戦った際のデータは、こちらの無人艦隊\nには反映されていなかったみたいですわね。\n",
+      "translation": "게다가, 전법도 단조로웠고요. 저희와 싸웠을\n때의 데이터는, 이쪽 무인 함대에는 반영되어\n있지 않았던 모양이네요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "173,0,0,0",
+        "voice": "GAE01007,3"
+      },
+      "original": "だからって、油断するんじゃないよ。\nまだ後ろから、エオニア軍の本隊と『黒き月』が\n追いかけて来てることには変わりないんだから。\n",
+      "translation": "그렇다고 해서, 방심하지 마. 아직 뒤에서,\n에오니아군의 본대와 『흑색 달』이 쫓아오고\n있다는 사실은 변함없으니까.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "voice": "GAE01008,3",
+        "speaker": "006",
+        "face": "181,0,0,0"
+      },
+      "original": "……おそらく、一両日中には、『黒き月』を含む\n本隊が追いついて来るはずです。\n",
+      "translation": "……아마도, 하루 이틀 내에는, 『흑색 달』을\n포함한 본대가 따라잡을 것입니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "022,0,0,0",
+        "voice": "GAE01009,3"
+      },
+      "original": "でも、きっと何とかなりますよ！\nねぇ、タクトさん？\n",
+      "translation": "하지만, 분명 어떻게든 될 거예요! 그쵸, 택트\n씨?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAE01009,3"
+      },
+      "original": "ああ、そのとおりさ。\nとにかく、みんなもお疲れさま。\nエルシオールに帰艦してくれ。\n",
+      "translation": "아아, 그렇다. 어쨌든, 다들 수고했어.\n에르시올로 귀환해 줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GAE01010,3"
+      },
+      "original": "『白き月』が見えてきました。\n　メインモニターに、映像出します。\n",
+      "translation": "『백색 달』이 보입니다. 　메인 모니터에,\n영상 띄웁니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GAE01011,3"
+      },
+      "original": "　よかった……。\n『白き月』は、まだ無事みたいですね。\n",
+      "translation": "다행이다…… 『백색 달』은, 아직 무사한\n모양이네요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,0,0",
+        "voice": "GAE01011,3"
+      },
+      "original": "そうだな。\n着いてみたら『白き月』は跡形もなく破壊されて\nました、なんてオチじゃなくてよかったよ。\n",
+      "translation": "그렇군. 도착해 보니 『백색 달』은 흔적도\n없이 파괴되어 있었다, 같은 결말이 아니라\n다행이야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GAE01012,3"
+      },
+      "original": "あたしたちを脱出させた後、ただひとり残られた\nシャトヤーン様は、『白き月』をシールドで包み、\n外部から手が出せないようになさったんです。\n",
+      "translation": "저희를 탈출시킨 후, 홀로 남겨지신 샤토얀\n님은, 『백색 달』을 실드로 감싸, 외부에서\n손댈 수 없게 만드셨습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAE01012,3"
+      },
+      "original": "なるほど。\nそれで、今もエオニア軍の手に落ちていないわけ\nなのか。\n",
+      "translation": "그렇군. 그래서, 지금도 에오니아군의 손에\n떨어지지 않은 것인가.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GAE01013,3"
+      },
+      "original": "しかし、『黒き月』のように、『白き月』も兵器\n工場かもしれないわけだろう？\nそう考えると、複雑な心境だな。\n",
+      "translation": "하지만, 『흑색 달』처럼, 『백색 달』도 병기\n공장일지도 모른다는 거잖아? 그렇게 생각하면,\n복잡한 심경이군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GAE01014,3"
+      },
+      "original": "副司令ったら……あんなのと『白き月』を、一緒\nにしないでください！\n",
+      "translation": "부사령님도 참…… 저런 거랑 『백색 달』을,\n같 게 취급하지 마세요!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GAE01015,3"
+      },
+      "original": "そうですよ！\nそんなはずありませんってば！\nあたしは、まだ信じてませんから！\n",
+      "translation": "맞아요! 그럴 리가 없다니까요! 전, 아직 믿지\n않고 있으니까요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,0,0",
+        "voice": "GAE01015,3"
+      },
+      "original": "まぁまぁ、落ち着いて。\nここまで来たのは、それを確かめる意味もあるん\nだから。\n",
+      "translation": "자자, 진정해. 여기까지 온 건, 그걸 확인할\n의미도 있 으니까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,0,0",
+        "voice": "GAE01015,3"
+      },
+      "original": "ともかく、『白き月』に連絡を取ろう。\nシールドを解除してもらわないと、中に入れない。\n",
+      "translation": "어쨌든, 『백색 달』에 연락을 취하자. 실드를\n해제해주지 않으면, 안으로 들어갈 수 없어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GAE01016,3"
+      },
+      "original": "……そうですね。\nでは、さっそく……。\n",
+      "translation": "……그렇네요. 그럼, 곧바로……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GAE01017,3"
+      },
+      "original": "『白き月』応答願います。\n　こちら、衛星防衛艦隊旗艦エルシオール。\n",
+      "translation": "『백색 달』 응답 바랍니다. 　여기는, 위성\n방위 함대 기함 에르시올.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "503,0,0,0",
+        "voice": "GAE01018,3"
+      },
+      "original": "『白き月』応答願います。\n　……シャトヤーン様？\n　シャトヤーン様、いらっしゃらないのですか？\n",
+      "translation": "『백색 달』 응답 바랍니다. 　……샤토얀 님?\n샤토얀 님, 안 계신 건가요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GAE01018,3"
+      },
+      "original": "応答がないのか？\n",
+      "translation": "응답이 없는 건가?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GAE01019,3"
+      },
+      "original": "はい……。\n変ですね。\n",
+      "translation": "네…… 이상하네요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "voice": "GAE01020,3",
+        "speaker": "007",
+        "face": "223,0,0,0"
+      },
+      "original": "あるいは、すでにエオニア軍に攻略されたのかも\nしれんな。\n",
+      "translation": "혹은, 이미 에오니아군에게 공략당했을지도\n모르겠군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GAE01021,3"
+      },
+      "original": "そんなはずはありません！\nシャトヤーン様の張ったシールドが、そう簡単に\n破られるわけが……。\n",
+      "translation": "그럴 리 없습니다! 샤토얀 님의 실드가 그렇게\n간단히 뚫릴 리가……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0",
+        "voice": "GAE01021,3"
+      },
+      "original": "だとしたら、どういうことなんだ？\nもしかして、シャトヤーン様の身に何か……！？\n",
+      "translation": "만약 그렇다면, 어떻게 된 거지? 혹시, 샤토얀\n님에게 무슨 일이……!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "281,0,271,0",
+        "voice": "GAE01022,3"
+      },
+      "original": "心配ない。\nシャトヤーン様も『白き月』も、無事だ。\n",
+      "translation": "걱정할 것 없다. 샤토얀 님도 『백색 달』도\n무사하다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,271,0",
+        "voice": "GAE01022,3"
+      },
+      "original": "シヴァ皇子！\nそれはどういうことです？\n",
+      "translation": "시바 황자! 그게 무슨 말씀이십니까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "281,0,271,0",
+        "voice": "GAE01023,3"
+      },
+      "original": "シャトヤーン様がお使いになったシールドとは、\n外部からの一切の干渉を無効にする方法だ。\n一種の『封印』と言ってもいいだろう。\n",
+      "translation": "샤토얀 님께서 사용하신 실드란, 외부로부터의\n일체의 간섭을 무효화하는 방법이다. 일종의\n『봉인』이라고 해도 좋겠지.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "281,0,271,0",
+        "voice": "GAE01024,3"
+      },
+      "original": "つまり、攻撃であろうが通信であろうが、こちら\n側の干渉は、『白き月』には届かない。\n逆もまた同じだ。\n",
+      "translation": "즉, 공격이든 통신이든 이쪽 측의 간섭은\n『백색 달』에 닿지 않는다. 역도 마찬가지다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "281,0,271,0",
+        "voice": "GAE01025,3"
+      },
+      "original": "エオニア軍がいくら攻撃しようとムダなはず。\nなにしろ、水面に映った影を攻撃しているような\nものなのだからな。\n",
+      "translation": "에오니아군이 아무리 공격해도 무의미할 터.\n애초에, 수면에 비친 그림자를 공격하고 있는\n것이나 다름없으니까 말이다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "face": "012,0,271,0",
+        "voice": "GAE01025,3",
+        "speaker": "001"
+      },
+      "original": "は、はぁ……。\nそれもロストテクノロジーの力なんですか？\nよくわからないけど、すごいんですね。\n",
+      "translation": "하, 하아…… 그것도 로스트 테크놀로지의\n힘인가요? 잘은 모르겠지만, 대단하네요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,0,223",
+        "voice": "GAE01026,3"
+      },
+      "original": "ちょっと待て。\n外部との接触が一切断たれているということは、\nもしかして……。\n",
+      "translation": "잠깐 기다려라. 외부와의 접촉이 일절 끊겨\n있다는 것은, 혹시……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0036",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "281,0,271,0",
+        "voice": "GAE01027,3"
+      },
+      "original": "封印を解除しない限り、『白き月』に入ることは\nできん。\n",
+      "translation": "봉인을 해제하지 않는 한, 『백색 달』에\n들어갈 수는 없다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0037",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "007,0,271,0",
+        "voice": "GAE01027,3"
+      },
+      "original": "そ、そんな……シャトヤーン様には、オレたちが\n来たこともわかっていないんでしょう？\nだったら、どうしようもないじゃないですか！\n",
+      "translation": "그, 그럴 수가…… 샤토얀 님께서는 우리가 온\n것도 모르고 계신 거 아니에요? 그렇다면 어쩔\n도리가 없잖아요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0038",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,341,0,0",
+        "voice": "GAE01028,3"
+      },
+      "original": "あたしたちも、解除の方法は知りません。\nそんなこと、シャトヤーン様からはひと言も……。\n",
+      "translation": "저희도 해제 방법은 모릅니다. 그런 건,\n샤토얀 님으로부터 한마디도……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0039",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "281,0,281,0",
+        "voice": "GAE01029,3"
+      },
+      "original": "案ずるな。\n私は脱出する直前、シャトヤーン様から、封印を\n解除する方法を授かった。\n",
+      "translation": "심려치 마라. 나는 탈출하기 직전, 샤토얀\n님으로부터 봉인을 해제하는 방법을 전수받았\n다 .\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0040",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,0,225",
+        "voice": "GAE01030,3"
+      },
+      "original": "皇子が、封印を解く方法をご存じなんですか！？\n",
+      "translation": "황자께서, 봉인을 푸는 방법을 알고 계신\n겁니까!?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0041",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "281,0,271,0",
+        "voice": "GAE01031,3"
+      },
+      "original": "そうだ。\nエオニアが私を追っていたのも、私が皇族の生き\n残りだからという以外に、その理由もあったのだ。\n",
+      "translation": "그렇다. 에오니아가 나를 쫓고 있었던 것도,\n내가 황족의 생 존자이기 때문 외에도 그\n이유가 있었던 것이다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0042",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,271,0",
+        "voice": "GAE01031,3"
+      },
+      "original": "なるほど……。\nそりゃあ、エオニアも必死になってエルシオール\nを追ってくるわけだ。\n",
+      "translation": "과연…… 그렇다면 에오니아도 필사적으로\n에르시올을 쫓아오는 거군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0043",
+      "channel": 1,
+      "context": {
+        "face": "001,0,271,0",
+        "speaker": "001",
+        "voice": "GAE01031,3"
+      },
+      "original": "それじゃ、さっそくシールドを解除していただけ\nませんか？\n",
+      "translation": "그럼, 곧바로 실드를 해제해 주실 수 없겠습니\n까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0044",
+      "channel": 1,
+      "context": {
+        "face": "281,0,271,0",
+        "voice": "GAE01032,3",
+        "speaker": "011"
+      },
+      "original": "わかった。\nだが、解除の方法は、他人に見せるわけにはいか\nない。\n",
+      "translation": "알았다. 하지만 해제 방법은 타인에게 보여줄\n수는 없다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0045",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "281,0,271,0",
+        "voice": "GAE01033,3"
+      },
+      "original": "解除は、自分の部屋で行なうことにしよう。\nそれが終わるまで、部屋に近づくことは許さん。\n",
+      "translation": "해제는 내 방에서 수행하도록 하겠다. 그것이\n끝날 때까지, 방에 접근하는 것은 허락하지\n않겠다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0046",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,0,0",
+        "voice": "GAE01033,3"
+      },
+      "original": "やれやれ、ムダ足にならなくてよかった。\nしかし、シヴァ皇子が、あんな秘密を知っていた\nとはなぁ……。\n",
+      "translation": "이런 이런, 헛걸음이 되지 않아 다행이다.\n그나저나 시바 황자가 그런 비밀을 알고\n있었다니……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0047",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,221,0",
+        "voice": "GAE01034,3"
+      },
+      "original": "機密の保持という観点からいえば、最重要人物に\n最重要機密を持たせるという考えは、間違っては\nいないが……やはり驚いたな。\n",
+      "translation": "기밀 유지라는 관점에서 보자면, 최중요\n인물에게 최중요 기밀을 맡긴다는 생각은 틀린\n게 아니지만…… 역시 놀랍군.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0048",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GAE01034,3"
+      },
+      "original": "ん、通信だ。\nシヴァ皇子からかな？\n",
+      "translation": "음, 통신이다. 시바 황자로부터인가?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0049",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "281,0,0,0",
+        "voice": "GAE01035,3"
+      },
+      "original": "私だ。\nこれから封印を解除する。\n",
+      "translation": "나다. 이제부터 봉인을 해제하겠다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0050",
+      "channel": 1,
+      "context": {
+        "face": "001,0,0,0",
+        "speaker": "001",
+        "voice": "GAE01035,3"
+      },
+      "original": "わかりました。\nよろしくお願いします。\n",
+      "translation": "알겠습니다. 잘 부탁드립니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0051",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0",
+        "voice": "GAE01035,3"
+      },
+      "original": "それにしても、封印を解くって、どうやるのかな？\nちょっとのぞいてみたい気も……。\n",
+      "translation": "그나저나, 봉인을 푼다는 건 어떻게 하는\n걸까? 살짝 훔쳐보고 싶은 기분도……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0052",
+      "channel": 1,
+      "context": {
+        "face": "224,0,0,0",
+        "voice": "GAE01036,3",
+        "speaker": "007"
+      },
+      "original": "な、何だ！？\nエルシオールが、光っている……！\nまたシステムの暴走か？\n",
+      "translation": "뭐, 뭐야!? 에르시올이, 빛나고 있어……! 또\n시스템의 폭주인가?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0053",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0",
+        "voice": "GAE01036,3"
+      },
+      "original": "いや……たぶん、これがシヴァ皇子の言っていた、\nシールド解除の方法なんだろう。\n理屈はよくわからないけど……。\n",
+      "translation": "아니…… 아마 이게 시바 황자님이 말했던,\n실드 해제 방법이겠지. 이치는 잘 모르겠지\n만… ….\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0054",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GAE01036,3"
+      },
+      "original": "光が収まった……。\n",
+      "translation": "빛이 가라앉았다……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0055",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "281,0,0,0",
+        "voice": "GAE01037,3"
+      },
+      "original": "終わった。\nこれで封印は解けたはずだ。\n連絡を取ってみるがいい。\n",
+      "translation": "끝났다. 이걸로 봉인은 풀렸을 것이다. 연락을\n취해 보거라.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0056",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAE01037,3"
+      },
+      "original": "わかりました。\nアルモ、もう一度『白き月』に通信してみてくれ。\n",
+      "translation": "알겠습니다. 아르모, 다시 한번 『백색 달』에\n통신해 줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0057",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,341,0,0",
+        "voice": "GAE01038,3"
+      },
+      "original": "了解しました。\n",
+      "translation": "확인했습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0058",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GAE01039,3"
+      },
+      "original": "『白き月』、応答願います。\n　こちらエルシオール。\n　応答願います。\n",
+      "translation": "『백색 달』, 응답 바랍니다. 　여기는\n에르시올. 　응답 바랍니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0059",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GAE01040,3"
+      },
+      "original": "返事が来るかな……？\n",
+      "translation": "답장이 올까……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0060",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,223,0",
+        "voice": "GAE01040,3"
+      },
+      "original": "さてね……。\nでも、本当にシールドがなくなったのなら……。\n",
+      "translation": "글쎄…… 하지만, 정말로 실드가 없어진\n거라면……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0061",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "503,0,0,0",
+        "voice": "GAE01041,3"
+      },
+      "original": "……『白き月』より、応答ありました！\n回線つなぎます！\n",
+      "translation": "……『백색 달』로부터 응답이 왔습니다! 회선\n연결하겠습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0062",
+      "channel": 1,
+      "context": {
+        "speaker": "010",
+        "face": "266,0,0,0",
+        "voice": "GAE01042,3"
+      },
+      "original": "……エルシオールのみなさん、よく無事に戻って\n来てくれました。\n",
+      "translation": "……에르시올 여러분, 무사히 잘 돌아와 주었습니\n다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0063",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,342,0,0",
+        "voice": "GAE01043,3"
+      },
+      "original": "シ……シャトヤーン様！\n",
+      "translation": "샤…… 샤토얀 님!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0064",
+      "channel": 1,
+      "context": {
+        "face": "491,342,0,337",
+        "speaker": "016",
+        "voice": "GAE01044,3"
+      },
+      "original": "シャトヤーン様！\nご無事で何よりです！\n",
+      "translation": "샤토얀 님! 무사하셔서 다행입니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0065",
+      "channel": 1,
+      "context": {
+        "face": "266,342,0,337",
+        "voice": "GAE01045,3",
+        "speaker": "010"
+      },
+      "original": "あなたたちも、変わりないようですね。\n安心しました。\n",
+      "translation": "당신들도, 별일 없는 모양이군요. 안심했습니\n다 .\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0066",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "007,0,0,0",
+        "voice": "GAE01045,3"
+      },
+      "original": "シャトヤーン様……！\nあの『月の聖母』が自ら通信してくるなんて……。\n",
+      "translation": "샤토얀 님……! 그 『달의 성모』가 직접\n통신해 오다니……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0067",
+      "channel": 1,
+      "context": {
+        "face": "221,0,225,0",
+        "voice": "GAE01046,3",
+        "speaker": "007"
+      },
+      "original": "ああ、驚いたな……。\n",
+      "translation": "아아, 놀랍군……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0068",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAE01046,3"
+      },
+      "original": "シャトヤーン様、お初にお目にかかります。\nオレは……いや、私はエルシオールとエンジェル\n隊の司令、タクト・マイヤーズです。\n",
+      "translation": "샤토얀 님, 처음 뵙겠습니다. 저는…… 아니,\n저는 에르시올과 엔젤대의 사령, 택트・마이어스\n입니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0069",
+      "channel": 1,
+      "context": {
+        "speaker": "010",
+        "face": "266,0,0,0",
+        "voice": "GAE01047,3"
+      },
+      "original": "タクト・マイヤーズ……。\nそれでは……あなたがルフト准将のおっしゃって\nいた「ふさわしき者」なのですね。\n",
+      "translation": "택트・마이어스…… 그렇다면…… 당신이\n루프트 준장이 말했던 「자격 있는 자」이군요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0070",
+      "channel": 1,
+      "context": {
+        "speaker": "010",
+        "face": "266,0,0,0",
+        "voice": "GAE01048,3"
+      },
+      "original": "ここまで、エルシオールとエンジェル隊を率いて、\nよく戦ってくれました。\nあなたには、感謝の言葉もありません。\n",
+      "translation": "여기까지, 에르시올과 엔젤대를 이끌고, 잘 싸워\n주었습니다. 당신에게는 감사의 말도 부족하군\n요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0071",
+      "channel": 1,
+      "context": {
+        "voice": "GAE01048,3",
+        "speaker": "001",
+        "face": "003,0,0,0"
+      },
+      "original": "いえ、そんな。\n光栄です！\n",
+      "translation": "아니요, 천만의 말씀입니다. 영광입니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0072",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,0,224",
+        "voice": "GAE01049,3"
+      },
+      "original": "（おい、タクト。\n　お前、いつもと態度が違わなくねぇか？）\n",
+      "translation": "(이봐, 택트. 　너, 평소랑 태도가 다르지\n않냐?)\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0073",
+      "channel": 1,
+      "context": {
+        "voice": "GAE01049,3",
+        "speaker": "001",
+        "face": "004,0,0,224"
+      },
+      "original": "（うるさい、黙れ）\n",
+      "translation": "（시끄러워, 닥쳐라）\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0074",
+      "channel": 1,
+      "context": {
+        "voice": "GAE01050,3",
+        "speaker": "011",
+        "face": "281,0,281,0"
+      },
+      "original": "シャトヤーン様！\n",
+      "translation": "샤토얀 님!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0075",
+      "channel": 1,
+      "context": {
+        "voice": "GAE01051,3",
+        "speaker": "010",
+        "face": "266,0,281,0"
+      },
+      "original": "シヴァ皇子……よくぞご無事で。\n",
+      "translation": "시바 황자…… 무사하셔서 다행입니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0076",
+      "channel": 1,
+      "context": {
+        "voice": "GAE01052,3",
+        "speaker": "011",
+        "face": "281,0,281,0"
+      },
+      "original": "シャトヤーン様こそ、ご無事で何よりです。\n遠く離れていても、いつもシャトヤーン様の無事\nを祈っておりました。\n",
+      "translation": "샤토얀 님이야말로, 무사하시어 무엇보다\n다행입니다. 멀리 떨어져 있어도, 언제나\n샤토얀 님의 무사를 기도하고 있었습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0077",
+      "channel": 1,
+      "context": {
+        "speaker": "010",
+        "face": "266,0,281,0",
+        "voice": "GAE01053,3"
+      },
+      "original": "私もですよ、シヴァ皇子。\n",
+      "translation": "저도 마찬가지예요, 시바 황자님.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0078",
+      "channel": 1,
+      "context": {
+        "speaker": "010",
+        "face": "266,0,0,0",
+        "voice": "GAE01054,3"
+      },
+      "original": "封印を解いたということは、シヴァ皇子もご無事\nなのですね？\n",
+      "translation": "봉인을 풀었다는 것은, 시바 황자님도 무사\n하신 것이군요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0079",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAE01054,3"
+      },
+      "original": "はい、もちろんです。\n皇子も、シャトヤーン様のことをいつも心配して\nおられましたよ。\n",
+      "translation": "네, 물론입니다. 황자님께서도, 샤토얀 님을\n항상 걱정하고 계셨답니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0080",
+      "channel": 1,
+      "context": {
+        "speaker": "010",
+        "face": "266,0,0,0",
+        "voice": "GAE01055,3"
+      },
+      "original": "そうですか。\nよかった……。\n",
+      "translation": "그렇습니까. 다행이네요……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0081",
+      "channel": 1,
+      "context": {
+        "voice": "GAE01056,3",
+        "speaker": "010",
+        "face": "266,0,0,0"
+      },
+      "original": "ともかく、『白き月』へお入りなさい。\n積もる話は、それからにいたしましょう。\n",
+      "translation": "어쨌든, 『백색 달』로 들어오세요. 못다 한\n이야기는, 그 후에 하도록 하죠.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0082",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAE01056,3"
+      },
+      "original": "了解しました。\n入港を許可していただき、感謝します。\nそれでは、いったん通信を切ります。\n",
+      "translation": "알겠습니다. 입항을 허가해 주셔서 감사합니다.\n그럼, 일단 통신을 끊겠습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0083",
+      "channel": 1,
+      "context": {
+        "face": "002,0,0,0",
+        "speaker": "001",
+        "voice": "GAE01056,3"
+      },
+      "original": "いやぁ、シャトヤーン様からじきじきに感謝され\nちゃったよ。\n照れるなぁ～。\n",
+      "translation": "이야～, 샤토얀 님께 직접 감사를 받아버렸네.\n쑥스러워라～.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0084",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GAE01057,3"
+      },
+      "original": "勝手に浮かれてろ。\nココ、アルモ、入港準備だ。\n",
+      "translation": "멋대로 들떠 있어라. 코코, 아르모, 입항\n준비다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0085",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,342,0,0",
+        "voice": "GAE01058,3"
+      },
+      "original": "了解しました、クールダラス副司令。\n",
+      "translation": "알겠습니다, 쿨다라스 부사령관님.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0086",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,342,0,337",
+        "voice": "GAE01059,3"
+      },
+      "original": "了解です。\nああ、やっと帰って来れたんだわ……。\n",
+      "translation": "확인했습니다. 아아, 드디어 돌아올 수 있게\n됐어……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a3000:dialogue:0087",
+      "channel": 1,
+      "context": {
+        "face": "009,0,0,0",
+        "voice": "GAE01059,3",
+        "speaker": "001"
+      },
+      "original": "無視するなよぉ……。\n",
+      "translation": "무시하지 말라고…….\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

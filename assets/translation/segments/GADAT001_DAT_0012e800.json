@@ -1,0 +1,518 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_0012e800.txt",
+    "encoding": "cp932",
+    "sha256": "e8ee36bc85257eb3b06cf71e4256e3a19bcb0e7cbc5624582760c61600a470dc",
+    "dialogue_count": 39
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,0,141",
+        "voice": "GAC05001,3"
+      },
+      "original": "……なるほど。\n射程の長い攻撃衛星を、誰かが破壊しなきゃなら\nないってわけだね？\n",
+      "translation": "……과연. 사정거리가 긴 공격 위성을,\n누군가가 파괴해야 한다는 뜻이네?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,141",
+        "voice": "GAC05001,3"
+      },
+      "original": "ああ……。\nそれで、こうしてみんなに集まってもらったんだ。\n",
+      "translation": "아아…… 그래서 이렇게 모두를 모은 거다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GAC05002,3"
+      },
+      "original": "今はクロノ・ドライヴに入っているから、攻撃を\n受ける心配はない。\n",
+      "translation": "지금은 크로노・드라이브 상태라, 공격을 받을\n걱정은 없다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GAC05003,3"
+      },
+      "original": "しかし、ドライヴ・アウトしたら、すぐに作戦を\n開始しなければ、手遅れになるだろう。\n",
+      "translation": "하지만, 드라이브・아웃하면 즉시 작전을\n개시하지 않으면, 늦어질 것이다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,223,0",
+        "voice": "GAC05003,3"
+      },
+      "original": "衛星の排除に向かってもらうのは、ひとりだけだ。\n非常に困難かつ危険な任務になるだろう。\n",
+      "translation": "위성 배제를 위해 나설 사람은 한 명뿐이다.\n매우 곤란하고 위험한 임무가 될 것이다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,0,0,186",
+        "voice": "GAC05004,3"
+      },
+      "original": "……責任重大な任務なのですね……。\n",
+      "translation": "……책임이 중대한 임무군요……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,120,0,186",
+        "voice": "GAC05005,3"
+      },
+      "original": "せめて、ふたりで向かうことはできませんの？\nひとりでは、負担が大きすぎますわ。\n",
+      "translation": "적어도, 둘이서 가는 것은 안 될까요? 혼자서는\n부담이 너무 커요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,120,0,186",
+        "voice": "GAC05005,3"
+      },
+      "original": "いや……敵艦隊の規模からすると、エルシオール\nの護衛のために、４機は残したい。\n",
+      "translation": "아니…… 적 함대의 규모로 보아, 에르시올 의\n호위를 위해 4기는 남겨두고 싶다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,0,028",
+        "voice": "GAC05006,3"
+      },
+      "original": "それで、衛星の方に行く人を、どうやって決める\nんですか？\nクジ引きとか？\n",
+      "translation": "그래서, 위성 쪽으로 갈 사람을 어떻게 결정\n하는 건가요? 제비뽑기라든가?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,066,0,028",
+        "voice": "GAC05007,3"
+      },
+      "original": "アンタねぇ、こんな重要なことを、クジなんかで\n決められるわけないでしょ！\n",
+      "translation": "너 말이야, 이런 중요한 일을 제비뽑기 따위로\n결정할 수 있을 리 없잖아!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,066,0,028",
+        "voice": "GAC05007,3"
+      },
+      "original": "あまり時間はないけど、みんなで相談して、誰が\n適任かを検討しようと思う。\n",
+      "translation": "시간이 그리 많지는 않지만, 다 같이 상의해서\n누가 적임자인지 검토해 보려 한다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,069,0,028",
+        "voice": "GAC05008,3"
+      },
+      "original": "検討っていっても……。\n",
+      "translation": "검토라고 해도……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,069,0,027",
+        "voice": "GAC05009,3"
+      },
+      "original": "…………。\n",
+      "translation": "…………\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,141,0",
+        "voice": "GAC05010,3"
+      },
+      "original": "だったら、あたしが行くよ。\n",
+      "translation": "그렇다면, 내가 갈게.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,141,0",
+        "voice": "GAC05010,3"
+      },
+      "original": "えっ、フォルテ……！？\n",
+      "translation": "엣, 포르테……!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,165,0",
+        "voice": "GAC05011,3"
+      },
+      "original": "この任務に求められている機体の特性を考えたら、\nあたしが適任だと思うけど。\n",
+      "translation": "이 임무에 요구되는 기체의 특성을 생각하면,\n내가 적임자라고 생각하는데.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,0,0,198",
+        "voice": "GAC05012,3"
+      },
+      "original": "……でしたら、私も同行させてください。\nハーベスターなら、被弾した機体を修理できます。\n",
+      "translation": "……그렇다면, 저도 동행하게 해주세요.\n하베스터라면 피격된 기체를 수리할 수\n있습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,173,0",
+        "voice": "GAC05013,3"
+      },
+      "original": "いや、エルシオールを守るための戦力が落ちたら、\n本末転倒ってもんだよ。\n単機で行くしかない。\n",
+      "translation": "아니, 에르시올을 지키기 위한 전력이 떨어지면\n본말전도라고. 단독으로 가야 해.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,0,022",
+        "voice": "GAC05014,3"
+      },
+      "original": "じゃあ、あたしじゃダメですか？\n運がよかったら、一気に敵をやっつけられるかも\nしれませんよ？\n",
+      "translation": "그럼, 저는 안 되나요? 운이 좋으면 단번에\n적을 쓰러뜨릴 수 있을지도 모른다구요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,141,0",
+        "voice": "GAC05015,3"
+      },
+      "original": "そうだったらいいけど、ミルフィーの運が、もし\n悪い方に転がったら、何もかもご破算になるだろ？\n",
+      "translation": "그러면 좋겠지만, 밀피의 운이 만약 나쁜\n쪽으로 흐르면 모든 게 물거품이 되잖아?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "face": "141,0,173,0",
+        "speaker": "005",
+        "voice": "GAC05016,3"
+      },
+      "original": "今回の仕事に求められるのは、確実に衛星を排除\nできる能力だよ。\n",
+      "translation": "이번 일에 요구되는 건 확실하게 위성을 배제\n할 수 있는 능력이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "voice": "GAC05017,3",
+        "speaker": "003",
+        "face": "061,064,0,0"
+      },
+      "original": "敵の攻撃に当たらなきゃいいんでしょう？\n小回りの利くカンフーファイターなら……。\n",
+      "translation": "적의 공격을 맞지 않으면 되는 거 아니에요?\n기동성이 좋은 쿵푸 파이터라면……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,173,0",
+        "voice": "GAC05018,3"
+      },
+      "original": "カンフーファイターは装甲が薄いから、２、３発\nくらっただけで致命傷になりかねない。\n腰をすえて狙い撃ちした方が得策さ。\n",
+      "translation": "쿵푸 파이터는 장갑이 얇아서, 두세 발 맞은\n것만으로 치명상이 될 수 있어. 각오를 다지고\n저격하는 편이 상책이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "face": "101,101,0,0",
+        "speaker": "004",
+        "voice": "GAC05019,3"
+      },
+      "original": "遠距離からの狙撃でしたら、トリックマスターの\n出番ですわ。\n私にお任せください。\n",
+      "translation": "원거리 저격이라면, 트릭 마스터의 차례예요.\n저에게 맡겨주세요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "voice": "GAC05020,3",
+        "speaker": "005",
+        "face": "141,0,173,0"
+      },
+      "original": "射程距離なら、ハッピートリガーも大差ない。\nだったら、５機の中でいちばん装甲が厚いハッピー\nトリガーが行くべきだ。\n",
+      "translation": "사정거리라면, 해피 트리거도 큰 차이 없어.\n그렇다면, 5기 중에서 가장 장갑이 두꺼운\n해피 트리거가 가야 해.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,165,0",
+        "voice": "GAC05021,3"
+      },
+      "original": "多少の攻撃にはビクともしない装甲、敵の長射程\nにも対抗できる射程距離、短時間で確実にしとめ\nられる火力……。\n",
+      "translation": "다소의 공격에는 눈 하나 깜짝하지 않는 장갑,\n적의 장사정에도 대항할 수 있는 사정거리,\n단시간에 확실히 해치울 수 있는 화력……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,141,0",
+        "voice": "GAC05022,3"
+      },
+      "original": "そう考えていったら、あたしとハッピートリガー\nが行くしかないだろ？\n",
+      "translation": "그렇게 생각하면, 나랑 해피 트리거가 갈\n수밖에 없잖아?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "voice": "GAC05022,3",
+        "speaker": "001",
+        "face": "004,0,141,0"
+      },
+      "original": "……確かに、そのとおりだ。\nそのとおりだけど……。\n",
+      "translation": "……확실히, 네 말이 맞아. 맞는 말이지만……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "face": "221,0,0,223",
+        "voice": "GAC05023,3",
+        "speaker": "007"
+      },
+      "original": "実は、コンピューターによる計算でも、ハッピー\nトリガーによる攻撃が、もっとも成功確率が高い\nという結果が出ている。\n",
+      "translation": "사실, 컴퓨터에 의한 계산으로도 해피 트리거에\n의한 공격이 가장 성공 확률이 높다 라는\n결과가 나오고 있어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "voice": "GAC05024,3",
+        "speaker": "005",
+        "face": "141,0,141,0"
+      },
+      "original": "だろうね。\n",
+      "translation": "그렇겠지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,0,023",
+        "voice": "GAC05025,3"
+      },
+      "original": "でも、それじゃフォルテさんが危険すぎます！\nそんな作戦、不公平です！\n",
+      "translation": "하지만, 그러면 포르테 씨가 너무 위험해요!\n그런 작전은 불공평해요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,173,0",
+        "voice": "GAC05026,3"
+      },
+      "original": "ミルフィー、戦いに公平も不公平も関係ないだろ？\n大事なのは、みんなが生き残れる確率の高い作戦\nを遂行することさ。\n",
+      "translation": "밀피, 전투에 공평함이나 불공평함은 상관없잖\n아? 중요한 건 모두가 살아남을 확률이 높은\n작전을 수행하는 거야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,143,0",
+        "voice": "GAC05027,3"
+      },
+      "original": "それに、残った紋章機４機でエルシオールを守る\nことも、大事な仕事だよ。\n",
+      "translation": "게다가, 남은 문장기 4기로 에르시올을 지키는\n것 또한 중요한 일이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,0,047",
+        "voice": "GAC05028,3"
+      },
+      "original": "それは、そうかもしれませんけど……。\n",
+      "translation": "그건, 그럴지도 모르겠지만……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,165,0",
+        "voice": "GAC05029,3"
+      },
+      "original": "それに……作戦を決定するのは、あたしたちじゃ\nない。\n",
+      "translation": "그리고…… 작전을 결정하는 건 우리가 아니야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0036",
+      "channel": 1,
+      "context": {
+        "voice": "GAC05029,3",
+        "speaker": "001",
+        "face": "004,0,165,0"
+      },
+      "original": "…………。\n",
+      "translation": "…………\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0037",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,165,0",
+        "voice": "GAC05029,3"
+      },
+      "original": "……ドライヴ・アウトまで、まだ少し時間がある。\nそれまで、考えさせてくれ……。\n",
+      "translation": "……드라이브・아웃까지, 아직 시간이 조금\n있어. 그때까지 생각할 시간을 줘……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0038",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,146,0",
+        "voice": "GAC05030,3"
+      },
+      "original": "タクト……。\n",
+      "translation": "택트……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012e800:dialogue:0039",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0",
+        "voice": "GAC05030,3"
+      },
+      "original": "とりあえず、この場は解散だ。\n",
+      "translation": "일단, 이 자리는 해산이다.\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

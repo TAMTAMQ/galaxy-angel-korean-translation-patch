@@ -1,0 +1,504 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_0008e800.txt",
+    "encoding": "cp932",
+    "sha256": "d919ed2d7e4244c4c4c75ad67f6d58f03effa4651fa8a8401cdf1b55862dc15e",
+    "dialogue_count": 38
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0"
+      },
+      "original": "こんばんは。\nあれから、みんなの具合はどうなりましたか？\n",
+      "translation": "안녕하세요. 그 후로 다들 상태는 어떻습니까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "026",
+        "face": "601,0,368,0",
+        "voice": "GA604001,3"
+      },
+      "original": "こんばんは、司令。\nこの２日間で、花粉症になった患者の８割は治療\nが終わったわ。\n",
+      "translation": "안녕하세요, 사령관. 이틀 동안 꽃가루 알레르기 환자의 80퍼센트는 치료가 끝났어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,368,0",
+        "voice": "GA604001,3"
+      },
+      "original": "それはよかった。\nヴァニラのおかげですね。\n",
+      "translation": "그거 다행이군. 바닐라 덕분이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "026",
+        "face": "601,0,368,0",
+        "voice": "GA604002,3"
+      },
+      "original": "ええ、本当に。\n戦闘要員から優先的に治療しているから、今度の\n戦いにも、悪い影響は出ないと思うわ。\n",
+      "translation": "그래, 정말로. 전투 요원부터 우선 치료하고 있으니 다음 전투에도 나쁜 영향은 없을 거야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,368,0",
+        "voice": "GA604002,3"
+      },
+      "original": "助かります。\nところで、ヴァニラは？\n",
+      "translation": "도움이 되겠어. 그런데, 바닐라는?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "026",
+        "face": "601,0,366,0",
+        "voice": "GA604003,3"
+      },
+      "original": "ヴァニラなら、向こうにいるわ。\n今も診療中よ。\n",
+      "translation": "바닐라라면, 저쪽에 있어. 지금도 진료 중이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,366,0",
+        "voice": "GA604003,3"
+      },
+      "original": "今も？\nもう２１時を回っているのに。\n",
+      "translation": "지금도? 벌써 21시가 넘었는데.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,185,0,101",
+        "voice": "GA604004,3"
+      },
+      "original": "あら、タクトさん。\nいらしてたんですの？\n",
+      "translation": "어머, 택트 씨. 와 계셨던 건가요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,185,0,101",
+        "voice": "GA604004,3"
+      },
+      "original": "やあ、ミント。\n調子はどうだい？\n",
+      "translation": "안녕, 민트. 상태는 좀 어때?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,185,0,102",
+        "voice": "GA604005,3"
+      },
+      "original": "ヴァニラさんのおかげで、回復しましたわ。\n今日は再検査ですの。\n",
+      "translation": "바닐라 씨 덕분에, 회복했어요. 오늘은\n재검사예요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "face": "006,185,0,102",
+        "speaker": "001",
+        "voice": "GA604005,3"
+      },
+      "original": "再検査？\n",
+      "translation": "재검사?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "face": "181,181,0,102",
+        "voice": "GA604006,3",
+        "speaker": "006"
+      },
+      "original": "……症状がおさまっても、再発の恐れがないとは\n言い切れませんので。\n",
+      "translation": "……증상이 가라앉아도, 재발의 우려가 없다고\n단언할 수는 없으니까요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,181,0,102",
+        "voice": "GA604006,3"
+      },
+      "original": "慎重なんだな、ヴァニラは。\n",
+      "translation": "신중하구나, 바닐라는.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,189,0,102",
+        "voice": "GA604007,3"
+      },
+      "original": "……いえ、治療後の経過を見るのも、つとめです\nから。\n",
+      "translation": "……아니요, 치료 후의 경과를 살피는 것도,\n의무 이니까요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,189,0,102",
+        "voice": "GA604007,3"
+      },
+      "original": "そ、そうか。\nあのさ、ヴァニラ……。\n",
+      "translation": "그, 그렇군. 있잖아, 바닐라……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,189,0,102",
+        "voice": "GA604007,3"
+      },
+      "original": "ミントを治してくれて、ありがとう。\nお礼を言うよ。\n",
+      "translation": "민트를 고쳐줘서, 고마워. 고맙다는 말을 하고\n싶어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "face": "181,181,0,102",
+        "speaker": "006",
+        "voice": "GA604008,3"
+      },
+      "original": "……いえ、当然のことをしたまでです。\n",
+      "translation": "……아니요, 당연한 일을 했을 뿐입니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,181,0,121",
+        "voice": "GA604009,3"
+      },
+      "original": "ご心配いただいて、ありがとうございます。\nでも、もう大丈夫ですわ。\n",
+      "translation": "걱정해 주셔서, 감사합니다. 하지만, 이제\n괜찮아요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,181,0,121",
+        "voice": "GA604009,3"
+      },
+      "original": "うん、元気になったみたいだね。\n本当によかったよ。\n",
+      "translation": "응, 건강해진 것 같네. 정말 다행이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "face": "101,181,0,102",
+        "voice": "GA604010,3",
+        "speaker": "004"
+      },
+      "original": "これで、お菓子がおいしくいただけますわ。\n症状がひどいときには、粉末ジュースのメロン味\nとバナナ味の区別もつきませんでしたもの。\n",
+      "translation": "이제, 과자를 맛있게 먹을 수 있어요. 증상이\n심할 때는, 가루 주스의 멜론 맛 과 바나나\n맛의 구별도 안 됐는걸요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,181,0,102",
+        "voice": "GA604010,3"
+      },
+      "original": "は、はぁ……。\n",
+      "translation": "하, 하아……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "026",
+        "face": "601,367,0,0",
+        "voice": "GA604011,3"
+      },
+      "original": "ミント、前から言っているけど、あまりジャンク\nフードばかり食べちゃだめよ？\n",
+      "translation": "민트, 전부터 말하고 있지만, 너무 정크\n푸드만 먹으면 안 돼?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "026",
+        "face": "601,367,0,0",
+        "voice": "GA604012,3"
+      },
+      "original": "食品添加物を多くとっている人ほど、アレルギー\nを起こしやすいという統計もあるんだから。\n",
+      "translation": "식품 첨가물을 많이 섭취하는 사람일수록,\n알레르기를 일으키기 쉽다는 통계도 있으니까.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "face": "101,367,0,107",
+        "speaker": "004",
+        "voice": "GA604013,3"
+      },
+      "original": "はい、わかりましたわ……。\n",
+      "translation": "네, 알겠습니다……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,367,0,107",
+        "voice": "GA604013,3"
+      },
+      "original": "好きなものを食べるのも、健康あってこそだしね。\n何事も、ほどほどにってことさ。\n",
+      "translation": "좋아하는 것을 먹는 것도, 건강이 뒷받침되어야\n하는 법이니까. 무엇이든, 적당히 하라는 거지.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "face": "101,367,0,121",
+        "speaker": "004",
+        "voice": "GA604014,3"
+      },
+      "original": "そうですわね。\nでは、私はこれで失礼いたしますわ。\n",
+      "translation": "그렇군요. 그럼, 저는 이만 실례할게요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "face": "001,367,0,121",
+        "voice": "GA604014,3",
+        "speaker": "001"
+      },
+      "original": "ああ、オレも行くよ。\nヴァニラ、ケーラ先生、お疲れさま。\n",
+      "translation": "아아, 나도 갈게. 바닐라, 케라 선생님,\n수고했어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,189,0,102",
+        "voice": "GA604014,3"
+      },
+      "original": "がんばってくれるのは助かるけど、無理しないで、\nほどほどにね。\nもう夜も遅いんだし。\n",
+      "translation": "힘내주는 건 고맙지만, 무리하지 말고, 적당히\n해. 벌써 밤도 늦었으니까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,200,0,102",
+        "voice": "GA604015,3"
+      },
+      "original": "……ありがとうございます。\nですが、大丈夫です。\n",
+      "translation": "……감사합니다. 하지만, 괜찮습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "voice": "GA604015,3",
+        "speaker": "001",
+        "face": "001,200,0,102"
+      },
+      "original": "そうかい。\nオレもヴァニラを見習わないといけないなぁ。\n",
+      "translation": "그런가. 나도 바닐라를 본받아야겠네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,181,0,102",
+        "voice": "GA604016,3"
+      },
+      "original": "……つまり、ナノマシン技術を習いたいのですか？\n",
+      "translation": "……즉, 나노머신 기술을 배우고 싶다는\n말씀이십니까?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "face": "012,181,0,102",
+        "voice": "GA604016,3",
+        "speaker": "001"
+      },
+      "original": "え？\nいや、そういう意味じゃないんだけど……。\n",
+      "translation": "에? 아니, 그런 의미가 아니라...\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "face": "181,185,0,102",
+        "voice": "GA604017,3",
+        "speaker": "006"
+      },
+      "original": "そうですか。\n……次の患者の治療に戻ります。\n",
+      "translation": "그렇습니까. ……다음 환자의 치료로 돌아가겠\n습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,185,0,102",
+        "voice": "GA604017,3"
+      },
+      "original": "ああ、忙しいのに悪かったね。\nだけど、ヴァニラも少しは休んでくれよ？\n",
+      "translation": "아아, 바쁜데 미안하네. 하지만, 바닐라도\n조금은 쉬어줘?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,185,0,102",
+        "voice": "GA604018,3"
+      },
+      "original": "……はい。\n",
+      "translation": "……네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0036",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,185,0,102",
+        "voice": "GA604018,3"
+      },
+      "original": "それならいいんだ。\nじゃあ、オレはこれで。\nお疲れさま。\n",
+      "translation": "그렇다면 다행이야. 그럼, 난 이만. 수고했어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0037",
+      "channel": 1,
+      "context": {
+        "face": "004,0,0,0",
+        "speaker": "001",
+        "voice": "GA604018,3"
+      },
+      "original": "さてと……眠るには、まだ少し早いな。\nかといって、今は敵が来る心配もほとんどないし、\n仕事もないしな。\n",
+      "translation": "자 그럼... 잠들기에는 아직 조금 이르군.\n그렇다고 지금은 적이 올 걱정도 거의 없고,\n할 일도 없으니 말이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008e800:dialogue:0038",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA604018,3"
+      },
+      "original": "２２時くらいまで、艦内の散歩でもするか。\nぶらり気ままにひとり旅ってね。\n",
+      "translation": "22시 정도까지, 함내 산책이라도 할까.\n유유자적하게 혼자 여행하는 것처럼 말이지.\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000b7000.txt",
+    "encoding": "cp932",
+    "sha256": "d36697e8a75723eaec59c8f4ddc374902faf7549173b8c96434d25c70dcc139a",
+    "dialogue_count": 21
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000b7000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "493,0,0,0",
+        "voice": "GAE99001_BL,3"
+      },
+      "original": "敵戦闘機、反転してこちらに向かって来ます！\n……さっき戦ったときより、スピードが上がって\nいます！\n",
+      "translation": "적 전투기, 선회해서 이쪽으로 향해 오고\n있습니다! ……아까 싸웠을 때보다, 스피드가\n올라가 있습니다!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GAE99002_BL,3"
+      },
+      "original": "やはり、前よりも性能が上がっているのか。\nまずいな……こっちと互角になっちまったぞ。\n",
+      "translation": "역시, 이전보다 성능이 올라간 건가. 곤란하\n군 …… 이쪽과 호각이 되어버렸어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "023,0,0,0",
+        "voice": "GAE99003_BL,3"
+      },
+      "original": "ど、どうしましょう、タクトさん……！？\n",
+      "translation": "어, 어떡하죠, 택트 씨……!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GAE99003_BL,3"
+      },
+      "original": "……それでも、やるしかない。\n敵機を撃墜する！\n",
+      "translation": "……그래도, 할 수밖에 없다. 적기를 격추한다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "195,0,0,0",
+        "voice": "GAE99004_BL,3"
+      },
+      "original": "……了解。\n",
+      "translation": "……라져.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "103,0,0,0",
+        "voice": "GAE99005_BL,3"
+      },
+      "original": "わかりましたわ。\n",
+      "translation": "알겠습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "064,0,0,0",
+        "voice": "GAE99006_BL,3"
+      },
+      "original": "これが終わったら、エオニアと『黒き月』をブチ\nのめしてやるわ！\n",
+      "translation": "이게 끝나면, 에오니아와 『흑색 달』을 박살\n내주고 말겠어!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "143,0,0,0",
+        "voice": "GAE99007_BL,3"
+      },
+      "original": "そうさ、こんな無残なことをする『黒き月』も、\nそれを利用しているエオニアも……。\n絶対に許すもんか！\n",
+      "translation": "그래, 이런 잔인한 짓을 하는 『흑색 달』도,\n그것을 이용하는 에오니아도…… 절대로 용서\n못 해!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAE99007_BL,3"
+      },
+      "original": "アルモ、状況をモニターへ出してくれ。\n",
+      "translation": "아르모, 상황을 모니터에 띄워줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GAE99008_BL,3"
+      },
+      "original": "はい！\n",
+      "translation": "네!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7000:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAE99008_BL,3"
+      },
+      "original": "敵の大型戦闘機は、我々を目指して接近している。\n",
+      "translation": "적의 대형 전투기는, 우리를 목표로 접근하고\n있다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7000:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAE99008_BL,3"
+      },
+      "original": "エオニアを倒す前に、まずこの大型戦闘機を排除\nしなければならない。\n",
+      "translation": "에오니아를 쓰러뜨리기 전에, 우선 이 대형\n전투기를 배제 해야만 한다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7000:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "face": "003,0,0,0",
+        "voice": "GAE99008_BL,3",
+        "speaker": "001"
+      },
+      "original": "敵戦闘機の能力は、こちらの紋章機と互角だろう。\nためらいながら戦って勝てる相手じゃない。\n",
+      "translation": "적 전투기의 능력은, 이쪽의 문장기와 호각이겠\n지. 망설이며 싸워서 이길 수 있는 상대가\n아니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7000:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAE99008_BL,3"
+      },
+      "original": "くれぐれも、気をつけてくれ。\n頼むぞ、みんな。\n",
+      "translation": "부디, 조심해라. 부탁한다, 모두들.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7000:dialogue:0015",
+      "channel": 0,
+      "context": {
+        "voice": "GAE99008_BL,3",
+        "speaker": "094",
+        "face": "0,0,0,0"
+      },
+      "original": "～敵部隊の編成～\n　大型戦闘機×５\n　\n～勝利条件～\n　敵戦闘機の全滅\n　\n～敗北条件～\n　エルシオールの破壊\n　タイムオーバー\n",
+      "translation": "～적 부대의 편성～\n　대형 전투기×5\n　\n～승리 조건～\n　적 전투기의 전멸\n　\n～패배 조건～\n　에르시올의 파괴\n　타임 오버\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7000:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "もう一度、作戦内容を確認するか？\n",
+      "translation": "다시 한번, 작전 내용을 확인할까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7000:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,223,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "そうだなぁ……。\n",
+      "translation": "글쎄……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7000:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "うん。\n念のため、もう一度確認しておこう。\n",
+      "translation": "응. 만약을 위해, 다시 한번 확인해 두자.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7000:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "いや、その必要はない。\nみんな、準備はいいな？\n",
+      "translation": "아니, 그럴 필요는 없다. 모두, 준비는 됐나?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7000:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "エンジェル隊、戦闘開始！\n",
+      "translation": "엔젤대, 전투 개시!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7000:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "099",
+        "face": "0,0,0,0",
+        "voice": "GA199012_BL,3"
+      },
+      "original": "了解！\n",
+      "translation": "네！\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

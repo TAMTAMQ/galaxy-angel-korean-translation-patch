@@ -1,0 +1,59 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000a6800.txt",
+    "encoding": "cp932",
+    "sha256": "17149b7195e26de7b628366e7d20501d6c49af6c9250db28527c79e97442368f",
+    "dialogue_count": 4
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000a6800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0"
+      },
+      "original": "明日にはエオニア軍と決戦か……。\nどんな結果になるにしろ、これですべてが終わる\nはずだ……。\n",
+      "translation": "내일이면 에오니아군과 결전인가…… 어떤\n결과가 되든, 이것으로 모든 것이 끝날\n터다……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a6800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,0,0"
+      },
+      "original": "そう思うと、何だか緊張してきたなぁ。\nうう～……。\n",
+      "translation": "그렇게 생각하니, 왠지 긴장되네. 으우～……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a6800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0"
+      },
+      "original": "みんなは、どうしているんだろう？\nやっぱり、オレと同じく、プレッシャーを感じて\nいるんだろうか……？\n",
+      "translation": "다들, 어떻게 하고 있을까? 역시, 나처럼\n프레셔를 느끼고 있는 걸까……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a6800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0"
+      },
+      "original": "ちょっと様子を見てこようかな。\n３０分ばかり、艦内を回ってこよう。\n",
+      "translation": "잠시 상황을 보고 올까. 30분 정도, 함내를\n돌아다녀야겠어.\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

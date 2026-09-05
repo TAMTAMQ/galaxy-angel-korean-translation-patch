@@ -1,0 +1,1037 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000b0000.txt",
+    "encoding": "cp932",
+    "sha256": "b3d4a08edbaa2b7fd552caadea0468cc027d7697b7efdad86293dd3f440ec414",
+    "dialogue_count": 79
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0"
+      },
+      "original": "そういえば、ミントはどうしているだろう？\n明日の決戦の前に、もう一度顔を見ておきたいな。\n",
+      "translation": "그러고 보니, 민트는 어떻게 지내고 있을까?\n내일 결전 전에, 다시 한번 얼굴을 보고 싶네.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,141,0",
+        "voice": "GAE21001,3"
+      },
+      "original": "おや、タクト。\nまだ起きてたのかい？\n",
+      "translation": "어라, 택트. 아직 깨어 있었니?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,141,0",
+        "voice": "GAE21001,3"
+      },
+      "original": "うん、まぁね。\nところで、ミントがどこにいるか知らないかい？\n",
+      "translation": "응, 뭐 그렇지. 그건 그렇고, 민트가 어디\n있는지 알아?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,144,0",
+        "voice": "GAE21002,3"
+      },
+      "original": "ミント？\nああ、さっきまで一緒だったけど……。\n",
+      "translation": "민트? 아아, 아까까지 같이 있었지만……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,142,0",
+        "voice": "GAE21003,3"
+      },
+      "original": "……ははーん、少し顔を見てないから、さびしく\nなったのかい？\n",
+      "translation": "……흐음, 한동안 얼굴을 못 봐서 외로워진 거야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "007,0,142,0",
+        "voice": "GAE21003,3"
+      },
+      "original": "いや、そういうわけじゃ……。\n",
+      "translation": "아니, 그런 게 아니라……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,166,0",
+        "voice": "GAE21004,3"
+      },
+      "original": "あんたは、ミントがいなくなると、すぐ心配して\n突拍子もないことしでかすからねぇ。\n",
+      "translation": "너는 말이야, 민트가 없어지면 금방 걱정해서\n엉뚱한 짓을 저지르니까 말이지.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "008,0,166,0",
+        "voice": "GAE21004,3"
+      },
+      "original": "よしてくれよ、もう。\nこの前、ミントを迎えに行った件では、みんなに\n迷惑かけたと反省してるからさ。\n",
+      "translation": "그만 좀 해, 정말. 지난번에 민트를 데리러\n갔던 일로는, 모두에게 폐를 끼쳤다고 반성하고\n있으니까 말이야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,173,0",
+        "voice": "GAE21005,3"
+      },
+      "original": "ほらほら、そんな情けない顔するもんじゃないよ。\nやっぱりタクトには、ミントのようなしっかり者\nがついてなきゃダメだね。\n",
+      "translation": "자자, 그렇게 한심한 얼굴 하지 마. 역시\n택트에게는 민트 같은 야무진 애가 옆에\n있어야 한다니까.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,173,0",
+        "voice": "GAE21005,3"
+      },
+      "original": "そ、そんなに情けないかなぁ、オレって？\n",
+      "translation": "그, 그렇게 한심한가, 나?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,166,0",
+        "voice": "GAE21006,3"
+      },
+      "original": "お似合いだって言ってるのさ。\nあははは。\n",
+      "translation": "잘 어울린다는 뜻이야. 아하하하.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,142,0",
+        "voice": "GAE21007,3"
+      },
+      "original": "ミントなら、自分の部屋に戻ってるはずだよ。\n親父さんに手紙を書くとか言ってた。\n",
+      "translation": "민트라면, 자기 방으로 돌아갔을 거야.\n아버지께 편지를 쓴다느니 하더라고.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,142,0",
+        "voice": "GAE21007,3"
+      },
+      "original": "そうか、ありがとう。\nじゃましない程度に、部屋に寄ってみようかな。\n",
+      "translation": "그렇구나, 고마워. 방해되지 않을 정도로,\n방에 들러볼까.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,166,0",
+        "voice": "GAE21008,3"
+      },
+      "original": "ごゆっくり～★\n",
+      "translation": "편히 쉬어～★\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAE21008,3"
+      },
+      "original": "ミント、タクトだけど。\nちょっといいかな？\n",
+      "translation": "민트, 택트인데. 잠시 괜찮을까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,0,0",
+        "voice": "GAE21009,3"
+      },
+      "original": "あ、はい。\nどうぞお入りください。\n",
+      "translation": "아, 네. 어서 들어오세요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAE21009,3"
+      },
+      "original": "それじゃ、おじゃまするよ。\n",
+      "translation": "그럼, 실례할게.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,121,0",
+        "voice": "GAE21010,3"
+      },
+      "original": "いらっしゃいませ。\n今、お茶をご用意しますわ。\n",
+      "translation": "어서 오세요. 지금 바로 차를 준비해 드릴게요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,121,0",
+        "voice": "GAE21010,3"
+      },
+      "original": "いや、おかまいなく。\nこんな時間に、悪いね。\n",
+      "translation": "아니, 신경 쓰지 마. 이런 시간에 미안하네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,121,0",
+        "voice": "GAE21011,3"
+      },
+      "original": "いいえ。\n私も、ちょうどよい気分転換になりますわ。\n",
+      "translation": "아니에요. 저도 딱 좋은 기분 전환이 될 것\n같아요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,121,0",
+        "voice": "GAE21011,3"
+      },
+      "original": "気分転換？\n",
+      "translation": "기분 전환?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,102,0",
+        "voice": "GAE21012,3"
+      },
+      "original": "父に手紙を書いていたのですが、どうにもうまく\n書けなくて……。\nさっきから、何度も書き直しておりましたの。\n",
+      "translation": "아버지께 편지를 쓰고 있었습니다만, 도무지\n잘 써지지 않아서…… 아까부터 몇 번이나\n다시 쓰고 있었답니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "face": "101,0,108,0",
+        "speaker": "004",
+        "voice": "GAE21013,3"
+      },
+      "original": "いざ改まって書こうとすると、意外に難しいもの\nですわね。\n",
+      "translation": "막상 정식으로 쓰려고 하면, 의외로 어려운\n법이 네요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "face": "001,0,108,0",
+        "speaker": "001",
+        "voice": "GAE21013,3"
+      },
+      "original": "そうかもしれないな。\nだけど、文字だからこそ、面と向かって話すとき\nよりも気持ちが伝わることもあると思うよ。\n",
+      "translation": "그럴지도 모르겠네. 하지만, 글자이기 때문에,\n직접 마주 보고 이야기할 때 보다 마음이\n전달될 때도 있다고 생각해.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,102,0",
+        "voice": "GAE21014,3"
+      },
+      "original": "ええ、そう思いますわ。\n",
+      "translation": "네, 그렇게 생각해요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "voice": "GAE21015,3",
+        "speaker": "004",
+        "face": "101,0,101,0"
+      },
+      "original": "でも……。\nうまく書けないのは、きっと……私が、気持ちに\n整理をつけられていないせいなのでしょうね。\n",
+      "translation": "하지만…… 글을 잘 쓸 수 없는 건, 분명……\n제가, 마음의 정리를 하지 못하고 있기\n때문이겠지요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "face": "004,0,101,0",
+        "speaker": "001",
+        "voice": "GAE21015,3"
+      },
+      "original": "ミント……。\n心配なのかい、明日のことが……？\n",
+      "translation": "민트…… 걱정되는 거니, 내일 일이……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "face": "101,0,102,0",
+        "speaker": "004",
+        "voice": "GAE21016,3"
+      },
+      "original": "……いいえ、心配なんてしていませんわ。\nタクトさんと一緒にいれば、大丈夫ですもの。\n",
+      "translation": "……아니요, 걱정 같은 건 하지 않아요. 택트\n씨와 함께 있으면, 괜찮으니까요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "voice": "GAE21016,3",
+        "speaker": "001",
+        "face": "004,0,102,0"
+      },
+      "original": "ミント……。\n",
+      "translation": "민트……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "face": "001,0,102,0",
+        "voice": "GAE21016,3",
+        "speaker": "001"
+      },
+      "original": "無理しなくていいよ。\n不安なときは、不安だって素直に言っていいんだ。\n",
+      "translation": "무리하지 않아도 돼. 불안할 때는, 불안하다고\n솔직하게 말해도 된단다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,120,0",
+        "voice": "GAE21017,3"
+      },
+      "original": "タクトさん……。\n",
+      "translation": "택트 씨……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,120,0",
+        "voice": "GAE21017,3"
+      },
+      "original": "オレにはわかる。\nテレパシーは使えないけど、ミントの気持ちは、\n伝わってくるよ。\n",
+      "translation": "난 알 수 있어. 텔레파시는 쓸 수 없지만,\n민트의 마음은, 전해져 오거든.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,106,0",
+        "voice": "GAE21040,3"
+      },
+      "original": "……本当に……なぜ、あなたというかたは……。\n",
+      "translation": "……정말로…… 어째서 당신이라는 사람은……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,106,0",
+        "voice": "GAE21040,3"
+      },
+      "original": "え……？\n",
+      "translation": "에……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "voice": "GAE21041,3",
+        "speaker": "004",
+        "face": "101,0,108,0"
+      },
+      "original": "どんなに心を装っても……タクトさんは私のそば\nへと踏み込んで来てしまう……。\n",
+      "translation": "아무리 마음을 꾸며내도…… 택트 씨는 제 곁\n으로 파고들어 오고 말아요……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0036",
+      "channel": 1,
+      "context": {
+        "voice": "GAE21041,3",
+        "speaker": "001",
+        "face": "006,0,108,0"
+      },
+      "original": "ミント……。\n",
+      "translation": "민트……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0037",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,106,0",
+        "voice": "GAE21042,3"
+      },
+      "original": "……初めは、それが少し怖かったんです。\n今まで、まわりにそんな人はいなかったから……。\nでも、今は……。\n",
+      "translation": "……처음에는, 그게 조금 무서웠어요. 지금까\n지 , 주변에 그런 사람은 없었으니까……\n하지만, 지금은……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0038",
+      "channel": 1,
+      "context": {
+        "voice": "GAE21043,3",
+        "speaker": "004",
+        "face": "101,0,108,0"
+      },
+      "original": "あの……タクトさん……。\n",
+      "translation": "저기…… 택트 씨……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0039",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,108,0",
+        "voice": "GAE21043,3"
+      },
+      "original": "何だい？\n",
+      "translation": "왜 그러니?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0040",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,108,0",
+        "voice": "GAE21044,3"
+      },
+      "original": "今度は……私が、タクトさんのおそばに行っても、\nいいですか……？\n",
+      "translation": "이번에는…… 제가, 택트 씨의 곁에 있어도,\n될까요……?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0041",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "008,0,108,0",
+        "voice": "GAE21044,3"
+      },
+      "original": "……ああ、もちろん。\nおいで、ミント。\n",
+      "translation": "……아아, 물론이지. 이리 오렴, 민트.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0042",
+      "channel": 1,
+      "context": {
+        "face": "105,0,0,0",
+        "voice": "GAE21019,3",
+        "speaker": "004"
+      },
+      "original": "つい、考えてしまうんですの。\n明日、出撃して……もしも帰って来られなかった\nら……と。\n",
+      "translation": "그만, 생각하게 돼요. 내일, 출격해서……\n만약 돌아오지 못한다 면…… 하고.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0043",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAE21019,3"
+      },
+      "original": "大丈夫だ。\nミントは、オレが守ってみせる。\n",
+      "translation": "괜찮아. 민트는, 내가 지켜 보일게.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0044",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "102,0,0,0",
+        "voice": "GAE21020,3"
+      },
+      "original": "はい……。\n私も、タクトさんのために戦いますわ。\nふたりで、この先も生きるために。\n",
+      "translation": "네…… 저도, 택트 씨를 위해 싸울 거예요.\n둘이서, 앞으로도 살아가기 위해서.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0045",
+      "channel": 1,
+      "context": {
+        "face": "121,0,0,0",
+        "speaker": "004",
+        "voice": "GAE21021,3"
+      },
+      "original": "タクトさん、あのとき父の前でおっしゃったこと、\n覚えていらっしゃいますか？\n",
+      "translation": "택트 씨, 그때 아버지 앞에서 하셨던 말씀,\n기억하고 계시나요?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0046",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "121,0,0,0",
+        "voice": "GAE21022,3"
+      },
+      "original": "タクトさんが私を必要としているのは、紋章機の\nパイロットとしてだけではない……と。\n",
+      "translation": "택트 씨가 저를 필요로 하는 것은, 문장기의\n파일럿으로서뿐만이 아니라고……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0047",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAE21022,3"
+      },
+      "original": "ああ、もちろん覚えているさ。\nあの気持ちは、今でも同じだよ。\n",
+      "translation": "아아, 물론 기억하고 있지. 그 마음은, 지금도\n마찬가지야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0048",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "121,0,0,0",
+        "voice": "GAE21023,3"
+      },
+      "original": "うれしいです……とても。\n",
+      "translation": "기뻐요…… 정말로.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0049",
+      "channel": 1,
+      "context": {
+        "face": "121,0,0,0",
+        "speaker": "004",
+        "voice": "GAE21024,3"
+      },
+      "original": "タクトさん……。\nわかりますか？\n今の私の気持ちが……。\n",
+      "translation": "택트 씨…… 알고 계시나요? 지금 제 마음\n이… ….\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0050",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAE21024,3"
+      },
+      "original": "ああ、わかるよ……。\nミントのぬくもりと一緒に、心の動きが伝わって\nくる。\n",
+      "translation": "아아, 알고 있어…… 민트의 온기와 함께,\n마음의 움직임이 전해져 오고 있어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0051",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAE21024,3"
+      },
+      "original": "さっきまでの不安が消えて……代わりに、とても\n安らいだ気持ちが広がっている……。\n",
+      "translation": "방금 전까지의 불안이 사라지고…… 대신에,\n무척 평온한 마음이 퍼지고 있어……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0052",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,0,0",
+        "voice": "GAE21025,3"
+      },
+      "original": "はい、そうですわ……。\nタクトさんと一緒にいるから……。\n",
+      "translation": "네, 맞아요…… 택트 씨와 함께 있으니까……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0053",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,0,0",
+        "voice": "GAE21026,3"
+      },
+      "original": "ずっと、こうしていたいですわ……。\n",
+      "translation": "계속, 이렇게 있고 싶어요……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0054",
+      "channel": 1,
+      "context": {
+        "face": "001,0,0,0",
+        "voice": "GAE21026,3",
+        "speaker": "001"
+      },
+      "original": "オレもだよ、ミント。\n",
+      "translation": "나도 그래, 민트.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0055",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,0,0",
+        "voice": "GAE21027,3"
+      },
+      "original": "タクトさん……。\n",
+      "translation": "택트 씨……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0056",
+      "channel": 1,
+      "context": {
+        "voice": "GAE21028,3",
+        "speaker": "004",
+        "face": "121,0,0,0"
+      },
+      "original": "タクトさんとなら、何があっても乗り越えられる\nような気がしますわ。\nこの前のときのように……。\n",
+      "translation": "택트 씨와 함께라면, 무슨 일이 있어도 극복할\n수 있을 것 같은 기분이 들어요. 지난번\n그때처럼……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0057",
+      "channel": 1,
+      "context": {
+        "voice": "GAE21028,3",
+        "speaker": "001",
+        "face": "001,0,0,0"
+      },
+      "original": "ああ、きっとできるさ。\nミントと一緒なら……。\n",
+      "translation": "아아, 분명 그럴 거야. 민트와 함께라면……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0058",
+      "channel": 1,
+      "context": {
+        "face": "004,0,102,0",
+        "voice": "GAE21028,3",
+        "speaker": "001"
+      },
+      "original": "オレには自信がないよ……。\n明日の戦いに勝つことも……いや、ミントを守る\nことができるかどうか、それさえも……。\n",
+      "translation": "나에게는 자신이 없어…… 내일의 전투에서\n이기는 것도…… 아니, 민트를 지킬 수\n있을지, 그조차도……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0059",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,120,0",
+        "voice": "GAE21029,3"
+      },
+      "original": "そんな……。\n本気でおっしゃっておりますの、タクトさん？\n",
+      "translation": "그럴 수가…… 진심으로 말씀하시는 건가요,\n택트 씨?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0060",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,120,0",
+        "voice": "GAE21029,3"
+      },
+      "original": "ああ……正直に言って、怖い。\n",
+      "translation": "아아…… 솔직히 말해서, 무서워.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0061",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,103,0",
+        "voice": "GAE21030,3"
+      },
+      "original": "見そこないましたわ！\nここまで来て、まだそんなことを！\n",
+      "translation": "잘못 보았습니다! 여기까지 와서, 아직 그런\n말씀을!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0062",
+      "channel": 1,
+      "context": {
+        "voice": "GAE21030,3",
+        "speaker": "001",
+        "face": "006,0,103,0"
+      },
+      "original": "ミント……！？\n",
+      "translation": "민트……!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0063",
+      "channel": 1,
+      "context": {
+        "face": "101,0,105,0",
+        "voice": "GAE21031,3",
+        "speaker": "004"
+      },
+      "original": "私だって、本当は怖いですわ。\n不安で押しつぶされそうなんです！\n",
+      "translation": "저도, 사실은 무서워요. 불안해서 짓눌릴 것만\n같아요!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0064",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,105,0",
+        "voice": "GAE21032,3"
+      },
+      "original": "でも、タクトさんが後ろで見守っていてくだされ\nば、恐れも不安もなく戦える……。\nそう思っておりました。\n",
+      "translation": "하지만, 택트 씨가 뒤에서 지켜봐 주신다 면,\n두려움도 불안도 없이 싸울 수 있다……\n그렇게 생각하고 있었습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0065",
+      "channel": 1,
+      "context": {
+        "face": "101,0,120,0",
+        "voice": "GAE21033,3",
+        "speaker": "004"
+      },
+      "original": "それなのに、タクトさんがそんなご様子では……。\nタクトさんは、どんなときも決してあきらめない\nお人だと思っていましたのに。\n",
+      "translation": "그런데, 택트 씨가 그런 모습이시면…… 택트\n씨는, 어떤 때라도 결코 포기하지 않는\n분이라고 생각했습니다만.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0066",
+      "channel": 1,
+      "context": {
+        "face": "004,0,120,0",
+        "speaker": "001",
+        "voice": "GAE21033,3"
+      },
+      "original": "……わかってるよ。\n明日の戦いまでには、元のオレに戻るから。\n",
+      "translation": "……알고 있어. 내일의 전투 전까지는, 원래의\n나로 돌아갈게.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0067",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,103,0",
+        "voice": "GAE21034,3"
+      },
+      "original": "そうですか。\nそれは、ぜひとも期待させていただきますわ。\n",
+      "translation": "그렇습니까. 그것은, 꼭 기대하도록 하겠습니\n다 .\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0068",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,103,0",
+        "voice": "GAE21035,3"
+      },
+      "original": "……私、明日は全力をつくして戦いますわ。\nタクトさんの状態がどうであろうと。\n",
+      "translation": "……저, 내일은 전력을 다해 싸우겠어요. 택트\n씨의 상태가 어떠하든 말이에요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0069",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,120,0",
+        "voice": "GAE21036,3"
+      },
+      "original": "ただし、私が戦う理由は、タクトさんのためでは\nありません！\n自分のため、皇国のためですわ！\n",
+      "translation": "단, 제가 싸우는 이유는, 택트 씨를 위해서 가\n아닙니다! 제 자신을 위해, 황국을 위해서예요!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0070",
+      "channel": 1,
+      "context": {
+        "face": "101,0,120,0",
+        "speaker": "004",
+        "voice": "GAE21037,3"
+      },
+      "original": "ですからタクトさんも……いえ、マイヤーズ司令\nも、私のことなど気にせず存分に采配を振るって\nくださいませ。\n",
+      "translation": "그러니 택트 씨도…… 아니, 마이어스 사령관\n님도, 제 걱정은 하지 마시고 마음껏 지휘를\n해 주세요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0071",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,103,0",
+        "voice": "GAE21038,3"
+      },
+      "original": "私は、ただのパイロットのひとりなんですから。\n",
+      "translation": "저는, 그저 파일럿 중 한 명일 뿐이니까요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0072",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,103,0",
+        "voice": "GAE21038,3"
+      },
+      "original": "そんな……。\nオレはミントのことを、そんな風には……。\n",
+      "translation": "그럴 수가…… 나는 민트를, 그런 식으로……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0073",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,106,0",
+        "voice": "GAE21039,3"
+      },
+      "original": "申し訳ありません。\n明日に備えて、今夜はもう休ませていただきます。\n",
+      "translation": "죄송합니다. 내일을 대비해서, 오늘 밤은 이만\n쉬도록 하겠습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0074",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,106,0",
+        "voice": "GAE21039,3"
+      },
+      "original": "……あ、うん……。\nおやすみ……。\n",
+      "translation": "……아, 응…… 잘 자……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0075",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0",
+        "voice": "GAE21039,3"
+      },
+      "original": "ふぅ……。\nまさかミントが、あんなことを言うなんて……。\n",
+      "translation": "후우…… 설마 민트가, 그런 말을 하다니……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0076",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0",
+        "voice": "GAE21039,3"
+      },
+      "original": "……いや、ミントの言っていることは正しい。\nどうかしているのは、オレの方だ。\n",
+      "translation": "……아니, 민트가 말하는 것은 옳다. 제정신이\n아닌 건, 내 쪽이다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0077",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAE21039,3"
+      },
+      "original": "個人のちっぽけな感情に流されて、明日の決戦に\n影響が出たら、取り返しがつかない。\nここで踏ん切りをつけなきゃ。\n",
+      "translation": "개인의 하찮은 감정에 휩쓸려서, 내일의\n결전에 영향을 끼치면, 돌이킬 수 없다.\n여기서 마음을 다잡아야 해.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0078",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAE21039,3"
+      },
+      "original": "明日になったら、オレはいつものオレに戻るんだ。\nそうさ……エルシオールとエンジェル隊の司令官、\nタクト・マイヤーズに。\n",
+      "translation": "내일이 되면, 나는 평소의 나로 돌아가는\n거야. 그래…… 에르시올과 엔젤대의 사령관,\n택트・마이어스로.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b0000:dialogue:0079",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0",
+        "voice": "GAE21039,3"
+      },
+      "original": "……ただの司令官に……。\n",
+      "translation": "……그저 사령관으로……\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

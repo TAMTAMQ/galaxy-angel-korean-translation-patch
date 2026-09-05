@@ -1,0 +1,284 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000a9800.txt",
+    "encoding": "cp932",
+    "sha256": "fd61ce5339e6c3d60ad217324b41b3b4165a94bdfb4fddbc9498d553937b22d6",
+    "dialogue_count": 21
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000a9800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "033",
+        "face": "541,0,351,0",
+        "voice": "GAE09001,3"
+      },
+      "original": "これは、マイヤーズ司令。\n皇子に何かご用でしょうか？\n",
+      "translation": "이것은, 마이어스 사령관님. 황자님께 무슨\n용건이라도 있으신지요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a9800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,351,0",
+        "voice": "GAE09001,3"
+      },
+      "original": "あ、はい。\nお目通りを願いたいのですが。\n",
+      "translation": "아, 예. 알현을 청하고 싶습니다만.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a9800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "033",
+        "face": "541,0,351,0",
+        "voice": "GAE09002,3"
+      },
+      "original": "承知いたしました。\nどうぞ、お入りください。\n",
+      "translation": "알겠습니다. 부디, 들어오십시오.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a9800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "281,0,271,0",
+        "voice": "GAE09003,3"
+      },
+      "original": "マイヤーズか。\nどうした、こんな時間に？\n",
+      "translation": "마이어스인가. 어찌 된 일이냐, 이런 시간에?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a9800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,271,0",
+        "voice": "GAE09003,3"
+      },
+      "original": "はい、明日のことで少し……。\n",
+      "translation": "예, 내일 일로 잠시……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a9800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,271,0",
+        "voice": "GAE09003,3"
+      },
+      "original": "……って、よく考えたら、どうしてシヴァ皇子が\nここにいらっしゃるんです？\n",
+      "translation": "……라기보다, 잘 생각해보니 왜 시바 황자님이\n여기에 계시는 거죠?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a9800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "281,0,271,0",
+        "voice": "GAE09004,3"
+      },
+      "original": "私がいたら、問題でもあるか？\n",
+      "translation": "내가 있으면, 문제라도 있는 거냐?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a9800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,271,0",
+        "voice": "GAE09004,3"
+      },
+      "original": "そういうわけじゃないですけど……。\nエルシオールじゃなくて、『白き月』のお部屋に\n戻っているのかと思ったもので。\n",
+      "translation": "그런 건 아니지만…… 에르시올이 아니라,\n『백색 달』의 방으로 돌아가 계신 줄 알았습니\n다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a9800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "281,0,283,0",
+        "voice": "GAE09005,3"
+      },
+      "original": "おお！\n確かに、言われてみればそうだな。\n",
+      "translation": "오오! 확실히, 듣고 보니 그렇군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a9800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,283,0",
+        "voice": "GAE09005,3"
+      },
+      "original": "気がついてなかったんですか？\n何だかなぁ……。\n",
+      "translation": "눈치채지 못하고 계셨던 건가요? 뭐랄까……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a9800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "281,0,281,0",
+        "voice": "GAE09006,3"
+      },
+      "original": "長い間、この艦にいたせいで、すっかりなじんで\nしまったようだ。\n",
+      "translation": "오랜 시간, 이 함선에 있었던 탓에, 완전히\n익숙해 져 버린 모양이다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a9800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,281,0",
+        "voice": "GAE09006,3"
+      },
+      "original": "オレがおじゃましたのも、それに関係あるんです。\n明日の決戦では、どうか『白き月』にお移りくだ\nさい。\n",
+      "translation": "제가 찾아온 것도, 그것과 관계가 있습니다.\n내일의 결전에서는, 부디 『백색 달』로 옮겨\n주십시오.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a9800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "voice": "GAE09007,3",
+        "face": "281,0,271,0",
+        "speaker": "011"
+      },
+      "original": "私がエルシオールに乗っていてはいかんのか？\nこれまでも、そうして来たであろうが。\n",
+      "translation": "내가 에르시올에 타고 있으면 안 되는 거냐?\n지금까지도, 그렇게 해왔을 터다만.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a9800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "face": "001,0,271,0",
+        "speaker": "001",
+        "voice": "GAE09007,3"
+      },
+      "original": "それは、ほかに選択肢がなかったからですよ。\nでも、今は違います。\n",
+      "translation": "그건, 다른 선택지가 없었기 때문입니다.\n하지만, 지금은 다릅니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a9800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,271,0",
+        "voice": "GAE09007,3"
+      },
+      "original": "『白き月』にいらっしゃる方が安全なんですから、\n　そこでオレたちの戦いを見守っていてください。\n",
+      "translation": "『백색 달』에 계시는 편이 안전하시니까,\n거기서 저희들의 싸움을 지켜봐 주세요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a9800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "face": "281,0,282,0",
+        "speaker": "011",
+        "voice": "GAE09008,3"
+      },
+      "original": "ふむ……。\nしかたあるまい。\n私がエルシオールにいても、役には立たんしな。\n",
+      "translation": "흠…… 어쩔 수 없겠군. 내가 에르시올에 있어\n봤자, 도움이 되지 않으니 말이다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a9800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "281,0,271,0",
+        "voice": "GAE09009,3"
+      },
+      "original": "わかった、私はシャトヤーン様とともに『白き月』\nから見守らせてもらう。\nその代わり、ぶざまな戦いをしたら、許さんぞ？\n",
+      "translation": "알았다, 나는 샤토얀 님과 함께 『백색 달』\n에서 지켜보도록 하마. 그 대신, 꼴사나운\n싸움을 한다면, 용서치 않겠다?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a9800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,271,0",
+        "voice": "GAE09009,3"
+      },
+      "original": "わかってます。\n了解してくださって、感謝します。\n",
+      "translation": "알고 있습니다. 이해해주셔서, 감사합니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a9800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,271,0",
+        "voice": "GAE09009,3"
+      },
+      "original": "それでは、オレはこれで。\nおやすみなさい。\n",
+      "translation": "그럼, 저는 이만. 안녕히 주무십시오.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a9800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "281,0,271,0",
+        "voice": "GAE09010,3"
+      },
+      "original": "うむ。\n明日はよろしく頼むぞ、マイヤーズ。\n",
+      "translation": "음. 내일은 잘 부탁한다, 마이어스.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000a9800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "009,0,281,0",
+        "voice": "GAE09010,3"
+      },
+      "original": "■■シーン５・謁見の間　２　イベント■■\n",
+      "translation": "■■씬 5・알현의 방 2 이벤트■■\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

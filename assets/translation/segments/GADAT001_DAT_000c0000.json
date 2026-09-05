@@ -1,0 +1,362 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000c0000.txt",
+    "encoding": "cp932",
+    "sha256": "63c0471684c65b4dd2e74738f6eab219adefc011a5f56bb457c3589350a58a0a",
+    "dialogue_count": 27
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,0,0",
+        "voice": "GAF11001,3"
+      },
+      "original": "……終わったな……。\n",
+      "translation": "……끝났군……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAF11001,3"
+      },
+      "original": "ああ……。\n",
+      "translation": "아아……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "502,0,0,0",
+        "voice": "GAF11002,3"
+      },
+      "original": "通信、回復しました！\n",
+      "translation": "통신, 회복되었습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAF11002,3"
+      },
+      "original": "よし、さっそくエンジェル隊につないでくれ。\n",
+      "translation": "좋아, 곧바로 엔젤대에 연결해 줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAF11002,3"
+      },
+      "original": "エンジェル隊のみんな、聞こえるか？\n",
+      "translation": "엔젤대 여러분, 들리는가?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "057,0,0,0",
+        "voice": "GAF11003,3"
+      },
+      "original": "『黒き月』は、消滅したんですね……。\n",
+      "translation": "『흑색 달』은, 소멸했군요……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "089,0,0,0",
+        "voice": "GAF11004,3"
+      },
+      "original": "やった、やったぁ！\nアタシたちの大勝利よ！\n",
+      "translation": "해냈다, 해냈어! 우리들의 대승리야!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "102,0,0,0",
+        "voice": "GAF11005,3"
+      },
+      "original": "これで……ようやく安心して眠れる日々が戻って\nきますわね。\n",
+      "translation": "이것으로…… 겨우 안심하고 잠들 수 있는\n나날이 돌아오겠네요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "164,0,0,0",
+        "voice": "GAF11006,3"
+      },
+      "original": "やれやれ……。\nどうなることかと思ったけど、何とか勝てたね。\n",
+      "translation": "이런 이런…… 어떻게 되나 싶었지만, 어떻게든\n이겼네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,0,0,0",
+        "voice": "GAF11007,3"
+      },
+      "original": "……この戦いも、ついに終わったのですね。\n",
+      "translation": "……이 싸움도, 드디어 끝난 것이군요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAF11007,3"
+      },
+      "original": "みんな、本当によくやってくれた。\nありがとう。\n",
+      "translation": "모두, 정말 수고 많았다. 고맙다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "502,0,0,0",
+        "voice": "GAF11008,3"
+      },
+      "original": "『白き月』から通信です！\n",
+      "translation": "『백색 달』로부터의 통신입니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "face": "007,0,0,0",
+        "voice": "GAF11008,3",
+        "speaker": "001"
+      },
+      "original": "『白き月』から？\n　つないでくれ！\n",
+      "translation": "『백색 달』에서? 　연결해 줘!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "010",
+        "face": "266,0,0,0",
+        "voice": "GAF11009,3"
+      },
+      "original": "マイヤーズ司令、よくぞ『黒き月』を打ち倒して\nくださいました。\n",
+      "translation": "마이어스 사령관, 잘도 『흑색 달』을 물리쳐\n주셨습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "010",
+        "face": "266,0,0,0",
+        "voice": "GAF11020,3"
+      },
+      "original": "これでトランスバール皇国と……そして、そこに\n生きる数え切れない人々の未来が、救われました。\n",
+      "translation": "이것으로 트랜스벌 황국과…… 그리고, 그곳에\n살아가는 수많은 사람들의 미래가, 구원받았습\n니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "010",
+        "face": "266,0,0,0",
+        "voice": "GAF11012,3"
+      },
+      "original": "本当にありがとう、マイヤーズ司令。\n",
+      "translation": "정말 고맙습니다, 마이어스 사령관.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,0,0",
+        "voice": "GAF11012,3"
+      },
+      "original": "いいえ、そんな。\nオレはただ、成り行きでここまでやっただけです。\n",
+      "translation": "아니요, 그런. 저는 그저, 흐름에 따라\n여기까지 했을 뿐입니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "voice": "GAF11013,3",
+        "speaker": "011",
+        "face": "286,0,0,0"
+      },
+      "original": "いや、よくやってくれた、マイヤーズ。\nそなたは、皇国の英雄と呼ぶにふさわしい男だ。\n",
+      "translation": "아니, 잘 해주었다, 마이어스. 그대는, 황국의\n영웅이라 부르기에 어울리는 남자다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "face": "286,0,0,0",
+        "voice": "GAF11014,3",
+        "speaker": "011"
+      },
+      "original": "私からも礼を言わせてもらう。\nありがとう。\n",
+      "translation": "나도 감사를 표하겠다. 고맙다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,0,0",
+        "voice": "GAF11014,3"
+      },
+      "original": "よしてくださいよ、シヴァ皇子まで。\nそれに、礼を言うならエンジェル隊にですよ。\n",
+      "translation": "부담스럽게 말이죠, 시바 황자님까지. 그리고,\n감사를 전한다면 엔젤대에 해야 합니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,0,0",
+        "voice": "GAF11015,3"
+      },
+      "original": "いいえ、お役に立ててよかったです。\nホッとしました……。\n",
+      "translation": "아니요, 도움이 될 수 있어서 다행입니다.\n안심이 되네요……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "087,0,0,0",
+        "voice": "GAF11016,3"
+      },
+      "original": "いいって、別に。\nこれで最後なんだからさ。\n",
+      "translation": "됐어, 별거 아냐. 이걸로 마지막이니까 말이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "122,0,0,0",
+        "voice": "GAF11017,3"
+      },
+      "original": "部下として、当然のことをしたまでですわ。\n",
+      "translation": "부하로서 당연한 일을 했을 뿐이에요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "142,0,0,0",
+        "voice": "GAF11018,3"
+      },
+      "original": "まぁ、仕事をキッチリ果たしただけのことさ。\n",
+      "translation": "뭐, 업무를 확실히 완수한 것뿐이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,0,0,0",
+        "voice": "GAF11019,3"
+      },
+      "original": "……いえ……。\n私は、自分にできることをしたまでです……。\n",
+      "translation": "……아니요…… 저는, 제가 할 수 있는 일을\n했을 뿐입니다……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAF11019,3"
+      },
+      "original": "うん……。\nでも、本当にありがとう。\n心から感謝しているよ。\n",
+      "translation": "응…… 하지만, 정말 고마워. 진심으로\n감사하고 있어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c0000:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,0,0",
+        "voice": "GAF11019,3"
+      },
+      "original": "さあ、『白き月』に帰還しよう！\n",
+      "translation": "자, 『백색 달』로 귀환하자!\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

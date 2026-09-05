@@ -1,0 +1,102 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000fc000.txt",
+    "encoding": "cp932",
+    "sha256": "f226ab9b8d42c1651d0ea31a8af391007b533fa5c0380c09215c8bd2b4230c39",
+    "dialogue_count": 7
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000fc000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "012",
+        "face": "312,0,289,0",
+        "voice": "GA804001,3"
+      },
+      "original": "何だ、あの輝きは……！\nあの翼はいったい、何なのだ！？\n",
+      "translation": "뭐냐, 저 빛은……! 저 날개는 대체, 무엇이\n지! ?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fc000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "042",
+        "face": "361,308,0,0",
+        "voice": "GA804002,3"
+      },
+      "original": "わ、わかりません……。\nノア様のフィールドの中で、動けるはずは……。\n",
+      "translation": "모, 모르겠습니다…… 노아님의 필드 안에서,\n움직일 수 있을 리가……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fc000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "012",
+        "face": "312,0,288,0",
+        "voice": "GA804003,3"
+      },
+      "original": "……ともかく、ここは様子を見た方がよさそうだ。\nいったん後方へ引くぞ。\n",
+      "translation": "……어쨌든, 여기는 상황을 지켜보는 게\n좋겠군. 일단 후방으로 물러난다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fc000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "042",
+        "face": "361,306,0,0",
+        "voice": "GA804004,3"
+      },
+      "original": "はっ。\n",
+      "translation": "옛.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fc000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GA804005,3"
+      },
+      "original": "エンジェル隊、配置完了しました。\n",
+      "translation": "엔젤대, 배치 완료했습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fc000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GA804006,3"
+      },
+      "original": "エルシオール、システムすべて良好。\n攻撃準備、整いました。\n",
+      "translation": "에르시올, 시스템 모두 양호. 공격 준비,\n마쳤습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fc000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GA804006,3"
+      },
+      "original": "了解。\nみんな、今から作戦を説明する。\n",
+      "translation": "양해했다. 모두, 지금부터 작전을 설명하겠다.\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

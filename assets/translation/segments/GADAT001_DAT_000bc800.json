@@ -1,0 +1,466 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000bc800.txt",
+    "encoding": "cp932",
+    "sha256": "70c0a129fef777bc8a6f26ca4db90a16be6d70de6ef4c53c15cf5d4251d07609",
+    "dialogue_count": 35
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "083,0,0,0",
+        "voice": "GAF05001,3"
+      },
+      "original": "タクト、もうダメ！\n機関部をやられて、出力が上がらない！\n後方に下がるわ！\n",
+      "translation": "택트, 이제 안 돼! 기관부를 공격당해서\n출력이 올라가지 않아! 후방으로 물러날게!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "114,0,0,0",
+        "voice": "GAF05002,3"
+      },
+      "original": "すみません、私もバランサーが故障しましたわ。\n戦線を離脱します！\n",
+      "translation": "죄송해요, 저도 밸런서가 고장 났어요. 전선을\n이탈하겠습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GAF05002,3"
+      },
+      "original": "わかった！\nヴァニラ、ふたりの機体を修理してくれ！\n",
+      "translation": "알았어! 바닐라, 두 사람의 기체를 수리해 줘!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "195,0,0,0",
+        "voice": "GAF05003,3"
+      },
+      "original": "了解、援護に向かいます。\n",
+      "translation": "양해했습니다, 엄호하러 가겠습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "146,0,0,0",
+        "voice": "GAF05004,3"
+      },
+      "original": "後は、あたしとミルフィーだけか。\n弾幕が薄くなっちまうね……。\n",
+      "translation": "남은 건 나랑 밀피뿐인가. 탄막이 얇아지겠는\n걸 ……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "050,0,0,0",
+        "voice": "GAF05005,3"
+      },
+      "original": "フォルテさん！\n危ない、後ろ！\n",
+      "translation": "포르테 씨! 위험해, 뒤쪽!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "157,0,0,0",
+        "voice": "GAF05006,3"
+      },
+      "original": "うわあぁっ！\n",
+      "translation": "우와아악!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "007,0,0,0",
+        "voice": "GAF05006,3"
+      },
+      "original": "フォルテ！？\n",
+      "translation": "포르테!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "157,0,0,0",
+        "voice": "GAF05007,3"
+      },
+      "original": "ちくしょう、やられた……。\n悪い、ハッピートリガーも、もう動けないよ。\n",
+      "translation": "제기랄, 당했다…… 미안, 해피 트리거도 이제\n움직일 수 없어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "025,0,0,0",
+        "voice": "GAF05008,3"
+      },
+      "original": "フォルテさん、離脱してください。\nあたしだけでも、エルシオールを守ります！\n",
+      "translation": "포르테 씨, 이탈해 주세요. 저만이라도\n에르시올을 지키겠어요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GAF05008,3"
+      },
+      "original": "ミルフィー、無理するな！\n君までやられたら……！\n",
+      "translation": "밀피, 무리하지 마! 너까지 당하면……!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "025,0,0,0",
+        "voice": "GAF05009,3"
+      },
+      "original": "いいえ、大丈夫です！\nあたし、やります！\n",
+      "translation": "아니요, 괜찮아요! 저, 해낼게요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "025,0,0,0",
+        "voice": "GAF05010,3"
+      },
+      "original": "タクトさん、言いましたよね？\nあきらめたら、そこで終わりだって。\n",
+      "translation": "택트 씨, 말씀하셨죠? 포기하면 거기서\n끝이라고.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "025,0,0,0",
+        "voice": "GAF05011,3"
+      },
+      "original": "だから……あたし、あきらめません！\n",
+      "translation": "그러니까…… 저, 포기하지 않아요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "voice": "GAF05011,3",
+        "speaker": "001",
+        "face": "003,0,0,0"
+      },
+      "original": "ミルフィー……。\n",
+      "translation": "밀피……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "041,0,0,0",
+        "voice": "GAF05012,3"
+      },
+      "original": "エルシオール、応答願います！\n返事をしてください！\nタクトさん！\n",
+      "translation": "에르시올, 응답 바랍니다! 대답해 주세요! 택트\n씨!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "027,0,0,0",
+        "voice": "GAF05013,3"
+      },
+      "original": "……どうしよう。\nどうしたらいいの……！？\n",
+      "translation": "……어떡하지. 어떻게 해야 해……!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "042,0,0,0",
+        "voice": "GAF05014,3"
+      },
+      "original": "今、動けるのは、あたしだけ……。\nあたしだけになっちゃった……。\n",
+      "translation": "지금 움직일 수 있는 건, 나뿐…… 나뿐이\n되어버렸어……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "025,0,0,0",
+        "voice": "GAF05015,3"
+      },
+      "original": "……ううん。\nあたしが何とかしなきゃ。\nあたしが……！\n",
+      "translation": "……아니. 내가 어떻게든 해야 해. 내가……!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "025,0,0,0",
+        "voice": "GAF05016,3"
+      },
+      "original": "タクトさんが言ってた……。\nあたしは、幸運の女神だって。\n",
+      "translation": "택트 씨가 말했었어…… 나는, 행운의 여신이라\n고.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "041,0,0,0",
+        "voice": "GAF05017,3"
+      },
+      "original": "ラッキースター！\nあなたもがんばって！\nあたしたちで、みんなを助けなきゃ！\n",
+      "translation": "럭키 스타! 너도 힘내! 우리들이 모두를\n구해야 해!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "041,0,0,0",
+        "voice": "GAF05018,3"
+      },
+      "original": "タクトさんの気持ちに応えたいの！\nお願い、ラッキースター！\nあたしに力を貸して！\n",
+      "translation": "택트 씨의 마음에 보답하고 싶어! 부탁이야,\n럭키 스타! 나에게 힘을 빌려줘!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "face": "040,0,0,0",
+        "speaker": "002",
+        "voice": "GAF05019,3"
+      },
+      "original": "あたしの一生分の幸運を、全部使ってもいいから！\n",
+      "translation": "내 평생의 행운을 전부 써버려도 좋으니까!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "040,0,0,0",
+        "voice": "GAF05020,3"
+      },
+      "original": "だから……だから……！！\n",
+      "translation": "그러니까…… 그러니까……!!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "voice": "GAF05021,3",
+        "speaker": "007",
+        "face": "221,0,225,0"
+      },
+      "original": "こ……これは何なんだ？\n何が起こった！？\n",
+      "translation": "이…… 이건 뭐야? 무슨 일이 일어난 거지!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "face": "491,0,0,338",
+        "voice": "GAF05022,3",
+        "speaker": "016"
+      },
+      "original": "わ、わかりません……。\n急に全システムが復旧して……。\n",
+      "translation": "모, 모르겠습니다…… 갑자기 모든 시스템이\n복구되어……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,343,0,338",
+        "voice": "GAF05023,3"
+      },
+      "original": "とてつもないエネルギーが計測されています！\nクロノ・ブレイク・キャノンも、一瞬でチャージ\nが完了しました！\n",
+      "translation": "엄청난 에너지가 계측되고 있습니다! 크로노・\n브레이크・캐논도, 순식간에 차지 가 완료되었\n습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,343,0,338",
+        "voice": "GAF05023,3"
+      },
+      "original": "……ありがとう、ミルフィー。\n",
+      "translation": "……고마워, 밀피.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GAF05024,3"
+      },
+      "original": "バカな……。\nこんなこと、あるわけが……。\n",
+      "translation": "말도 안 돼…… 이런 일이 있을 리가……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,225,0",
+        "voice": "GAF05024,3"
+      },
+      "original": "レスター！\nクロノ・ブレイク・キャノン、発射準備だ！\n",
+      "translation": "레스터! 크로노・브레이크・캐논, 발사 준비다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GAF05025,3"
+      },
+      "original": "おい、タクト！？\nお前、何でこの状況で落ち着いていられるんだ？\n",
+      "translation": "어이, 택트!? 너, 왜 이런 상황에서 침착할 수\n있는 거야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "face": "002,0,225,0",
+        "voice": "GAF05025,3",
+        "speaker": "001"
+      },
+      "original": "なぁに、ミルフィーのすることだもの。\nあり得ないことが起こるのは、いつものことさ。\n",
+      "translation": "뭐 어때, 밀피가 하는 일인걸. 있을 수 없는\n일이 일어나는 건, 평소에도 있는 일이야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GAF05026,3"
+      },
+      "original": "はぁ……？\n",
+      "translation": "하아……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,223,0",
+        "voice": "GAF05026,3"
+      },
+      "original": "レスター、聞こえなかったのか？\nクロノ・ブレイク・キャノン、発射準備だ！\n",
+      "translation": "레스터, 못 들었나? 크로노・브레이크・캐논,\n발사 준비다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bc800:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GAF05027,3"
+      },
+      "original": "りょ、了解。\nクロノ・ブレイク・キャノン、発射準備！\n",
+      "translation": "아, 알았다. 크로노・브레이크・캐논, 발사\n준비!\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

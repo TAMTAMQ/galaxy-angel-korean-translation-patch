@@ -1,0 +1,206 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000c2000.txt",
+    "encoding": "cp932",
+    "sha256": "fbc3f4fcfc9454a903fa461ca22764337266ae877676425e006b67544a64dbe8",
+    "dialogue_count": 15
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000c2000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "174,0,0,0",
+        "voice": "GAF14001,3"
+      },
+      "original": "それにしても、エルシオールとの通信が途絶えた\nときは焦ったよ。\nミントがいなかったら、どうなっていたことか。\n",
+      "translation": "그건 그렇고, 에르시올과의 통신이 끊겼을 때는\n당황했어. 민트가 없었더라면, 어떻게 되었을\n지 .\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c2000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "022,0,0,0",
+        "voice": "GAF14002,3"
+      },
+      "original": "エルシオールが故障していても通信できたなんて、\nさすがはトリックマスターですよね！\n",
+      "translation": "에르시올이 고장 났어도 통신할 수 있었다니,\n역시 트릭 마스터네요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c2000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,0,0,0",
+        "voice": "GAF14003,3"
+      },
+      "original": "……エルシオールとの連携攻撃も、たくみでした。\n",
+      "translation": "……에르시올과의 연계 공격도, 교묘했습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c2000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,0,0",
+        "voice": "GAF14004,3"
+      },
+      "original": "いいえ、私からも、通信はできない状況でしたわ。\n",
+      "translation": "아니요, 저로서도 통신을 할 수 없는 상황이었\n답니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c2000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "065,0,0,0",
+        "voice": "GAF14005,3"
+      },
+      "original": "ええっ！？\nじゃあ、どうやってお互いに連絡を取ってたの？\n",
+      "translation": "에엣!? 그럼, 어떻게 서로 연락을 주고받은\n거야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c2000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAF14005,3"
+      },
+      "original": "通信はできなかったけど……ミントなら、きっと\nああいう行動をするだろうと思っていたんだ。\n",
+      "translation": "통신은 할 수 없었지만…… 민트라면, 분명\n저런 행동을 할 거라고 생각했어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c2000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "122,0,0,0",
+        "voice": "GAF14006,3"
+      },
+      "original": "私もですわ。\nタクトさんなら、きっとこうするだろうと思って\n動いておりましたの。\n",
+      "translation": "저도 마찬가지랍니다. 택트 씨라면, 분명\n이렇게 하리라 생각하고 움직이고 있었어요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c2000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "089,0,0,0",
+        "voice": "GAF14007,3"
+      },
+      "original": "へぇ～、ステキじゃない！\n通信ができなくても、ふたりの心は通じ合ってる\nのね！\n",
+      "translation": "헤에～, 멋지잖아! 통신을 할 수 없어도, 두\n사람의 마음은 통하고 있는 거네!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c2000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "026,0,0,0",
+        "voice": "GAF14008,3"
+      },
+      "original": "そうだったんだ。\nあたし、後でラッキースターにもトリックマスター\nと同じアンテナをつけてもらおうと思ってたのに。\n",
+      "translation": "그랬구나. 나, 나중에 럭키 스타에게도 트릭\n마스터와 같은 안테나를 달아달라고 하려고\n했는데.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c2000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "voice": "GAF14009,3",
+        "speaker": "006",
+        "face": "181,0,0,0"
+      },
+      "original": "……機体の構造上、不可能だと思います。\n",
+      "translation": "……기체 구조상, 불가능할 것 같습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c2000:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "voice": "GAF14010,3",
+        "speaker": "005",
+        "face": "142,0,0,0"
+      },
+      "original": "それに、『黒き月』との戦いは終わったんだよ。\nこれ以上、誰と戦おうってんだい？\n",
+      "translation": "게다가, 『흑색 달』과의 싸움은 끝났어. 이\n이상, 누구와 싸우겠다는 거야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c2000:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "022,0,0,0",
+        "voice": "GAF14011,3"
+      },
+      "original": "あ、それもそうですね。\n戦いは、もう終わったんですもんね。\n",
+      "translation": "아, 그것도 그렇네요. 싸움은, 이제 끝난\n거니까요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c2000:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,0,0",
+        "voice": "GAF14012,3"
+      },
+      "original": "ええ。\nこれでもう、心配することはありませんわ。\n",
+      "translation": "네. 이제 더는, 걱정할 것은 없답니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c2000:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "face": "124,0,0,0",
+        "speaker": "004",
+        "voice": "GAF14013,3"
+      },
+      "original": "タクトさん、帰りましょう。\nシャトヤーン様やシヴァ皇子も、私たちの帰還を\n心待ちになさっていますわよ。\n",
+      "translation": "택트 씨, 돌아가요. 샤토얀 님이나 시바\n황자님도, 우리의 귀환을 손꼽아 기다리고\n계신답니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c2000:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,0,0",
+        "voice": "GAF14013,3"
+      },
+      "original": "ああ、そうだな。\nみんな、『白き月』に戻ろう！\n",
+      "translation": "아아, 그렇군. 모두, 『백색 달』로 돌아가자!\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

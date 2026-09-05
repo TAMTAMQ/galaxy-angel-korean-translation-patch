@@ -1,0 +1,698 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000ae000.txt",
+    "encoding": "cp932",
+    "sha256": "f25eb4ad17c78a0f740f04a7df59c501ad0e13e63a16f2bbd67f7f42f7bc8a29",
+    "dialogue_count": 53
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0"
+      },
+      "original": "あ、照明が落ちてる。\nそうか、もう夜だもんな。\n",
+      "translation": "아, 조명이 꺼져 있네. 그렇지, 벌써 밤이니까\n말이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0"
+      },
+      "original": "ミルフィーがいるとしたら、たぶんここだと思う\nけど……。\n",
+      "translation": "밀피가 있다면, 아마 여기일 것 같지만……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,028,0",
+        "voice": "GAE19001,3"
+      },
+      "original": "あ……タクトさん。\n",
+      "translation": "아…… 택트 씨.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,028,0",
+        "voice": "GAE19001,3"
+      },
+      "original": "やあ、ミルフィー。\nやっぱりここにいたんだ。\n",
+      "translation": "안녕, 밀피. 역시 여기 있었구나.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,047,0",
+        "voice": "GAE19002,3"
+      },
+      "original": "あ、はい。\n何だか、眠れなくて……。\n",
+      "translation": "아, 네. 왠지, 잠이 안 와서……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,047,0",
+        "voice": "GAE19002,3"
+      },
+      "original": "オレもだよ。\n明日が決戦だと思うと、目がさえちゃってね。\n",
+      "translation": "나도 그래. 내일이 결전이라고 생각하니, 눈이\n떠져버려서 말이야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,047,0",
+        "voice": "GAE19003,3"
+      },
+      "original": "明日……なんですよね。\nとうとう……。\n",
+      "translation": "내일…… 인 거네요. 드디어……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,047,0",
+        "voice": "GAE19003,3"
+      },
+      "original": "ああ……。\n明日ですべてのケリがつくだろう。\n",
+      "translation": "아아…… 내일 모든 것이 결판나겠지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,028,0",
+        "voice": "GAE19004,3"
+      },
+      "original": "……勝てるんでしょうか、あたしたち？\n",
+      "translation": "……이길 수 있을까요, 우리?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,028,0",
+        "voice": "GAE19004,3"
+      },
+      "original": "そうだな……。\n確かに、勝負は時の運って言葉もある。\n",
+      "translation": "글쎄…… 확실히, 승부는 운명이라는 말도\n있으니까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,028,0",
+        "voice": "GAE19004,3"
+      },
+      "original": "でも、オレは心配してないよ。\nミルフィーがいるもの。\n",
+      "translation": "하지만, 나는 걱정하지 않아. 밀피가 있으니까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,026,0",
+        "voice": "GAE19005,3"
+      },
+      "original": "え……？\nどうして、あたしがいると、心配しなくていいん\nですか？\n",
+      "translation": "에……? 어째서, 제가 있다고 해서, 걱정하지\n않아도 되는 건가요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,026,0",
+        "voice": "GAE19005,3"
+      },
+      "original": "それは……。\n",
+      "translation": "그건……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,026,0",
+        "voice": "GAE19005,3"
+      },
+      "original": "君は、オレの幸運の女神だからさ。\n",
+      "translation": "너는, 나의 행운의 여신이니까 말이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,024,0",
+        "voice": "GAE19006,3"
+      },
+      "original": "あたしが……幸運の女神……？\n",
+      "translation": "내가…… 행운의 여신……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,024,0",
+        "voice": "GAE19006,3"
+      },
+      "original": "そうさ……オレは、ミルフィーと一緒にいると、\nあたたかい気持ちになれる。\n勇気がわいてくる。\n",
+      "translation": "그래…… 나는, 밀피와 함께 있으면, 따뜻한\n기분이 들어. 용기가 솟아나.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "face": "001,0,024,0",
+        "speaker": "001",
+        "voice": "GAE19006,3"
+      },
+      "original": "ミルフィーと一緒にいれば、どんなことだって、\nうまくいくような気がするんだ。\n",
+      "translation": "밀피와 함께라면, 어떤 일이라도, 잘 풀릴 것\n같은 기분이 들어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "face": "021,0,029,0",
+        "speaker": "002",
+        "voice": "GAE19007,3"
+      },
+      "original": "あたし……うれしいです。\nタクトさんに、そう言ってもらえるなんて……。\n",
+      "translation": "저…… 기뻐요. 택트 씨가 그렇게 말씀해\n주시다니……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,047,0",
+        "voice": "GAE19008,3"
+      },
+      "original": "あたしの運って、人からうらやましがられたり、\n迷惑に思われたりしたことはあったけど……。\n",
+      "translation": "제 운이라는 건, 남들에게 부러움을 사거나,\n민폐라고 여겨진 적은 있었지만……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,046,0",
+        "voice": "GAE19009,3"
+      },
+      "original": "そんな風に言ってくれたのは、タクトさんが初め\nてです！\n",
+      "translation": "그렇게 말씀해 주신 건, 택트 씨가 처음\n이에요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,046,0",
+        "voice": "GAE19009,3"
+      },
+      "original": "オレにとっては、ミルフィーはいつも幸運の女神\nだよ。\n",
+      "translation": "나에게 있어서, 밀피는 언제나 행운의 여신\n이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,024,0",
+        "voice": "GAE19010,3"
+      },
+      "original": "タクトさん……あたし……！\n",
+      "translation": "택트 씨…… 저……!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GAE19010,3"
+      },
+      "original": "あっ……ミルフィー……！\n",
+      "translation": "앗…… 밀피……!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "024,0,0,0",
+        "voice": "GAE19011,3"
+      },
+      "original": "あたし、明日は精いっぱいがんばります。\n大好きな人のために……。\nタクトさんのために。\n",
+      "translation": "저, 내일은 최선을 다해 노력할게요. 정말\n좋아하는 사람을 위해서…… 택트 씨를 위해서.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "voice": "GAE19011,3",
+        "speaker": "001",
+        "face": "001,0,0,0"
+      },
+      "original": "ありがとう、ミルフィー。\nその言葉だけで、明日の戦いは勝てるような気が\nしてきたよ。\n",
+      "translation": "고마워, 밀피. 그 말만으로도 내일의 전투는\n이길 수 있을 것 같은 기분이 들어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "057,0,0,0",
+        "voice": "GAE19012,3"
+      },
+      "original": "はい、絶対に勝ちます。\n信じてください。\n",
+      "translation": "네, 반드시 이길 거예요. 믿어 주세요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,0,0",
+        "voice": "GAE19012,3"
+      },
+      "original": "もちろん信じるよ。\n幸運の女神様のおっしゃることだもんね。\n",
+      "translation": "물론 믿고 있어. 행운의 여신님이 말씀하신\n거니까 말이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "022,0,0,0",
+        "voice": "GAE19013,3"
+      },
+      "original": "うふふふっ。\n",
+      "translation": "우후후훗.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "024,0,0,0",
+        "voice": "GAE19014,3"
+      },
+      "original": "……ねぇ、タクトさん。\n",
+      "translation": "……있잖아요, 택트 씨.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GAE19014,3"
+      },
+      "original": "何だい？\n",
+      "translation": "왜 그래?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "057,0,0,0",
+        "voice": "GAE19015,3"
+      },
+      "original": "あたし、自分の運に感謝してます。\nこうしてタクトさんと出会えたのも、そのおかげ\nだと思いますから。\n",
+      "translation": "저, 제 운에 감사하고 있어요. 이렇게 택트\n씨와 만날 수 있었던 것도, 그 덕분이라고\n생각하니까요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAE19015,3"
+      },
+      "original": "オレもだよ。\nミルフィーと会えて、本当によかった。\n",
+      "translation": "나도 그래. 밀피를 만나서 정말 다행이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "024,0,0,0",
+        "voice": "GAE19016,3"
+      },
+      "original": "タクトさん……この間、言ってましたよね。\nふたりでいれば、喜びも悲しみも分け合えるって。\n",
+      "translation": "택트 씨…… 요전에 말씀하셨죠. 둘이 함께라면\n기쁨도 슬픔도 나눌 수 있다고.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "024,0,0,0",
+        "voice": "GAE19017,3"
+      },
+      "original": "それって、半分は当たりで、半分は違いますね。\n",
+      "translation": "그건, 절반은 맞고 절반은 틀리네요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GAE19017,3"
+      },
+      "original": "え……？\n",
+      "translation": "에……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0036",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "057,0,0,0",
+        "voice": "GAE19018,3"
+      },
+      "original": "悲しみは、半分に分け合えます。\nでも、喜びや幸せは、２倍以上になるんです。\n",
+      "translation": "슬픔은 절반으로 나눌 수 있어요. 하지만\n기쁨이나 행복은, 2배 이상이 되거든요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0037",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,0,0",
+        "voice": "GAE19018,3"
+      },
+      "original": "なるほど……そうだな。\nオレも今、とても幸せな気分だよ。\n",
+      "translation": "그렇구나…… 그렇네. 나도 지금, 무척 행복한\n기분이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0038",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "049,0,0,0",
+        "voice": "GAE19019,3"
+      },
+      "original": "しばらく……このままでいてもいいですか……？\n",
+      "translation": "잠시만…… 이대로 있어도 될까요……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0039",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAE19019,3"
+      },
+      "original": "もちろん。\nずっとこうしていたいくらいだ。\n",
+      "translation": "물론이지. 계속 이렇게 있고 싶을 정도야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0040",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "057,0,0,0",
+        "voice": "GAE19020,3"
+      },
+      "original": "……うれしい……。\n",
+      "translation": "……기뻐요……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0041",
+      "channel": 1,
+      "context": {
+        "face": "001,0,026,0",
+        "speaker": "001",
+        "voice": "GAE19020,3"
+      },
+      "original": "ミルフィーは、いちばん信頼のおける部下だから\nね。\n",
+      "translation": "밀피는, 가장 신뢰할 수 있는 부하니까 말이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0042",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,026,0",
+        "voice": "GAE19021,3"
+      },
+      "original": "え……？\n",
+      "translation": "에……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0043",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,026,0",
+        "voice": "GAE19021,3"
+      },
+      "original": "オレは君のことを、エンジェル隊の誰よりも信頼\nしているよ。\n",
+      "translation": "나는 너를, 엔젤대 누구보다도 신뢰 하고 있어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0044",
+      "channel": 1,
+      "context": {
+        "face": "021,0,028,0",
+        "voice": "GAE19040,3",
+        "speaker": "002"
+      },
+      "original": "タクトさん……。\n",
+      "translation": "택트 씨……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0045",
+      "channel": 1,
+      "context": {
+        "voice": "GAE19022,3",
+        "speaker": "002",
+        "face": "021,0,027,0"
+      },
+      "original": "でも……それは……部下として……なんですね。\n",
+      "translation": "하지만…… 그건…… 부하로서……인 거군요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0046",
+      "channel": 1,
+      "context": {
+        "face": "006,0,027,0",
+        "speaker": "001",
+        "voice": "GAE19022,3"
+      },
+      "original": "え？\n",
+      "translation": "어?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0047",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,047,0",
+        "voice": "GAE19023,3"
+      },
+      "original": "そうですよね……。\nあたしはエンジェル隊の一員で、タクトさんは、\nその司令官ですもんね……。\n",
+      "translation": "그렇겠죠…… 저는 엔젤대의 일원이고, 택트\n씨는, 그 사령관이니까요……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0048",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,047,0",
+        "voice": "GAE19023,3"
+      },
+      "original": "ミルフィー……？\n",
+      "translation": "밀피……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0049",
+      "channel": 1,
+      "context": {
+        "voice": "GAE19027,3",
+        "speaker": "002",
+        "face": "021,0,047,0"
+      },
+      "original": "タクトさんとあたしは、司令官と部下。\nそうよね……それだけなのよね……。\n",
+      "translation": "택트 씨와 나는, 사령관과 부하. 그렇지……\n그것뿐인 거지……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0050",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,047,0",
+        "voice": "GAE19027,3"
+      },
+      "original": "ミルフィー、オレは……。\n",
+      "translation": "밀피, 나는……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0051",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,027,0",
+        "voice": "GAE19028,3"
+      },
+      "original": "……あたし、帰ります。\nおやすみなさい。\n",
+      "translation": "……나, 돌아갈게요. 안녕히 주무세요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0052",
+      "channel": 1,
+      "context": {
+        "speaker": "094",
+        "face": "000,0,0,0",
+        "voice": "GAE19028,3"
+      },
+      "original": "　\n",
+      "translation": "\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ae000:dialogue:0053",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0",
+        "voice": "GAE19028,3"
+      },
+      "original": "……ミルフィー……。\n",
+      "translation": "……밀피……\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

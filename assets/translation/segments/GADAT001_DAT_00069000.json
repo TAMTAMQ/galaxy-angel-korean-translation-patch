@@ -1,0 +1,1831 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_00069000.txt",
+    "encoding": "cp932",
+    "sha256": "595accc55fe58b5b32795056fe598e19949e69839d98482926a3b06537dd8ec8",
+    "dialogue_count": 140
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GA437001,3"
+      },
+      "original": "マイヤーズ司令、敵戦闘機より通信です！\n",
+      "translation": "마이어스 사령관, 적 전투기로부터 통신입니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "043",
+        "face": "381,0,0,0",
+        "voice": "GA437002,3"
+      },
+      "original": "さすがはエンジェル隊、美しい戦いだったよ。\nそれでこそ、ボクたちも腕のふるいがいがあると\nいうものさ。\n",
+      "translation": "역시 엔젤대, 아름다운 전투였어. 그래서 나도\n실력을 발휘할 보람이 있는 법이지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "043",
+        "face": "381,0,0,0",
+        "voice": "GA437003,3"
+      },
+      "original": "ふむ……もう少し美しく戦ってくれたまえ。\nこちらが手加減してこの程度では、ボクの理想と\nする戦闘の美には、ほど遠いよ。\n",
+      "translation": "흠…… 조금 더 아름답게 싸워주렴. 이쪽에서\n적당히 봐줘서 이 정도라면, 내가 이상으로\n하는 전투의 아름다움과는 거리가 멀어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "043",
+        "face": "382,0,0,0",
+        "voice": "GA437004,3"
+      },
+      "original": "それはさておき、キミたちに見てもらいたいもの\nがある。\n我らがエオニア陛下からのメッセージだよ。\n",
+      "translation": "그건 그렇고, 너희에게 보여주고 싶은 것 이\n있어. 우리 에오니아 폐하로부터의 메시지야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GA437004,3"
+      },
+      "original": "エオニアのメッセージだって？\nどうせ、シヴァ皇子を渡せってんだろ？\n",
+      "translation": "에오니아의 메시지라고? 어차피, 시바 황자를\n넘기라는 거겠지?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "043",
+        "face": "381,0,0,0",
+        "voice": "GA437005,3"
+      },
+      "original": "口のききかたには気をつけた方がいい。\n少しはエオニア様の秀麗さを見習いたまえ。\nでは、再生しよう。\n",
+      "translation": "말투에는 주의하는 게 좋을 거야. 조금은\n에오니아 님의 수려함을 본받도록 해. 그럼,\n재생하도록 하지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "012",
+        "face": "311,0,0,0",
+        "voice": "GA437006,3"
+      },
+      "original": "エルシオールの諸君、お初にお目にかかる。\n私はエオニア・トランスバール。\n正統トランスバール皇国の皇王だ。\n",
+      "translation": "에르시올의 제군들, 처음 뵙겠소. 나는 에오니아\n・트랜스벌. 정통 트랜스벌 황국의 황왕이다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "012",
+        "face": "315,0,0,0",
+        "voice": "GA437007,3"
+      },
+      "original": "君たちが、我がいとこのシヴァをその艦に乗せ、\nローム星系へ向かっていることは知っている。\nだが、それは恐るべきあやまちだ。\n",
+      "translation": "너희가 우리 사촌인 시바를 그 함선에 태워,\n롬 성계로 향하고 있다는 것은 알고 있다.\n하지만, 그것은 두려운 잘못이다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "012",
+        "face": "315,0,0,0",
+        "voice": "GA437008,3"
+      },
+      "original": "旧体制の残党どもは、自分たちの利権を保持する\nために、シヴァをかつぎ出したいだけなのだ。\n自分たちに都合のいい、操り人形として。\n",
+      "translation": "구체제의 잔당들은 자신들의 이권을 유지하기\n위해 시바를 내세우고 싶을 뿐인 것이다.\n자신들에게 형편이 좋은, 꼭두각시로서 말이지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "012",
+        "face": "316,0,0,0",
+        "voice": "GA437009,3"
+      },
+      "original": "愛するいとこが、そのような企みに利用されよう\nとしていると知り、私は心を痛めている。\nまた、それは皇国と臣民の未来にとっても害悪だ。\n",
+      "translation": "사랑하는 사촌이 그러한 음모에 이용당하려 하\n고 있다는 것을 알고, 나는 마음이 아프다. 또\n한, 그것은 황국과 신민의 미래에도 해악이다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "012",
+        "face": "312,0,0,0",
+        "voice": "GA437010,3"
+      },
+      "original": "このままシヴァが旧体制の操り人形となるならば、\n皇国の混乱は、さらに長引くこととなるだろう。\nそんなことは、誰も望んではいない。\n",
+      "translation": "이대로 시바가 구체제의 꼭두각시가 된다면,\n황국의 혼란은 더욱 길어지게 될 것이다. 그런\n것을 바라는 사람은 아무도 없다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "012",
+        "face": "315,0,0,0",
+        "voice": "GA437011,3"
+      },
+      "original": "君たちは、旧体制が残したゆがみに、惑わされて\nいるだけなのだ。\n今ならばまだ間に合う、シヴァを引き渡したまえ。\n",
+      "translation": "너희는 구체제가 남긴 왜곡에 현혹되어 있을\n뿐이다. 지금이라면 아직 늦지 않았다, 시바를\n넘겨라.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "012",
+        "face": "315,0,0,0",
+        "voice": "GA437012,3"
+      },
+      "original": "君たちもまた、被害者なのだ。\n勇気をもってあやまちを正したいと望むならば、\n私は心をつくして、諸君の気持ちにこたえよう。\n",
+      "translation": "너희 또한 피해자다. 용기를 내어 잘못을\n바로잡고 싶다면, 나는 진심을 다해 제군들의\n마음에 답하겠다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "012",
+        "face": "312,0,0,0",
+        "voice": "GA437013,3"
+      },
+      "original": "もちろん、シヴァに何らの危害も与えないことは\n約束しよう。\nシヴァは今や、私のただひとりの肉親なのだから。\n",
+      "translation": "물론, 시바에게 아무런 위해도 가하지 않을\n것을 약속하마. 시바는 이제 나의 유일한\n혈육이니까.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "012",
+        "face": "312,0,0,0",
+        "voice": "GA437014,3"
+      },
+      "original": "私はシヴァと助け合いながら、この正統トランス\nバール皇国の未来を築いてゆきたいのだ。\n諸君の賢明なる判断を、私は信じている……。\n",
+      "translation": "나는 시바와 서로 도우며, 이 정통 트랜스벌황국의 미래를 쌓아나가고 싶다. 제군들의\n현명한 판단을, 나는 믿고 있다……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA437014,3"
+      },
+      "original": "…………。\n",
+      "translation": "…………。\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "043",
+        "face": "382,0,0,0",
+        "voice": "GA437015,3"
+      },
+      "original": "どうだい、エオニア陛下の美しいお言葉は？\n心にしみわたるようだったろう？\n",
+      "translation": "어때, 에오니아 폐하의 아름다운 말씀은? 가슴\n깊이 스며드는 것 같지 않았나?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA437015,3"
+      },
+      "original": "ああ、よく心にしみたよ。\n自分が何かを企んでるやつってのは、ほかの人間\nこそが悪だくみをしてると主張するもんだってね。\n",
+      "translation": "아아, 아주 잘 스며들었어. 자기가 뭔가를\n꾸미고 있는 녀석이란 건, 다른 인간 이야말로\n악한 음모를 꾸미고 있다고 주장하는 법이지.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "045",
+        "face": "421,0,0,0",
+        "voice": "GA437016,3"
+      },
+      "original": "フン、愚民どもに何を言ってもムダなようだな。\n愚民は愚民らしく、僕たちのような優れた存在に\n支配されて生きる方がふさわしいのさ。\n",
+      "translation": "흥, 우민들에게 무엇을 말해도 소용없겠군.\n우민은 우민답게, 우리 같은 우수한 존재에게\n지배받으며 사는 편이 어울리는 법이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "voice": "GA437017,3",
+        "speaker": "004",
+        "face": "122,0,0,0"
+      },
+      "original": "お言葉ですが、自分たちが優れていると過信した\nかたがたの言いなりになることの方が、よっぽど\n不幸ですわ。\n",
+      "translation": "말씀은 고맙습니다만, 자신들이 우월하다고\n과신한 분들의 말대로 따르는 것이 훨씬 더\n불행할 것 같네요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "103,0,0,0",
+        "voice": "GA437018,3"
+      },
+      "original": "戦闘能力が高いのは認めますが、だからといって\n政治の能力も高いとは限りませんわ。\nそのくらいの区別もつきませんの？\n",
+      "translation": "전투 능력이 높은 것은 인정합니다만, 그렇다고\n해서 정치 능력도 높으리라는 법은 없습니다.\n그 정도의 구별도 못 하시는 건가요?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "046",
+        "face": "441,0,0,0",
+        "voice": "GA437019,3"
+      },
+      "original": "……お前たちごときの力で、巨大なるエオニアの\n力に逆らう資格はない……。\n",
+      "translation": "……너희 따위의 힘으로, 거대한 에오니아의\n힘에 거역할 자격은 없다……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,0,0",
+        "voice": "GA437020,3"
+      },
+      "original": "勝手にほざいてな。\n資格がないかどうか、見せてやろうかい？\n",
+      "translation": "멋대로 지껄여라. 자격이 있는지 없는지,\n보여줄까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "voice": "GA437021,3",
+        "speaker": "005",
+        "face": "143,0,0,0"
+      },
+      "original": "くっ……。\nあたしゃ今回、ちょっと調子が悪かっただけさ。\nいい気になるんじゃないよ！\n",
+      "translation": "큭…… 난 이번에 좀 컨디션이 안 좋았을\n뿐이야. 우쭐대지 말라고!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "face": "025,0,0,0",
+        "voice": "GA437022,3",
+        "speaker": "002"
+      },
+      "original": "タクトさん、『白き月』や本星を攻撃した人たち\nの言うことなんて、聞くことありません！\n",
+      "translation": "택트 씨, 『백색 달』이나 본성을 공격한\n사람들의 말 따위, 들을 필요 없어요!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "023,0,0,0",
+        "voice": "GA437023,3"
+      },
+      "original": "ごめんなさい、タクトさん……。\nあたしが、うまく戦えなかったばかりに、こんな\n人たちに言いたいほうだい……。\n",
+      "translation": "미안해요, 택트 씨…… 내가 제대로 싸우지\n못한 탓에, 이런 사람들에게 욕만 먹고……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "064,0,0,0",
+        "voice": "GA437024,3"
+      },
+      "original": "メッセージを聞いてやっただけでも、ありがたく\n思いなさい！\nまだやるってんなら、相手になるわよ！\n",
+      "translation": "메시지를 들어준 것만으로도 고맙게 생각해!\n아직 더 할 수 있다면, 상대해 주겠어!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "067,0,0,0",
+        "voice": "GA437025,3"
+      },
+      "original": "あ、アタシだって、まだまだやれるわ！\n早く補給してよ！\n修理も！\n",
+      "translation": "아, 나도 아직 더 할 수 있다고! 빨리 보급이나\n해줘! 수리도!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "face": "402,0,0,0",
+        "voice": "GA437026,3",
+        "speaker": "044"
+      },
+      "original": "うおぉぉぉぉ！\n負けるとわかっていても、戦うことを選ぶとは、\nさすがは我が強敵（とも）だぁぁぁぁ！\n",
+      "translation": "우오오오오오! 질 것이라는 걸 알면서도\n싸움을 택하다니, 역시 나의 강적(토모)이로구\n나아아아아!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "speaker": "047",
+        "face": "461,0,0,0",
+        "voice": "GA437027,3"
+      },
+      "original": "くだらない意地なんか、張らない方がいいんじゃ\nないの？\nシヴァに味方しても、何のトクにもならないぜ？\n",
+      "translation": "하찮은 자존심 같은 건, 부리지 않는 편이\n낫지 않겠어? 시바에게 아군이 되어봤자,\n아무런 득도 안 된다고?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,0,0,0",
+        "voice": "GA437028,3"
+      },
+      "original": "……ハーベスター、作戦続行可能です。\nご命令を。\n",
+      "translation": "……하베스터, 작전 속행 가능합니다. 명령을.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "183,0,0,0",
+        "voice": "GA437029,3"
+      },
+      "original": "…………。\n",
+      "translation": "…………\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GA437030,3"
+      },
+      "original": "どうする、タクト？\n返事がわりに、一発ブチこむか？\n",
+      "translation": "어떡할 거야, 택트? 답장 대신에 한 방\n날려줄까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GA437031,3"
+      },
+      "original": "どうする、タクト？\nくやしいが、ヤツらの力は予想以上だ。\nこのまま戦い続けても、勝てるかどうか……。\n",
+      "translation": "어떡할 거야, 택트? 분하지만, 녀석들의 힘은\n예상 이상이다. 이대로 계속 싸워도, 이길 수\n있을지……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,225,0",
+        "voice": "GA437031,3"
+      },
+      "original": "……いや、ここはきちんと返事をしよう。\n",
+      "translation": "……아니, 여기서는 제대로 답을 하자.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0036",
+      "channel": 1,
+      "context": {
+        "voice": "GA437032,3",
+        "speaker": "016",
+        "face": "493,0,0,0"
+      },
+      "original": "えっ？\nマイヤーズ司令、まさか、エオニア軍に投降する\nなんてことは……。\n",
+      "translation": "엣? 마이어스 사령관님, 설마 에오니아군에\n투항 한다거나……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0037",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,221,0",
+        "voice": "GA437033,3"
+      },
+      "original": "いや、回線をつなげ。\nこいつがこういう顔をしているときは、安心して\nいい。\n",
+      "translation": "아니, 회선을 연결해. 이 녀석이 이런 표정을\n짓고 있을 때는, 안심해도 좋다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0038",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,221,0",
+        "voice": "GA437034,3"
+      },
+      "original": "りょ、了解。\n回線をそちらに回します。\n",
+      "translation": "라, 라져. 회선을 그쪽으로 돌리겠습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0039",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA437034,3"
+      },
+      "original": "ヘル・ハウンズ隊に告ぐ。\n帰ってエオニアに、こう伝えろ。\n",
+      "translation": "헬・하운즈 대에게 알린다. 돌아가서 에오니아\n에, 이렇게 전해라.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0040",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA437034,3"
+      },
+      "original": "エオニア、お前の軍は確かに強い。\nだが、ふたつだけ言っておく。\n",
+      "translation": "에오니아, 네 군대는 확실히 강하다. 하지만,\n두 가지만 말해두지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0041",
+      "channel": 1,
+      "context": {
+        "voice": "GA437034,3",
+        "speaker": "001",
+        "face": "003,0,0,0"
+      },
+      "original": "まず、ひとつ。\nオレたちもシヴァ皇子も、お前のそんなセリフに\nだまされるようなバカじゃない。\n",
+      "translation": "먼저, 하나. 우리도 시바 황자님도, 네 그런\n대사에 속을 만큼 바보는 아니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0042",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GA437034,3"
+      },
+      "original": "そして、もうひとつ。\nオレたちは、何があっても、お前たちには絶対に\n屈しないってことだ！\n",
+      "translation": "그리고, 또 하나. 우리는, 무슨 일이 있어도,\n너희에게는 절대로 굴복하지 않는다는 것이다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0043",
+      "channel": 1,
+      "context": {
+        "face": "011,0,0,0",
+        "speaker": "001",
+        "voice": "GA437034,3"
+      },
+      "original": "以上、終わり。\nわかったか！\n",
+      "translation": "이상, 끝이다. 알았나!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0044",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GA437035,3"
+      },
+      "original": "マイヤーズ司令……。\n",
+      "translation": "마이어스 사령관님……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0045",
+      "channel": 1,
+      "context": {
+        "face": "221,0,224,0",
+        "speaker": "007",
+        "voice": "GA437036,3"
+      },
+      "original": "な？\n俺が言ったとおりだろ。\n",
+      "translation": "뭐냐? 내가 말한 대로지?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0046",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,337",
+        "voice": "GA437037,3"
+      },
+      "original": "ええ……。\nこれが、マイヤーズ司令という人なんですね。\n",
+      "translation": "네에…… 이것이, 마이어스 사령관이라는\n사람이군요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0047",
+      "channel": 1,
+      "context": {
+        "speaker": "043",
+        "face": "381,0,0,0",
+        "voice": "GA437038,3"
+      },
+      "original": "どうやら、交渉は決裂というわけだね。\n美しきエンジェルたちと、戦うしか道がないとは、\nああ……なんと悲しき運命なのだろう。\n",
+      "translation": "아무래도, 협상은 결렬이라는 모양이네.\n아름다운 엔젤들과 싸울 수밖에 길이 없다니,\n아아…… 이 얼마나 슬픈 운명인가.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0048",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "025,0,0,0",
+        "voice": "GA437039,3"
+      },
+      "original": "ぜんぜん、悲しくなんかないもん！\nあたしの秘密をバラした恨みは、まだ忘れてない\nんだから！\n",
+      "translation": "전혀, 슬프지 않거든! 내 비밀을 까발린\n원한은, 아직 잊지 않았 으니까!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0049",
+      "channel": 1,
+      "context": {
+        "speaker": "044",
+        "face": "402,0,0,0",
+        "voice": "GA437040,3"
+      },
+      "original": "では、徹底的に決着をつけようではないかぁぁぁ！\n我が強敵（とも）ランファよ、次にあいまみえる\nときを、楽しみにしているぞぉぉぉぉ！\n",
+      "translation": "그럼, 철저하게 결판을 내보자꾸나아아아!\n나의 강적(토모) 란파여, 다음에 다시 맞붙을\n때를, 기대하고 있으마아아아아!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0050",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "086,0,0,0",
+        "voice": "GA437041,3"
+      },
+      "original": "二度と来なくていいわよ！\n",
+      "translation": "두 번 다시 오지 말라고!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0051",
+      "channel": 1,
+      "context": {
+        "speaker": "045",
+        "face": "422,0,0,0",
+        "voice": "GA437042,3"
+      },
+      "original": "ふふん、後でほえづらをかくなよ。\n",
+      "translation": "후훗, 나중에 울상 짓지나 마라.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0052",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "103,0,0,0",
+        "voice": "GA437043,3"
+      },
+      "original": "エオニア軍、後退していきますわ。\nどういたしますか？\n",
+      "translation": "에오니아군, 후퇴하겠습니다. 어떻게 하시겠습\n니까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0053",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0",
+        "voice": "GA437043,3"
+      },
+      "original": "いや、追う必要はない。\n全機、帰艦してくれ。\n",
+      "translation": "아니, 쫓을 필요는 없다. 전 기체, 귀함해라.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0054",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,0,0",
+        "voice": "GA437044,3"
+      },
+      "original": "了解。\nこれよりエルシオールに帰艦いたしますわ。\n",
+      "translation": "네. 지금부터 에르시올로 귀함하겠습니\n다 .\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0055",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GA437045,3"
+      },
+      "original": "紋章機を収容したら、すぐに発進だ。\n敵の動きはどうだ？\n",
+      "translation": "문장기를 수용하면, 즉시 발진이다. 적의\n움직임은 어떠냐?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0056",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GA437046,3"
+      },
+      "original": "……追ってくる気配はありません。\n偵察機やプローブのたぐいも、レーダーに反応は\nなし。\n",
+      "translation": "……쫓아오는 기색은 없습니다. 정찰기나\n프로브 같은 것도, 레이더에 반응이 없습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0057",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GA437047,3"
+      },
+      "original": "よし、距離３００００まで離れろ。\nその後、すぐにクロノ・ドライヴに入る。\n",
+      "translation": "좋아, 거리 30000까지 떨어져라. 그 후, 즉시\n크로노・드라이브에 들어간다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0058",
+      "channel": 1,
+      "context": {
+        "voice": "GA437047,3",
+        "speaker": "001",
+        "face": "004,0,223,0"
+      },
+      "original": "……ふぅ。\nどうにか今回はしのげたな。\n",
+      "translation": "……후우. 어떻게든 이번에는 넘겼군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0059",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GA437048,3"
+      },
+      "original": "だが、あのヘル・ハウンズとかいう連中は手強い\n相手になりそうだな。\n今後、追撃もきびしくなるだろうし。\n",
+      "translation": "하지만, 저 헬・하운즈라는 녀석들은 만만치\n않은 상대가 될 것 같군. 앞으로 추격도\n거세질 테고 말이야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0060",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,223,0",
+        "voice": "GA437048,3"
+      },
+      "original": "そうだなぁ。\nあーあ、早くローム星系まで逃げきりたいもんだ。\n",
+      "translation": "그렇네. 아～ 정말, 빨리 롬 성계까지 도망치고\n싶다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0061",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0",
+        "voice": "GA437048,3"
+      },
+      "original": "……あー、疲れた。\nようやく、ひと息つけるよ。\n",
+      "translation": "……아-, 피곤해. 겨우 한숨 돌리겠네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0062",
+      "channel": 1,
+      "context": {
+        "face": "101,0,101,0",
+        "speaker": "004",
+        "voice": "GA437049,3"
+      },
+      "original": "あら、タクトさん。\nお仕事の方は、もうよろしいのですか？\n",
+      "translation": "어머, 택트 씨. 업무는 이제 끝난 건가요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0063",
+      "channel": 1,
+      "context": {
+        "face": "001,0,101,0",
+        "voice": "GA437049,3",
+        "speaker": "001"
+      },
+      "original": "ああ、クロノ・ドライヴに入ったからね。\nところで、ミントは何してるの？\nここでモニターを見てるなんて、珍しいね。\n",
+      "translation": "아아, 크로노・드라이브에 들어갔으니까\n말이야. 그건 그렇고, 민트는 뭐 하고 있어?\n여기서 모니터를 보고 있다니, 드문 일이네.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0064",
+      "channel": 1,
+      "context": {
+        "face": "101,0,102,0",
+        "voice": "GA437050,3",
+        "speaker": "004"
+      },
+      "original": "ええ、ローム星系のお勉強をしておりましたの。\n",
+      "translation": "네, 롬 성계에 대한 공부를 하고 있었답니 다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0065",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,109,0",
+        "voice": "GA437051,3"
+      },
+      "original": "目的地に着いたら、少しはお休みをいただけると\n思いますから、それを利用して現地のファースト\nフード店めぐりをしようと計画中ですの。\n",
+      "translation": "목적지에 도착하면 조금은 쉴 수 있을 거라\n생각하니까, 그걸 이용해서 현지의 패스트\n푸드점 순례를 할 계획을 짜는 중이에요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0066",
+      "channel": 1,
+      "context": {
+        "face": "002,0,109,0",
+        "voice": "GA437051,3",
+        "speaker": "001"
+      },
+      "original": "へぇ～、なるほど。\nすると、そのモニターに映っているのは、現地の\n資料かい？\n",
+      "translation": "헤에～ 그렇구나. 그럼, 그 모니터에 비치고\n있는 건 현지의 자료인 거야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0067",
+      "channel": 1,
+      "context": {
+        "face": "101,0,121,0",
+        "speaker": "004",
+        "voice": "GA437052,3"
+      },
+      "original": "そういうことですわ。\n惑星ロームの都市衛星ファーゴは、星系一の観光\n地として有名で、いろいろなお店がありますのよ。\n",
+      "translation": "그런 셈이죠. 행성 롬의 도시 위성 파고는\n성계 제일의 관광 지로서 유명해서, 여러\n가게가 있답니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0068",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,102,0",
+        "voice": "GA437053,3"
+      },
+      "original": "こうして地図を見ているだけでも、行きたいお店\nがいっぱいあって、目移りしてしまいますわ。\n",
+      "translation": "이렇게 지도를 보고 있는 것만으로도 가고\n싶은 가게가 잔뜩 있어서, 눈이 돌아갈\n정도예요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0069",
+      "channel": 1,
+      "context": {
+        "face": "002,0,102,0",
+        "speaker": "001",
+        "voice": "GA437053,3"
+      },
+      "original": "あはは、楽しそうだね、ミント。\n",
+      "translation": "아하하, 즐거워 보이네, 민트.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0070",
+      "channel": 1,
+      "context": {
+        "face": "101,0,102,0",
+        "speaker": "004",
+        "voice": "GA437054,3"
+      },
+      "original": "ええ、予定を考えるだけでも楽しいですわ。\nそれに、先の楽しみがあると思えば、これからの\n任務にも、いっそう気合いが入りますし。\n",
+      "translation": "네, 예정을 생각하는 것만으로도 즐겁답니다.\n게다가 앞날에 즐거움이 있다고 생각하면,\n앞으로의 임무에도 더욱 기운이 나니까요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0071",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,102,0",
+        "voice": "GA437054,3"
+      },
+      "original": "なるほど。\nクーデターなんて、とんでもないときだからこそ、\n楽しく前向きになった方がいいよね。\n",
+      "translation": "그렇구나. 쿠데타라니, 말도 안 되는 시기일\n때일수록, 즐겁게 긍정적으로 행동하는 게\n좋겠지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0072",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,102,0",
+        "voice": "GA437054,3"
+      },
+      "original": "ローム星系に着いたら、オレもゆっくりしたいな。\nヒマができたら、何しようかな？\n",
+      "translation": "롬 성계에 도착하면, 나도 느긋하게 쉬고\n싶네. 한가해지면 뭘 할까?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0073",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,121,0",
+        "voice": "GA437055,3"
+      },
+      "original": "特にご予定がないのでしたら、一緒にファースト\nフードめぐりをいたしませんか？\n",
+      "translation": "딱히 예정이 없으시다면, 함께 패스트 푸드\n탐방을 하지 않으실래요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0074",
+      "channel": 1,
+      "context": {
+        "voice": "GA437055,3",
+        "speaker": "001",
+        "face": "006,0,121,0"
+      },
+      "original": "え？\n一緒に……？\n",
+      "translation": "에? 함께……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0075",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,108,0",
+        "voice": "GA437056,3"
+      },
+      "original": "私は行き慣れておりませんから、ぜひタクトさん\nのアドバイスをいただきたいですわ。\n",
+      "translation": "저는 익숙하지 않으니, 꼭 택트 씨의 조언을\n듣고 싶답니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0076",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,109,0",
+        "voice": "GA437057,3"
+      },
+      "original": "デートかどうかはさておいて……。\nうふふふっ。\n",
+      "translation": "데이트인지 아닌지는 차치하고…… 우후후훗.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0077",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,109,0",
+        "voice": "GA437057,3"
+      },
+      "original": "よーし！\nじゃあ、ふたりで一緒に計画を立てようか！\n",
+      "translation": "좋아! 그럼, 둘이서 같이 계획을 세워볼까!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0078",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,102,0",
+        "voice": "GA437058,3"
+      },
+      "original": "ええ、よろこんで。\nどのお店からまいりましょうか？\n",
+      "translation": "네, 기꺼이요. 어느 가게부터 갈까요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0079",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,102,0",
+        "voice": "GA437058,3"
+      },
+      "original": "じゃあ……ここの店なんか、どう？\nここのテリヤキバーガーは、うまいんだよ。\n",
+      "translation": "그럼…… 여기 가게는 어때? 여기 데리야키\n버거가 맛있거든.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0080",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,121,0",
+        "voice": "GA437059,3"
+      },
+      "original": "それは、ちょうどよかったですわ。\n実はミルフィーさんに、このお店の割引チケット\nをいただきましたの。\n",
+      "translation": "그건 정말 잘됐네요. 실은 밀피 씨에게 이\n가게의 할인 티켓을 받았답니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0081",
+      "channel": 1,
+      "context": {
+        "face": "002,0,121,0",
+        "speaker": "001",
+        "voice": "GA437059,3"
+      },
+      "original": "何だかワクワクするなぁ。\n楽しくなってきたな～。\n",
+      "translation": "왠지 두근거리네. 즐거워지기 시작했어～.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0082",
+      "channel": 1,
+      "context": {
+        "face": "101,0,102,0",
+        "speaker": "004",
+        "voice": "GA437060,3"
+      },
+      "original": "ふふっ、私もです。\n今からウキウキしていますわ★\n",
+      "translation": "후훗, 저도요. 지금부터 설레고 있어요★\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0083",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,101,0",
+        "voice": "GA437061,3"
+      },
+      "original": "では、このレジャーガイドのデータをプレゼント\nいたしますわ。\nレジャースポットや宿泊施設の情報が満載ですの。\n",
+      "translation": "그럼, 이 레저 가이드 데이터를 선물 해\n드릴게요. 레저 스팟이나 숙박 시설 정보가\n가득하답니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0084",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,101,0",
+        "voice": "GA437061,3"
+      },
+      "original": "本当だ、いろいろと詳しく載ってるな。\nだけど、オレがもらっちゃっていいのかい？\n",
+      "translation": "정말이다, 여러 가지로 자세히 나와 있네.\n근데, 내가 받아도 괜찮은 거야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0085",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,101,0",
+        "voice": "GA437062,3"
+      },
+      "original": "ええ、もうファーストフード店の位置はチェック\nしましたから、ご心配なく。\n",
+      "translation": "네, 이미 패스트푸드점의 위치는 체크 해\n두었으니 걱정 마세요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0086",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,102,0",
+        "voice": "GA437063,3"
+      },
+      "original": "そのデータが、タクトさんのお役に立つのでした\nら、私もうれしいですわ。\n",
+      "translation": "그 데이터가 택트 씨에게 도움이 된다면, 저도\n기뻐요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0087",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,102,0",
+        "voice": "GA437063,3"
+      },
+      "original": "そうか、ありがとう。\n使わせてもせらうよ。\n",
+      "translation": "그래, 고마워. 잘 쓸게.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0088",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,102,0",
+        "voice": "GA437063,3"
+      },
+      "original": "……あ、そうだ。\nひとつミントに聞きたいことがあるんだけど。\n",
+      "translation": "……아, 맞다. 민트에게 묻고 싶은 게 하나\n있는데.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0089",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,101,0",
+        "voice": "GA437064,3"
+      },
+      "original": "何ですの？\n",
+      "translation": "무엇인가요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0090",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,101,0",
+        "voice": "GA437064,3"
+      },
+      "original": "この前、ミントのお父さんからメッセージが届け\nられただろ？\nどんな内容だったのかと思ってさ。\n",
+      "translation": "얼마 전에, 민트의 아버님으로부터 메시지가\n전달됐었지? 어떤 내용이었나 해서 말이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0091",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,102,0",
+        "voice": "GA437065,3"
+      },
+      "original": "ああ、あれですか……。\n",
+      "translation": "아아, 그거 말씀이신가요……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0092",
+      "channel": 1,
+      "context": {
+        "face": "001,0,102,0",
+        "speaker": "001",
+        "voice": "GA437065,3"
+      },
+      "original": "いや、言いたくないなら別にいいんだ。\nプライベートなことなんだし。\n",
+      "translation": "아니, 말하고 싶지 않다면 별로 상관없어.\n사적인 일이니까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0093",
+      "channel": 1,
+      "context": {
+        "voice": "GA437066,3",
+        "speaker": "004",
+        "face": "101,0,101,0"
+      },
+      "original": "かまいませんわ。\nお教えします。\n",
+      "translation": "상관없답니다. 말씀드릴게요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0094",
+      "channel": 1,
+      "context": {
+        "face": "101,0,107,0",
+        "voice": "GA437067,3",
+        "speaker": "004"
+      },
+      "original": "実は、まだ聞いておりませんの。\nその気もございませんけど。\n",
+      "translation": "실은, 아직 듣지 못했거든요. 그럴 생각도\n없지만요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0095",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "007,0,107,0",
+        "voice": "GA437067,3"
+      },
+      "original": "ええっ？\n聞いてないって……。\n",
+      "translation": "에엣? 듣지 못했다니……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0096",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,105,0",
+        "voice": "GA437068,3"
+      },
+      "original": "父が私に言うことは、聞かなくてもわかりますわ。\n実家に帰れ、ブラマンシュ財閥の後継者としての\n自覚を持て……そんな話に決まっています。\n",
+      "translation": "아버지 말씀은 안 들어도 알아요. 본가로\n돌아와 브라만슈 재벌의 후계자라는 자각을\n가지라…… 분명 그런 이야기예요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0097",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,101,0",
+        "voice": "GA437069,3"
+      },
+      "original": "ですが、私はそれに従う気がないから、今ここに\nこうしているんですの。\n",
+      "translation": "하지만, 저는 그에 따를 생각이 없기에, 지금\n여기에 있는 것이랍니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0098",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,101,0",
+        "voice": "GA437069,3"
+      },
+      "original": "そうだったのか。\nごめん、何だか立ち入ったことを聞いてしまった\nみたいで……。\n",
+      "translation": "그랬던 건가. 미안해, 왠지 참견이 심한\n질문을 해버린 것 같아서……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0099",
+      "channel": 1,
+      "context": {
+        "face": "101,0,102,0",
+        "speaker": "004",
+        "voice": "GA437070,3"
+      },
+      "original": "タクトさんが謝ることはありませんわ。\nこれは私の実家の問題……もっと言えば、強引で\n自分勝手な父のせいですもの。\n",
+      "translation": "택트 씨가 사과할 일은 없어요. 이건 제\n친정의 문제…… 더 정확히 말하면, 강압적이고\n제멋대로인 아버지 때문이니까요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0100",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,102,0",
+        "voice": "GA437071,3"
+      },
+      "original": "ですから、お気になさらずに。\nむしろ、変に気を回される方が、心苦しいですわ。\n",
+      "translation": "그러니, 신경 쓰지 마세요. 오히려, 괜히\n마음을 써주시는 게, 마음이 불편하답니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0101",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,102,0",
+        "voice": "GA437071,3"
+      },
+      "original": "そうか……。\nまぁ、ミントがそう言うなら……。\n",
+      "translation": "그런가…… 뭐, 민트가 그렇게 말한다면……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0102",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,166,0,021",
+        "voice": "GA437072,3"
+      },
+      "original": "おやまぁ、おふたりさん。\n仲よくテーブルを囲んで、いったい何のナイショ\n話だい？\n",
+      "translation": "어머나, 두 분. 사이좋게 테이블을 둘러앉아,\n도대체 무슨 비밀 이야기인가?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0103",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,166,0,021",
+        "voice": "GA437072,3"
+      },
+      "original": "あ、フォルテ。\nそれに、みんなもおそろいで。\n",
+      "translation": "아, 포르테. 그리고, 다들 모여 있네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0104",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,166,0,022",
+        "voice": "GA437073,3"
+      },
+      "original": "タクトさんも休憩中なんですか？\nねぇミント、一緒してもいい？\n",
+      "translation": "택트 씨도 휴식 중인가요? 있지 민트, 같이\n앉아도 돼?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0105",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,108,0",
+        "voice": "GA437074,3"
+      },
+      "original": "どうぞ。\n私たち、別に秘密の話をしていたというわけでも\nありませんから。\n",
+      "translation": "그러세요. 저희, 딱히 비밀 이야기를 하고\n있었던 건 아니니까요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0106",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,062,0,022",
+        "voice": "GA437075,3"
+      },
+      "original": "私たち、だって。\nなーんかアヤしい感じ。\nあ、ここ座るわよ。\n",
+      "translation": "우리들, 이라니. 왠지 수상한 느낌이야. 아,\n여기 앉을게.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0107",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,0,185,0",
+        "voice": "GA437076,3"
+      },
+      "original": "……席がいっぱいなようですね。\n私は隣のテーブルに……。\n",
+      "translation": "……자리가 꽉 찬 것 같군요. 저는 옆 테이블\n로 ……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0108",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,061,021",
+        "voice": "GA437077,3"
+      },
+      "original": "まだ座れるわよ。\nほら、ここをつめて……。\n",
+      "translation": "아직 앉을 수 있어. 자, 여기 좀 붙어 앉\n아…… .\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0109",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,061,023",
+        "voice": "GA437078,3"
+      },
+      "original": "あんまり押さないでよぉ、ランファ。\n",
+      "translation": "너무 밀지 마, 란파.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0110",
+      "channel": 1,
+      "context": {
+        "voice": "GA437079,3",
+        "speaker": "003",
+        "face": "061,0,069,023"
+      },
+      "original": "あー、確かに全員座るには、ちょっとせまいわね。\n",
+      "translation": "아─, 확실히 전원이 앉기에는, 좀 좁네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0111",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,069,023",
+        "voice": "GA437079,3"
+      },
+      "original": "そりゃ、４人がけの席に６人も座ろうとすれば、\n当然だと思うよ。\n",
+      "translation": "그건, 4인용 좌석에 6명이나 앉으려 하면,\n당연한 거 아닐까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0112",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,067,0",
+        "voice": "GA437080,3"
+      },
+      "original": "あっ、わかった！\nタクトがいるからよ！\n",
+      "translation": "앗, 알았다! 택트가 있어서 그런 거야!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0113",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,062,0",
+        "voice": "GA437081,3"
+      },
+      "original": "いつもの５人なら何とかなるけど、さすがに６人\nは無理があるってものよね。\n",
+      "translation": "평소의 5명이라면 어떻게든 되지만, 역시\n6명은 무리라니까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0114",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,062,0",
+        "voice": "GA437081,3"
+      },
+      "original": "割り込んで来たのは、そっちじゃないか……。\nわかったよ、隣のテーブルに移ればいいんだろ？\n",
+      "translation": "끼어든 건 그쪽이잖아…… 알았어, 옆 테이블로\n옮기면 되는 거지?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0115",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,121,0",
+        "voice": "GA437082,3"
+      },
+      "original": "そうですわね。\nふたりで、こちらのテーブルに移りましょうか。\n",
+      "translation": "그렇겠네요. 둘이서, 이쪽 테이블로 옮길까요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0116",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,121,0",
+        "voice": "GA437082,3"
+      },
+      "original": "あれ？\nミントも一緒に？\n",
+      "translation": "어라? 민트도 같이?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0117",
+      "channel": 1,
+      "context": {
+        "voice": "GA437083,3",
+        "speaker": "005",
+        "face": "141,166,0,0"
+      },
+      "original": "おやおや。\n補給している間に、いったい何があったんだろう\nねぇ、このふたりは？\n",
+      "translation": "이런 이런. 보급하는 사이에, 도대체 무슨\n일이 있었던 걸까 응, 이 두 사람은?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0118",
+      "channel": 1,
+      "context": {
+        "voice": "GA437084,3",
+        "speaker": "004",
+        "face": "101,0,107,0"
+      },
+      "original": "いやですわ、フォルテさん。\n私はただ、お勘定が一緒にならないようにと気を\nつかっただけですのに。\n",
+      "translation": "너무해요, 포르테 씨. 저는 그저, 계산이 같이\n나오지 않도록 신경을 썼을 뿐인데 말이죠.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0119",
+      "channel": 1,
+      "context": {
+        "voice": "GA437084,3",
+        "speaker": "001",
+        "face": "006,0,107,0"
+      },
+      "original": "勘定？\n何のこと？\n",
+      "translation": "계산? 무슨 소리야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0120",
+      "channel": 1,
+      "context": {
+        "face": "101,0,109,0",
+        "voice": "GA437085,3",
+        "speaker": "004"
+      },
+      "original": "今日のお茶代は、タクトさんが持ってくださるん\nでしょう？\n補給を手伝ったお礼に。\n",
+      "translation": "오늘의 차 값은, 택트 씨가 내주실 거 잖아요?\n보급을 도와준 답례로.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0121",
+      "channel": 1,
+      "context": {
+        "voice": "GA437085,3",
+        "speaker": "001",
+        "face": "012,0,109,0"
+      },
+      "original": "え？\nでも、あのときジュースをおごって……。\n……やっぱり、あれじゃダメ？\n",
+      "translation": "에? 하지만, 그때 주스를 사줬는 데……\n……역시, 그걸로는 안 돼?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0122",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,109,0",
+        "voice": "GA437085,3"
+      },
+      "original": "はい？\nああ……そういえば、何かお礼をしなくちゃとは\n思っていたけど……。\n",
+      "translation": "네? 아아…… 그러고 보니, 뭔가 보답을\n해야겠다고 생각은 하고 있었지만……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0123",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,0,022",
+        "voice": "GA437086,3"
+      },
+      "original": "なーんだ、そういうことだったんだ。\nビックリしちゃった。\n",
+      "translation": "나 참, 그런 거였구나. 깜짝 놀랐잖아.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0124",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,066,0,022",
+        "voice": "GA437087,3"
+      },
+      "original": "なによ、おごるのはミントだけ？\nアタシたちだって、いろいろと手伝ったのに。\n",
+      "translation": "뭐야, 사는 건 민트뿐이야? 우리들도 여러\n가지로 도와줬는데.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0125",
+      "channel": 1,
+      "context": {
+        "face": "141,066,0,173",
+        "voice": "GA437088,3",
+        "speaker": "005"
+      },
+      "original": "それもそうだね。\nあたしも今回、補給中に自主的に働いたし。\n",
+      "translation": "그것도 그렇네. 나도 이번에, 보급 중에\n자발적으로 일했으니까.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0126",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,066,0,166",
+        "voice": "GA437089,3"
+      },
+      "original": "というわけで、司令官どの。\nあたしらの分のお茶代も払っとくれよ。\n",
+      "translation": "그런 이유로, 사령관님. 우리들 몫의 차 값도\n내줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0127",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "007,066,0,166",
+        "voice": "GA437089,3"
+      },
+      "original": "ええ～っ？\n",
+      "translation": "에에～?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0128",
+      "channel": 1,
+      "context": {
+        "voice": "GA437090,3",
+        "speaker": "003",
+        "face": "061,094,0,166"
+      },
+      "original": "あーっ、それじゃアタシもアタシも！\n",
+      "translation": "아ー, 그럼 나도 나도!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0129",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,0,028",
+        "voice": "GA437091,3"
+      },
+      "original": "ちょっと、みんな。\nそれじゃタクトさんがかわいそうだよ～。\n",
+      "translation": "잠깐, 다들. 그러면 택트 씨가 불쌍하잖아～.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0130",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,181,0,028",
+        "voice": "GA437092,3"
+      },
+      "original": "……それに、奉仕活動とは、見返りを求めてする\nものではないと思います……。\n",
+      "translation": "……게다가, 봉사 활동이란 것은, 대가를\n바라고 하는 것이 아니라고 생각합니다……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0131",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,062,0",
+        "voice": "GA437093,3"
+      },
+      "original": "立派な心がけだけど、それだけじゃお腹はふくれ\nないのよね～。\nもらえるものは、今もらっとくの。\n",
+      "translation": "훌륭한 마음가짐이지만, 그것만으로는 배를\n채릴 수 없단 말이지～. 받을 수 있는 건,\n지금 받아둬야 해.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0132",
+      "channel": 1,
+      "context": {
+        "face": "012,0,062,0",
+        "speaker": "001",
+        "voice": "GA437093,3"
+      },
+      "original": "ああ～もう、わかったよ。\n日頃の働きに対する感謝の気持ちとして、今日は\nオレがおごらせていただきます！\n",
+      "translation": "아아～ 정말, 알았어. 평소의 노고에 대한\n감사의 마음으로서, 오늘은 내가 사도록\n하겠습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0133",
+      "channel": 1,
+      "context": {
+        "voice": "GA437094,3",
+        "speaker": "004",
+        "face": "101,0,102,0"
+      },
+      "original": "申し訳ありません。\n何だかタクトさんに、とんだご迷惑をおかけして\nしまったようで……。\n",
+      "translation": "죄송합니다. 왠지 택트 씨에게, 큰 폐를\n끼쳐버린 것 같아서……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0134",
+      "channel": 1,
+      "context": {
+        "voice": "GA437094,3",
+        "speaker": "001",
+        "face": "009,0,102,0"
+      },
+      "original": "……と言いながらも、顔は笑ってるように見える\nんだけど？\n",
+      "translation": "……라고 말하면서도, 얼굴은 웃고 있는\n것처럼 보이는데?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0135",
+      "channel": 1,
+      "context": {
+        "voice": "GA437095,3",
+        "speaker": "004",
+        "face": "101,0,109,0"
+      },
+      "original": "顔で笑って、心で申し訳なく思っておりますのよ。\n",
+      "translation": "얼굴로 웃고, 마음으로 죄송하게 생각하고\n있답니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0136",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,109,0",
+        "voice": "GA437095,3"
+      },
+      "original": "はいはい。\nまぁ、いいけどね……これはこれで、にぎやかで\n楽しいし。\n",
+      "translation": "네이 네이. 뭐, 상관없지만 말이야…… 이건\n이것대로, 북적거려서 즐겁고.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0137",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,0,166",
+        "voice": "GA437096,3"
+      },
+      "original": "おーい、本当に頼んじまうよー？\nいいんだね？\n",
+      "translation": "어이, 정말로 부탁해버린다～? 괜찮은 거지?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0138",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,094,0,166",
+        "voice": "GA437097,3"
+      },
+      "original": "どうせなら、いちばん高いのにしようっと。\nあ、おかわりするのもいいわね。\n",
+      "translation": "이왕이면, 제일 비싼 걸로 할래. 아, 리필하는\n것도 좋겠네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0139",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "009,0,0,0",
+        "voice": "GA437097,3"
+      },
+      "original": "こら、調子に乗るんじゃなーい！\nああ、タダより高いものはないよ、ホントに……。\n",
+      "translation": "이봐, 너무 우쭐대지 마! 아아, 세상에 공짜는\n없다니까, 정말……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00069000:dialogue:0140",
+      "channel": 1,
+      "context": {
+        "speaker": "0",
+        "face": "0,0,0,0",
+        "voice": "GA437097,3"
+      },
+      "original": "■ギャラクシーエンジェル　４章　終了■\n",
+      "translation": "■갤럭시 엔젤 4장 종료■\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

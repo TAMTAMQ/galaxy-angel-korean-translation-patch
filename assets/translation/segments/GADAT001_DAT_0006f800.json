@@ -1,0 +1,565 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_0006f800.txt",
+    "encoding": "cp932",
+    "sha256": "789c1ccc1ec10fa761125d854982170c436eccd6b60e2c735d4f5e4e3ac37137",
+    "dialogue_count": 43
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0"
+      },
+      "original": "やっと味方に会えると思ったら、何だか気が抜け\nちゃったよ。\n少し休もうかな……？\n",
+      "translation": "겨우 아군을 만날 수 있나 싶었더니, 왠지\n긴장이 풀려 버렸어. 잠시 쉴까……?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0"
+      },
+      "original": "いや、まだ大丈夫だ。\nもっと艦内を回ってみよう。\n",
+      "translation": "아니, 아직 괜찮다. 좀 더 함내를 돌아보자.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,0,0"
+      },
+      "original": "たとえ短い時間でも、貴重なくつろぎの時間だ。\n大事にしないとね。\n何をしようかな？\n",
+      "translation": "설령 짧은 시간이라도, 귀중한 휴식 시간이다.\n소중히 여겨야겠어. 뭘 할까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0"
+      },
+      "original": "……マンガでも読むか。\n",
+      "translation": "……만화라도 읽을까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0"
+      },
+      "original": "……おっと、もうこんな時間だ。\nそろそろブリッジに戻ろう。\n",
+      "translation": "……앗, 벌써 이런 시간인가. 슬슬 브릿지로\n돌아가자.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,022,0",
+        "voice": "GA504001,3"
+      },
+      "original": "あ、タクトさん！\nちょうどよかったです！\n",
+      "translation": "아, 택트 씨! 마침 잘 됐어요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,022,0",
+        "voice": "GA504001,3"
+      },
+      "original": "やあ、ミルフィー。\nちょうどよかったって、何が？\n",
+      "translation": "안녕, 밀피. 마침 잘 됐다니, 뭐가?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,046,0",
+        "voice": "GA504002,3"
+      },
+      "original": "今、ちょうどタクトさんを捜しに行こうと思って\nいたところだったんです。\n",
+      "translation": "지금 막 택트 씨를 찾으러 가려던 참이었거든\n요 .\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,046,0",
+        "voice": "GA504002,3"
+      },
+      "original": "そこに、オレの方からやって来たってわけか。\nで、どうしてオレを？\n",
+      "translation": "거기에 내가 먼저 찾아온 셈인가. 그래서, 왜\n나를?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,021,0",
+        "voice": "GA504003,3"
+      },
+      "original": "はい。\nこの公園で、お野菜を育てようと思うんですけど、\n許可していただけますか？\n",
+      "translation": "네. 이 공원에서 채소를 키워보려고 하는데,\n허가해 주실 수 있나요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,021,0",
+        "voice": "GA504003,3"
+      },
+      "original": "野菜？\n畑でも作るのかい？\n",
+      "translation": "채소? 밭이라도 만들려는 거야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,021,0",
+        "voice": "GA504004,3"
+      },
+      "original": "畑といっても、花壇のすみっこをお借りできれば、\nそれで十分なんです。\n",
+      "translation": "밭이라고 해도, 화단의 구석을 빌릴 수 있다면\n그걸로 충분해요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,022,0",
+        "voice": "GA504005,3"
+      },
+      "original": "この前の、ブラマンシュ商会との取引のときに、\n植物の種を買ったんです。\nそれを植えようと思って。\n",
+      "translation": "지난번 브라만슈 상회와의 거래 때, 식물\n씨앗을 샀거든요. 그걸 심으려고요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,022,0",
+        "voice": "GA504005,3"
+      },
+      "original": "家庭菜園みたいなものか。\n公園の管理者には、もう言ったの？\n",
+      "translation": "가정 채소 재배 같은 건가. 공원 관리자에게는\n이미 말했어?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,022,0",
+        "voice": "GA504006,3"
+      },
+      "original": "はい、もう許可をいただきました。\nいつも花壇の手入れを手伝ってるから、そのお礼\nにって言ってくれました。\n",
+      "translation": "네, 이미 허가를 받았어요. 항상 화단 관리를\n돕고 있으니까, 그 답례 로라고 말씀해\n주셨거든요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,046,0",
+        "voice": "GA504007,3"
+      },
+      "original": "でも、最終的には司令官であるタクトさんの許可\nが必要なんだそうです。\n作ってもいいですか？\n",
+      "translation": "하지만 최종적으로는 사령관인 택트 씨의 허가\n가 필요하다고 하더라고요. 키워도 될까요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,046,0",
+        "voice": "GA504007,3"
+      },
+      "original": "そうだなぁ……。\n",
+      "translation": "글쎄……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "voice": "GA504007,3",
+        "speaker": "001",
+        "face": "001,0,046,0"
+      },
+      "original": "わかった。\n作っていいよ。\n",
+      "translation": "알았어. 키워도 좋아.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,022,0",
+        "voice": "GA504008,3"
+      },
+      "original": "ありがとうございます！\nあたし、がんばって育てますね！\n",
+      "translation": "감사합니다! 저, 열심히 키울게요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,022,0",
+        "voice": "GA504008,3"
+      },
+      "original": "ところで、どんな植物を育てるの？\n",
+      "translation": "그런데, 어떤 식물을 키우는 거야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,021,0",
+        "voice": "GA504009,3"
+      },
+      "original": "エッグプランツっていう名前の野菜なんですよ。\n",
+      "translation": "에그 플랜트라는 이름의 채소예요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "voice": "GA504009,3",
+        "speaker": "001",
+        "face": "006,0,021,0"
+      },
+      "original": "エッグプランツ？\n",
+      "translation": "에그 플랜트?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "face": "021,0,022,0",
+        "voice": "GA504010,3",
+        "speaker": "002"
+      },
+      "original": "きっと、卵みたいな味の実がなると思うんですよ！\nエルシオールでは、新鮮な卵が手に入らないのが\n不便だったんですが、これで解決するかも！\n",
+      "translation": "분명 달걀 같은 맛이 나는 열매가 맺힐\n거예요! 에르시올에서는 신선한 달걀을 구할 수\n없어 불편했는데, 이걸로 해결될지도 몰라요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "face": "012,0,022,0",
+        "speaker": "001",
+        "voice": "GA504010,3"
+      },
+      "original": "いや、ちょっと待って。\nエッグプランツって、いわゆるナスの別名だよ？\n卵を細長くしたような形だからって意味で。\n",
+      "translation": "아니, 잠깐만. 에그 플랜트는 말하자면 가지의\n별명이야? 달걀을 길쭉하게 만든 것 같은\n모양이라서 그렇다는 의미로.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,026,0",
+        "voice": "GA504011,3"
+      },
+      "original": "ええっ？\nエッグプランツって、なすびのことだったんです\nか！？\n",
+      "translation": "에엣? 에그 플랜츠라는 게, 가지를 말하는\n거였어 요!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "voice": "GA504012,3",
+        "speaker": "002",
+        "face": "021,0,023,0"
+      },
+      "original": "がーん……。\nあたし、てっきり卵の味がする野菜だと……。\nこれでたくさんお菓子を作ろうと思ってたのに。\n",
+      "translation": "가앙…… 난, 당연히 달걀 맛이 나는 채소인\n줄 알고…… 이걸로 과자를 잔뜩 만들려고\n했는데.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,023,0",
+        "voice": "GA504012,3"
+      },
+      "original": "ナスは……ナスの味だよね、言うまでもなく。\n",
+      "translation": "가지는…… 가지 맛이지, 말할 필요도 없이.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,025,0",
+        "voice": "GA504013,3"
+      },
+      "original": "……わかりました！\nだったら、なすびのお菓子に挑戦します！\n",
+      "translation": "……알겠습니다! 그렇다면, 가지 과자에\n도전할게요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,025,0",
+        "voice": "GA504013,3"
+      },
+      "original": "た、立ち直りが早いね。\nさすがはミルフィーというか……。\n",
+      "translation": "회, 회복이 빠르네. 역시 밀피라고 해야\n할지……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "voice": "GA504014,3",
+        "speaker": "002",
+        "face": "021,0,022,0"
+      },
+      "original": "そうなんです。\nフォルテさんも、それがあたしのいいところだっ\nて言ってました。\n",
+      "translation": "그렇답니다. 포르테 씨도, 그게 제 장점이라\n고 말했어요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,022,0",
+        "voice": "GA504014,3"
+      },
+      "original": "うん、そのとおりだと思うよ。\nじゃあ、がんばってね。\n",
+      "translation": "응, 그렇다고 생각해. 그럼, 힘내길 바라.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,046,0",
+        "voice": "GA504015,3"
+      },
+      "original": "はい！\n完成したら、タクトさんもぜひ召し上がってくだ\nさいね！\n",
+      "translation": "네! 완성되면, 택트 씨도 꼭 드셔 주세 요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,046,0",
+        "voice": "GA504015,3"
+      },
+      "original": "ああ、もちろんだとも。\n",
+      "translation": "아아, 물론이지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,022,0",
+        "voice": "GA504016,3"
+      },
+      "original": "よーし、タクトさんのためにもがんばらなきゃ！\n収穫が、今から待ち遠しいですね！\n",
+      "translation": "좋아, 택트 씨를 위해서라도 힘내야지! 수확이\n벌써부터 기다려지네요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,022,0",
+        "voice": "GA504016,3"
+      },
+      "original": "そうだね。\n楽しみにしているよ。\n",
+      "translation": "그렇네. 기대하고 있을게.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0036",
+      "channel": 1,
+      "context": {
+        "voice": "GA504016,3",
+        "speaker": "001",
+        "face": "004,0,046,0"
+      },
+      "original": "それは許可できないな。\n必要性が感じられないよ。\n",
+      "translation": "그건 허가할 수 없겠군. 필요성을 느끼지\n못하겠어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0037",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,023,0",
+        "voice": "GA504017,3"
+      },
+      "original": "え～……？\nせっかく、収穫したお野菜で、お菓子を作ろうと\n思ってたのに。\n",
+      "translation": "에～……? 기껏, 수확한 채소로 과자를\n만들려고 했는데.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0038",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,023,0",
+        "voice": "GA504017,3"
+      },
+      "original": "野菜なら、この前の補給でたくさん手に入ったん\nだし、わざわざ作る必要もないだろう？\n",
+      "translation": "채소라면, 지난번 보급 때 많이 얻었으니,\n굳이 만들 필요도 없지 않겠어?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0039",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,022,0",
+        "voice": "GA504018,3"
+      },
+      "original": "自分で育てるから、いいんじゃないですか。\n",
+      "translation": "직접 기르는 거니까, 괜찮지 않을까요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0040",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,022,0",
+        "voice": "GA504018,3"
+      },
+      "original": "でも、もうじき第３方面軍と合流して、そのまま\nローム星系まで行けるかもしれないんだよ？\nとても野菜が育つだけの時間は、ないと思うけど。\n",
+      "translation": "하지만, 곧 제3방면군과 합류해서, 그대로 롬\n성계까지 갈지도 모른다고? 채소가 자랄\n만큼의 시간은 없을 것 같은데.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0041",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,026,0",
+        "voice": "GA504019,3"
+      },
+      "original": "あ、そうか。\nそれもそうですね。\n",
+      "translation": "아, 그렇구나. 그것도 그렇네요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0042",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,026,0",
+        "voice": "GA504019,3"
+      },
+      "original": "その種は、ロームに着いてから使った方がいいん\nじゃないかな。\n",
+      "translation": "그 씨앗은, 롬에 도착하고 나서 쓰는 게 낫지\n않을까.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006f800:dialogue:0043",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,046,0",
+        "voice": "GA504020,3"
+      },
+      "original": "わかりました。\nそうします。\n",
+      "translation": "알겠습니다. 그렇게 할게요.\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

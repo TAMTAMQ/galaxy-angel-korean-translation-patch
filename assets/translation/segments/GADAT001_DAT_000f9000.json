@@ -1,0 +1,817 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000f9000.txt",
+    "encoding": "cp932",
+    "sha256": "01b5249abfb2a4feb5634649e036701ed71ca240f4441e934da0fc032bb34d94",
+    "dialogue_count": 62
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "281,0,273,0",
+        "voice": "GA801001,3"
+      },
+      "original": "もしや、あれは『黒き月』……？\n",
+      "translation": "혹시, 저것은 『흑색 달』……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,273,0",
+        "voice": "GA801001,3"
+      },
+      "original": "『黒き月』？\n　何なんですか、それは？\n",
+      "translation": "『흑색 달』? 　그게 뭔가요, 그건?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "281,0,282,0",
+        "voice": "GA801002,3"
+      },
+      "original": "私も、詳しいことは知らぬ。\nただ、以前シャトヤーン様から聞いたことがある。\n",
+      "translation": "나도 자세한 것은 모른다. 다만, 이전에\n샤토얀 님으로부터 들은 적이 있다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "287,0,0,0",
+        "voice": "GA801003,3"
+      },
+      "original": "『黒き月』とは、人に仇なすロストテクノロジー。\n　自己増殖を繰り返す自動機械。\n　……シャトヤーン様は、そうおっしゃっていた。\n",
+      "translation": "『흑색 달』이란, 사람에게 해를 끼치는 로스트\n테크놀로지. 　자기 증식을 반복하는 자동 기\n계 . 　……샤토얀 님은 그렇게 말씀하셨다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GA801003,3"
+      },
+      "original": "人に仇なす……自動機械……？\n",
+      "translation": "사람에게 해를 끼치는…… 자동 기계……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA801004,3"
+      },
+      "original": "『黒き月』か……。\n　とりあえず、とてつもなくヤバい存在だという\n　ことだけは理解できるぜ。\n",
+      "translation": "『흑색 달』인가…… 　일단, 엄청나게 위험한\n존재라는 　것만은 이해할 수 있겠군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA801005,3"
+      },
+      "original": "たった一撃……それもかすめただけで、都市衛星\nファーゴを半壊させたんだからな。\n",
+      "translation": "단 한 번의 일격…… 그것도 스쳐 지나간\n것만으로, 도시 위성 파르고를 반파시켰으니까\n말이야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA801005,3"
+      },
+      "original": "ああ……。\nそれに、直撃を受けた惑星ロームも心配だ。\nロームの状況は、わからないか？\n",
+      "translation": "아아…… 게다가, 직격을 받은 행성 롬도\n걱정이다. 롬의 상황은 알 수 없나?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GA801006,3"
+      },
+      "original": "詳しくはわかりません……。\nですが、ここからでも確認できるほど、惑星表面\nが大きくえぐられています。\n",
+      "translation": "자세히는 모릅니다…… 하지만, 여기서도\n확인할 수 있을 정도로 행성 표면 이 크게\n파여 있습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GA801007,3"
+      },
+      "original": "これでは……たとえ直接攻撃を受けなかった地域\nでも、その衝撃波だけで、壊滅的被害を受けたの\nではないかと……。\n",
+      "translation": "이래서는…… 설령 직접 공격을 받지 않은\n지역이라도, 그 충격파만으로 궤멸적인 피해를\n입은 것이 아닌가 하고……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GA801007,3"
+      },
+      "original": "そ、そんな……。\nそれじゃあ、惑星ロームにいた人たちは……。\n",
+      "translation": "그, 그럴 수가…… 그렇다면, 행성 롬에 있던\n사람들은……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA801008,3"
+      },
+      "original": "……言いたくはないが……絶望的だろうな……。\n",
+      "translation": "……말하고 싶지는 않지만…… 절망적이겠\n군… ….\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "face": "503,0,0,0",
+        "voice": "GA801009,3",
+        "speaker": "017"
+      },
+      "original": "通信が入りました！\n都市衛星ファーゴからです！\n",
+      "translation": "통신이 들어왔습니다! 도시 위성 파르고로부터\n입니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GA801009,3"
+      },
+      "original": "ファーゴから？\nつないでくれ！\n",
+      "translation": "파르고에서? 연결해 줘!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "009",
+        "face": "252,0,0,0",
+        "voice": "GA801010,3"
+      },
+      "original": "こちら、ファーゴ第２宇宙港管制室。\nエルシオールとエンジェル隊を指揮しているのは\n誰じゃ？\n",
+      "translation": "여기는 파르고 제2 우주항 관제실. 에르시올과\n엔젤대를 지휘하고 있는 자는 누구냐?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GA801010,3"
+      },
+      "original": "ルフト准将！\nオレです、タクトです！\n",
+      "translation": "루프트 준장! 저입니다, 택트입니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "009",
+        "face": "256,0,0,0",
+        "voice": "GA801011,3"
+      },
+      "original": "おお、タクト！\nあの混乱の中、エルシオールに乗り込んでおった\nとは。\n",
+      "translation": "오오, 택트! 그 혼란 속에서 에르시올에 타고\n있었다니.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GA801011,3"
+      },
+      "original": "ルフト准将こそ、よくご無事で。\nそちらの状況は！？\n",
+      "translation": "루프트 준장이야말로 무사하셔서 다행입니다.\n그쪽 상황은!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "009",
+        "face": "252,0,0,0",
+        "voice": "GA801012,3"
+      },
+      "original": "すべての宇宙港が被害を受け、中央管制室も沈黙\nしておる。\n港の中の無事な宇宙船を逃がすので精一杯じゃ。\n",
+      "translation": "모든 우주항이 피해를 입어, 중앙 관제실도\n침묵 하고 있다. 항구 안의 무사한 우주선을\n탈출시키는 것만으로도 벅차구나.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "009",
+        "face": "252,0,0,0",
+        "voice": "GA801013,3"
+      },
+      "original": "ファーゴの市街区も、さきほどの攻撃で……ほぼ\n全滅に近い状態じゃ……。\n",
+      "translation": "파르고의 시가지도, 방금 전의 공격으로……\n거의 전멸에 가까운 상태다……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "face": "010,0,0,0",
+        "speaker": "001",
+        "voice": "GA801013,3"
+      },
+      "original": "なんてことだ……。\nちくしょう、エオニアめ……！\n",
+      "translation": "이럴 수가…… 제기랄, 에오니아 이 녀석……!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "face": "252,0,0,0",
+        "voice": "GA801014,3",
+        "speaker": "009"
+      },
+      "original": "その怒りは、しばらく取っておけ。\n今、周辺の各惑星から、友軍が接近しつつある。\n",
+      "translation": "그 분노는 잠시 아껴두어라. 지금 주변의 각\n행성으로부터, 우군이 접근하고 있다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "009",
+        "face": "252,0,0,0",
+        "voice": "GA801015,3"
+      },
+      "original": "それより、タクト。\nシヴァ皇子の所在を知ってはおらぬか？\n",
+      "translation": "그보다, 택트. 시바 황자의 소재를 알고\n있느냐?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "voice": "GA801015,3",
+        "speaker": "001",
+        "face": "006,0,0,0"
+      },
+      "original": "ああ、シヴァ皇子でしたら……。\n",
+      "translation": "아아, 시바 황자라면……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "281,0,271,0",
+        "voice": "GA801016,3"
+      },
+      "original": "案ずるな。\n私なら、ここにいる。\n",
+      "translation": "걱정하지 마라. 나라면, 여기에 있다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "face": "256,0,271,0",
+        "voice": "GA801017,3",
+        "speaker": "009"
+      },
+      "original": "な、なんと！\nよくぞご無事で！\n",
+      "translation": "아, 아니 이럴 수가! 어떻게 무사할 수\n있었느냐!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,271,0",
+        "voice": "GA801017,3"
+      },
+      "original": "舞踏会の会場を脱出するとき、一緒にお連れした\nんです。\n",
+      "translation": "무도회 회장을 탈출할 때, 함께 모시고\n왔습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "speaker": "009",
+        "face": "253,0,271,0",
+        "voice": "GA801018,3"
+      },
+      "original": "そうじゃったか。\nいや、よくやってくれた、タクト！\n",
+      "translation": "그랬던 것이냐. 아니, 정말 잘해주었다, 택트!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "face": "491,0,0,0",
+        "voice": "GA801019,3",
+        "speaker": "016"
+      },
+      "original": "司令！\nエオニア軍が動き始めました！\n",
+      "translation": "사령관님! 에오니아군이 움직이기 시작했습니\n다 !\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA801019,3"
+      },
+      "original": "来たか……。\n敵の数は？\n",
+      "translation": "왔는가…… 적의 수는?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GA801020,3"
+      },
+      "original": "……反応、急速に増加中！\nあの黒い巨大建造物から、次々と無人艦が現れて\nきています！\n",
+      "translation": "……반응, 급속히 증가 중! 저 검은 거대\n건조물에서, 차례차례 무인함이 나타나 고\n있습니다!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GA801021,3"
+      },
+      "original": "ほかにも、初めて見るタイプも混じっているよう\nです。\n",
+      "translation": "그 외에도, 처음 보는 타입도 섞여 있는 것 같\n습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "224,0,0,0",
+        "voice": "GA801022,3"
+      },
+      "original": "また新型か？\n今度は何だ？\n",
+      "translation": "또 신형인가? 이번엔 뭐지?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GA801023,3"
+      },
+      "original": "現在、データを解析しています。\nエオニア軍、ファーゴに向かって接近中！\n",
+      "translation": "현재, 데이터를 해석하고 있습니다. 에오니아\n군 , 파르고를 향해 접근 중!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GA801024,3"
+      },
+      "original": "これじゃキリがないぜ。\nどうする、タクト？\n",
+      "translation": "이래서는 끝이 없겠어. 어떡할 거냐, 택트?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0036",
+      "channel": 1,
+      "context": {
+        "voice": "GA801024,3",
+        "speaker": "001",
+        "face": "003,0,223,0"
+      },
+      "original": "あの巨大な球体……『黒き月』を叩くしかないだ\nろう。\nそうしないと、こちらが消耗するだけだ。\n",
+      "translation": "저 거대한 구체…… 『흑색 달』을 타격할\n수밖에 없겠군. 그렇게 하지 않으면, 이쪽이\n소모될 뿐이다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0037",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GA801024,3"
+      },
+      "original": "ルフト准将、ここはオレたちに任せて、ファーゴ\nに残っている人々の救出を急いでください！\n",
+      "translation": "루프트 준장, 여기는 우리에게 맡기고, 파르고\n에 남아 있는 사람들의 구출을 서둘러 주세요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0038",
+      "channel": 1,
+      "context": {
+        "speaker": "009",
+        "face": "255,0,0,0",
+        "voice": "GA801025,3"
+      },
+      "original": "そ、それはならん！\n早く逃げるんじゃ！\n",
+      "translation": "그, 그건 안 된다! 빨리 도망치거라!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0039",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GA801025,3"
+      },
+      "original": "どうしてですか。\n現在の戦力では、エルシオールとエンジェル隊が\n戦うのが、もっとも有効な手段です。\n",
+      "translation": "어째서입니까. 현재의 전력으로는, 에르시올과\n엔젤대가 싸우는 것이 가장 유효한 수단입니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0040",
+      "channel": 1,
+      "context": {
+        "speaker": "009",
+        "face": "255,0,0,0",
+        "voice": "GA801026,3"
+      },
+      "original": "シヴァ皇子がおられるとなれば、話は別じゃ！\nエオニア軍の集中砲火を浴びるエルシオールに、\n皇子を置いておくわけにはいかん！\n",
+      "translation": "시바 황자님이 계신다면 이야기는 다르다!\n에오니아군의 집중 포화를 받는 에르시올에,\n황자님을 둘러놓을 수는 없다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0041",
+      "channel": 1,
+      "context": {
+        "face": "003,0,0,0",
+        "voice": "GA801026,3",
+        "speaker": "001"
+      },
+      "original": "つまり、シヴァ皇子の安全を最優先し、戦闘から\n離脱せよと？\n",
+      "translation": "즉, 시바 황자님의 안전을 최우선하여,\n전투에서 이탈하라는 말씀입니까?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0042",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "281,0,273,0",
+        "voice": "GA801027,3"
+      },
+      "original": "ルフト！\nファーゴの人々を見捨てろと言うのか！\n",
+      "translation": "루프트! 파르고 사람들을 버리라는 말이냐!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0043",
+      "channel": 1,
+      "context": {
+        "speaker": "009",
+        "face": "254,0,273,0",
+        "voice": "GA801028,3"
+      },
+      "original": "そうは申しておりません。\nいくぶん困難にはなりますが、避難できる可能性\nがまったくないわけでは……。\n",
+      "translation": "그렇게 말씀드린 것이 아닙니다. 다소 곤란해지\n긴 하겠지만, 피난할 가능성 이 전혀 없는\n것은……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0044",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "281,0,273,0",
+        "voice": "GA801029,3"
+      },
+      "original": "それが見捨てることだと言うのだ！\nマイヤーズ、ファーゴからの避難を援護して戦え！\nこれは命令だ！\n",
+      "translation": "그것이 버리는 것이라는 말이다! 마이어스,\n파르고로부터의 피난을 원호하며 싸워라!\n이것은 명령이다!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0045",
+      "channel": 1,
+      "context": {
+        "face": "255,0,273,0",
+        "voice": "GA801030,3",
+        "speaker": "009"
+      },
+      "original": "ならんぞ、タクト！\nシヴァ皇子を安全なところへ！\n",
+      "translation": "안 된다, 택트! 시바 황자님을 안전한 곳으로!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0046",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,273,0",
+        "voice": "GA801030,3"
+      },
+      "original": "……わかりました。\n",
+      "translation": "……알겠습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0047",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,273,0",
+        "voice": "GA801030,3"
+      },
+      "original": "エルシオールは、エオニア軍の迎撃に向かいます！\nみんな、戦闘準備だ！\n",
+      "translation": "에르시올은, 에오니아군의 요격을 향해 나아갑니\n다! 모두, 전투 준비!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0048",
+      "channel": 1,
+      "context": {
+        "face": "281,0,273,0",
+        "voice": "GA801031,3",
+        "speaker": "011"
+      },
+      "original": "それでよい！\nやつらをファーゴに近づけるな！\n",
+      "translation": "그것으로 됐다! 놈들을 파르고에 접근시키지\n마라!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0049",
+      "channel": 1,
+      "context": {
+        "face": "255,0,273,0",
+        "speaker": "009",
+        "voice": "GA801032,3"
+      },
+      "original": "タクト！\n",
+      "translation": "택트!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0050",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,273,0",
+        "voice": "GA801032,3"
+      },
+      "original": "いやぁ、シヴァ皇子の勅命には逆らえませんから。\nそれに、木を隠すなら森の中ですよ。\n",
+      "translation": "이야, 시바 황자의 칙명에는 거스를 수\n없으니까요. 게다가, 나무를 숨기려면 숲속이어\n야 하는 법이죠.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0051",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,273,0",
+        "voice": "GA801032,3"
+      },
+      "original": "ほかの軍艦がこの宙域に残っているというのに、\nエルシオールだけが逃げ出したら、シヴァ皇子が\nここに乗っていると教えているようなものです。\n",
+      "translation": "다른 군함들이 이 우역에 남아 있는데 에르시올만 도망치면, 시바 황자가 탔다고 알리는 셈입니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0052",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,0,224",
+        "voice": "GA801033,3"
+      },
+      "original": "ここまでシヴァ皇子を乗せてきた艦ということで、\nエオニア軍はただでさえ、エルシオールをマーク\nしているでしょうしね。\n",
+      "translation": "여기까지 시바 황자를 태우고 온 함선이라는\n점에서, 에오니아군은 안 그래도 에르시올을\n마크 하고 있을 테니까요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0053",
+      "channel": 1,
+      "context": {
+        "voice": "GA801034,3",
+        "speaker": "009",
+        "face": "254,0,0,0"
+      },
+      "original": "……わかった。\nワシはもう何も言うまい。\nエオニア軍の足止めを頼む。\n",
+      "translation": "……알았다. 나는 이제 아무 말도 하지\n않겠다. 에오니아군의 발을 묶는 것을 부탁한\n다 .\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0054",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA801034,3"
+      },
+      "original": "はい、了解しました。\n",
+      "translation": "네, 알겠습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0055",
+      "channel": 1,
+      "context": {
+        "speaker": "009",
+        "face": "252,0,0,0",
+        "voice": "GA801035,3"
+      },
+      "original": "くれぐれも無理はするなよ、タクト。\n必ず生きのびて、また会おう。\n",
+      "translation": "부디 무리는 하지 말거라, 택트. 반드시\n살아남아서 다시 만나자꾸나.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0056",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GA801035,3"
+      },
+      "original": "エンジェル隊のみんな、聞いての通りだ。\n我々はこれより、友軍とともにエオニア軍へ攻撃\nをしかける！\n",
+      "translation": "엔젤대 여러분, 들은 대로다. 우리는 지금부터,\n아군과 함께 에오니아군에게 공격 을 가한다!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0057",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "025,0,0,0",
+        "voice": "GA801036,3"
+      },
+      "original": "わかりました！\n行きましょう、タクトさん！\n",
+      "translation": "알겠습니다! 가요, 택트 씨!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0058",
+      "channel": 1,
+      "context": {
+        "voice": "GA801037,3",
+        "speaker": "003",
+        "face": "062,0,0,0"
+      },
+      "original": "了解。\nアタシの華麗な活躍を見せてあげるわ！\n",
+      "translation": "네. 내 화려한 활약을 보여줄게!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0059",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "103,0,0,0",
+        "voice": "GA801038,3"
+      },
+      "original": "はい、タクトさん。\nこれ以上の暴挙を、許してはいけませんわ。\n",
+      "translation": "네, 택트 씨. 이 이상의 폭거를, 허용해서는\n안 됩니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0060",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "142,0,0,0",
+        "voice": "GA801039,3"
+      },
+      "original": "そう来なくっちゃね。\nデカブツが多くて、叩きがいがありそうだ。\n腕が鳴るよ。\n",
+      "translation": "그래야지. 덩치 큰 녀석들이 많아서, 때릴\n맛이 나겠어. 실력을 발휘해 보겠어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0061",
+      "channel": 1,
+      "context": {
+        "face": "195,0,0,0",
+        "speaker": "006",
+        "voice": "GA801040,3"
+      },
+      "original": "了解。\n……もう、これ以上の犠牲は出しません。\n",
+      "translation": "네. ……이제, 이 이상의 희생은 내지\n않겠습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f9000:dialogue:0062",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GA801040,3"
+      },
+      "original": "よし……行くぞ、みんな！\n",
+      "translation": "좋아…… 가자, 모두!\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

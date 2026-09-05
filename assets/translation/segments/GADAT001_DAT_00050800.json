@@ -1,0 +1,362 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_00050800.txt",
+    "encoding": "cp932",
+    "sha256": "a4a93c4c4feb3ade3cc65c0b13ca513bed160e7d3f567d5b86cf7e8945ac1788",
+    "dialogue_count": 27
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,046,0",
+        "voice": "GA402001,3"
+      },
+      "original": "あ、タクトさん、ミント。\n視察ですか？\nお疲れさまです。\n",
+      "translation": "아, 택트 씨, 민트. 시찰인가요? 수고 많으십니\n다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,046,0",
+        "voice": "GA402001,3"
+      },
+      "original": "やあ、ミルフィー。\n君は散歩してたのかい？\n",
+      "translation": "야아, 밀피. 너는 산책 중이었니?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,021,0",
+        "voice": "GA402002,3"
+      },
+      "original": "はい、そうなんです。\n",
+      "translation": "네, 그렇답니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,028,0",
+        "voice": "GA402003,3"
+      },
+      "original": "でも……。\nこのごろ、お花が何だか元気がないんです。\n本当なら、今ごろ元気よく咲いてるはずなのに。\n",
+      "translation": "하지만…… 요즘 꽃들이 왠지 기운이 없어요.\n원래라면 지금쯤 활기차게 피어 있어야 할\n텐데.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,028,0",
+        "voice": "GA402003,3"
+      },
+      "original": "ああ、言われてみれば……。\nしおれかけてる花も、けっこうあるね。\n",
+      "translation": "아아, 듣고 보니…… 시들어가는 꽃도 꽤 있네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,028,0",
+        "voice": "GA402004,3"
+      },
+      "original": "きっと、栄養が足りないんですよ。\n管理係の人が、肥料が少なくなってきたために、\n節約してるんだと思います。\n",
+      "translation": "분명 영양이 부족한 거예요. 관리 담당자가\n비료가 적어졌기 때문에, 절약하고 있는\n거라고 생각해요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,107,0,0",
+        "voice": "GA402005,3"
+      },
+      "original": "公園とはいえ、閉ざされた艦の中ですからね。\n定期的に、人の手で養分を追加してあげないと、\n環境を維持できないんですわ。\n",
+      "translation": "공원이라고는 해도, 폐쇄된 함선 안이니까요.\n정기적으로 사람의 손으로 양분을 추가해 주지\n않으면, 환경을 유지할 수 없답니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,107,0,0",
+        "voice": "GA402005,3"
+      },
+      "original": "そうか……肥料が底をついたら、この花も木も、\n枯れちゃうのか。\nじゃあ、肥料も補給しなきゃ。\n",
+      "translation": "그런가…… 비료가 떨어지면 이 꽃도 나무도,\n시들어 버리는 건가. 그럼, 비료도 보급해야겠\n네.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,107,0,028",
+        "voice": "GA402006,3"
+      },
+      "original": "お願いします、タクトさん。\n直接、戦いには関係ないですけど、自然の植物を\n見るだけで、心がなごみますから。\n",
+      "translation": "부탁할게요, 택트 씨. 직접적으로 전투와는\n상관없지만, 자연의 식물을 보는 것만으로도\n마음이 편안해지니까요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,107,0,028",
+        "voice": "GA402006,3"
+      },
+      "original": "そうだね。\nところで、ミルフィー自身は、何か補給が必要な\nものってある？\n",
+      "translation": "그렇네. 그런데 밀피 자신은, 뭔가 보급이\n필요한 것이라도 있어?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "voice": "GA402007,3",
+        "speaker": "002",
+        "face": "021,107,0,046"
+      },
+      "original": "はい、お菓子作りの材料がほしいです！\n",
+      "translation": "네, 과자 만들 재료가 갖고 싶어요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,107,0,046",
+        "voice": "GA402007,3"
+      },
+      "original": "ああ、そうだったね。\nリストに追加しておくよ。\nまぁ、後は無事に補給ができればいいんだが……。\n",
+      "translation": "아아, 그랬었지. 리스트에 추가해 둘게. 뭐,\n나중에는 무사히 보급이 되면 좋겠는데……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,101,0,046",
+        "voice": "GA402008,3"
+      },
+      "original": "もしうまくいかなかったら、そのときはまた私の\n買い置きのお菓子をごちそういたしますわ。\n",
+      "translation": "만약 잘 안 된다면, 그때는 다시 제 비축해 둔\n과자를 대접할게요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,101,0,046",
+        "voice": "GA402008,3"
+      },
+      "original": "うーん、そうだなぁ……。\n",
+      "translation": "으음, 글쎄……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "voice": "GA402008,3",
+        "speaker": "001",
+        "face": "001,101,0,046"
+      },
+      "original": "駄菓子もけっこういいもんだよな。\n味は独特だし、意外と腹持ちもいいし。\n",
+      "translation": "군것질거리도 꽤 괜찮단 말이지. 맛은 독특하\n고 , 의외로 포만감도 있고.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,102,0,046",
+        "voice": "GA402009,3"
+      },
+      "original": "そのとおりですわ。\n気に入っていただけたようで、うれしいですわ。\n",
+      "translation": "맞아요. 마음에 들어 하시는 것 같아 기쁘네요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,102,0,046",
+        "voice": "GA402009,3"
+      },
+      "original": "とはいえ、その買い置きも、いつまでもあるわけ\nじゃないしな。\nやっぱり、近いうちに補給はしなきゃ。\n",
+      "translation": "그렇다고 해도, 그 비축분도 언제까지나 있는\n건 아니니까. 역시 조만간 보급은 해야겠어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "voice": "GA402009,3",
+        "speaker": "001",
+        "face": "002,102,0,046"
+      },
+      "original": "そうしたら、今度はミルフィーにお菓子を作って\nもらいたいなぁ。\n",
+      "translation": "그러면 다음에는 밀피가 과자를 만들어 줬으면\n좋겠네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "face": "021,102,0,022",
+        "speaker": "002",
+        "voice": "GA402010,3"
+      },
+      "original": "はい、がんばって傑作を作っちゃいますね！\n",
+      "translation": "네, 열심히 해서 걸작을 만들어 버릴게요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "face": "101,109,0,022",
+        "voice": "GA402011,3",
+        "speaker": "004"
+      },
+      "original": "それは楽しみですわね。\n必要な材料などは、後でまとめて教えてください\nませ。\n",
+      "translation": "그건 기대되네요. 필요한 재료 같은 건 나중에\n한꺼번에 알려 주세요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "face": "001,109,0,022",
+        "speaker": "001",
+        "voice": "GA402011,3"
+      },
+      "original": "うん、補給リストに入れておくよ。\nじゃあ、オレたちはそろそろ、別のところの視察\nに行こうか。\n",
+      "translation": "응, 보급 리스트에 넣어 둘게. 그럼 우리들은\n슬슬 다른 곳의 시찰을 하러 갈까.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "voice": "GA402012,3",
+        "speaker": "002",
+        "face": "021,109,0,046"
+      },
+      "original": "わかりました。\n視察、がんばってくださいね。\n",
+      "translation": "알겠습니다. 시찰, 힘내세요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "face": "002,101,0,046",
+        "speaker": "001",
+        "voice": "GA402012,3"
+      },
+      "original": "でもやっぱり、ミルフィーのお菓子も食べたいな。\nピクニックのときに作ってもらったケーキの味が、\n今でも忘れられないよ。\n",
+      "translation": "하지만 역시 밀피의 과자도 먹고 싶네. 소풍\n때 만들어 줬던 케이크 맛이, 지금도 잊히지\n않아.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,101,0,024",
+        "voice": "GA402013,3"
+      },
+      "original": "えへへっ。\nありがとうございます。\nちゃんと補給して、材料いっぱい買いましょうね。\n",
+      "translation": "에헤헷. 감사합니다. 제대로 보급해서, 재료\n잔뜩 사자고요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "face": "101,104,0,024",
+        "voice": "GA402014,3",
+        "speaker": "004"
+      },
+      "original": "あら？\nこの前、ケーキはオーブンの故障で作れなかった\nのではありませんの？\n",
+      "translation": "어라? 지난번에, 케이크는 오븐 고장 때문에\n만들 수 없었던 것 아니었나요?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,104,0,024",
+        "voice": "GA402014,3"
+      },
+      "original": "あ、いやいや、何だ。\nともかく、必要そうな材料をまとめて、ブリッジ\nに送ってよ、ミルフィー。\n",
+      "translation": "아, 아니아니, 뭐야. 어쨌든, 필요해 보이는\n재료를 모아서 브릿지 로 보내줘, 밀피.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00050800:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "face": "021,104,0,022",
+        "speaker": "002",
+        "voice": "GA402015,3"
+      },
+      "original": "わかりました。\nタクトさんたちも、視察がんばってくださいね。\n",
+      "translation": "알겠습니다. 택트 씨 일행도, 시찰 힘내세요.\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000b4000.txt",
+    "encoding": "cp932",
+    "sha256": "0b437e840266d24af34d34e61528be7396c962444191127f24dd2be5a568664d",
+    "dialogue_count": 16
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000b4000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0"
+      },
+      "original": "アルモ、周囲の状況をモニターへ。\n",
+      "translation": "아르모, 주위 상황을 모니터로.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b4000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GA299001_BL,3"
+      },
+      "original": "了解。\n",
+      "translation": "네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b4000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GAE98002_BL,3"
+      },
+      "original": "敵艦隊の編成は、大型戦闘母艦……。\n",
+      "translation": "적 함대의 편성은, 대형 전투모함……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b4000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GAE98003_BL,3"
+      },
+      "original": "装甲ミサイル艦……。\n",
+      "translation": "장갑 미사일함……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b4000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GAE98003_MD,3"
+      },
+      "original": "高速突撃艦……。\n",
+      "translation": "고속 돌격함……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b4000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GAE98004_BL,3"
+      },
+      "original": "例の大型戦闘機。\nヘル・ハウンズ隊の紋章機モドキだ。\n",
+      "translation": "예의 대형 전투기. 헬・하운즈대의 문장기\n모조리다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b4000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GAE98005_BL,3"
+      },
+      "original": "さらに、レーダーが大型艦の存在をとらえている。\n間違いない、エオニアの旗艦だ。\n",
+      "translation": "게다가, 레이더가 대형함의 존재를 포착하고\n있다. 틀림없어, 에오니아의 기함이다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b4000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "voice": "GAE98005_BL,3",
+        "speaker": "001",
+        "face": "003,0,0,0"
+      },
+      "original": "いよいよ、エオニアと直接対決か。\n今までは正面切って戦う機会がなかったが、今日\nこそ決着をつけてやる。\n",
+      "translation": "드디어, 에오니아와 직접 대결인가. 지금까지는\n정면으로 싸울 기회가 없었지만, 오늘 이야말로\n결판을 내주마.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b4000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAE98005_BL,3"
+      },
+      "original": "いや、エオニアだけじゃない。\nあの戦闘機も、無人艦隊も……ひとつ残らず打ち\n倒す！\n",
+      "translation": "아니, 에오니아뿐만이 아니야. 저 전투기도,\n무인 함대도…… 하나도 남김없이 때 려눕히겠\n다!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b4000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GAE98005_BL,3"
+      },
+      "original": "そうすれば、この戦いは終わりだ。\nオレたちの手で終わらせるんだ！\n",
+      "translation": "그렇게 하면, 이 싸움은 끝이다. 우리들의\n손으로 끝내는 거다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b4000:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GAE98005_BL,3"
+      },
+      "original": "行くぞ、みんな！\n",
+      "translation": "가자, 모두들!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b4000:dialogue:0012",
+      "channel": 0,
+      "context": {
+        "speaker": "094",
+        "face": "0,0,0,0",
+        "voice": "GAE98005_BL,3"
+      },
+      "original": "～敵部隊の編成～\n　大型戦闘母艦×６　　　装甲ミサイル艦×３\n　高速突撃艦×３　　　　大型戦闘機×５\n　エオニア旗艦×１\n　\n～勝利条件～\n　敵の全滅\n　\n～敗北条件～\n　エルシオールの破壊\n　タイムオーバー\n",
+      "translation": "～적 부대의 편성～\n　대형 전투모함×6　　　장갑 미사일함×3\n　고속 돌격함×3　　　　대형 전투기×5\n　에오니아 기함×1\n　\n～승리 조건～\n　적의 전멸\n　\n～패배 조건～\n　에르시올의 파괴\n　타임 오버\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b4000:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "もう一度、作戦内容を確認するか？\n",
+      "translation": "다시 한번, 작전 내용을 확인할까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b4000:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,223,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "そうだなぁ……。\n",
+      "translation": "글쎄……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b4000:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "うん。\n念のため、もう一度確認しておこう。\n",
+      "translation": "응. 만약을 위해, 다시 한번 확인해 두자.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b4000:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "voice": "GA198010_BL,3",
+        "speaker": "001",
+        "face": "003,0,0,0"
+      },
+      "original": "いや、その必要はない。\nみんな、準備はいいな？\n",
+      "translation": "아니, 그럴 필요는 없다. 모두들, 준비는 됐나?\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

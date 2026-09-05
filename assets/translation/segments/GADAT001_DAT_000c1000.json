@@ -1,0 +1,140 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000c1000.txt",
+    "encoding": "cp932",
+    "sha256": "7579d88c350fa0760992c7528ede18d7249f760a80385355b9559c549128e9a6",
+    "dialogue_count": 10
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000c1000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,0,0"
+      },
+      "original": "　ミルフィーたちが、がんばってくれたおかげで、\n『黒き月』を破壊することができたんですから。\n",
+      "translation": "밀피 일행이, 열심히 노력해 준 덕분에,\n『흑색 달』을 파괴할 수 있었으니까요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c1000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "024,0,0,0",
+        "voice": "GAF12001,3"
+      },
+      "original": "いえ、そんな……。\n",
+      "translation": "아니, 그럴 리가……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c1000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAF12001,3"
+      },
+      "original": "最後にミルフィーの運が味方してくれなかったら、\nオレたちは負けていた。\n本当にありがとう。\n",
+      "translation": "마지막에 밀피의 운이 도와주지 않았다면,\n우리들은 졌을 거야. 정말 고마워.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c1000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "024,0,0,0",
+        "voice": "GAF12002,3"
+      },
+      "original": "いえ、あたしはタクトさんが無事なだけで……。\n",
+      "translation": "아니, 저는 택트 씨가 무사한 것만으로……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c1000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "027,0,0,0",
+        "voice": "GAF12003,3"
+      },
+      "original": "よかっ……た……。\n",
+      "translation": "다행……이다……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c1000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "007,0,0,0",
+        "voice": "GAF12003,3"
+      },
+      "original": "ミルフィー？\nおい、どうしたんだ？\n",
+      "translation": "밀피? 어이, 왜 그래?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c1000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "503,0,0,0",
+        "voice": "GAF12004,3"
+      },
+      "original": "ラッキースターからの応答、ありません！\n",
+      "translation": "럭키 스타로부터의 응답, 없습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c1000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "493,0,0,0",
+        "voice": "GAF12005,3"
+      },
+      "original": "ラッキースター、エンジン停止！\n",
+      "translation": "럭키 스타, 엔진 정지!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c1000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GAF12005,3"
+      },
+      "original": "な、何だって！？\n",
+      "translation": "뭐, 뭐라고!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c1000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GAF12005,3"
+      },
+      "original": "ミルフィー、どうした！？\nミルフィーッ……！\n",
+      "translation": "밀피, 왜 그래!? 밀피……!\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

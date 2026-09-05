@@ -1,0 +1,257 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_00132800.txt",
+    "encoding": "cp932",
+    "sha256": "e51ec0b3f723c5340df8e1192a91ad66de60ad1fc53036dcdae04875e12d23bf",
+    "dialogue_count": 19
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_00132800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0"
+      },
+      "original": "アルモ、現在の状況をモニターへ。\n",
+      "translation": "아르모, 현재 상황을 모니터로.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GA299001_BL,3"
+      },
+      "original": "了解。\n",
+      "translation": "네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GAC99002_BL,3"
+      },
+      "original": "前方の敵は、高速突撃艦に……。\n",
+      "translation": "전방의 적은, 고속 돌격함에……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GAC99003_BL,3"
+      },
+      "original": "装甲ミサイル艦だ。\n",
+      "translation": "장갑 미사일함이다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GAC99004_BL,3"
+      },
+      "original": "そして後方には、例の大型戦闘機と……。\n",
+      "translation": "그리고 후방에는, 예의 대형 전투기와……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GAC99005_BL,3"
+      },
+      "original": "高速突撃艦……。\n",
+      "translation": "고속 돌격함……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GAC99006_BL,3"
+      },
+      "original": "旗艦の高速戦艦がいる。\n",
+      "translation": "기함인 고속 전함이 있다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAC99006_BL,3"
+      },
+      "original": "ハッピートリガーは、前方の敵を迎え撃ってくれ。\n",
+      "translation": "해피 트리거는, 전방의 적을 저지해 줘.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAC99006_BL,3"
+      },
+      "original": "ハーベスターは、ハッピートリガーの援護を頼む。\n",
+      "translation": "하베스터는, 해피 트리거의 엄호를 부탁한다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAC99006_BL,3"
+      },
+      "original": "後方は、ラッキースター、カンフーファイター、\nトリックマスターの３機で攻撃だ。\n",
+      "translation": "후방은, 럭키 스타, 쿵푸 파이터, 트릭 마스터\n3기로 공격이다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GAC99006_BL,3"
+      },
+      "original": "もう、はさみ撃ちされるのはゴメンだ。\nここにいる敵、すべて叩きのめしてから先へ進む！\n",
+      "translation": "이제, 협공당하는 건 사양이다. 여기에 있는\n적, 모두 때려눕히고 나서 앞으로 나아간다!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAC99006_BL,3"
+      },
+      "original": "きびしい戦いになるだろうけど、エンジェル隊の\nみんななら、やれるはずだ。\nオレは、そう信じているぞ。\n",
+      "translation": "격전이 되겠지만, 엔젤대 모두라면, 해낼 수\n있을 거다. 나는, 그렇게 믿고 있다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132800:dialogue:0013",
+      "channel": 0,
+      "context": {
+        "speaker": "094",
+        "face": "0,0,0,0",
+        "voice": "GAC99006_BL,3"
+      },
+      "original": "～敵部隊の編成～\n　高速突撃艦×４　　　　装甲ミサイル艦×１\n　大型戦闘機×５　　　　高速戦艦×１\n　\n～勝利条件～\n　敵の全滅\n　\n～敗北条件～\n　エルシオールの破壊\n　タイムオーバー\n",
+      "translation": "～적 부대의 편성～\n　고속 돌격함×4　　　장갑 미사일함×1\n　대형 전투기×5　　　고속 전함×1\n　\n～승리 조건～\n　적의 전멸\n　\n～패배 조건～\n　에르시올의 파괴\n　타임 오버\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "face": "221,0,223,0",
+        "voice": "GA198010_BL,3",
+        "speaker": "007"
+      },
+      "original": "もう一度、作戦内容を確認するか？\n",
+      "translation": "다시 한번, 작전 내용을 확인할까?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,223,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "そうだなぁ……。\n",
+      "translation": "글쎄...\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,223,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "うん。\n念のため、もう一度確認しておこう。\n",
+      "translation": "응. 만약을 위해, 다시 한번 확인해 두자.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "face": "003,0,223,0",
+        "speaker": "001",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "いや、その必要はない。\nみんな、準備はいいな？\n",
+      "translation": "아니, 그럴 필요는 없다. 모두, 준비는 됐나?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "エンジェル隊、出撃！\n",
+      "translation": "엔젤대, 출격!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "099",
+        "face": "0,0,0,0",
+        "voice": "GA199012_BL,3"
+      },
+      "original": "了解！\n",
+      "translation": "네！\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

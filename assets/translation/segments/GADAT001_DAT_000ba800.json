@@ -1,0 +1,346 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000ba800.txt",
+    "encoding": "cp932",
+    "sha256": "f1d6edfe0e89daf7da3a8e5ae6610a3345fb166930418901e61b061dfce2e840",
+    "dialogue_count": 26
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0"
+      },
+      "original": "オレたちの目標は、『黒き月』の中心部にある、\n赤いクリスタルを破壊すること。\nそこが、『黒き月』のコアだ。\n",
+      "translation": "우리들의 목표는, 『흑색 달』의 중심부에\n있는, 붉은 크리스탈을 파괴하는 것. 그곳이,\n『흑색 달』의 코어다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0"
+      },
+      "original": "本当なら、このまま『黒き月』に近づいていって、\n大きく口を開けたように露出しているコアを撃ち\n抜くだけなんだが……。\n",
+      "translation": "원래라면, 이대로 『흑색 달』에 다가가서,\n크게 입을 벌린 것처럼 노출되어 있는 코어를\n쏘 아내기만 하면 되는 거지만……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0"
+      },
+      "original": "アルモ、現在の状況をモニターに出してくれ。\n",
+      "translation": "아르모, 현재 상황을 모니터에 띄워줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GA299001_BL,3"
+      },
+      "original": "了解。\n",
+      "translation": "네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GAF99002_BL,3"
+      },
+      "original": "見てのとおり、我々の前には、新型の攻撃衛星が\nずらりと展開している。\n",
+      "translation": "보는 바와 같이, 우리 앞에는 신형 공격\n위성이 줄지어 전개되어 있다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "224,0,0,0",
+        "voice": "GAF99003_BL,3"
+      },
+      "original": "こいつらは手ごわいぞ。\n火力が高い上に、装甲も厚いようだ。\n",
+      "translation": "이 녀석들은 만만치 않다. 화력이 높은 데다,\n장갑도 두꺼운 것 같다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GAF99004_BL,3"
+      },
+      "original": "それから、まだ残っている無人艦隊が、こちらへ\n集結しつつあるという報告も受けている。\n敵の増援にも気をつけろ。\n",
+      "translation": "그리고 아직 남아있는 무인 함대가 이쪽으로\n집결하고 있다는 보고도 들어왔다. 적의\n증원에도 주의해라.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAF99004_BL,3"
+      },
+      "original": "でも、この防衛ラインを突破しない限り、コアを\n打ち抜くことはおろか、『黒き月』に近づくこと\nさえできないんだ。\n",
+      "translation": "하지만, 이 방위 라인을 돌파하지 않는 한\n코어를 꿰뚫는 것은커녕, 『흑색 달』에\n다가가는 것 조차 할 수 없어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAF99004_BL,3"
+      },
+      "original": "エルシオールがこのエリアまで進めば、『黒き月』\nをクロノ・ブレイク・キャノンの射程内にとらえ\nることができる。\n",
+      "translation": "에르시올이 이 에어리어까지 진입하면, 『흑색\n달』 을 크로노・브레이크・캐논의 사정거리\n안에 넣을 수 있다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAF99004_BL,3"
+      },
+      "original": "エンジェル隊のみんなには、正面に展開する攻撃\n衛星を破壊して、エルシオールの突破口を開いて\nもらいたい。\n",
+      "translation": "엔젤대 모두에게는, 정면에 전개하는 공격\n위성을 파괴해서, 에르시올의 돌파구를 열어\n주었으면 한다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAF99004_BL,3"
+      },
+      "original": "その間隙をついて、こちらはクロノ・ブレイク・\nキャノンの発射位置につく。\n",
+      "translation": "그 틈을 타서, 이쪽은 크로노・브레이크・\n캐논의 발사 위치를 잡겠다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAF99004_BL,3"
+      },
+      "original": "もちろん、『黒き月』に近づく前にエルシオール\nが落とされたら、すべてが水の泡だ。\n攻撃衛星を近づけさせないように戦ってくれ。\n",
+      "translation": "물론, 『흑색 달』에 다가가기 전에 에르시올이\n격침당하면 모든 것이 수포로 돌아간다. 공격\n위성을 접근시키지 않도록 싸워줘.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GAF99004_BL,3"
+      },
+      "original": "この戦いを、ここで終わらせるんだ。\n頼むぞ、みんな！\n",
+      "translation": "이 싸움을, 여기서 끝내는 거다. 부탁한다,\n모두들!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0014",
+      "channel": 0,
+      "context": {
+        "speaker": "094",
+        "face": "0,0,0,0",
+        "voice": "GAF99004_BL,3"
+      },
+      "original": "～敵部隊の編成～\n　攻撃衛星×１６\n　\n～勝利条件～\n　エルシオールの目標エリア到達\n　敵の全滅\n　\n～敗北条件～\n　エルシオールの破壊\n　タイムオーバー\n",
+      "translation": "～적 부대의 편성～\n　공격 위성×16\n　\n～승리 조건～\n　에르시올의 목표 에어리어 도달\n　적의 전멸\n　\n～패배 조건～\n　에르시올의 파괴\n　타임 오버\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "もう一度、作戦内容を確認するか？\n",
+      "translation": "다시 한번, 작전 내용을 확인할까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,223,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "そうだなぁ……。\n",
+      "translation": "글쎄...\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "うん。\n念のため、もう一度確認しておこう。\n",
+      "translation": "응. 만약을 위해, 다시 한번 확인해 두자.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "face": "003,0,0,0",
+        "speaker": "001",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "いや、その必要はない。\nエンジェル隊のみんな、これが最後の戦いだ。\n君たちの命、オレに預けてくれ。\n",
+      "translation": "아니, 그럴 필요는 없다. 엔젤대 여러분,\n이것이 마지막 싸움이다. 너희들의 목숨, 내게\n맡겨줘.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "062,0,0,0",
+        "voice": "GAF99006_BL,3"
+      },
+      "original": "な～に水くさいこと言ってんのよ。\n当たり前でしょ？\n",
+      "translation": "뭐～ 그렇게 쑥스러운 소릴 하고 그래. 당연한\n거 아냐?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,0,0,0",
+        "voice": "GAF99007_BL,3"
+      },
+      "original": "……私たちは、タクトさんの指示に従います。\n",
+      "translation": "……저희는, 택트 씨의 지시에 따르겠습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "142,0,0,0",
+        "voice": "GAF99008_BL,3"
+      },
+      "original": "ここで怖気づくエンジェル隊じゃないよ。\nドーンと任せておきな！\n",
+      "translation": "여기서 겁먹을 엔젤대가 아니라고. 시원하게\n맡겨두라고!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "103,0,0,0",
+        "voice": "GAF99009_BL,3"
+      },
+      "original": "そうですわ。\n今度こそ、この戦いを終わりにいたしましょう。\n",
+      "translation": "그렇습니다. 이번에야말로, 이 싸움을 끝내도록\n하죠.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "025,0,0,0",
+        "voice": "GAF99010_BL,3"
+      },
+      "original": "あたしたちは、そのために戦っているんですから。\n行きましょう、タクトさん！\n",
+      "translation": "저희는, 그것을 위해 싸우고 있으니까요.\n갑시다, 택트 씨!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "face": "003,0,0,0",
+        "speaker": "001",
+        "voice": "GAF99010_BL,3"
+      },
+      "original": "ありがとう、みんな。\nそれじゃ……。\n",
+      "translation": "고마워, 모두들. 그럼...\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GAF99010_BL,3"
+      },
+      "original": "エンジェル隊、全機出撃せよ！\n",
+      "translation": "엔젤대, 전 기 출격하라!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000ba800:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "099",
+        "face": "0,0,0,0",
+        "voice": "GA199012_BL,3"
+      },
+      "original": "了解！！\n",
+      "translation": "네！!\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_00009000.txt",
+    "encoding": "cp932",
+    "sha256": "5715d3a7e48ffb21caadb3935d0e2c13b0f8651b4e52a529ba2359c5e94f342a",
+    "dialogue_count": 19
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_00009000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0"
+      },
+      "original": "レスター、状況はどうなってる？\n",
+      "translation": "레스터, 상황은 어때?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GA198001_BL,3"
+      },
+      "original": "ちょうど今、敵艦隊の把握が終わったところだ。\nメインモニターに出すぞ。\n",
+      "translation": "마침 지금, 적 함대의 파악이 끝난 참이다.\n메인 모니터에 띄우겠다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA198002_BL,3"
+      },
+      "original": "我々の艦隊がいるのは、ここだ。\n",
+      "translation": "우리 함대가 있는 곳은 여기다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA198003_BL,3"
+      },
+      "original": "３機の紋章機は、この位置にいる。\n",
+      "translation": "3기의 문장기는 이 위치에 있다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA198004_BL,3"
+      },
+      "original": "一方、敵の艦隊は、駆逐艦タイプに……。\n",
+      "translation": "한편, 적의 함대는 구축함 타입에……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA198005_BL,3"
+      },
+      "original": "巡洋艦タイプという編成のようだ。\n",
+      "translation": "순양함 타입이라는 편제인 듯하다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA198006_BL,3"
+      },
+      "original": "正直言って、戦力ではこちらが不利だな……。\n",
+      "translation": "솔직히 말해서, 전력으로는 이쪽이 불리하\n군… …\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,0,0",
+        "voice": "GA198007_BL,3"
+      },
+      "original": "なに言ってんのよ。\nアタシたちエンジェル隊がいるのよ？\n",
+      "translation": "무슨 소릴 하는 거야. 우리 엔젤대가 있잖아?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "voice": "GA198008_BL,3",
+        "face": "022,0,0,0",
+        "speaker": "002"
+      },
+      "original": "任せてください。\nあのくらいの敵なら、きっと何とかなります！\n",
+      "translation": "맡겨 주세요. 저 정도의 적이라면, 분명\n어떻게든 될 거예요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,0,0",
+        "voice": "GA198009_BL,3"
+      },
+      "original": "必要なときだけ指示してくれれば、それでいいよ。\n後は、紋章機の戦いぶりを見て、勝手をつかんで\nおくれ。\n",
+      "translation": "필요할 때만 지시해 주면 그걸로 충분해.\n나머지는 문장기의 전투를 보고, 알아서 해 줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009000:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA198009_BL,3"
+      },
+      "original": "わかった、あてにさせてもらうよ。\nこちらは支援に回る。\nエンジェル隊は自由に交戦してくれ。\n",
+      "translation": "알았다, 믿고 맡기지. 이쪽은 지원으로\n돌겠다. 엔젤대는 자유롭게 교전해 줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009000:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA198009_BL,3"
+      },
+      "original": "うわさの紋章機の力、期待してるよ。\n以上だ。\n",
+      "translation": "소문난 문장기의 힘, 기대하고 있을게.\n이상이다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009000:dialogue:0013",
+      "channel": 0,
+      "context": {
+        "speaker": "001",
+        "face": "0,0,0,0",
+        "voice": "GA198009_BL,3"
+      },
+      "original": "～敵部隊の編成～\n　駆逐艦×３　　　　　　巡洋艦×４\n　\n～勝利条件～\n　敵艦隊の全滅\n　\n～敗北条件～\n　タクト旗艦の破壊\n　タイムオーバー\n",
+      "translation": "～적 부대의 편제～\n　구축함×3　　　　　　순양함×4\n　\n～승리 조건～\n　적 함대의 전멸\n　\n～패배 조건～\n　택트 기함의 파괴\n　타임 오버\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009000:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "voice": "GA198010_BL,3",
+        "speaker": "007",
+        "face": "221,0,221,0"
+      },
+      "original": "もう一度、作戦内容を確認するか？\n",
+      "translation": "다시 한번, 작전 내용을 확인할까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009000:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,221,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "そうだなぁ……。\n",
+      "translation": "글쎄……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009000:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "face": "001,0,0,0",
+        "voice": "GA198010_BL,3",
+        "speaker": "001"
+      },
+      "original": "うん。\n念のため、もう一度確認しておこう。\n",
+      "translation": "응. 만약을 위해, 다시 한번 확인해 두자.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009000:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "face": "001,0,0,0",
+        "voice": "GA198010_BL,3",
+        "speaker": "001"
+      },
+      "original": "いや、その必要はない。\nみんな、準備はいいな？\n",
+      "translation": "아니, 그럴 필요는 없다. 모두, 준비는 됐나?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009000:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "いくぞ、戦闘開始だ！\n",
+      "translation": "간다, 전투 개시다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009000:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "099",
+        "face": "0,0,0,0",
+        "voice": "GA198011_BL,3"
+      },
+      "original": "了解！\n",
+      "translation": "네！\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

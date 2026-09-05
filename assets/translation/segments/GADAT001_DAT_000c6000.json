@@ -1,0 +1,557 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000c6000.txt",
+    "encoding": "cp932",
+    "sha256": "97a34b37f357c2070060ed71b438ad79be5c36472cc54a003f008dbbed7672be",
+    "dialogue_count": 42
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "face": "053,0,0,0",
+        "speaker": "002",
+        "voice": "GAF18001,3"
+      },
+      "original": "みんな……わざわざ見送りに来てくれて、どうも\nありがとう。\n",
+      "translation": "모두…… 일부러 배웅하러 와 줘서 정말 고마워.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "face": "101,0,0,107",
+        "speaker": "004",
+        "voice": "GAF18002,3"
+      },
+      "original": "本当に、行ってしまわれるんですの？\n私たちも『白き月』も、ミルフィーさんのおかげ\nで助かったというのに……。\n",
+      "translation": "정말이지, 가버리시는 건가요? 저희도 『백색\n달』도, 밀피 씨 덕분에 살아남을 수\n있었는데……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "face": "053,0,0,107",
+        "speaker": "002",
+        "voice": "GAF18003,3"
+      },
+      "original": "ありがと、ミント。\n",
+      "translation": "고마워, 민트.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "face": "058,0,0,107",
+        "speaker": "002",
+        "voice": "GAF18004,3"
+      },
+      "original": "でも、あたしは紋章機を動かせなくなっちゃった\nんだもん。\n",
+      "translation": "하지만, 나는 문장기를 움직일 수 없게\n되어버린 걸.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "face": "061,068,0,107",
+        "speaker": "003",
+        "voice": "GAF18005,3"
+      },
+      "original": "だからって、エンジェル隊を辞めることはないじゃ\nない……。\n",
+      "translation": "그렇다고 해서, 엔젤대를 그만두는 건 아니잖\n아……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "face": "053,068,0,107",
+        "speaker": "002",
+        "voice": "GAF18006,3"
+      },
+      "original": "もう決めたことだから。\nそれに……紋章機を動かせなくなったのと一緒に、\n極端な運もなくなっちゃったみたいなの。\n",
+      "translation": "이미 결정한 일이니까. 게다가…… 문장기를\n움직일 수 없게 된 것과 함께, 극단적인 운도\n사라져버린 것 같은 느낌이야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "face": "054,068,0,107",
+        "speaker": "002",
+        "voice": "GAF18007,3"
+      },
+      "original": "何だか……これからは、普通にうまくやっていけ\nそうな気がするんだ。\n……あ、普通にうまくって、ちょっとヘンかな？\n",
+      "translation": "왠지…… 앞으로는, 평범하게 잘 해낼 수 있을\n것 같은 기분이 들어. ……아, 평범하게라니,\n좀 이상한가?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "face": "141,141,0,0",
+        "speaker": "005",
+        "voice": "GAF18008,3"
+      },
+      "original": "ミルフィーなら、どこに行ってもうまくやれるよ。\nエンジェル隊のことは、心配いらない。\nあんたの分まで、しっかり働いてみせるからさ。\n",
+      "translation": "밀피라면, 어디를 가도 잘 해낼 거야.\n엔젤대는 걱정하지 마. 네 몫까지, 제대로\n일해 보일 테니까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "053,141,0,0",
+        "voice": "GAF18009,3"
+      },
+      "original": "はい。\nフォルテさん、今までありがとうございました。\n",
+      "translation": "네. 포르테 씨, 지금까지 감사했습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "voice": "GAF18010,3",
+        "speaker": "006",
+        "face": "181,141,0,187"
+      },
+      "original": "落ち着いたら……連絡をください。\n",
+      "translation": "안정이 되면…… 연락을 주세요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "054,141,0,187",
+        "voice": "GAF18011,3"
+      },
+      "original": "うん、ヴァニラ。\n楽しみに待ってて！\n",
+      "translation": "응, 바닐라. 기대하며 기다려 줘!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "008",
+        "face": "236,0,236,0",
+        "voice": "GAF18012,3"
+      },
+      "original": "ミルフィーさん、シャトヤーン様からメッセージ\nをおあずかりしています。\n",
+      "translation": "밀피 씨, 샤토얀 님으로부터 메시지 를\n맡아두고 있습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "008",
+        "face": "236,0,237,0",
+        "voice": "GAF18013,3"
+      },
+      "original": "「いつでも遊びにいらっしゃい。\n『白き月』は、いつでもあなたを歓迎します」\n　……とのことです。\n",
+      "translation": "「언제든 놀러 오세요. 『백색 달』은, 언제든\n당신을 환영합니다」 　……라고 하십니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "face": "053,0,237,0",
+        "voice": "GAF18014,3",
+        "speaker": "002"
+      },
+      "original": "シャトヤーン様……。\nありがとう、必ず遊びに行きますってお伝えして\nちょうだい。\n",
+      "translation": "샤토얀 님…… 고마워요, 반드시 놀러 가겠다고\n전해 주세요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "face": "061,0,069,0",
+        "voice": "GAF18015,3",
+        "speaker": "003"
+      },
+      "original": "ミルフィー……ホントに、元気でね。\n",
+      "translation": "밀피…… 정말로, 잘 지내야 해.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "054,0,069,0",
+        "voice": "GAF18016,3"
+      },
+      "original": "ランファ、そんなに悲しまないで。\n二度と会えなくなるわけじゃないんだし。\n",
+      "translation": "란파, 그렇게 슬퍼하지 마. 두 번 다시 못\n만날 것도 아니니까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,073,0",
+        "voice": "GAF18017,3"
+      },
+      "original": "か、悲しくなんかないわよ！\nむしろ、アンタとのクサレ縁が切れて、せいせい\nしてるくらいよ！\n",
+      "translation": "아, 아프지 않아! 오히려, 너와의 지긋지긋한\n인연이 끊겨서 속이 다 시원할 정도라고!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,173,0,0",
+        "voice": "GAF18018,3"
+      },
+      "original": "ったく、素直じゃないねぇ、ランファは。\n",
+      "translation": "정말이지, 솔직하지 못하네, 란파는.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,173,0,187",
+        "voice": "GAF18019,3"
+      },
+      "original": "ミルフィーさん……そろそろ時間が……。\n",
+      "translation": "밀피 씨…… 슬슬 시간이……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "056,173,0,187",
+        "voice": "GAF18020,3"
+      },
+      "original": "あっ、もうシャトルが出る時間だわ！\n早く行かなきゃ。\n",
+      "translation": "앗, 벌써 셔틀이 떠날 시간이야! 빨리 가야겠\n어 .\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,0,107",
+        "voice": "GAF18021,3"
+      },
+      "original": "お名残惜しいですが……さよならですわ。\n",
+      "translation": "아쉬움이 남지만…… 안녕이에요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,141,0,107",
+        "voice": "GAF18022,3"
+      },
+      "original": "元気でやるんだよ、ミルフィー。\n",
+      "translation": "잘 지내야 해, 밀피.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "voice": "GAF18023,3",
+        "speaker": "006",
+        "face": "181,141,0,187"
+      },
+      "original": "……今までお世話になりました。\n",
+      "translation": "……지금까지 신세 졌습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,072,0",
+        "voice": "GAF18024,3"
+      },
+      "original": "……絶対に、連絡よこしなさいよ！\nそうじゃなかったら、宇宙の果てまで追いかけて\nでも、ブン殴ってやるんだから！\n",
+      "translation": "……반드시, 연락해! 그러지 않으면, 우주\n끝까지 쫓아가서 한 대 때려줄 테니까!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "face": "054,0,072,0",
+        "voice": "GAF18025,3",
+        "speaker": "002"
+      },
+      "original": "うん、わかってる。\nみんなも、元気でね。\nそれじゃ……。\n",
+      "translation": "응, 알고 있어. 모두, 건강하게 지내렴.\n그럼……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "008",
+        "face": "236,0,238,0",
+        "voice": "GAF18026,3"
+      },
+      "original": "あ、ミルフィーさん。\nちょっといいですか？\n",
+      "translation": "아, 밀피 씨. 잠시 괜찮을까요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "voice": "GAF18027,3",
+        "speaker": "002",
+        "face": "056,0,238,0"
+      },
+      "original": "え、何？\n",
+      "translation": "에, 뭐야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "speaker": "008",
+        "face": "236,0,239,0",
+        "voice": "GAF18028,3"
+      },
+      "original": "宇宙クジラからの伝言を忘れるところでした。\n",
+      "translation": "우주 고래로부터의 전언을 잊을 뻔했습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "speaker": "008",
+        "face": "236,0,237,0",
+        "voice": "GAF18029,3"
+      },
+      "original": "「幸せは、思いのほかすぐに、あなたの前に現れ\n　るだろう」\n　……だそうですよ。\n",
+      "translation": "「행복은, 생각보다 금방, 당신 앞에 나타 날\n것이다」 　……라고 하더군요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "056,0,237,0",
+        "voice": "GAF18030,3"
+      },
+      "original": "え？\n幸せって……？\n",
+      "translation": "에? 행복이라니……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "voice": "GAF18031,3",
+        "speaker": "002",
+        "face": "056,0,0,0"
+      },
+      "original": "……あ、いっけない！\n本当に乗り遅れちゃう！\n",
+      "translation": "……아, 안 돼! 정말로 놓치겠어!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "voice": "GAF18032,3",
+        "speaker": "002",
+        "face": "054,0,0,0"
+      },
+      "original": "それじゃあ、みんな、さようなら！\n",
+      "translation": "그럼, 모두, 안녕히!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,141,0,0",
+        "voice": "GAF18033,3"
+      },
+      "original": "やれやれ……。\n最後まで、あわただしい子だねぇ、ミルフィーは。\n",
+      "translation": "이런 이런…… 마지막까지, 부산스러운\n아이네, 밀피는.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,141,0,107",
+        "voice": "GAF18034,3"
+      },
+      "original": "強運のおかげで、いろいろ振り回されもしました\nけど……。\n今となっては、いい思い出ですわね。\n",
+      "translation": "강운 덕분에, 여러모로 휘둘리기도 했지 만\n…… 지금에 와서는, 좋은 추억이네요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,0,189,0",
+        "voice": "GAF18035,3"
+      },
+      "original": "……ミルフィーさんは、なぜ極端な運の波がなく\nなってしまったのでしょう？\n",
+      "translation": "……밀피 씨는, 왜 극단적인 운의 파동이\n없어진 걸까요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0036",
+      "channel": 1,
+      "context": {
+        "face": "101,0,0,106",
+        "voice": "GAF18036,3",
+        "speaker": "004"
+      },
+      "original": "さぁ……。\nやはり、紋章機を動かす力を失ったことと、何か\n関係があるのでしょうか？\n",
+      "translation": "글쎄요…… 역시, 문장기를 움직이는 힘을\n잃은 것과, 무언가 관계가 있는 것일까요?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0037",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,141,0",
+        "voice": "GAF18037,3"
+      },
+      "original": "さてね……。\nただ、これだけは言えることがあるよ。\n",
+      "translation": "글쎄 말이야…… 다만, 이것만큼은 말할 수\n있어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0038",
+      "channel": 1,
+      "context": {
+        "voice": "GAF18038,3",
+        "speaker": "005",
+        "face": "141,0,165,0"
+      },
+      "original": "運ってのは、人間の力でコントロールできるよう\nなもんじゃない。\nそんなことがあっちゃ、いけないものなんだ。\n",
+      "translation": "운이라는 건, 인간의 힘으로 컨트롤할 수 있는\n게 아니야. 그런 일이 있어서는 안 되는\n법이지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0039",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,141,0",
+        "voice": "GAF18039,3"
+      },
+      "original": "でも……ミルフィーは、たった一度、そのやって\nはいけないことをやった。\nだから、力を失ったんじゃないかね。\n",
+      "translation": "하지만…… 밀피는, 단 한 번, 그 해서는 안\n될 일을 했어. 그래서, 힘을 잃은 게 아닐까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0040",
+      "channel": 1,
+      "context": {
+        "voice": "GAF18040,3",
+        "face": "181,0,186,0",
+        "speaker": "006"
+      },
+      "original": "……そうなのかもしれません……。\n",
+      "translation": "……그럴지도 모르겠네요……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0041",
+      "channel": 1,
+      "context": {
+        "face": "061,0,069,0",
+        "speaker": "003",
+        "voice": "GAF18041,3"
+      },
+      "original": "でも、これでよかったのかも……。\nあの子、自分の強運を、内心ではイヤがっていた\nから。\n",
+      "translation": "하지만, 이걸로 잘된 걸지도…… 그 아이,\n자신의 강운을, 내심 싫어했으니까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c6000:dialogue:0042",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,088,0",
+        "voice": "GAF18042,3"
+      },
+      "original": "それに、運が味方しなくたって、ミルフィーなら、\nどこに行っても幸せに暮らしていけるわ。\n",
+      "translation": "게다가, 운이 도와주지 않는다 해도, 밀피라\n면, 어디를 가더라도 행복하게 살아갈 수 있을\n거야.\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

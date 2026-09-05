@@ -1,0 +1,362 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000c7000.txt",
+    "encoding": "cp932",
+    "sha256": "5c2d867ad013cbfedfcfefbc9cd26b1b2e26118ee23973eed883cf4e11c34bf4",
+    "dialogue_count": 27
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "face": "021,0,046,0",
+        "speaker": "002",
+        "voice": "GAF19001,3"
+      },
+      "original": "……そろそろ出発ですね。\nタクトさん、今まで本当にありがとうございまし\nた。\n",
+      "translation": "……슬슬 출발이네요. 택트 씨, 지금까지 정말\n감사했습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "face": "001,0,046,0",
+        "speaker": "001",
+        "voice": "GAF19001,3"
+      },
+      "original": "いや、エンジェル隊のみんなも、今までよくオレ\nについてきてくれたね。\nありがとう。\n",
+      "translation": "아니, 엔젤대 모두도, 지금까지 잘 나를\n따라와 줬어. 고마워.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "face": "021,0,022,0",
+        "speaker": "002",
+        "voice": "GAF19002,3"
+      },
+      "original": "タクトさんと一緒にいて、すごく楽しかったです。\n辺境調査に行っても、あたしたちのこと忘れない\nでくださいね。\n",
+      "translation": "택트 씨와 함께 있어서, 정말 즐거웠어요.\n변방 조사에 가더라도, 저희를 잊지 말아\n주세요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "face": "001,0,022,0",
+        "speaker": "001",
+        "voice": "GAF19002,3"
+      },
+      "original": "当たり前だよ。\nみんなのことは、絶対に忘れない。\n",
+      "translation": "당연하지. 모두의 일은, 절대로 잊지 않아.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "face": "061,0,069,0",
+        "speaker": "003",
+        "voice": "GAF19003,3"
+      },
+      "original": "アタシたちがいなくなっても、しっかりやるのよ？\n",
+      "translation": "우리들이 없어져도, 제대로 해야 해?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "face": "002,0,069,0",
+        "speaker": "001",
+        "voice": "GAF19003,3"
+      },
+      "original": "大丈夫だって。\n今までも、何とかなってきたんだから。\n",
+      "translation": "괜찮다니까. 지금까지도, 어떻게든 잘 해왔으니\n까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "face": "061,0,089,0",
+        "speaker": "003",
+        "voice": "GAF19004,3"
+      },
+      "original": "そういうトコが、心配なんじゃない。\nまったく……。\n",
+      "translation": "그런 점이, 걱정되는 거야. 정말이지……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "face": "061,0,061,0",
+        "speaker": "003",
+        "voice": "GAF19005,3"
+      },
+      "original": "まぁ、タクトらしいといえば、らしいけどね。\n",
+      "translation": "뭐, 택트답다고 하면, 그렇지만 말이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "face": "012,0,061,0",
+        "speaker": "001",
+        "voice": "GAF19005,3"
+      },
+      "original": "あははは。\nランファも、元気でね。\n",
+      "translation": "아하하하. 란파도, 건강하게 지내.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,128,0",
+        "voice": "GAF19006,3"
+      },
+      "original": "辺境調査は、気の長い任務と聞いていますわ。\nもし途中で退屈になったら、いつでも『白き月』\nにいらしてくださいね。\n",
+      "translation": "변방 조사는 오래 걸리는 임무라고 들었어요. 도중에 지루해지면 언제든 『백색 달』에 와 주세요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "face": "001,0,128,0",
+        "voice": "GAF19006,3",
+        "speaker": "001"
+      },
+      "original": "そのときは、ミントのお茶をごちそうになるよ。\nミントにも、ずいぶん世話になったね。\nありがとう。\n",
+      "translation": "그때는, 민트의 차를 대접받을게. 민트에게도,\n신세를 많이 졌어. 고마워.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,102,0",
+        "voice": "GAF19007,3"
+      },
+      "original": "いいえ、お礼を言わなければならないのは、私の\n方ですわ。\n",
+      "translation": "아니요, 감사드려야 하는 건 저예요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,102,0",
+        "voice": "GAF19007,3"
+      },
+      "original": "え？\n",
+      "translation": "에?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,109,0",
+        "voice": "GAF19008,3"
+      },
+      "original": "世の中には、タクトさんのように常識にとらわれ\nない、奔放なかたもいらっしゃるということに、\n気づかせていただきましたから。\n",
+      "translation": "세상에는, 택트 씨처럼 상식에 얽매이지 않는,\n자유분방한 분도 계시다는 것을, 깨닫게\n해주었으니까요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,109,0",
+        "voice": "GAF19008,3"
+      },
+      "original": "は、はぁ……どういたしまして。\nでも、それって喜んでいいのかな？\n",
+      "translation": "하, 하아…… 천만에. 하지만, 그건 기뻐해도\n되는 걸까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,109,0",
+        "voice": "GAF19009,3"
+      },
+      "original": "タクトさん。\nまた、どこかでお会いできたときには、よろしく\nお願いしますわ。\n",
+      "translation": "택트 씨. 다시 어디선가 만나게 되면 잘 부탁드려요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,109,0",
+        "voice": "GAF19009,3"
+      },
+      "original": "ああ、こちらこそ。\n",
+      "translation": "아아, 나야말로.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,173,0",
+        "voice": "GAF19010,3"
+      },
+      "original": "辺境まで出かけて行って、あるかどうかもわから\nないロストテクノロジーを探すなんて、タクトも\nホント、キツい仕事に好かれてるらしいね。\n",
+      "translation": "변방까지 나가서, 있을지도 모를지 모르는\n로스트 테크놀로지를 찾는 거라니, 택트도\n정말, 힘든 일을 좋아하는 모양이네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,173,0",
+        "voice": "GAF19010,3"
+      },
+      "original": "そうかな？\nむしろ、オレの方が好きでやってることだから。\n心配いらないよ。\n",
+      "translation": "그럴까? 오히려, 내가 좋아서 하는 일이니까.\n걱정할 거 없어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,166,0",
+        "voice": "GAF19011,3"
+      },
+      "original": "ふふっ……。\nそういうタクトだから、心配はしてないさ。\nあんたなら、やりとげるって信じてるよ。\n",
+      "translation": "후훗…… 그런 택트니까, 걱정은 안 해.\n너라면, 해낼 거라고 믿고 있어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,165,0",
+        "voice": "GAF19012,3"
+      },
+      "original": "短い間に、ずいぶん成長したもんだね。\n何だかうれしいような、さびしいような、複雑な\n気分だよ。\n",
+      "translation": "짧은 시간 동안, 꽤 성장했구나. 왠지 기쁜 것\n같기도 하고, 쓸쓸한 것 같기도 한, 복잡한\n기분이야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "voice": "GAF19012,3",
+        "speaker": "001",
+        "face": "001,0,165,0"
+      },
+      "original": "オレがここまでやって来られたのも、フォルテの\nおかげさ。\nありがとう、フォルテ。\n",
+      "translation": "내가 여기까지 올 수 있었던 것도, 포르테의\n덕분이야. 고마워, 포르테.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "voice": "GAF19013,3",
+        "speaker": "006",
+        "face": "181,0,182,0"
+      },
+      "original": "……お世話になりました、タクトさん。\n",
+      "translation": "……신세를 졌습니다, 택트 씨.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,182,0",
+        "voice": "GAF19013,3"
+      },
+      "original": "ヴァニラも元気でね。\nそれにしても、最初に会ったころから比べると、\nヴァニラもずいぶん表情が明るくなった感じだね。\n",
+      "translation": "바닐라도 건강하게 지내. 그나저나, 처음\n만났을 무렵과 비교하면, 바닐라도 꽤 표정이\n밝아진 느낌이네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,0,205,0",
+        "voice": "GAF19014,3"
+      },
+      "original": "はい……。\nタクトさんと過ごすうちに……少しずつ、自分が\n変わってきた気がします。\n",
+      "translation": "네…… 택트 씨와 지내면서…… 조금씩, 제가\n변해온 것 같은 기분이 들어요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,205,0",
+        "voice": "GAF19014,3"
+      },
+      "original": "そうか……。\nそう言ってもらえると、オレとしてもうれしいよ。\n",
+      "translation": "그런가…… 그렇게 말해주니, 나로서도 기쁘네.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c7000:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "voice": "GAF19014,3",
+        "speaker": "001",
+        "face": "001,0,0,0"
+      },
+      "original": "さてと、もうすぐエルシオールの出港時間だな。\n",
+      "translation": "자, 이제 곧 에르시올의 출항 시간이군.\n",
+      "state": "needs_human",
+      "use_translation": true
+    }
+  ]
+}

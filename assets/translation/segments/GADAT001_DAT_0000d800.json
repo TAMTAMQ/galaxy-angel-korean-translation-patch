@@ -1,0 +1,440 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_0000d800.txt",
+    "encoding": "cp932",
+    "sha256": "2637b1b38450633a74f351de7b700283460b16437e127b7a42795edb00770ba5",
+    "dialogue_count": 33
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GA106001,3"
+      },
+      "original": "格納庫のエンジェル隊から通信です！\n",
+      "translation": "격납고의 엔젤대로부터 통신입니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA106001,3"
+      },
+      "original": "わかった、つないでくれ。\n",
+      "translation": "알았다, 연결해 줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,0,0",
+        "voice": "GA106002,3"
+      },
+      "original": "お待たせしました！\nエンジェル隊、出撃準備完了です！\n",
+      "translation": "오래 기다리셨습니다! 엔젤대, 출격 준비\n완료입니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "062,0,0,0",
+        "voice": "GA106003,3"
+      },
+      "original": "たった５機で何ができるか、あのオッサンに目に\nもの見せてやるわ。\n",
+      "translation": "고작 5기로 무엇을 할 수 있을지, 그 아저씨에\n게 본때를 보여주겠어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,0,0,0",
+        "voice": "GA106004,3"
+      },
+      "original": "……最善をつくします。\n",
+      "translation": "……최선을 다하겠습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "142,0,0,0",
+        "voice": "GA106005,3"
+      },
+      "original": "なぁに、心配するこたぁないよ、司令官どの。\n多少ヤボな指揮をしても、あたしらの腕でカバー\nしてあげるさ。\n",
+      "translation": "뭐 어때, 걱정할 거 없어, 사령관님. 다소\n서툰 지휘를 하더라도, 우리 실력으로 커버 해\n줄 테니까.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA106005,3"
+      },
+      "original": "ああ。よろしくたのむよ！\nそれじゃ、作戦を説明する。\n",
+      "translation": "아아. 잘 부탁하네! 그럼, 작전을 설명하겠다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA106005,3"
+      },
+      "original": "ココ、アルモ。\n敵の分析は終わっているかい？\n",
+      "translation": "코코, 아르모. 적의 분석은 끝났나?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GA199001_BL,3"
+      },
+      "original": "はい、マイヤーズ司令。\nメインモニターに出します。\n",
+      "translation": "네, 마이어스 사령. 메인 모니터로 띄우겠습니\n다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,0,0",
+        "voice": "GA199002_BL,3"
+      },
+      "original": "これが現在の状況か……。\nところで、このエルシオールは動けるのか？\n",
+      "translation": "이것이 현재 상황인가…… 그건 그렇고, 이\n에르시올은 움직일 수 있는 건가?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GA199003_BL,3"
+      },
+      "original": "残念ながら、まだ修理中です。\n移動はできませんから、なるべく敵を近づけない\nようにお願いします。\n",
+      "translation": "유감스럽게도, 아직 수리 중입니다. 이동할\n수는 없으니, 가급적 적을 접근시키지 않도록\n부탁드립니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "face": "254,0,0,0",
+        "voice": "GA199004_BL,3",
+        "speaker": "009"
+      },
+      "original": "この艦には、シヴァ皇子も乗っておられる。\nエルシオールが沈むことは、皇国の未来が沈むの\nと同じじゃぞ。\n",
+      "translation": "이 함선에는 시바 황자님도 타고 계신다.\n에르시올이 침몰하는 것은, 황국의 미래가\n침몰하는 것과 마찬가지란 말이다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "face": "001,0,0,0",
+        "voice": "GA199004_BL,3",
+        "speaker": "001"
+      },
+      "original": "わかってます。\n前線を突破されないように注意しますよ。\n",
+      "translation": "알고 있습니다. 전선을 돌파당하지 않도록\n주의하겠습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "voice": "GA199004_MD,3",
+        "speaker": "007",
+        "face": "221,0,0,0"
+      },
+      "original": "俺たちの乗っているエルシオールは、ここだ。\n",
+      "translation": "우리가 타고 있는 에르시올은, 여기다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,0,0",
+        "voice": "GA199005_BL,3"
+      },
+      "original": "攻撃対象は、駆逐艦に……。\n",
+      "translation": "공격 대상은, 구축함에……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,0,0",
+        "voice": "GA199006_BL,3"
+      },
+      "original": "巡洋艦……。\n",
+      "translation": "순양함……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,0,0",
+        "voice": "GA199007_BL,3"
+      },
+      "original": "それに、戦艦が１隻か。\nこいつが旗艦だな。\n",
+      "translation": "게다가, 전함이 1척인가. 이것이 기함이군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,0,0",
+        "voice": "GA199008_BL,3"
+      },
+      "original": "対するこちら側は、エンジェル隊の紋章機と……。\n",
+      "translation": "그에 반해 이쪽은, 엔젤대의 문장기와……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "voice": "GA199009_BL,3",
+        "speaker": "007",
+        "face": "221,0,0,0"
+      },
+      "original": "クリオム星系駐留艦隊だ。\n",
+      "translation": "크리옴 성계 주둔 함대다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "face": "223,0,0,0",
+        "speaker": "007",
+        "voice": "GA199010_BL,3"
+      },
+      "original": "エルシオールを戦力に数えたとしても、この大軍\nを相手にするのは分が悪いな。\n",
+      "translation": "에르시올을 전력에 포함시킨다고 해도, 이 대군\n을 상대하는 건 불리하겠군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0",
+        "voice": "GA199010_BL,3"
+      },
+      "original": "こういうときは、指揮系統を叩くに限る。\n",
+      "translation": "이럴 때는, 지휘 계통을 치는 게 상책이다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0",
+        "voice": "GA199010_BL,3"
+      },
+      "original": "エンジェル隊は、中央を突破し、敵の旗艦を集中\n攻撃してくれ。\n",
+      "translation": "엔젤대는, 중앙을 돌파하여 적의 기함을 집중\n공격해 줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0",
+        "voice": "GA199010_BL,3"
+      },
+      "original": "紋章機ならダメージを受けても、ヴァニラに修理\nを指示するか、エルシオールに補給に戻らせれば\n回復できる。\n",
+      "translation": "문장기라면 데미지를 입어도, 바닐라에게 수리\n를 지시하거나, 에르시올로 보급을 보내면\n회복할 수 있다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0",
+        "voice": "GA199010_BL,3"
+      },
+      "original": "そのことから考えても、紋章機を中心に攻めた方\nがいいだろう。\n",
+      "translation": "그 점을 고려하더라도, 문장기를 중심으로\n공격하는 편이 좋겠군.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA199010_BL,3"
+      },
+      "original": "ただし、エルシオールがやられたら終わりだ。\n敵を近づけさせるな。\n",
+      "translation": "다만, 에르시올이 당하면 끝이다. 적이\n접근하지 못하게 해라.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA199010_BL,3"
+      },
+      "original": "以上だ。\n頼んだぞ、みんな。\n",
+      "translation": "이상이다. 부탁한다, 모두.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0027",
+      "channel": 0,
+      "context": {
+        "voice": "GA199010_BL,3",
+        "speaker": "094",
+        "face": "0,0,0,0"
+      },
+      "original": "～敵部隊の編成～\n　駆逐艦×７　　　　　　巡洋艦×４\n　戦艦×１\n　\n～勝利条件～\n　敵旗艦の撃退\n　\n～敗北条件～\n　エルシオールの破壊\n　タイムオーバー\n",
+      "translation": "～적 부대의 편성～\n　구축함×７　　　　　　순양함×４\n　전함×１\n　\n～승리 조건～\n　적 기함의 격퇴\n　\n～패배 조건～\n　에르시올의 파괴\n　타임 오버\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,221,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "もう一度、作戦内容を確認するか？\n",
+      "translation": "다시 한번, 작전 내용을 확인할까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,221,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "そうだなぁ……。\n",
+      "translation": "글쎄...\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "うん。\n念のため、もう一度確認しておこう。\n",
+      "translation": "응. 만약을 위해, 다시 한번 확인해 두자.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "いや、その必要はない。\nみんな、準備はいいな？\n",
+      "translation": "아니, 그럴 필요는 없다. 모두, 준비는 됐나?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "エンジェル隊、出撃！\n",
+      "translation": "엔젤대, 출격!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0000d800:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "speaker": "099",
+        "face": "0,0,0,0",
+        "voice": "GA199012_BL,3"
+      },
+      "original": "了解！\n",
+      "translation": "네！\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

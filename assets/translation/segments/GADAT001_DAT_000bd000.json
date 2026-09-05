@@ -1,0 +1,362 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000bd000.txt",
+    "encoding": "cp932",
+    "sha256": "18735c582765f3d230224f9e2dc1bc674172b2b14f8e9dc9b942f092bcb3996c",
+    "dialogue_count": 27
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "493,0,0,0",
+        "voice": "GAF06001,3"
+      },
+      "original": "司令！\n攻撃衛星５基、こちらに突っ込んできます！\n",
+      "translation": "사령관님! 공격 위성 5기가 이쪽으로 돌진해\n옵니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GAF06001,3"
+      },
+      "original": "何とかして振り切れ！\n",
+      "translation": "어떻게든 따돌려라!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "503,0,0,0",
+        "voice": "GAF06002,3"
+      },
+      "original": "だ、ダメです！\n直撃、来ますっ！！\n",
+      "translation": "아, 안 됩니다! 직격이 옵니다!!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "010,0,0,0",
+        "voice": "GAF06002,3"
+      },
+      "original": "くうっ……！\n",
+      "translation": "크윽……!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "010,0,0,0",
+        "voice": "GAF06002,3"
+      },
+      "original": "わああっ！\n",
+      "translation": "와아앗!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "010,0,0,0",
+        "voice": "GAF06002,3"
+      },
+      "original": "な……何だ！？\n急に真っ暗に……！\n",
+      "translation": "뭐…… 뭐야!? 갑자기 캄캄해져서……!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "503,0,0,0",
+        "voice": "GAF06003,3"
+      },
+      "original": "今の攻撃で、動力系に致命的なダメージを受けた\nもようです！\n全システム、機能停止！\n",
+      "translation": "방금 공격으로, 동력계에 치명적인 데미지를\n입은 것 같습니다! 전 시스템, 기능 정지!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "224,0,0,0",
+        "voice": "GAF06004,3"
+      },
+      "original": "何だと！？\nじゃあ、ここで立ち往生か！\n",
+      "translation": "뭐라고!? 그럼 여기서 고립되는 건가!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "voice": "GAF06005,3",
+        "speaker": "017",
+        "face": "503,0,0,0"
+      },
+      "original": "きゃああっ！\n",
+      "translation": "꺄아악!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "224,0,0,0",
+        "voice": "GAF06006,3"
+      },
+      "original": "アルモ、大丈夫か！？\n……くそっ、何も見えねぇ。\n",
+      "translation": "아르모, 괜찮나!? ……젠장, 아무것도 안 보여.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GAF06006,3"
+      },
+      "original": "このままじゃ、狙い撃ちされるだけだ！\n何とかできないのか！？\n",
+      "translation": "이대로라면, 표적이 될 뿐이다! 어떻게든 할\n수 없는 거냐!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GAF06007,3"
+      },
+      "original": "無理です！\nレーダーも操舵も、何ひとつ利きません！！\n",
+      "translation": "무리입니다! 레이더도 조종도, 무엇 하나 듣지\n않습니다!!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "493,0,0,0",
+        "voice": "GAF06008,3"
+      },
+      "original": "きゃあああっ！\n",
+      "translation": "꺄아아악!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "010,0,0,0",
+        "voice": "GAF06008,3"
+      },
+      "original": "そんな、ここまで来て……。\nもう『黒き月』は目と鼻の先だってのに！\n",
+      "translation": "말도 안 돼, 여기까지 와서…… 이제 '흑색\n달'이 코앞인데!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "010,0,0,0",
+        "voice": "GAF06008,3"
+      },
+      "original": "うわあああっ！\n",
+      "translation": "우와아아악!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "084,0,0,0",
+        "voice": "GAF06009,3"
+      },
+      "original": "タクトーッ！！\n",
+      "translation": "택트ーー!!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "084,0,0,0",
+        "voice": "GAF06010,3"
+      },
+      "original": "タクト、タクト！\n返事して、タクト！\n",
+      "translation": "택트, 택트! 대답해, 택트!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "085,0,0,0",
+        "voice": "GAF06011,3"
+      },
+      "original": "…………。\n",
+      "translation": "…………\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "085,0,0,0",
+        "voice": "GAF06012,3"
+      },
+      "original": "……ウソでしょ……？\nタクト……。\n",
+      "translation": "……거짓말이지……? 택트……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,0,0",
+        "voice": "GAF06012,3"
+      },
+      "original": "心配かけてすまなかった。\nでも、オレもエルシオールも無事だよ！\n",
+      "translation": "걱정 끼쳐서 미안하다. 하지만, 나도 에르시올은\n무사해!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GAF06012,3"
+      },
+      "original": "あれ？\n……ランファ、ひょっとして泣いてるの？\n",
+      "translation": "어라? ……란파, 혹시 울고 있는 거야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "086,0,0,0",
+        "voice": "GAF06013,3"
+      },
+      "original": "な、泣いてなんかいないわよ！\n誰も、アンタが死ぬなんて思ってないわよっ！\n",
+      "translation": "아, 안 울었거든! 누구도, 네가 죽을 거라고\n생각 안 해!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "face": "084,0,0,0",
+        "speaker": "003",
+        "voice": "GAF06014,3"
+      },
+      "original": "それより、早くクロノ・ブレイク・キャノンを！\n",
+      "translation": "그것보다, 빨리 크로노・브레이크・캐논을!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAF06014,3"
+      },
+      "original": "ああ、わかってる。\n",
+      "translation": "아아, 알고 있어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAF06014,3"
+      },
+      "original": "ランファが、まわりの敵を片づけてくれたおかげ\nで、助かった。\nありがとう。\n",
+      "translation": "란파가, 주변의 적을 정리해 준 덕분에\n살았다. 고마워.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAF06014,3"
+      },
+      "original": "見ててくれ、ランファ。\nこれでケリをつけてやる！\n",
+      "translation": "지켜봐 줘, 란파. 이걸로 끝을 내 주겠어!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bd000:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GAF06014,3"
+      },
+      "original": "クロノ・ブレイク・キャノンの方は、どうなって\nいる？\n",
+      "translation": "크로노・브레이크・캐논 쪽은, 어떻게 되어\n있어?\n",
+      "state": "needs_human",
+      "use_translation": true
+    }
+  ]
+}

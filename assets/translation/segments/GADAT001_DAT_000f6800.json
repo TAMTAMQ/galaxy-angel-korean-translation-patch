@@ -1,0 +1,1207 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000f6800.txt",
+    "encoding": "cp932",
+    "sha256": "2abe429ab5d010bdd99a247a7659134679d9c76eae8cadc06bb4b7aa5c1bbc4d",
+    "dialogue_count": 92
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GA740001,3"
+      },
+      "original": "敵戦闘機をのぞく攻撃目標、すべて沈黙！\n交戦圏内に敵は残っていません。\n",
+      "translation": "적 전투기를 포함한 공격 목표, 모두 침묵!\n교전권 내에 적은 남아있지 않습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA740001,3"
+      },
+      "original": "了解した。\nこのまま友軍の援護に向かうぞ！\n",
+      "translation": "알았다. 이대로 아군 지원을 향해 이동한다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GA740002,3"
+      },
+      "original": "あっ……マイヤーズ司令！\n大型戦闘機とともに、残った艦隊も後退していき\nます。\n",
+      "translation": "앗…… 마이어스 사령관님! 대형 전투기와\n함께, 남은 함대도 후퇴하고 있습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GA740002,3"
+      },
+      "original": "何だって？\n……ほかの友軍の状況はどうなっている？\n",
+      "translation": "뭐라고? ……다른 아군의 상황은 어떻게 되어\n있지?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GA740003,3"
+      },
+      "original": "それが……エルシオールの周辺でも、敵が交戦を\nやめて、この宙域から急速に離脱を始めています。\n",
+      "translation": "그게…… 에르시올 주변에서도, 적이 교전을\n그만두고 이 우역에서 급속히 이탈하기\n시작했습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GA740004,3"
+      },
+      "original": "引きあげていくだと？\nどういうことだ。\n",
+      "translation": "철수한다고? 그게 무슨 소리냐.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GA740005,3"
+      },
+      "original": "この宙域にいる客船を仕留められなかったから、\nあきらめて引きあげたのか？\nいや、それだけとは思えんが……。\n",
+      "translation": "이 우역에 있는 객선을 격추하지 못해서,\n포기하고 물러난 건가? 아니, 그것뿐이라고는\n생각되지 않는데……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GA740006,3"
+      },
+      "original": "これ以上、民間の船に被害がおよばないのはいい\nが……。\nどうも妙だな。\n",
+      "translation": "이 이상 민간 선박에 피해가 미치지 않는 건\n좋지만…… 아무래도 묘하군.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GA740007,3"
+      },
+      "original": "民間客船をすべて落としたから、それで満足した\nとでも言うのか？\n守りきれなかった、俺たちのせいだが……。\n",
+      "translation": "민간 객선을 모두 떨어뜨렸으니, 그걸로\n만족했다 는 건가? 지켜내지 못한 우리들의\n잘못이지만……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GA740008,3"
+      },
+      "original": "司令、敵戦闘機から通信が……。\n",
+      "translation": "사령관님, 적 전투기로부터 통신이……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "face": "003,0,0,0",
+        "voice": "GA740008,3",
+        "speaker": "001"
+      },
+      "original": "つないでくれ。\n",
+      "translation": "연결해 줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "face": "381,0,0,0",
+        "speaker": "043",
+        "voice": "GA740009,3"
+      },
+      "original": "フッ……どうやら、もうタイムリミットなようだ。\nボクたちはこれで失礼するよ。\n",
+      "translation": "훗…… 아무래도, 이제 타임 리미트인 모양이\n군 . 우리는 이만 실례하도록 하지.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "face": "005,0,0,0",
+        "voice": "GA740009,3",
+        "speaker": "001"
+      },
+      "original": "タイムリミット？\nどういう意味だ、それは？\n",
+      "translation": "타임 리미트? 그게 무슨 의미지?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "043",
+        "face": "382,0,0,0",
+        "voice": "GA740010,3"
+      },
+      "original": "ああ……。\nボクとマイハニー、愛し合うふたりをまたしても\n引き裂くとは、運命はなんて残酷なんだ……。\n",
+      "translation": "아아…… 나와 마이 허니, 서로 사랑하는 두\n사람을 다시금 갈라놓다니, 운명은 참으로\n잔혹하구나……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "009,0,0,0",
+        "voice": "GA740010,3"
+      },
+      "original": "だめだこりゃ。\n自分の世界に入っちゃってるよ。\n",
+      "translation": "안 되겠구먼. 자기 세계에 빠져 있어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "043",
+        "face": "382,0,0,0",
+        "voice": "GA740011,3"
+      },
+      "original": "ミルフィー、キミの美しい戦いぶり、しかとこの\n目に焼きつけたよ。\n次に会う日が楽しみだ……アデュー。\n",
+      "translation": "밀피, 너의 아름다운 전투 모습, 똑똑히 이\n눈에 새겨두었어. 다음에 만날 날이 기대되는\n군 …… 아듀.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "025,0,0,0",
+        "voice": "GA740012,3"
+      },
+      "original": "まだそんなこと言ってるの？\nナントカは死ななきゃ治らないって、本当なんだ。\n",
+      "translation": "아직도 그런 소리를 하는 거야? 나노카는\n죽어야 낫는다는 말, 정말이라니까.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "043",
+        "face": "382,0,0,0",
+        "voice": "GA740013,3"
+      },
+      "original": "泣かないでおくれミルフィー、別れがつらくなる。\nさびしいが……アデュー。\n",
+      "translation": "울지 말아줘 밀피, 이별이 괴로워진다.\n외롭지만…… 아듀.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "voice": "GA740014,3",
+        "speaker": "002",
+        "face": "025,0,0,0"
+      },
+      "original": "あたし、泣いてなんかいないもん！\n",
+      "translation": "나, 울고 있지 않거든!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "043",
+        "face": "382,0,0,0",
+        "voice": "GA740015,3"
+      },
+      "original": "ミルフィー、キミが傷をいやして立ち上がるのを、\nボクは待っているよ。\nそれでは、アデュー。\n",
+      "translation": "밀피, 네가 상처를 치유하고 일어서는 것을,\n나는 기다리고 있을게. 그럼, 아듀.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "023,0,0,0",
+        "voice": "GA740016,3"
+      },
+      "original": "あーん、悔しいー！\nあんな人にやられたなんてー！\n",
+      "translation": "아앙, 분해-! 그런 사람한테 당하다니-!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "face": "402,0,0,0",
+        "speaker": "044",
+        "voice": "GA740017,3"
+      },
+      "original": "どうやら引き分けのようだなぁぁぁ！\n次こそ決着をつけるぞ、我が宿敵（とも）よぉぉ！\n",
+      "translation": "아무래도 무승부인 모양이구만어어어! 다음이야\n말로 결판을 내자, 나의 숙적(토모)이여어어어!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "062,0,0,0",
+        "voice": "GA740018,3"
+      },
+      "original": "どこが引き分けよ！？\nその減らず口、二度と叩けないようにしてあげて\nもいいのよ！\n",
+      "translation": "어디가 무승부라는 거야!? 그 입담, 두 번\n다시 떨지 못하게 해줘도 된다고!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "speaker": "044",
+        "face": "402,0,0,0",
+        "voice": "GA740019,3"
+      },
+      "original": "今回もいい勝負だったぞ、我が強敵（とも）よ！\nお前と拳を交えたこの熱い瞬間を、オレは決して\n忘れないぜぇぇぇ！\n",
+      "translation": "이번에도 좋은 승부였다, 나의 강적(토모)이여!\n너와 주먹을 맞댄 이 뜨거운 순간을, 나는\n결코 잊지 않겠다아아아!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "067,0,0,0",
+        "voice": "GA740020,3"
+      },
+      "original": "アタシは２秒で忘れてやるわ。\n",
+      "translation": "아타시는 2초 만에 잊어버려 줄게.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "face": "402,0,0,0",
+        "voice": "GA740021,3",
+        "speaker": "044"
+      },
+      "original": "見たか、これがオレたちの紋章機の力だぁぁぁ！\n今回はこれで引きあげるが、次はお前にとどめを\n刺してやるぜぇぇぇぇ！\n",
+      "translation": "봤나, 이것이 우리들의 문장기의 힘이다아아아!\n이번에는 이걸로 물러가겠지만, 다음엔\n네놈에게 최후의 일격을 가해주마아아아아!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "voice": "GA740022,3",
+        "speaker": "003",
+        "face": "086,0,0,0"
+      },
+      "original": "うるさーい！\n今回はアタシが負けたんじゃないわよ、タクトの\nせいで負けたのよっ！\n",
+      "translation": "시끄러워! 이번에는 내가 진 게 아니야, 택트\n때문에 진 거라고!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "102,0,0,0",
+        "voice": "GA740023,3"
+      },
+      "original": "そちらが劣勢になったとたん、逃げるというわけ\nですか？\n賢明な判断ですわね。\n",
+      "translation": "그쪽이 열세에 처하자마자 도망치겠다는\n건가요? 현명한 판단이시네요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "speaker": "045",
+        "face": "422,0,0,0",
+        "voice": "GA740024,3"
+      },
+      "original": "フン、逃げるだって？\n目を開けたまま寝言を言わないでもらいたいね。\n",
+      "translation": "흥, 도망이라니? 눈을 뜬 채로 잠꼬대는 하지\n말아줬으면 좋겠군.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "102,0,0,0",
+        "voice": "GA740025,3"
+      },
+      "original": "もうお帰りですの？\nあいかわらず、退却することだけはお得意のよう\nですわね。\n",
+      "translation": "벌써 돌아가시는 건가요? 여전히, 퇴각하는\n것만큼은 특기인 모양이 군요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "voice": "GA740026,3",
+        "speaker": "045",
+        "face": "421,0,0,0"
+      },
+      "original": "何とでも言うがいいさ。\nブラマンシュのお嬢様ごときに、僕たちの崇高な\n目的などわからないだろうからね。\n",
+      "translation": "뭐라고 하든 상관없다. 브라만슈의 아가씨\n따위는, 우리들의 숭고한 목적 같은 건\n이해하지 못할 테니까 말이야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "103,0,0,0",
+        "voice": "GA740027,3"
+      },
+      "original": "戦場全体では、こちらの勝ちですわ。\n……私は、タクトさんの作戦ミスで、不覚を取り\nましたが……。\n",
+      "translation": "전장 전체로 보면 이쪽의 승리예요. ……저는 택트 씨의 작전 실수로 불찰을 저질렀지만…….\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "speaker": "045",
+        "face": "421,0,0,0",
+        "voice": "GA740028,3"
+      },
+      "original": "フフン、甘いね。\nこれだから、ぬるま湯につかって育ったお嬢様は。\n",
+      "translation": "후훗, 무르군. 이래서, 미온수에 몸을 담그고\n자란 아가씨는.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "speaker": "045",
+        "face": "421,0,0,0",
+        "voice": "GA740029,3"
+      },
+      "original": "ここにいると巻きぞえをくらうから、後退すると\nいうだけさ。\n",
+      "translation": "여기에 있다간 휘말릴 뿐이니까, 후퇴하겠다는\n것뿐이다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "voice": "GA740030,3",
+        "speaker": "005",
+        "face": "173,0,0,0"
+      },
+      "original": "巻きぞえ？\nはん、それでもハッタリかましてるつもりかい？\n",
+      "translation": "휘말린다고? 흥, 그래도 허세를 부릴 셈인가?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0036",
+      "channel": 1,
+      "context": {
+        "face": "441,0,0,0",
+        "voice": "GA740031,3",
+        "speaker": "046"
+      },
+      "original": "……すぐにわかる。\n俺は……偽りは言わん……。\n",
+      "translation": "……곧 알게 될 것이다. 나는…… 거짓은\n말하지 않는다……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0037",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "143,0,0,0",
+        "voice": "GA740032,3"
+      },
+      "original": "巻きぞえ？\nおい、何のことだい。\n",
+      "translation": "휘말린다고? 어이, 무슨 소리야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0038",
+      "channel": 1,
+      "context": {
+        "speaker": "046",
+        "face": "441,0,0,0",
+        "voice": "GA740033,3"
+      },
+      "original": "……もうじきわかる。\n黒き力がもたらす永遠の静寂……その目で見届け\nるがいい……。\n",
+      "translation": "……머지않아 알게 될 것이다. 흑색의 힘이\n가져올 영원한 정적…… 그 눈으로 지켜\n보도록 해라……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0039",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "157,0,0,0",
+        "voice": "GA740034,3"
+      },
+      "original": "あんたら、何するつもりだい！？\nくそっ、あたしが動ければ……。\n",
+      "translation": "당신들, 무슨 짓을 하려는 거야!? 제기랄,\n내가 움직일 수만 있다면……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0040",
+      "channel": 1,
+      "context": {
+        "speaker": "046",
+        "face": "441,0,0,0",
+        "voice": "GA740035,3"
+      },
+      "original": "……貴様がいたところで、ムダだ。\n巨大なる、黒き力の前ではな……。\n",
+      "translation": "……네놈이 있어 봤자, 소용없다. 거대한,\n흑색의 힘 앞에서는 말이지……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0041",
+      "channel": 1,
+      "context": {
+        "speaker": "047",
+        "face": "461,0,0,0",
+        "voice": "GA740036,3"
+      },
+      "original": "そういうこと。\nまぁ、今回は紋章機の試運転だしな。\nこのへんで、かんべんしといてやるよ。\n",
+      "translation": "그런 거지. 뭐, 이번에는 문장기의 시운전이니\n까 말이야. 이쯤에서, 봐주도록 하지.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0042",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,0,0,0",
+        "voice": "GA740037,3"
+      },
+      "original": "……いつもと同じパターン。\n",
+      "translation": "……언제나와 같은 패턴.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0043",
+      "channel": 1,
+      "context": {
+        "speaker": "047",
+        "face": "461,0,0,0",
+        "voice": "GA740038,3"
+      },
+      "original": "レッド・アイの言うとおりだぜ。\nおっかねーから、オイラも早くかーえろっと。\nギャハハハ！\n",
+      "translation": "레드 아이가 말한 그대로다. 무서우니까, 나도\n얼른 가야겠어. 갸하하하!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0044",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,0,0,0",
+        "voice": "GA740039,3"
+      },
+      "original": "……タクトさん、追撃しますか？\n",
+      "translation": "……택트 씨, 추격할까요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0045",
+      "channel": 1,
+      "context": {
+        "speaker": "047",
+        "face": "461,0,0,0",
+        "voice": "GA740040,3"
+      },
+      "original": "早く逃げた方がいいんじゃねぇか？\nといっても、そこのチビは修理中か！\nギャハハハハ！\n",
+      "translation": "빨리 도망가는 게 좋지 않겠냐? 그렇다고\n해도, 저 꼬맹이는 수리 중인가! 갸하하하하!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0046",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "183,0,0,0",
+        "voice": "GA740041,3"
+      },
+      "original": "……チビ……。\n",
+      "translation": "……꼬맹이……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0047",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GA740042,3"
+      },
+      "original": "マイヤーズ司令、追わなくていいんですか？\n",
+      "translation": "마이어스 사령관님, 쫓지 않아도 되는 겁니까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0048",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA740042,3"
+      },
+      "original": "いや……いい。\nエンジェル隊も、いったん帰艦してくれ。\nファーゴの状況はどうなってる？\n",
+      "translation": "아니…… 됐다. 엔젤대도, 일단 귀함해라.\n파고의 상황은 어떻게 되어 있지?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0049",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GA740043,3"
+      },
+      "original": "すべての宇宙港が被弾し、艦船の発着ができなく\nなっていますが、その他の被害は軽微なようです。\n",
+      "translation": "모든 우주항이 피격되어, 함선의 이착륙을 할\n수 없게 되었습니다만, 그 외의 피해는 경미한\n듯합니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0050",
+      "channel": 1,
+      "context": {
+        "voice": "GA740044,3",
+        "speaker": "011",
+        "face": "281,273,0,0"
+      },
+      "original": "いったい、ヤツらの狙いは何だったのだ？\nこれでは、ただファーゴにいる者たちを、足止め\nしたかっただけとしか思えん。\n",
+      "translation": "도대체, 녀석들의 목적은 무엇이었던 거냐? 이\n래서는, 그저 파고에 있는 자들을 발을 묶어두\n고 싶었을 뿐이라고밖에 생각되지 않는다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0051",
+      "channel": 1,
+      "context": {
+        "voice": "GA740044,3",
+        "speaker": "001",
+        "face": "004,273,0,0"
+      },
+      "original": "それだけだといいんですが……。\n",
+      "translation": "그것뿐이라면 좋겠습니다만……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0052",
+      "channel": 1,
+      "context": {
+        "face": "221,273,0,223",
+        "voice": "GA740045,3",
+        "speaker": "007"
+      },
+      "original": "ヤツら、気になることを言い残していきやがった\nな。\nここにいると、巻きぞえをくらうとか何とか。\n",
+      "translation": "녀석들, 신경 쓰이는 말을 남기고 가버렸구먼.\n여기에 있으면 휘말려 죽는다는 건가 뭔가\n하는 거 말이야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0053",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,273,0,223",
+        "voice": "GA740045,3"
+      },
+      "original": "ああ……。\nただの負け惜しみとも思えないが……。\n",
+      "translation": "아아…… 단순한 패배 선언이라고는 생각되지\n않지만……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0054",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GA740046,3"
+      },
+      "original": "前方より、強力なエネルギー反応が接近中！\n",
+      "translation": "전방으로부터, 강력한 에너지 반응이 접근 중!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0055",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GA740046,3"
+      },
+      "original": "何だと！？\n",
+      "translation": "뭐라고!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0056",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "010,0,0,0",
+        "voice": "GA740046,3"
+      },
+      "original": "……何だったんだ、今のは……。\n",
+      "translation": "……방금 그건, 뭐였던 거지……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0057",
+      "channel": 1,
+      "context": {
+        "face": "491,0,0,0",
+        "voice": "GA740047,3",
+        "speaker": "016"
+      },
+      "original": "わ……わかりません。\n今の攻撃の影響で、レーダーもモニターも、機能\nがいちじるしく低下していて……。\n",
+      "translation": "모…… 모르겠습니다. 지금의 공격의 영향으로,\n레이더도 모니터도, 기 능이 현저히 저하되어\n있어서……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0058",
+      "channel": 1,
+      "context": {
+        "face": "501,0,0,0",
+        "voice": "GA740048,3",
+        "speaker": "017"
+      },
+      "original": "おそらく……あの巨大な黒い球体が放った攻撃が、\nファーゴをかすめて……さらに惑星ロームを直撃\nしたと……。\n",
+      "translation": "아마도…… 저 거대한 검은 구체가 쏜 공격이,\n파고를 스쳐 지나가서…… 나아가 행성 롬을\n직격 했을 것이라고……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0059",
+      "channel": 1,
+      "context": {
+        "face": "221,0,225,0",
+        "speaker": "007",
+        "voice": "GA740049,3"
+      },
+      "original": "何……だと！？\nロームはどうなったんだ！\nファーゴの人々は！\n",
+      "translation": "뭐……라고!? 롬은 어떻게 된 거냐! 파고의\n사람들은!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0060",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,225,0",
+        "voice": "GA740050,3"
+      },
+      "original": "周辺に集結していた友軍艦隊の、少なくとも半数\nは、何らかの被害を受けたと思われます！\n",
+      "translation": "주변에 집결해 있던 우군 함대의, 적어도 절반\n은, 어떠한 피해를 입었을 것으로 보입니다!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0061",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,225,0",
+        "voice": "GA740051,3"
+      },
+      "original": "民間人への被害は……想像もできません……。\n",
+      "translation": "민간인에게 미친 피해는…… 상상조차 할 수\n없습니다……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0062",
+      "channel": 1,
+      "context": {
+        "face": "281,0,273,0",
+        "voice": "GA740052,3",
+        "speaker": "011"
+      },
+      "original": "あの黒い球体……。\nあのまがまがしい姿は……。\n",
+      "translation": "저 검은 구체…… 저 불길한 모습은……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0063",
+      "channel": 1,
+      "context": {
+        "face": "501,0,0,0",
+        "speaker": "017",
+        "voice": "GA740053,3"
+      },
+      "original": "通信、回復します！\n",
+      "translation": "통신, 회복됩니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0064",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "023,0,0,0",
+        "voice": "GA740054,3"
+      },
+      "original": "タクトさん！\nファーゴが！\n都市衛星ファーゴが、火を噴いてます！\n",
+      "translation": "택트 씨! 파고가! 도시 위성 파고가, 불길에\n휩싸이고 있어요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0065",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GA740054,3"
+      },
+      "original": "何だって？\nこっちはまだ、モニターが回復していない。\n状況を伝えてくれ！\n",
+      "translation": "뭐라고? 이쪽은 아직, 모니터가 회복되지\n않았다. 상황을 전해줘!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0066",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "023,0,0,0",
+        "voice": "GA740055,3"
+      },
+      "original": "ファーゴの外壁のあっちこっちにヒビが入って、\nそこから……そこからどんどん火の手が！\n",
+      "translation": "파고의 외벽 여기저기에 금이 가서, 거기서……\n거기서 계속 불길이!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0067",
+      "channel": 1,
+      "context": {
+        "voice": "GA740056,3",
+        "speaker": "003",
+        "face": "068,0,0,0"
+      },
+      "original": "ねぇ……さっきまで、このあたりに小惑星なんて\nなかったわよね？\nこれってもしかして、ロームの……？\n",
+      "translation": "있잖아…… 아까 전까지, 이 근처에 소행성\n같은 건 없었지? 이거 혹시, 롬의……?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0068",
+      "channel": 1,
+      "context": {
+        "voice": "GA740057,3",
+        "speaker": "006",
+        "face": "182,0,0,0"
+      },
+      "original": "……宇宙港のエアロックが開きました。\nそこから船が……。\n",
+      "translation": "……우주항의 에어록이 열렸습니다. 거기서\n배가……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0069",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "123,0,0,0",
+        "voice": "GA740058,3"
+      },
+      "original": "いえ……出てきたんじゃありません。\n押し流されてるんです！\nエアロックが壊れたんですわ。\n",
+      "translation": "아니요…… 나온 게 아닙니다. 휩쓸려 내려오고\n있어요! 에어록이 부서진 거예요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0070",
+      "channel": 1,
+      "context": {
+        "face": "503,0,0,0",
+        "voice": "GA740059,3",
+        "speaker": "017"
+      },
+      "original": "それって……ファーゴ内部のモノが、空気と一緒\nに放出されているってことですか……？\n",
+      "translation": "그건…… 파고 내부의 물건이, 공기와 함께\n방출되고 있다는 뜻인가요……?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0071",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "084,0,0,0",
+        "voice": "GA740060,3"
+      },
+      "original": "そ、それじゃ……。\nそれじゃ、アレは……あのたくさんの小さな……。\nアレは、何だっていうのよ！\n",
+      "translation": "그, 그렇다면…… 그렇다면, 저건…… 저\n수많은 작은…… 저건, 대체 뭐라는 거야!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0072",
+      "channel": 1,
+      "context": {
+        "voice": "GA740061,3",
+        "speaker": "016",
+        "face": "493,0,0,0"
+      },
+      "original": "そ、そんな……！\n",
+      "translation": "이, 이럴 수가……!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0073",
+      "channel": 1,
+      "context": {
+        "face": "195,0,0,0",
+        "voice": "GA740062,3",
+        "speaker": "006"
+      },
+      "original": "……ハーベスター、救助に向かいます。\nまだ、飛べるだけの力は残っています。\n",
+      "translation": "……하베스터, 구조를 향하겠습니다. 아직, 날\n수 있을 정도의 힘은 남아 있습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0074",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "146,0,0,0",
+        "voice": "GA740063,3"
+      },
+      "original": "およし。\n……今から行っても、外に吸い出された連中は、\nたぶん……もう……。\n",
+      "translation": "그만둬. ……지금 가봤자, 밖으로 빨려 나간\n사람들은 아마…… 이미……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0075",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "027,0,0,0",
+        "voice": "GA740064,3"
+      },
+      "original": "どうしよう……どうしたらいいの？\n何もできないの？\n",
+      "translation": "어떡해…… 어쩌면 좋아? 아무것도 할 수 없는\n거야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0076",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "041,0,0,0",
+        "voice": "GA740065,3"
+      },
+      "original": "あたしたちは、ここにいるのに！\nここから見えるのに！\nねぇ、タクトさん！\n",
+      "translation": "우리는, 여기 있는데! 여기서 다 보이는데!\n있잖아, 택트 씨!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0077",
+      "channel": 1,
+      "context": {
+        "face": "084,0,0,0",
+        "voice": "GA740066,3",
+        "speaker": "003"
+      },
+      "original": "ウソ、ウソでしょ！？\n何なのよ、コレ！\n……いやあぁぁぁぁぁ！！\n",
+      "translation": "거짓말, 거짓말이지!? 뭐냐고, 이게! ……아아\n아아아악!!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0078",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "105,0,0,0",
+        "voice": "GA740067,3"
+      },
+      "original": "私たちは……守りきれなかったんですか……？\n大勢の、罪もない人々を……。\n",
+      "translation": "우리는…… 지켜내지 못한 건가요……?\n수많은, 죄 없는 사람들을……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0079",
+      "channel": 1,
+      "context": {
+        "voice": "GA740068,3",
+        "speaker": "005",
+        "face": "143,0,0,0"
+      },
+      "original": "何がロストテクノロジーの結晶だ。\n何が宇宙最強の機体だ。\nこんなときに役に立たなくて、どうするんだよ！\n",
+      "translation": "뭐가 로스트 테크놀로지의 결정체냐. 뭐가\n우주 최강의 기체냐. 이런 때에 도움이 안\n되면, 어쩌자는 거야!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0080",
+      "channel": 1,
+      "context": {
+        "voice": "GA740069,3",
+        "speaker": "006",
+        "face": "182,0,0,0"
+      },
+      "original": "……私は……無力なのですね……。\n",
+      "translation": "……저는…… 무력한 것이군요……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0081",
+      "channel": 1,
+      "context": {
+        "voice": "GA740069,3",
+        "speaker": "001",
+        "face": "010,0,0,0"
+      },
+      "original": "これが……これが狙いか、エオニア……！\n",
+      "translation": "이것이…… 이것이 노린 것인가, 에오니아……!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0082",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "010,0,0,0",
+        "voice": "GA740069,3"
+      },
+      "original": "軍や艦隊だけでなく、ファーゴやロームの民間人\nまでも巻きぞえにして、その力を誇示したとでも\nいうのか！？\n",
+      "translation": "군이나 함대뿐만 아니라, 파르고나 롬의\n민간인 까지 휘말리게 해서, 그 힘을 과시했다\n는 것인가!?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0083",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GA740069,3"
+      },
+      "original": "こんなことのために……こんなことをするために\n舞い戻ってきたというのか、貴様は！！\n",
+      "translation": "이런 일을 위해서…… 이런 일을 하기 위해\n되돌아왔다는 말이냐, 네놈은!!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0084",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GA740070,3"
+      },
+      "original": "レーダー、モニター、回復します！\n",
+      "translation": "레이더, 모니터, 회복됩니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0085",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "493,0,0,0",
+        "voice": "GA740071,3"
+      },
+      "original": "ぜ……前方、先ほどの攻撃を行なった巨大な球体\nから、何かが出てきます！\n……エオニア軍の艦です！\n",
+      "translation": "전…… 전방, 방금 공격을 가했던 거대한 구체\n에서, 무언가가 나옵니다! ……에오니아군의\n함선입니다!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0086",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "503,0,0,0",
+        "voice": "GA740072,3"
+      },
+      "original": "じゃあ、あれは巨大な母艦みたいなものってこと？\n",
+      "translation": "그럼, 저건 거대한 모함 같은 거라는 거야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0087",
+      "channel": 1,
+      "context": {
+        "face": "224,0,0,0",
+        "voice": "GA740073,3",
+        "speaker": "007"
+      },
+      "original": "人工物、なのか……？\nあんなに巨大な物体が！\n",
+      "translation": "인공물, 인가……? 저렇게 거대한 물체가!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0088",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "224,0,0,0",
+        "voice": "GA740074,3"
+      },
+      "original": "どこからあんなものを……。\nあれはいったい、何なんだ！？\n",
+      "translation": "어디서 저런 것을…… 저건 대체, 무엇이지!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0089",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GA740074,3"
+      },
+      "original": "知るか。\n知りたいとも思わないね。\n叩き壊した後で、誰かに調べてもらうさ！\n",
+      "translation": "알 게 뭐야. 알고 싶지도 않군. 때려 부순\n다음에, 누군가에게 조사해달라고 하지!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0090",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "288,0,0,0",
+        "voice": "GA740075,3"
+      },
+      "original": "……あれは……。\nあれは、もしや……。\n",
+      "translation": "……저것은…… 저것은, 혹시……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0091",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GA740075,3"
+      },
+      "original": "シヴァ皇子？\n",
+      "translation": "시바 황자?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000f6800:dialogue:0092",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "288,0,0,0",
+        "voice": "GA740076,3"
+      },
+      "original": "あれは、もしや……『黒き月』……？\n",
+      "translation": "저것은, 혹시…… 『흑색 달』……?\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

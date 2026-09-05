@@ -1,0 +1,297 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000bb800.txt",
+    "encoding": "cp932",
+    "sha256": "cfe9ef942f1d68e890c251b2a0de6e8132b043814ae1ad61b8149226f28b07c9",
+    "dialogue_count": 22
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000bb800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "face": "000,0,0,0",
+        "speaker": "013",
+        "voice": "GAF04001,3"
+      },
+      "original": "……なぜだ……？\n",
+      "translation": "……왜지……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "face": "000,0,0,0",
+        "speaker": "013",
+        "voice": "GAF04002,3"
+      },
+      "original": "なぜ、『白き月』の落とし子たちは、私のじゃま\nをする？\n私は『白き月』と、ひとつになりたいだけなのに。\n",
+      "translation": "왜, 『백색 달』의 낙서들은, 나의 방해 를\n하는 거지? 나는 『백색 달』과, 하나가 되고\n싶을 뿐인데.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "face": "000,0,0,0",
+        "speaker": "013",
+        "voice": "GAF04003,3"
+      },
+      "original": "『白き月』も、なぜ私を受け入れようとしない？\n　私とお前は、対である双子星なのに。\n",
+      "translation": "『백색 달』도, 왜 나를 받아들이려 하지\n않지? 　나와 너는, 대를 이루는 쌍둥이\n별인데.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "face": "000,0,0,0",
+        "speaker": "013",
+        "voice": "GAF04004,3"
+      },
+      "original": "別れた後の時間が、『白き月』を変えてしまった\nのか……？\nそれとも、私が進化の方向を間違えた……？\n",
+      "translation": "헤어진 뒤의 시간이, 『백색 달』을 바꿔버린\n건가……? 아니면, 내가 진화의 방향을 잘못\n잡은 건가……?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "face": "000,0,0,0",
+        "speaker": "013",
+        "voice": "GAF04005,3"
+      },
+      "original": "いや……私が間違うわけがない。\n私は正しい、絶対に正しい！\n",
+      "translation": "아니…… 내가 틀릴 리 없어. 나는 옳다,\n절대로 옳아!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "face": "000,0,0,0",
+        "speaker": "013",
+        "voice": "GAF04006,3"
+      },
+      "original": "間違っているのは『白き月』の方だ！\n私と融合して、正しい進化をとげよ！\n",
+      "translation": "틀린 것은 『백색 달』 쪽이다! 나와 융합해서,\n올바른 진화를 이뤄라!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "face": "000,0,0,0",
+        "speaker": "013",
+        "voice": "GAF04007,3"
+      },
+      "original": "そして、それを拒むものは……。\n",
+      "translation": "그리고, 그것을 거부하는 자는……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "face": "000,0,0,0",
+        "speaker": "013",
+        "voice": "GAF04008,3"
+      },
+      "original": "消えてなくなるがいい！！\n",
+      "translation": "사라져 없어지면 된다!!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "face": "007,0,0,0",
+        "voice": "GAF04008,3",
+        "speaker": "001"
+      },
+      "original": "うわっ！\n",
+      "translation": "우와!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "493,0,0,0",
+        "voice": "GAF04009,3"
+      },
+      "original": "く……『黒き月』が、攻撃を開始しました！\nこれでは近づけません！\n",
+      "translation": "큭…… 『흑색 달』이, 공격을 개시했습니다!\n이래서는 접근할 수 없습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "voice": "GAF04009,3",
+        "speaker": "001",
+        "face": "010,0,0,0"
+      },
+      "original": "何とか回避して近づけないのか！？\n",
+      "translation": "어떻게든 회피해서 접근할 수 없는 건가!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "503,0,0,0",
+        "voice": "GAF04010,3"
+      },
+      "original": "直撃を避けるだけで、精いっぱいです！\n",
+      "translation": "직격을 피하는 것만으로도, 벅찹니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "493,0,0,0",
+        "voice": "GAF04011,3"
+      },
+      "original": "　左舷より、新手の攻撃衛星が多数、接近中！\n『黒き月』の中からも、続々と現れています！\n",
+      "translation": "좌현으로부터, 신종 공격 위성이 다수, 접근\n중! 『흑색 달』 안에서도, 속속 나타나고\n있습니다!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GAF04012,3"
+      },
+      "original": "ちきしょう、数に任せて、メチャクチャに撃って\nきやがる！\nいったい、どれだけいるんだ！\n",
+      "translation": "제기랄, 숫자에 의지해서, 엉망진창으로 쏴대\n고 있어! 도대체, 얼마나 있는 거냐!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "face": "221,0,225,0",
+        "voice": "GAF04013,3",
+        "speaker": "007"
+      },
+      "original": "ぐうっ！\n……被害状況は！？\n",
+      "translation": "구욱! ……피해 상황은!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "503,0,225,0",
+        "voice": "GAF04014,3"
+      },
+      "original": "Ｄブロック左舷に直撃！\n電装系がオーバーロードし始めています！\n",
+      "translation": "D블록 좌현에 직격! 전자 계통이 오버로드되기\n시작했습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "010,0,225,0",
+        "voice": "GAF04014,3"
+      },
+      "original": "これじゃキリがない！\nせっかくエネルギーチャージが終わろうっていう\nときに……。\n",
+      "translation": "이래서는 끝이 없어! 겨우 에너지 충전이\n끝나가려 하는 때에……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "face": "255,0,0,0",
+        "speaker": "009",
+        "voice": "GAF04015,3"
+      },
+      "original": "タクト！\nエルシオールは、まだ攻撃できんのか？\nこのままでは、ファーゴのときの二の舞じゃぞ！\n",
+      "translation": "택트! 에르시올은, 아직 공격할 수 없는 거냐?\n이대로라면, 파르고 때의 재판이다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "voice": "GAF04015,3",
+        "speaker": "001",
+        "face": "010,0,0,0"
+      },
+      "original": "そ、そんなこと言われても……。\n",
+      "translation": "그, 그렇게 말씀하셔도……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "face": "007,0,0,0",
+        "voice": "GAF04015,3",
+        "speaker": "001"
+      },
+      "original": "うわああっ！\n",
+      "translation": "우와아앗!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "493,0,0,0",
+        "voice": "GAF04016,3"
+      },
+      "original": "エンジン出力低下！\nこのままでは、クロノ・ブレイク・キャノンへの\nエネルギー供給がストップします！\n",
+      "translation": "엔진 출력 저하! 이대로라면, 크로노・브레이크\n・캐논으로의 에너지 공급이 중단됩니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000bb800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "010,0,0,0",
+        "voice": "GAF04016,3"
+      },
+      "original": "くっ……いや、あきらめるもんか。\nあきらめたら、そこで終わりだ……！\n",
+      "translation": "큭…… 아니, 포기할 순 없다. 포기하면,\n거기서 끝이다……!\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

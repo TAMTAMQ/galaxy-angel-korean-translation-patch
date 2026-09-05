@@ -1,0 +1,23 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_0002e000.txt",
+    "encoding": "cp932",
+    "sha256": "cc42cce0904471762c3c23daace8bc5d35de716de8924d5b2ef0259f0aeacb38",
+    "dialogue_count": 1
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_0002e000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "0",
+        "face": "0,0,0,0"
+      },
+      "original": "■ギャラクシーエンジェル　２章　終了■\n",
+      "translation": "■갤럭시 엔젤 2장 종료■\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

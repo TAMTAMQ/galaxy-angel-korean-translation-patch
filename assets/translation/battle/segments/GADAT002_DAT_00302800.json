@@ -1,0 +1,1657 @@
+{
+  "schema": "galaxy-angel-battle-segment/v1",
+  "container": "GADAT002",
+  "block_offset": 3155968,
+  "units": [
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE203:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE203",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          1909,
+          1933
+        ],
+        "byte_lengths": [
+          16,
+          12
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "よっしゃ、撃墜！\nざま～みろ！\n",
+      "translation": "좋아, 격추!\n꼴 좋구나!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE203:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE203",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          2034,
+          2052
+        ],
+        "byte_lengths": [
+          10,
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "やったぜ！\nオイラが撃墜したんだからな！\n",
+      "translation": "해냈다!\n내가 격추했다고!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE203:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE203",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          2169,
+          2203
+        ],
+        "byte_lengths": [
+          26,
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "何だよ、もう戦闘不能かぁ？\nオイラの紋章機が強すぎたか。\n",
+      "translation": "뭐야, 벌써 전투 불능인가?\n내 문장기가 너무 강했나.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE206:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE206",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11
+        ],
+        "raw_offsets": [
+          3337
+        ],
+        "byte_lengths": [
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "よーし、いいトコ当たったぜ！\n",
+      "translation": "좋아, 제대로 맞았다구!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE206:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE206",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          3463,
+          3497
+        ],
+        "byte_lengths": [
+          26,
+          22
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "うまく当たったみたいだな。\n次で撃ち落としてやる！\n",
+      "translation": "잘 맞은 모양이네.\n다음엔 격추해 주겠어!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE206:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE206",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          3609,
+          3629
+        ],
+        "byte_lengths": [
+          12,
+          14
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "大当たり～！\nオイラは偉い！\n",
+      "translation": "대박이다~!\n난 정말 대단해!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE207:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE207",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          4087,
+          4105
+        ],
+        "byte_lengths": [
+          10,
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "当たった！\nよぉし、この調子でいくぜぇ！\n",
+      "translation": "맞았다!\n좋아, 이 기세로 간다구!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE207:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE207",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          4223,
+          4237
+        ],
+        "byte_lengths": [
+          6,
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "命中！\nこの機体なら、楽勝じゃん。\n",
+      "translation": "명중!\n이 기체라면, 낙승이잖아.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE207:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE207",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          4353,
+          4385
+        ],
+        "byte_lengths": [
+          24,
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "へへへ、当たったもんね。\n今度はどこ狙ってやろうかな？\n",
+      "translation": "헤헤헤, 맞았는걸.\n이번엔 어디를 노려줄까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE208:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE208",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11
+        ],
+        "raw_offsets": [
+          4857
+        ],
+        "byte_lengths": [
+          18
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "あ、外れちまった。\n",
+      "translation": "아, 빗나갔다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE208:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE208",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          4973,
+          4999
+        ],
+        "byte_lengths": [
+          18,
+          16
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "しまった、外した。\n当たれっつーの！\n",
+      "translation": "아차, 빗나갔다.\n맞으라고!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE208:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE208",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          5105,
+          5137
+        ],
+        "byte_lengths": [
+          24,
+          18
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "うーん、当たんないなぁ。\n今度は外さねぇぞ！\n",
+      "translation": "으음, 안 맞네.\n이번엔 놓치지 않겠어!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE209:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE209",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          5603,
+          5633
+        ],
+        "byte_lengths": [
+          22,
+          18
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "しまった、かわされた！\n当たれよ、このぉ！\n",
+      "translation": "아차, 회피당했다!\n맞으란 말이다, 이 녀석아!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE209:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE209",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          5741,
+          5771
+        ],
+        "byte_lengths": [
+          22,
+          12
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "あっ、かわしやがった！\nムカつくー！\n",
+      "translation": "앗, 피했어!\n짜증 나!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE209:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE209",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          5873,
+          5903
+        ],
+        "byte_lengths": [
+          22,
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "ありゃ、当たってない？\nなんだ、回避されたのかよ。\n",
+      "translation": "어라, 안 맞았어?\n뭐야, 회피당한 거냐.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE20a:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE20a",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          6395,
+          6411
+        ],
+        "byte_lengths": [
+          8,
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "うわっ！\nやべ、かなりダメージ来たな。\n",
+      "translation": "우와!\n위험해, 데미지가 꽤 왔어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE20a:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE20a",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          6529,
+          6553
+        ],
+        "byte_lengths": [
+          16,
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "いてててててっ！\nシャレになんないって、オイ。\n",
+      "translation": "아파아아아아!\n농담이 아니라고, 나.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE20a:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE20a",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          6671,
+          6707
+        ],
+        "byte_lengths": [
+          28,
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "げっ、直撃くらっちまったか。\n軽くよけられると思ったのに。\n",
+      "translation": "게엑, 직격당해버렸나.\n가볍게 피할 수 있을 줄 알았는데.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE20b:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE20b",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          7197,
+          7233
+        ],
+        "byte_lengths": [
+          28,
+          14
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "被弾したか……けど、今日こそ\nは勝つからな！\n",
+      "translation": "피탄됐나…… 하지만, 오늘이야말로\n이긴다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE20b:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE20b",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          7337,
+          7373
+        ],
+        "byte_lengths": [
+          28,
+          24
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "被弾したか……まぁこれくらい\n紋章機には軽いモンだぜ！\n",
+      "translation": "피탄됐나…… 뭐 이 정도는\n문장기에게는 가벼운 수준이지!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE20b:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE20b",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          7487,
+          7517
+        ],
+        "byte_lengths": [
+          22,
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "げ、被弾しちゃったよ。\nまぁ、これくらいならいいか。\n",
+      "translation": "게엑, 피격당해버렸어.\n뭐, 이 정도라면 괜찮으려나.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE20c:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE20c",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          7996,
+          8030
+        ],
+        "byte_lengths": [
+          26,
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "ぎゃー、やられたぁー……！\nなーんてな、当たってねぇよ！\n",
+      "translation": "갸아, 당했다아—……!\n...라니깐, 안 맞았거든!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE20c:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE20c",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          8148,
+          8166
+        ],
+        "byte_lengths": [
+          10,
+          16
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "回避成功！\nどんなもんだい！\n",
+      "translation": "회피 성공!\n어떤가 보라고!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE20c:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE20c",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          8272,
+          8302
+        ],
+        "byte_lengths": [
+          22,
+          18
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "ギャハハ、は～ずれ～。\nどこ狙ってんだい？\n",
+      "translation": "갸하하, 빗나갔다~.\n어디를 노리는 거냐구?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE20d:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE20d",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          8773,
+          8809
+        ],
+        "byte_lengths": [
+          28,
+          24
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "イテッ……さっきから、オイラ\nばっかり狙われてないか？\n",
+      "translation": "아얏…… 아까부터, 나만\n노려지고 있는 거 아니야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE20d:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE20d",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          8923,
+          8957
+        ],
+        "byte_lengths": [
+          26,
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "機体強度が落ちてきた……。\nくそっ、負けてられっかよ！\n",
+      "translation": "기체 강도가 떨어지고 있어…….\n젠장, 질 순 없지!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE20d:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE20d",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          9073,
+          9107
+        ],
+        "byte_lengths": [
+          26,
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "ちょっと被弾しすぎだなぁ。\nま、これくらいならいいけど。\n",
+      "translation": "좀 너무 많이 피격당하는데.\n뭐, 이 정도라면 괜찮지만.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE20e:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE20e",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          9589,
+          9625
+        ],
+        "byte_lengths": [
+          28,
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "ちょっと形勢不利だなぁ……。\n援軍が来てくれないかなぁ。\n",
+      "translation": "좀 형세 불리한데…….\n원군이 와주지 않으려나.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE20e:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE20e",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          9741,
+          9773
+        ],
+        "byte_lengths": [
+          24,
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "あ、まーた攻撃受けたか。\n紋章機に乗っててよかったぜ。\n",
+      "translation": "아, 또 공격받았나.\n문장기에 타고 있어서 다행이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE20f:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE20f",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          10257,
+          10293
+        ],
+        "byte_lengths": [
+          28,
+          20
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "へへ……さすがにヤバくなって\nきたかなー……っと。\n",
+      "translation": "헤헤…… 역시 위험해져\n가기 시작했나—…… 앗.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE20f:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE20f",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          10403,
+          10437
+        ],
+        "byte_lengths": [
+          26,
+          18
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "わーもう、マジやばいって！\n誰か助けてくれー！\n",
+      "translation": "와— 정말, 진짜 위험하다니까!\n누가 좀 도와줘—!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE219:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE219",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          13810,
+          13830
+        ],
+        "byte_lengths": [
+          12,
+          10
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "もう限界だ！\n退却する！\n",
+      "translation": "이제 한계다!\n퇴각한다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE219:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE219",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          13930,
+          13962
+        ],
+        "byte_lengths": [
+          24,
+          22
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "くっそー、また負けたー！\nベルモット、後退する！\n",
+      "translation": "제기랄, 또 졌다—!\n베르모트, 후퇴한다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE21b:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE21b",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          14778,
+          14820
+        ],
+        "byte_lengths": [
+          34,
+          22
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "敵艦から、戦闘機が発進したもよう！\n急速に接近してきます！\n",
+      "translation": "적함에서 전투기가 발진한 모양이다!\n급속히 접근해 옵니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE21b:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE21b",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21
+        ],
+        "raw_offsets": [
+          14933
+        ],
+        "byte_lengths": [
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "新手の戦闘機が出現しました！\n",
+      "translation": "새로운 형태의 전투기가 출현했습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE21c:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE21c",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11
+        ],
+        "raw_offsets": [
+          15444
+        ],
+        "byte_lengths": [
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "敵戦闘機、後退していきます！\n",
+      "translation": "적 전투기, 후퇴하고 있습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00302800:MESSAGE21c:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3155968,
+        "section": "MESSAGE21c",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "ベルモットより入電",
+          "0\tpgf47_01\t\tノーマル（予備）",
+          "1\tpgf47_01\t\tノーマル",
+          "2\tpgf47_02\t\t怒り",
+          "3\tpgf47_03\t\t驚き",
+          "4\tpgf47_01\t\tノーマル（予備）",
+          "5\tpgf47_01\t\tノーマル（予備）",
+          "6\tpgf47_01\t\tノーマル（予備）",
+          "7\tpgf47_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21
+        ],
+        "raw_offsets": [
+          15571
+        ],
+        "byte_lengths": [
+          24
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17959184
+          }
+        ]
+      },
+      "original": "敵の戦闘機が撤退します！\n",
+      "translation": "적의 전투기가 철수합니다!\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

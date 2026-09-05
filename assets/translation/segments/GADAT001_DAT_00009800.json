@@ -1,0 +1,453 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_00009800.txt",
+    "encoding": "cp932",
+    "sha256": "304136170d3bc7dc846de450de3c04fe1993cf66afb10152a9cfbe15b4c74dd3",
+    "dialogue_count": 34
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GA104001,3"
+      },
+      "original": "しかし、あの黒い艦隊は、いったい何だったんだ？\n",
+      "translation": "하지만, 그 검은 함대는 대체 뭐였던 거지?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "015",
+        "face": "481,0,223,0",
+        "voice": "GA104002,3"
+      },
+      "original": "それなのですが、大破した艦をスキャンしてみた\nところ、まったく生命反応がありませんでした。\n最初から無人だったと思われます。\n",
+      "translation": "그것 말입니다만, 대파된 함선을 스캔한 결과\n전혀 생명 반응이 없었습니다. 처음부터\n무인이었던 것으로 보입니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GA104003,3"
+      },
+      "original": "無人艦だと？\nそんなのが、あれだけ数多く……どういうことだ。\n",
+      "translation": "무인함이라고? 그런 게 그렇게나 많이……\n어떻게 된 일이지.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,225,0",
+        "voice": "GA104003,3"
+      },
+      "original": "そのへんは、エンジェル隊のみんなに聞いてみる\nしかないんじゃない？\n",
+      "translation": "그건, 엔젤대 모두에게 물어보는 수밖에 없지\n않을까?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "015",
+        "face": "481,0,0,0",
+        "voice": "GA104004,3"
+      },
+      "original": "エンジェル隊から通信です！\n",
+      "translation": "엔젤대로부터 통신입니다!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GA104004,3"
+      },
+      "original": "おっと、うわさをすれば。\nつないでくれ。\n",
+      "translation": "이런, 호랑이도 제 말 하면 온다더니. 연결해\n줘.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,0,0",
+        "voice": "GA104004,3"
+      },
+      "original": "エンジェル隊のみんな、お疲れさま。\n大丈夫だったかい？\n",
+      "translation": "엔젤대 여러분, 수고 많았어. 괜찮은 건가?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "022,0,0,0",
+        "voice": "GA104005,3"
+      },
+      "original": "はい、大丈夫です！\nありがとうございました、マイヤーズ司令！\n",
+      "translation": "네, 괜찮아요! 감사합니다, 마이어스 사령관님!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "023,0,0,0",
+        "voice": "GA104006,3"
+      },
+      "original": "あんまり大丈夫じゃないですぅ……。\nまだ何とか飛べますけど、紋章機の修理……大変\nそうだなぁ。\n",
+      "translation": "별로 괜찮지는 않아요오…… 아직 어떻게든 날\n수는 있지만, 문장기 수리가…… 힘들겠네에.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "062,0,0,0",
+        "voice": "GA104007,3"
+      },
+      "original": "こっちは見ての通りよ。\nアタシの実力、思い知った？\n",
+      "translation": "이쪽은 눈에 보이는 대로야. 내 실력, 제대로\n느꼈어?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "086,0,0,0",
+        "voice": "GA104008,3"
+      },
+      "original": "あーもう、腹立つー！\nあんなヤツらに撃ち落とされるなんて、アタシの\nプライドがズタズタよ！\n",
+      "translation": "아 정말, 화나! 그런 녀석들에게 격추당하다니,\n내 자존심이 갈기갈기 찢어졌어!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "142,0,0,0",
+        "voice": "GA104009,3"
+      },
+      "original": "初めての指揮にしちゃ上等だよ、マイヤーズ大佐。\nよくできました。\n",
+      "translation": "첫 지휘치고는 훌륭해, 마이어스 대령. 잘했어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA104009,3"
+      },
+      "original": "ありがとう。\nさてと、そろそろ疑問に答えてほしいんだけど。\n",
+      "translation": "고마워. 그건 그렇고, 슬슬 의문에 답해줬으면\n하는데.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "146,0,0,0",
+        "voice": "GA104010,3"
+      },
+      "original": "あたしとしたことが、油断したよ……。\nどうにか飛べるだけの余力はありそうだけど……。\n",
+      "translation": "나답지 않게 방심했어…… 어떻게든 날 수\n있을 정도의 여력은 있는 것 같지만……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "face": "004,0,0,0",
+        "speaker": "001",
+        "voice": "GA104010,3"
+      },
+      "original": "本当に大丈夫かい？\nところで、そろそろ疑問に答えてほしいんだけど。\n",
+      "translation": "정말 괜찮은 거야? 그건 그렇고, 슬슬 의문에\n답해주었으면 하는데.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "face": "141,0,0,0",
+        "voice": "GA104011,3",
+        "speaker": "005"
+      },
+      "original": "何だい、疑問って？\n",
+      "translation": "뭐지, 의문이라는 게?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA104011,3"
+      },
+      "original": "まず、オレの名前を知っている理由から。\n",
+      "translation": "우선, 내 이름을 알고 있는 이유부터.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "face": "173,0,0,0",
+        "voice": "GA104012,3",
+        "speaker": "005"
+      },
+      "original": "そりゃあ、教えられたからさ。\n",
+      "translation": "그건 말이야, 들었으니까 그렇지.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA104012,3"
+      },
+      "original": "だから、誰に？\n",
+      "translation": "그래서, 누구한테?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,0,0",
+        "voice": "GA104013,3"
+      },
+      "original": "そいつは……。\n",
+      "translation": "그건……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "048,0,0,0",
+        "voice": "GA104014,3"
+      },
+      "original": "フォルテさーん。\nあたし、お腹が減っちゃいましたぁ。\n",
+      "translation": "포르테 씨～. 저, 배가 고파졌어요오.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "173,0,0,0",
+        "voice": "GA104015,3"
+      },
+      "original": "戻るまで、がまんおし。\n",
+      "translation": "돌아갈 때까지 참으렴.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "face": "144,0,0,0",
+        "voice": "GA104016,3",
+        "speaker": "005"
+      },
+      "original": "……って、そうか。\nすっかり忘れてた。\nそろそろ戻らないと、みんな心配してるだろうね。\n",
+      "translation": "……라고, 그렇구나. 완전히 잊고 있었어. 슬슬\n돌아가지 않으면 다들 걱정하겠지.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GA104016,3"
+      },
+      "original": "戻るって、どこに？\nそれに、みんなって？\n",
+      "translation": "돌아간다니, 어디로? 그리고, 다들이라니?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,0,0",
+        "voice": "GA104017,3"
+      },
+      "original": "アタシたちについて来れば、わかるわよ。\n",
+      "translation": "우리들을 따라오면, 알게 될 거야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GA104018,3"
+      },
+      "original": "俺たちに指図するのか？\n辺境の艦隊だが、ムーンエンジェル隊の指揮下に\n強制的に組み込まれるいわれはないぞ。\n",
+      "translation": "우리에게 지시하는 거냐? 변방의 함대지만, 문\n엔젤대의 지휘하에 강제로 편입될 이유는\n없다고.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,223,0",
+        "voice": "GA104018,3"
+      },
+      "original": "いわれはないけど、今は言いなりになっておく。\n",
+      "translation": "이유는 없지만, 지금은 시키는 대로 해두겠어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GA104019,3"
+      },
+      "original": "タクト、お前なぁ！\n",
+      "translation": "택트, 너 이 녀석!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,225,0",
+        "voice": "GA104019,3"
+      },
+      "original": "乗りかかった船だ。\nここまで来たら、最後までつきあうよ。\n",
+      "translation": "이미 시작한 일이야. 여기까지 왔으니, 끝까지\n함께할게.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,225,0",
+        "voice": "GA104019,3"
+      },
+      "original": "それに、ここにいたって、何も変わらないだろ？\nエンジェル隊について行けば、何か新しい情報が\nつかめるかもしれないじゃないか。\n",
+      "translation": "게다가 여기 있어 봤자 아무것도 변하지\n않잖아? 엔젤대를 따라가면 새로운 정보를 얻을\n수 있을지도 모르니까.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GA104030,3"
+      },
+      "original": "それは、そうかもしれんが……。\n",
+      "translation": "그건, 그럴지도 모르지만……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "face": "001,0,0,0",
+        "voice": "GA104030,3",
+        "speaker": "001"
+      },
+      "original": "じゃあ、決まりだな。\n同行させてもらうよ、エンジェル隊のみんな。\n",
+      "translation": "그럼, 결정됐네. 동행하도록 할게, 엔젤대\n여러분.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA104030,3"
+      },
+      "original": "でも、せめてひとつだけでも答えてもらいたいな。\nついて行った先には、何が待ってるんだい？\n",
+      "translation": "하지만 적어도 하나만이라도 대답해 줬으면\n좋겠어. 따라간 끝에는 무엇이 기다리고 있는\n거지?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00009800:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,0,0",
+        "voice": "GA104020,3"
+      },
+      "original": "お前さんの疑問に、すべて答えてくれる人だよ。\n",
+      "translation": "너의 의문에, 모든 것을 답해줄 사람이야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    }
+  ]
+}

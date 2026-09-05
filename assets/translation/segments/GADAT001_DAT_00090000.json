@@ -1,0 +1,228 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_00090000.txt",
+    "encoding": "cp932",
+    "sha256": "8a1caedc81857b0d5a8027e42d9ff998b36090af21bb1643dca829a330035438",
+    "dialogue_count": 17
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_00090000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0"
+      },
+      "original": "何だか歩き疲れたな。\n少し休もうかな……？\n",
+      "translation": "왠지 걷는 게 지치네. 조금 쉴까……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00090000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0"
+      },
+      "original": "いや、まだ大丈夫だ。\nもっと艦内を回ってみよう。\n",
+      "translation": "아니, 아직 괜찮다. 좀 더 함내를 돌아보자.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00090000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,0,0"
+      },
+      "original": "運動不足なのかな？\nちょっとマッサージでもしてみるか。\n",
+      "translation": "운동 부족인 걸까? 좀 마사지라도 해볼까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00090000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,0,0"
+      },
+      "original": "……うん、だいぶ疲れが取れたな。\nまた艦内を回ってみるか。\n",
+      "translation": "……응, 피로가 꽤 풀렸네. 다시 함내를\n돌아볼까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00090000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,221,0",
+        "voice": "GA606001,3"
+      },
+      "original": "おお、タクトか。\nどうした、もう交替してくれるのか？\n",
+      "translation": "오오, 택트인가. 무슨 일이지, 벌써 교대해\n주는 건가?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00090000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,221,0",
+        "voice": "GA606001,3"
+      },
+      "original": "いや、残念ながら、その気はない。\n",
+      "translation": "아니, 유감스럽게도 그럴 생각은 없다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00090000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,224,0",
+        "voice": "GA606002,3"
+      },
+      "original": "俺も、言ってみただけだ。\n",
+      "translation": "나도, 말해본 것뿐이다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00090000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,224,0",
+        "voice": "GA606002,3"
+      },
+      "original": "それで、その後はどう？\n何か変わったことはないかい？\n",
+      "translation": "그래서, 그 후로는 어때? 무슨 변한 건 없니?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00090000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,342,0,0",
+        "voice": "GA606003,3"
+      },
+      "original": "ええ、ヴァニラさんに治療してもらったおかげで、\nもうすっかり元気ですよ！\n",
+      "translation": "네, 바닐라 씨가 치료해 준 덕분에, 이제\n완전히 건강해요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00090000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,342,0,0",
+        "voice": "GA606003,3"
+      },
+      "original": "いや……敵が見つかったかとか、艦隊司令部から\n何か指示があったかとか、そういう意味で聞いた\nんだけど。\n",
+      "translation": "아니…… 적을 발견했는지라든가, 함대\n사령부로부터 무슨 지시가 있었다든가 하는\n의미로 물어본 건데.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00090000:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,343,0,0",
+        "voice": "GA606004,3"
+      },
+      "original": "あっ……すいませーん。\n",
+      "translation": "앗…… 죄송합니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00090000:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,337",
+        "voice": "GA606005,3"
+      },
+      "original": "今のところ、特に何も。\nこのまま順調に行けば、予定どおり、あと２日で\n作戦ポイントに到達します。\n",
+      "translation": "지금으로서는, 딱히 아무것도. 이대로 순조롭게\n진행된다면, 예정대로, 앞으로 2일이면 작전\n포인트에 도달합니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00090000:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,0,337",
+        "voice": "GA606005,3"
+      },
+      "original": "わかった。\nそれにしても、これだけの数の艦隊と一緒にいる\nと、気楽でいいな。\n",
+      "translation": "알았어. 그건 그렇고, 이만큼 많은 함대와\n함께 있으니 마음이 편해서 좋네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00090000:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,224,0",
+        "voice": "GA606006,3"
+      },
+      "original": "護衛してもらってるわけじゃないんだぞ。\nそれに、心強いとか警戒は万全とか、もっと何か\n言い方があるだろうが。\n",
+      "translation": "호위받고 있는 건 아니라고. 게다가 든든하다느\n니 경계가 만반이라느니, 좀 더 적절한 표현이\n있을 거 아냐.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00090000:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,224,0",
+        "voice": "GA606006,3"
+      },
+      "original": "はいはい。\n……花粉症だったときの方が、口うるさくなくて\nよかったなぁ。\n",
+      "translation": "네, 네. ……꽃가루 알레르기였을 때가\n잔소리도 안 듣고 더 좋았겠어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00090000:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "voice": "GA606007,3",
+        "speaker": "007",
+        "face": "221,0,223,0"
+      },
+      "original": "何か言ったか？\n",
+      "translation": "방금 뭐라고 했나?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00090000:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,223,0",
+        "voice": "GA606007,3"
+      },
+      "original": "いいえ、別に。\nそれじゃ、後は引き続きよろしく。\n",
+      "translation": "아니, 별거 아냐. 그럼, 남은 일도 계속 잘\n부탁해.\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

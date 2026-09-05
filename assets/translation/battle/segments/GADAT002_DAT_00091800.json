@@ -1,0 +1,5281 @@
+{
+  "schema": "galaxy-angel-battle-segment/v1",
+  "container": "GADAT002",
+  "block_offset": 595968,
+  "units": [
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE203:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE203",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          2008,
+          2028
+        ],
+        "byte_lengths": [
+          12,
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "目標、沈黙！\nうまくいきましたね、司令。\n",
+      "translation": "목표, 침묵!\n잘 해냈군요, 사령관.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE203:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE203",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          21
+        ],
+        "raw_offsets": [
+          2145
+        ],
+        "byte_lengths": [
+          20
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "目標、撃破しました！\n",
+      "translation": "목표, 격파했습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE203:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE203",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          2264,
+          2300
+        ],
+        "byte_lengths": [
+          28,
+          10
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "どうにか返り討ちにできたか。\nやれやれ。\n",
+      "translation": "어떻게든 역공에 성공했군.\n이런이런.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE203:01:040",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE203",
+        "section_instance": 1,
+        "message_group": 40,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          41,
+          42
+        ],
+        "raw_offsets": [
+          2400,
+          2420
+        ],
+        "byte_lengths": [
+          12,
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "目標を撃破！\n何とか助かったな、タクト。\n",
+      "translation": "목표를 격파!\n겨우 살았구나, 택트.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE203:01:050",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE203",
+        "section_instance": 1,
+        "message_group": 50,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          51,
+          52
+        ],
+        "raw_offsets": [
+          2535,
+          2565
+        ],
+        "byte_lengths": [
+          22,
+          22
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "よーし、敵を倒せたぞ。\nどんどん行ってみよう！\n",
+      "translation": "좋아, 적을 쓰러뜨렸다.\n계속해서 가보자!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE203:01:060",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE203",
+        "section_instance": 1,
+        "message_group": 60,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          61,
+          62
+        ],
+        "raw_offsets": [
+          2676,
+          2710
+        ],
+        "byte_lengths": [
+          26,
+          18
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "よし、目標を撃退できたな。\nよくやってくれた。\n",
+      "translation": "좋아, 목표를 격퇴했군.\n잘해주었다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE206:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE206",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          3834,
+          3860
+        ],
+        "byte_lengths": [
+          18,
+          20
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "敵に命中しました！\n予想以上の成果です！\n",
+      "translation": "적에게 명중했습니다!\n예상 이상의 성과입니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE206:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE206",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          21
+        ],
+        "raw_offsets": [
+          3971
+        ],
+        "byte_lengths": [
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "やりました、敵に直撃です！\n",
+      "translation": "해냈습니다, 적에게 직격입니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE206:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE206",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          4096,
+          4128
+        ],
+        "byte_lengths": [
+          24,
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "今の攻撃は効いているぞ。\n砲手、その調子で撃ち続けろ！\n",
+      "translation": "지금 공격은 효과가 있다.\n포수, 그 기세로 계속 쏴라!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE206:01:040",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE206",
+        "section_instance": 1,
+        "message_group": 40,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          41,
+          42
+        ],
+        "raw_offsets": [
+          4247,
+          4269
+        ],
+        "byte_lengths": [
+          14,
+          22
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "よし、直撃だ。\nこの艦を甘く見るなよ。\n",
+      "translation": "좋아, 직격이다.\n이 함선을 얕보지 마라.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE206:01:050",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE206",
+        "section_instance": 1,
+        "message_group": 50,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          51,
+          52
+        ],
+        "raw_offsets": [
+          4380,
+          4414
+        ],
+        "byte_lengths": [
+          26,
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "うまく当たったみたいだな。\nこのまま撃ち落としてやれ！\n",
+      "translation": "잘 맞은 모양이군.\n이대로 격추해버려!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE206:01:060",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE206",
+        "section_instance": 1,
+        "message_group": 60,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          61,
+          62
+        ],
+        "raw_offsets": [
+          4529,
+          4569
+        ],
+        "byte_lengths": [
+          32,
+          12
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "お、今のはいい感じで当たったな。\nその調子だ！\n",
+      "translation": "오, 방금 건 좋은 느낌으로 맞았어.\n그 기세다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE207:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE207",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          11
+        ],
+        "raw_offsets": [
+          5024
+        ],
+        "byte_lengths": [
+          20
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "目標に命中しました！\n",
+      "translation": "목표에 명중했습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE207:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE207",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          21
+        ],
+        "raw_offsets": [
+          5143
+        ],
+        "byte_lengths": [
+          20
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "攻撃に成功しました。\n",
+      "translation": "공격에 성공했습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE207:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE207",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          31
+        ],
+        "raw_offsets": [
+          5262
+        ],
+        "byte_lengths": [
+          14
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "よし、命中だ。\n",
+      "translation": "좋아, 명중이다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE207:01:040",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE207",
+        "section_instance": 1,
+        "message_group": 40,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          41,
+          42
+        ],
+        "raw_offsets": [
+          5374,
+          5400
+        ],
+        "byte_lengths": [
+          18,
+          12
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "攻撃が命中したか。\nよし、次だ！\n",
+      "translation": "공격이 명중했나.\n좋아, 다음이다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE207:01:050",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE207",
+        "section_instance": 1,
+        "message_group": 50,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          51,
+          52
+        ],
+        "raw_offsets": [
+          5501,
+          5525
+        ],
+        "byte_lengths": [
+          16,
+          8
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "よし、当たった！\nいいぞ！\n",
+      "translation": "좋아, 맞았다!\n좋아!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE207:01:060",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE207",
+        "section_instance": 1,
+        "message_group": 60,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          61,
+          62
+        ],
+        "raw_offsets": [
+          5622,
+          5648
+        ],
+        "byte_lengths": [
+          18,
+          12
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "やった、命中した。\n次も頼むぞ！\n",
+      "translation": "됐다, 명중했다.\n다음도 부탁한다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE208:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE208",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          11
+        ],
+        "raw_offsets": [
+          6101
+        ],
+        "byte_lengths": [
+          20
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "攻撃に失敗しました。\n",
+      "translation": "공격에 실패했습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE208:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE208",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          6220,
+          6258
+        ],
+        "byte_lengths": [
+          30,
+          34
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "攻撃が外れてしまったようです。\nやはり、まだ慣れていないから……。\n",
+      "translation": "공격이 빗나간 것 같습니다.\n역시, 아직 익숙하지 않아서…….\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE208:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE208",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          6383,
+          6415
+        ],
+        "byte_lengths": [
+          24,
+          22
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "砲手、どこを狙っている。\n敵が見えていないのか！\n",
+      "translation": "포수, 어디를 노리는 거냐.\n적이 보이지 않는 건가!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE208:01:040",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE208",
+        "section_instance": 1,
+        "message_group": 40,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          41
+        ],
+        "raw_offsets": [
+          6528
+        ],
+        "byte_lengths": [
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "しまった、狙いがそれたな。\n",
+      "translation": "이런, 조준이 빗나갔군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE208:01:050",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE208",
+        "section_instance": 1,
+        "message_group": 50,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          51,
+          52
+        ],
+        "raw_offsets": [
+          6652,
+          6680
+        ],
+        "byte_lengths": [
+          20,
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "しまった、外れたか。\n落ち着いて、よく狙うんだ。\n",
+      "translation": "이런, 빗나갔나.\n침착하게, 잘 노려라.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE208:01:060",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE208",
+        "section_instance": 1,
+        "message_group": 60,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          61,
+          62
+        ],
+        "raw_offsets": [
+          6796,
+          6834
+        ],
+        "byte_lengths": [
+          30,
+          16
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "ありゃ、攻撃が外れちゃったか。\n惜しかったなぁ。\n",
+      "translation": "어라, 공격이 빗나가 버렸나.\n아까웠네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE209:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE209",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          11
+        ],
+        "raw_offsets": [
+          7298
+        ],
+        "byte_lengths": [
+          30
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "こちらの攻撃、回避されました！\n",
+      "translation": "이쪽의 공격, 회피되었습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE209:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE209",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          7428,
+          7458
+        ],
+        "byte_lengths": [
+          22,
+          16
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "あっ、回避されました！\nなんて速さ……。\n",
+      "translation": "앗, 회피되었습니다!\n무슨 저런 속도가…….\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE209:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE209",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          7565,
+          7603
+        ],
+        "byte_lengths": [
+          30,
+          16
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "こちらの攻撃をかわしただと！？\nなんて機動性だ。\n",
+      "translation": "이쪽의 공격을 피했다고!?\n무슨 기동성인가.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE209:01:040",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE209",
+        "section_instance": 1,
+        "message_group": 40,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          41,
+          42
+        ],
+        "raw_offsets": [
+          7710,
+          7732
+        ],
+        "byte_lengths": [
+          14,
+          14
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "かわされたか。\n次は逃がさん！\n",
+      "translation": "피해버렸나.\n다음은 놓치지 않는다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE209:01:050",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE209",
+        "section_instance": 1,
+        "message_group": 50,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          51,
+          52
+        ],
+        "raw_offsets": [
+          7836,
+          7866
+        ],
+        "byte_lengths": [
+          22,
+          18
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "おっと、回避されたか。\n敵もやるもんだな。\n",
+      "translation": "어라, 회피당했군.\n적도 제법인데.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE209:01:060",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE209",
+        "section_instance": 1,
+        "message_group": 60,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          61,
+          62
+        ],
+        "raw_offsets": [
+          7974,
+          8002
+        ],
+        "byte_lengths": [
+          20,
+          30
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "回避されちゃったか。\nまぁいい、今度はよく狙うんだ！\n",
+      "translation": "회피당하고 말았나.\n뭐 좋아, 이번에는 제대로 노려라!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20a:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20a",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          8497,
+          8517
+        ],
+        "byte_lengths": [
+          12,
+          32
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "きゃああっ！\nい、今のはかなりの威力でしたね。\n",
+      "translation": "꺄악!\n이, 방금 건 상당한 위력이었습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20a:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20a",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          8640,
+          8658
+        ],
+        "byte_lengths": [
+          10,
+          24
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "きゃあっ！\nちょ、直撃を受けました！\n",
+      "translation": "꺄앗!\n저기, 직격을 받았습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20a:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20a",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          8773,
+          8807
+        ],
+        "byte_lengths": [
+          26,
+          22
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "くっ……どうにか耐えたか。\nしかし、なんて威力だ。\n",
+      "translation": "큭…… 어떻게든 버텨냈나.\n하지만, 무슨 위력인가.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20a:01:040",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20a",
+        "section_instance": 1,
+        "message_group": 40,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          41,
+          42
+        ],
+        "raw_offsets": [
+          8920,
+          8938
+        ],
+        "byte_lengths": [
+          10,
+          18
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "うわあっ！\nしまった、直撃だ！\n",
+      "translation": "우와악!\n아차, 직격이다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20a:01:050",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20a",
+        "section_instance": 1,
+        "message_group": 50,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          51,
+          52
+        ],
+        "raw_offsets": [
+          9046,
+          9084
+        ],
+        "byte_lengths": [
+          30,
+          22
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "うわっ、今のはかなり揺れたな。\nみんな、ケガはないか？\n",
+      "translation": "우왁, 방금 건 꽤 흔들렸네.\n모두, 다친 데는 없나?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20a:01:060",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20a",
+        "section_instance": 1,
+        "message_group": 60,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          61,
+          62
+        ],
+        "raw_offsets": [
+          9196,
+          9234
+        ],
+        "byte_lengths": [
+          30,
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "しまった、マトモにくらったか。\nこれじゃ、艦が持たないぞ。\n",
+      "translation": "이런, 제대로 맞았나.\n이래서는 함선이 버티지 못해.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20b:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20b",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          11
+        ],
+        "raw_offsets": [
+          9723
+        ],
+        "byte_lengths": [
+          22
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "敵の攻撃を受けました！\n",
+      "translation": "적의 공격을 받았습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20b:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20b",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          9844,
+          9880
+        ],
+        "byte_lengths": [
+          28,
+          20
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "エルシオール、被弾しました！\n……いったぁい……。\n",
+      "translation": "에르시올, 피탄되었습니다!\n……아파라…….\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20b:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20b",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          9991,
+          10017
+        ],
+        "byte_lengths": [
+          18,
+          30
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "ちっ、被弾したか。\nこの程度なら、まだいいが……。\n",
+      "translation": "칫, 피탄됐나.\n이 정도라면 아직 괜찮지만…….\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20b:01:040",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20b",
+        "section_instance": 1,
+        "message_group": 40,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          41
+        ],
+        "raw_offsets": [
+          10138
+        ],
+        "byte_lengths": [
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "しまった、攻撃をくらったか。\n",
+      "translation": "이런, 공격을 받았나.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20b:01:050",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20b",
+        "section_instance": 1,
+        "message_group": 50,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          51,
+          52
+        ],
+        "raw_offsets": [
+          10264,
+          10290
+        ],
+        "byte_lengths": [
+          18,
+          32
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "うわっ、被弾した。\nダメージは……まだ何とかなるか。\n",
+      "translation": "우왁, 피탄됐다.\n데미지는…… 아직 어떻게든 되겠지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20b:01:060",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20b",
+        "section_instance": 1,
+        "message_group": 60,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          61,
+          62
+        ],
+        "raw_offsets": [
+          10412,
+          10444
+        ],
+        "byte_lengths": [
+          24,
+          16
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "おっと、攻撃を受けたか。\n油断は禁物だな。\n",
+      "translation": "어라, 공격을 받았나.\n방심은 금물이군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20c:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20c",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          11
+        ],
+        "raw_offsets": [
+          10908
+        ],
+        "byte_lengths": [
+          20
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "回避に成功しました！\n",
+      "translation": "회피에 성공했습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20c:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20c",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          11027,
+          11055
+        ],
+        "byte_lengths": [
+          20,
+          14
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "攻撃を回避しました。\nよかった……。\n",
+      "translation": "공격을 회피했습니다.\n다행이다…….\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20c:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20c",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          31
+        ],
+        "raw_offsets": [
+          11160
+        ],
+        "byte_lengths": [
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "よし、敵の攻撃をかわしたぞ！\n",
+      "translation": "좋아, 적의 공격을 피했다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20c:01:040",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20c",
+        "section_instance": 1,
+        "message_group": 40,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          41,
+          42
+        ],
+        "raw_offsets": [
+          11287,
+          11307
+        ],
+        "byte_lengths": [
+          12,
+          24
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "回避成功だ。\nだが、まだ気を抜くなよ。\n",
+      "translation": "회피 성공이다.\n하지만, 아직 방심하지 마라.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20c:01:050",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20c",
+        "section_instance": 1,
+        "message_group": 50,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          51
+        ],
+        "raw_offsets": [
+          11421
+        ],
+        "byte_lengths": [
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "やった、攻撃をかわしたぞ。\n",
+      "translation": "해냈다, 공격을 피했어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20c:01:060",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20c",
+        "section_instance": 1,
+        "message_group": 60,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          61,
+          62
+        ],
+        "raw_offsets": [
+          11545,
+          11573
+        ],
+        "byte_lengths": [
+          20,
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "ふぅ、回避できたか。\n危なく当たるところだったな。\n",
+      "translation": "후우, 회피할 수 있었나.\n하마터면 맞을 뻔했군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20d:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20d",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          12053,
+          12093
+        ],
+        "byte_lengths": [
+          32,
+          16
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "マイヤーズ司令、ダメージが深刻に\nなってきました！\n",
+      "translation": "마이어스 사령관, 데미지가 심각하게\n늘어나고 있습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20d:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20d",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          12200,
+          12240
+        ],
+        "byte_lengths": [
+          32,
+          30
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "損傷が増えてきました……ちょっと\n危ないんじゃないですか、司令？\n",
+      "translation": "손상이 늘어나고 있습니다…… 조금\n위험한 거 아닙니까, 사령관?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20d:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20d",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          12361,
+          12399
+        ],
+        "byte_lengths": [
+          30,
+          16
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "まずいな、少しずつ被害が増えて\nきているぞ……。\n",
+      "translation": "곤란하군, 조금씩 피해가 늘어\n나고 있어…….\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20d:01:040",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20d",
+        "section_instance": 1,
+        "message_group": 40,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          41,
+          42
+        ],
+        "raw_offsets": [
+          12506,
+          12538
+        ],
+        "byte_lengths": [
+          24,
+          24
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "タクト、そろそろ危険だ。\n艦を下がらせた方がいい。\n",
+      "translation": "택트, 슬슬 위험하다.\n함선을 물리는 편이 좋아.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20d:01:050",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20d",
+        "section_instance": 1,
+        "message_group": 50,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          51,
+          52
+        ],
+        "raw_offsets": [
+          12652,
+          12692
+        ],
+        "byte_lengths": [
+          32,
+          30
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "敵の攻撃がはげしい……エンジェル\n隊に追い払ってもらうべきかな。\n",
+      "translation": "적의 공격이 격렬해…… 엔젤\n대가 쫓아내 주어야 할까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20d:01:060",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20d",
+        "section_instance": 1,
+        "message_group": 60,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          61,
+          62
+        ],
+        "raw_offsets": [
+          12812,
+          12852
+        ],
+        "byte_lengths": [
+          32,
+          18
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "うーん……いつの間にか艦の被害が\n増えてるなぁ……。\n",
+      "translation": "으음…… 어느샌가 함선의 피해가\n늘었네…….\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20e:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20e",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          13325,
+          13351
+        ],
+        "byte_lengths": [
+          18,
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "また被弾しました！\nこれ以上の戦闘は危険です！\n",
+      "translation": "또 피탄되었습니다!\n이 이상의 전투는 위험합니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20e:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20e",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          13468,
+          13498
+        ],
+        "byte_lengths": [
+          22,
+          32
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "ダメージ、さらに増加！\n司令、エンジェル隊はまだですか？\n",
+      "translation": "데미지, 추가 증가!\n사령관, 엔젤대는 아직입니까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20e:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20e",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          13621,
+          13659
+        ],
+        "byte_lengths": [
+          30,
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "まずい、ダメージを受けすぎだ！\nタクト、何か手はないか！？\n",
+      "translation": "안 돼, 데미지를 너무 많이 입었어!\n택트, 무슨 방법은 없나!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20e:01:040",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20e",
+        "section_instance": 1,
+        "message_group": 40,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          41,
+          42
+        ],
+        "raw_offsets": [
+          13776,
+          13814
+        ],
+        "byte_lengths": [
+          30,
+          30
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "タクト、エンジェル隊に連絡を！\nこのままだと艦が沈められるぞ！\n",
+      "translation": "택트, 엔젤대에 연락을!\n이대로라면 함선이 침몰하고 말 거야!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20e:01:050",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20e",
+        "section_instance": 1,
+        "message_group": 50,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          51,
+          52
+        ],
+        "raw_offsets": [
+          13934,
+          13972
+        ],
+        "byte_lengths": [
+          30,
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "このダメージはきびしいな……。\n目の前の敵を何とかしなきゃ。\n",
+      "translation": "이 데미지는 버겁군…….\n눈앞의 적을 어떻게든 해야 해.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20e:01:060",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20e",
+        "section_instance": 1,
+        "message_group": 60,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          61,
+          62
+        ],
+        "raw_offsets": [
+          14090,
+          14118
+        ],
+        "byte_lengths": [
+          20,
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "うっ、また被弾した！\nまずいな、艦が沈みそうだ！\n",
+      "translation": "윽, 또 피탄됐다!\n안 되겠어, 함선이 침몰하겠어!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20f:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20f",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          14599,
+          14627
+        ],
+        "byte_lengths": [
+          20,
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "艦内各部に故障発生！\nもう持ちこたえられません！\n",
+      "translation": "함내 각 부위 고장 발생!\n이제 버틸 수 없습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20f:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20f",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          14744,
+          14766
+        ],
+        "byte_lengths": [
+          14,
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "もう限界です！\n誰でもいいから、助けてーっ！\n",
+      "translation": "이제 한계입니다!\n누구라도 좋으니, 도와줘—!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20f:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20f",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          14885,
+          14919
+        ],
+        "byte_lengths": [
+          26,
+          24
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "このままだと撃沈されるぞ！\n何とかして敵を振り切れ！\n",
+      "translation": "이대로라면 격침된다!\n어떻게든 적을 따돌려라!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20f:01:040",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20f",
+        "section_instance": 1,
+        "message_group": 40,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          41,
+          42
+        ],
+        "raw_offsets": [
+          15034,
+          15062
+        ],
+        "byte_lengths": [
+          20,
+          30
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "タクト、もう限界だ！\n艦のあちこちが悲鳴をあげてる！\n",
+      "translation": "택트, 이제 한계다!\n함선의 여기저기서 비명을 지르고 있어!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20f:01:050",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20f",
+        "section_instance": 1,
+        "message_group": 50,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          51,
+          52
+        ],
+        "raw_offsets": [
+          15182,
+          15214
+        ],
+        "byte_lengths": [
+          24,
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "まずい、艦が沈められる！\n少し無理をしすぎたか……。\n",
+      "translation": "안 돼, 함선이 침몰한다!\n조금 무리를 했나…….\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE20f:01:060",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE20f",
+        "section_instance": 1,
+        "message_group": 60,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          61,
+          62
+        ],
+        "raw_offsets": [
+          15330,
+          15360
+        ],
+        "byte_lengths": [
+          22,
+          30
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "くっ、そろそろ限界か。\n頼む、もう少し耐えてくれ……！\n",
+      "translation": "큭, 슬슬 한계인가.\n부탁이다, 조금만 더 버텨줘……!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE219:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE219",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          18750,
+          18772
+        ],
+        "byte_lengths": [
+          14,
+          20
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "エンジン停止！\n本艦は戦闘不能です！\n",
+      "translation": "엔진 정지!\n본 함선은 전투 불능입니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE219:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE219",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          18891,
+          18923
+        ],
+        "byte_lengths": [
+          24,
+          10
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "くそっ、もう戦闘不能だ！\n脱出しろ！\n",
+      "translation": "젠장, 이제 전투 불능이다!\n탈출해라!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_00091800:MESSAGE219:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 595968,
+        "section": "MESSAGE219",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "1-2",
+        "header_comments": [
+          "通信：タクト（前半ステージ用）",
+          "使用ステージ：\t1-2",
+          "タクト（エルシオール）より入電",
+          "0\tpgf01_01\t\tノーマル（予備）",
+          "1\tpgf01_01\t\tノーマル",
+          "2\tpgf01_02\t\t笑顔",
+          "3\tpgf01_03\t\t決意",
+          "4\tpgf01_04\t\t怒り",
+          "5\tpgf01_05\t\t驚き",
+          "6\tpgf01_06\t\tダメージ"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          19031,
+          19055
+        ],
+        "byte_lengths": [
+          16,
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 8983584
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 12112240
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 14709408
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 29016784
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 32364352
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 35716000
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 38933536
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 45861424
+          },
+          {
+            "container": "SLGINIT",
+            "block_offset": 49243296
+          }
+        ]
+      },
+      "original": "これまでか……。\n総員、艦を捨てて脱出しろ！\n",
+      "translation": "여기까지인가…….\n총원, 함선을 버리고 탈출하라!\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000d4800.txt",
+    "encoding": "cp932",
+    "sha256": "5d70cb5f821111c1a9b05811501becc5cec9d120de8e5fb71fd7955177276e76",
+    "dialogue_count": 3
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000d4800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0"
+      },
+      "original": "……もうすぐ、みんなの部屋の前に着く。\nそうしたら……。\n",
+      "translation": "……곧, 모두의 방 앞에 도착해. 그러면……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000d4800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0"
+      },
+      "original": "　この花束を相手に渡して、こう言うんだ。\n「舞踏会のパートナーになってくれ」って。\n",
+      "translation": "이 꽃다발을 상대에게 건네고, 이렇게 말하는\n거야. 「무도회의 파트너가 되어줘」라고.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000d4800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0"
+      },
+      "original": "よし、行こう。\n",
+      "translation": "좋아, 가자.\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

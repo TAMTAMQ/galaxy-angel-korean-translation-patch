@@ -1,0 +1,83 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000dd000.txt",
+    "encoding": "cp932",
+    "sha256": "45ee429ed3da517c071d01144cac45b76b4a17d21cc721155f8ba6e45334521c",
+    "dialogue_count": 6
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000dd000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0"
+      },
+      "original": "・・・・・・待てよ。\nおれ、誰を誘ったんだっけ？\n",
+      "translation": "・・・・・・기다려 봐. 나, 누구를 초대했었\n지 ?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000dd000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,0,0"
+      },
+      "original": "そうだ、ミルフィーだった。\nこんな事忘れるなんて、ボケたかな俺？\n",
+      "translation": "맞아, 밀피였어. 이런 걸 잊어버리다니, 나\n치매인가?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000dd000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,0,0"
+      },
+      "original": "そうだ、ランファだった。\nこんな事忘れるなんて、ボケたかな俺？\n",
+      "translation": "맞아, 란파였어. 이런 걸 잊어버리다니, 나\n치매인가?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000dd000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,0,0"
+      },
+      "original": "そうだ、ミントだった。\nこんな事忘れるなんて、ボケたかな俺？\n",
+      "translation": "맞아, 민트였어. 이런 걸 잊어버리다니, 나\n치매인가?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000dd000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,0,0"
+      },
+      "original": "そうだ、フォルテだった。\nこんな事忘れるなんて、ボケたかな俺？\n",
+      "translation": "맞아, 포르테였어. 이런 걸 잊어버리다니, 나\n치매인가?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000dd000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,0,0"
+      },
+      "original": "そうだ、ヴァニラだった。\nこんな事忘れるなんて、ボケたかな俺？\n",
+      "translation": "맞아, 바닐라였어. 이런 걸 잊어버리다니, 나\n치매인가?\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

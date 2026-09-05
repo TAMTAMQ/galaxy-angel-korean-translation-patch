@@ -1,0 +1,531 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_0012d800.txt",
+    "encoding": "cp932",
+    "sha256": "fe2e2abf0edd7b074bb2861fc7a7f49445a539a447875be5f4f81b64cdb9627f",
+    "dialogue_count": 40
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GAC04001,3"
+      },
+      "original": "報告します。\nレーダーの反応、先行させている無人哨戒機から\nの情報、ともに異常ありません。\n",
+      "translation": "보고합니다. 레이더 반응, 선행시키고 있는\n무인 초계기 로부터의 정보 모두 이상 없습니\n다 .\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAC04001,3"
+      },
+      "original": "了解。\n補給を受けてから、ここまで順調そのものだな。\n",
+      "translation": "알았다. 보급을 받은 뒤로 여기까지 순조롭기\n그 자체군.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "502,0,0,0",
+        "voice": "GAC04002,3"
+      },
+      "original": "この先にある、ふたつの高重力帯の間をすり抜け\nれば、次のクロノ・ドライヴに入れます。\nそうすればトランスバール星系はすぐそこですよ。\n",
+      "translation": "앞쪽 두 고중력대 사이를 빠져나가면 다음\n크로노・드라이브에 들어갈 수 있습니다.\n그러면 트랜스벌 성계도 바로 앞이에요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GAC04003,3"
+      },
+      "original": "だが、順調すぎる気もするな。\n何事もなければいいが……。\n",
+      "translation": "하지만, 너무 순조로운 기분도 드는군. 아무\n일도 없어야 할 텐데……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,223,0",
+        "voice": "GAC04003,3"
+      },
+      "original": "考えすぎだよ。\nこのまま一度も敵に出会わずに、『白き月』まで\n行けそうな感じじゃないか。\n",
+      "translation": "너무 깊게 생각하는 거야. 이대로 한 번도\n적과 마주치지 않고, 『백색 달』까지 갈 수\n있을 것 같은 느낌이지 않아?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GAC04004,3"
+      },
+      "original": "あ、無人哨戒機からの情報が入ってきました。\n前方の高重力帯にさしかかったもようです。\n",
+      "translation": "아, 무인 초계기로부터 정보가 들어왔습니다.\n전방의 고중력대에 진입한 모양입니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GAC04005,3"
+      },
+      "original": "……航路上に、未確認物体を確認。\n人工衛星のようです。\n規模は……。\n",
+      "translation": "……항로상에, 미확인 물체 확인. 인공위성\n같습니다. 규모는……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "493,0,0,0",
+        "voice": "GAC04006,3"
+      },
+      "original": "あっ！\n衛星から、高エネルギー反応を感知！\n",
+      "translation": "앗! 위성에서, 고에너지 반응을 감지!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GAC04007,3"
+      },
+      "original": "何だと！？\n",
+      "translation": "뭐라고!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "face": "491,0,0,0",
+        "voice": "GAC04008,3",
+        "speaker": "016"
+      },
+      "original": "……通信、途切れました……。\n",
+      "translation": "……통신, 끊겼습니다……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAC04008,3"
+      },
+      "original": "どう思う、レスター？\n",
+      "translation": "어떻게 생각하나, 레스터?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GAC04009,3"
+      },
+      "original": "決まってる、エオニア軍による攻撃だろう。\n",
+      "translation": "뻔하지, 에오니아군에 의한 공격이겠지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,223,0",
+        "voice": "GAC04010,3"
+      },
+      "original": "そのようです。\n哨戒機が最後に送信したデータによると、『黒き\n月』の攻撃衛星と形状が似ています。\n",
+      "translation": "그런 것 같습니다. 초계기가 마지막으로\n송신한 데이터에 따르면, 『흑색 달』의 공격\n위성과 형상이 닮았습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GAC04011,3"
+      },
+      "original": "ごていねいに、関所を設けていたとはな。\nそれにしても、哨戒機が発見するのとほぼ同時に\n撃ち落とせるとは、かなり射程が長いとみえるな。\n",
+      "translation": "친절하게도 검문소까지 세웠군. 초계기가\n발견하자마자 격추하다니, 사거리가 상당히 긴\n모양이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,223,0",
+        "voice": "GAC04011,3"
+      },
+      "original": "長射程の攻撃衛星か……。\nやっかいだな。\n",
+      "translation": "장사거리의 공격 위성인가…… 골치 아프군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "voice": "GAC04012,3",
+        "speaker": "017",
+        "face": "501,0,0,0"
+      },
+      "original": "一応、大きく遠回りしていくルートもありますが\n……時間がかかりすぎますよね。\n",
+      "translation": "일단, 크게 우회하는 루트도 있습니다 만\n……시간이 너무 오래 걸리겠네요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0",
+        "voice": "GAC04012,3"
+      },
+      "original": "その間に『黒き月』に追い抜かれたら、元も子も\nないもんな。\nやっぱり、前方を突破するしかないか。\n",
+      "translation": "그사이에 『흑색 달』에게 추월당하면, 말짱\n도루묵이니까. 역시, 전방을 돌파할 수밖에\n없나.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GAC04013,3"
+      },
+      "original": "しかし、大火力の敵に長距離から狙い撃ちされる\nとなると、攻略には骨が折れそうだな……。\n",
+      "translation": "하지만, 대화력의 적에게 장거리에서 저격당하\n게 된다면, 공략하기는 꽤 고생스럽겠군……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "face": "493,0,0,0",
+        "voice": "GAC04014,3",
+        "speaker": "016"
+      },
+      "original": "司令！\n後方から艦隊が接近してきます！\nエオニア軍と思われます！\n",
+      "translation": "사령관님! 후방에서 함대가 접근해 옵니다!\n에오니아군으로 보입니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GAC04015,3"
+      },
+      "original": "しまった、追いつかれたか！\n",
+      "translation": "이런, 따라잡혔나!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "493,0,225,0",
+        "voice": "GAC04016,3"
+      },
+      "original": "敵艦の中に、以前交戦したシェリーと名乗る女性\n将校の戦艦を確認しました。\nこれが旗艦と思われます。\n",
+      "translation": "적함 중에, 이전에 교전했던 셰리라고 자칭하는\n여성 장교의 전함을 확인했습니다. 이것이\n기함으로 보입니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "493,0,225,0",
+        "voice": "GAC04017,3"
+      },
+      "original": "それから、大型戦闘機が５機。\n急速に接近してきます！\n",
+      "translation": "그리고, 대형 전투기가 5기. 급속히 접근해\n옵니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GAC04018,3"
+      },
+      "original": "戦闘機？\nまたあいつらか。\n",
+      "translation": "전투기? 또 그놈들인가.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "face": "012,0,223,0",
+        "voice": "GAC04018,3",
+        "speaker": "001"
+      },
+      "original": "しかも、シェリーさんも一緒ときた。\nしつこいなぁ……。\n",
+      "translation": "게다가, 셰리 씨도 함께라니. 끈질기구만……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,223,0",
+        "voice": "GAC04018,3"
+      },
+      "original": "とりあえず、全速前進！\n何とか振り切れないか、やってみよう。\n",
+      "translation": "우선, 전속 전진! 어떻게든 따돌릴 수 있을지,\n해보자.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GAC04019,3"
+      },
+      "original": "待て！\nこのまま進んだら、攻撃衛星の射程内に突っ込む\nことになるぞ。\n",
+      "translation": "기다려! 이대로 나아갔다간, 공격 위성의\n사정거리 안으로 들어가는 꼴이 된다고.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "010,0,225,0",
+        "voice": "GAC04019,3"
+      },
+      "original": "あ、そうだった。\nじゃあ反転して、艦隊を迎撃……。\n",
+      "translation": "아, 그랬지. 그럼 반전해서, 함대를 요격……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GAC04020,3"
+      },
+      "original": "それも手だが、もし追い込まれれば、攻撃衛星と\nはさみ撃ちにされるな。\n",
+      "translation": "그것도 방법이지만, 만약 몰리게 되면, 공격\n위성과 샌드위치가 되고 말 거야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,223,0",
+        "voice": "GAC04020,3"
+      },
+      "original": "確かに、そのとおり。\nこの状況で、オレたちがとるべき道は……。\n",
+      "translation": "확실히, 네 말이 맞아. 이 상황에서, 우리가\n취해야 할 길은……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,223,0",
+        "voice": "GAC04020,3"
+      },
+      "original": "……よし、多少危険だが、前後両方に戦力を割り\n振ろう。\n",
+      "translation": "……좋아, 다소 위험하지만, 전후 양쪽에\n전력을 분 할하자.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,223,0",
+        "voice": "GAC04020,3"
+      },
+      "original": "どのみち、前方の攻撃衛星を叩く必要はあるんだ。\n主力が敵艦隊と交戦している間に、別働隊が攻撃\n衛星を排除して、脱出路を確保しよう。\n",
+      "translation": "어차피, 전방의 공격 위성을 격파할 필요는 있\n어. 주력이 적 함대와 교전하는 동안, 별동대가\n공격 위성을 배제해서, 탈출로를 확보하자.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "voice": "GAC04021,3",
+        "speaker": "007",
+        "face": "221,0,223,0"
+      },
+      "original": "だが、敵の艦隊は、半分の戦力で戦えるほど甘く\nないぞ。\n",
+      "translation": "하지만, 적의 함대는, 절반의 전력으로 싸울\n수 있을 만큼 만만한 게 아니라고.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,223,0",
+        "voice": "GAC04021,3"
+      },
+      "original": "だろうね。\n攻撃衛星に割ける戦力は、おそらく紋章機１機が\n限度だ。\n",
+      "translation": "그렇겠지. 공격 위성에 할당할 수 있는\n전력은, 아마 문장기 1기가 한계다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GAC04022,3"
+      },
+      "original": "単独で攻撃衛星を叩けっていうのか！？\nそれはいくら何でも無茶だ！\n",
+      "translation": "단독으로 공격 위성을 격파하라는 거냐!? 그건\n아무리 그래도 무리야!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,225,0",
+        "voice": "GAC04022,3"
+      },
+      "original": "わかってるよ。\nだが、おそらくこの作戦が、現状で取り得る最良\nの方策だと思う。\n",
+      "translation": "알고 있어. 하지만, 아마 이 작전이, 현\n상황에서 취할 수 있는 최선 의 방책이라고\n생각해.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0036",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GAC04023,3"
+      },
+      "original": "それしかないか……。\nだが、誰を行かせるんだ？\n",
+      "translation": "그 방법뿐인가…… 하지만, 누구를 보내는\n거지?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0037",
+      "channel": 1,
+      "context": {
+        "face": "004,0,223,0",
+        "voice": "GAC04023,3",
+        "speaker": "001"
+      },
+      "original": "……うーん……。\n",
+      "translation": "……으음……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0038",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,223,0",
+        "voice": "GAC04023,3"
+      },
+      "original": "……３０分だけ、クロノ・ドライヴに入る。\n進む距離はわずかでも、今は時間がほしい。\n",
+      "translation": "……30분만, 크로노・드라이브에 들어간다.\n나아가는 거리는 미미하더라도, 지금은 시간이\n필요해.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0039",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,223,0",
+        "voice": "GAC04023,3"
+      },
+      "original": "それから、エンジェル隊を司令官室に集めてくれ。\nみんなの意見も聞いて検討したい。\n",
+      "translation": "그리고, 엔젤대를 사령관실로 모아줘. 모두의\n의견도 듣고 검토하고 싶어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d800:dialogue:0040",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GAC04024,3"
+      },
+      "original": "……わかった。\n",
+      "translation": "……알았다.\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

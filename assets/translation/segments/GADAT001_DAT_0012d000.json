@@ -1,0 +1,218 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_0012d000.txt",
+    "encoding": "cp932",
+    "sha256": "52f857e72e049fa6ce60d5285d0c6400e3930bccbd0f0c4437505385abb0a8d9",
+    "dialogue_count": 16
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_0012d000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "face": "001,0,0,0",
+        "speaker": "001"
+      },
+      "original": "さてと、腹ごしらえといきますか。\nこれが数少ない楽しみだもんなぁ。\n",
+      "translation": "자, 그럼 식사라도 하러 갈까. 이게 몇 안\n되는 즐거움이니까 말이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "face": "141,0,142,0",
+        "speaker": "005",
+        "voice": "GAC03001,3"
+      },
+      "original": "やあ、タクト。\nあんたも食事かい？\n",
+      "translation": "야아, 택트. 너도 식사하러 온 거야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "face": "001,0,142,0",
+        "speaker": "001",
+        "voice": "GAC03001,3"
+      },
+      "original": "フォルテも？\n奇遇だね。\n",
+      "translation": "포르테도? 기우네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "face": "141,0,173,0",
+        "speaker": "005",
+        "voice": "GAC03002,3"
+      },
+      "original": "奇遇というより、お互いヒマってことだろ？\n補給中は、これといってすることもないワケだし。\n",
+      "translation": "기우라기보다, 서로 한가하다는 거 아냐? 보급\n중에는 딱히 할 일도 없으니까 말이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "face": "012,0,173,0",
+        "speaker": "001",
+        "voice": "GAC03002,3"
+      },
+      "original": "それもそうか。\nあははは。\n",
+      "translation": "그것도 그렇네. 아하하하.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "face": "141,0,141,0",
+        "speaker": "005",
+        "voice": "GAC03003,3"
+      },
+      "original": "ま、あたしらがヒマなのは悪いことじゃないさ。\nとりあえず、ヒマ人同士、一緒に食うかい？\n",
+      "translation": "뭐, 우리가 한가한 건 나쁜 일이 아니지.\n일단, 한가한 사람끼리 같이 먹을래?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "face": "001,0,141,0",
+        "speaker": "001",
+        "voice": "GAC03003,3"
+      },
+      "original": "うん、そうだな。\nゆとりある時間を、ともに満喫しよう。\n",
+      "translation": "응, 그러자. 여유로운 시간을 함께 만끽하자.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "face": "141,0,166,0",
+        "speaker": "005",
+        "voice": "GAC03004,3"
+      },
+      "original": "……で、またまたランファがミルフィーの強運に\n巻き込まれたってワケさ。\n",
+      "translation": "……그래서, 또다시 란파가 밀피의 강운에\n휘말렸다는 이야기야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "face": "002,0,166,0",
+        "speaker": "001",
+        "voice": "GAC03004,3"
+      },
+      "original": "あははは、そんなことがあったのか。\nランファも気の毒に。\n",
+      "translation": "아하하하, 그런 일이 있었구나. 란파도 안됐네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "face": "141,0,141,0",
+        "speaker": "005",
+        "voice": "GAC03005,3"
+      },
+      "original": "……ああ、なんかいいねぇ、こういうの。\n",
+      "translation": "……아아, 왠지 좋네, 이런 거.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d000:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,141,0",
+        "voice": "GAC03005,3"
+      },
+      "original": "いいなって、ランファが被害にあったことが？\n",
+      "translation": "좋다니, 란파가 피해를 입은 게?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d000:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,165,0",
+        "voice": "GAC03006,3"
+      },
+      "original": "違うよ。\nこうやって、ゆったりのんびりしてることがさ。\n",
+      "translation": "아니야. 이렇게, 느긋하게 쉬고 있는 거\n말이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d000:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "voice": "GAC03006,3",
+        "speaker": "001",
+        "face": "012,0,165,0"
+      },
+      "original": "そういえば、そうだな。\n舞踏会からこっち、いろんなことが起こりすぎて、\n息つくヒマもなかったもんな。\n",
+      "translation": "그러고 보니, 그렇네. 무도회 이후로 이쪽은\n여러 가지 일이 너무 많이 일어나서, 숨 돌릴\n틈도 없었지.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d000:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,173,0",
+        "voice": "GAC03007,3"
+      },
+      "original": "まぁ、まだ気を抜くわけにはいかないけどね。\n本番はこれからなんだからさ。\n",
+      "translation": "뭐, 아직 방심할 수는 없지만 말이야. 본방은\n지금부터니까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d000:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,0,0",
+        "voice": "GAC03007,3"
+      },
+      "original": "やれやれ、つかの間の休息だった……。\n",
+      "translation": "이런 이런, 잠깐의 휴식이었나……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0012d000:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "voice": "GAC03008,3",
+        "speaker": "005",
+        "face": "141,0,141,0"
+      },
+      "original": "ぼやかない、ぼやかない。\nお仕事の時間ですよ、司令官どの。\n",
+      "translation": "투덜대지 마, 투덜대지 마. 업무 시간이라고요,\n사령관님.\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

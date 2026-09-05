@@ -1,0 +1,2360 @@
+{
+ "schema": "galaxy-angel-mini-image-redraw/v1",
+ "entries": {
+  "mini/mini00/finish.png": {
+   "ko": "종료",
+   "size": [
+    192,
+    38
+   ]
+  },
+  "mini/mini00/start.png": {
+   "ko": "시작!",
+   "size": [
+    144,
+    40
+   ]
+  },
+  "mini/mini00/timeover.png": {
+   "ko": "시간 초과",
+   "size": [
+    232,
+    40
+   ]
+  },
+  "mini/mini00/title/modoru05.png": {
+   "ko": "뒤로",
+   "size": [
+    184,
+    48
+   ]
+  },
+  "mini/mini00/yooi.png": {
+   "ko": "준비",
+   "size": [
+    96,
+    40
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_002_80x28_psm14.png": {
+   "ko": "론",
+   "size": [
+    80,
+    28
+   ],
+   "mode": "panel",
+   "region": [
+    0.36,
+    0.05,
+    1.0,
+    0.95
+   ],
+   "note": "mahjong call button: the triangle button icon on the left is not text",
+   "stroke": 0
+  },
+  "mini/mini02/mg02sprt/transfer_003_80x28_psm14.png": {
+   "ko": "쯔모",
+   "size": [
+    80,
+    28
+   ],
+   "mode": "panel",
+   "region": [
+    0.36,
+    0.05,
+    1.0,
+    0.95
+   ],
+   "note": "mahjong call button: the triangle button icon on the left is not text",
+   "stroke": 0
+  },
+  "mini/mini02/mg02sprt/transfer_004_96x100_psm13.png": {
+   "ko": "꽝",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "cover",
+   "region": [
+    0.08,
+    0.08,
+    0.92,
+    0.92
+   ],
+   "note": "the 駄菓子 blank card: one big brush character centred on the card",
+   "stroke": 4
+  },
+  "mini/mini02/mg02sprt/transfer_007_96x100_psm13.png": {
+   "ko": "경단",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_008_96x100_psm13.png": {
+   "ko": "경단",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_009_96x100_psm13.png": {
+   "ko": "경단",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_010_96x100_psm13.png": {
+   "ko": "젤리",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_011_96x100_psm13.png": {
+   "ko": "젤리",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_012_96x100_psm13.png": {
+   "ko": "젤리",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_013_96x100_psm13.png": {
+   "ko": "아이스",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_014_96x100_psm13.png": {
+   "ko": "아이스",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_015_96x100_psm13.png": {
+   "ko": "아이스",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_016_96x100_psm13.png": {
+   "ko": "초코",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_017_96x100_psm13.png": {
+   "ko": "초코",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_018_96x100_psm13.png": {
+   "ko": "초코",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_019_96x100_psm13.png": {
+   "ko": "마시멜로",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_020_96x100_psm13.png": {
+   "ko": "마시멜로",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_021_96x100_psm13.png": {
+   "ko": "마시멜로",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_022_96x100_psm13.png": {
+   "ko": "껌",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_023_96x100_psm13.png": {
+   "ko": "껌",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_024_96x100_psm13.png": {
+   "ko": "껌",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_025_96x100_psm13.png": {
+   "ko": "솜사탕",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_026_96x100_psm13.png": {
+   "ko": "솜사탕",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_027_96x100_psm13.png": {
+   "ko": "솜사탕",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_028_96x100_psm13.png": {
+   "ko": "캔디",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_029_96x100_psm13.png": {
+   "ko": "캔디",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_030_96x100_psm13.png": {
+   "ko": "캔디",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_031_96x100_psm13.png": {
+   "ko": "라무네",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_032_96x100_psm13.png": {
+   "ko": "라무네",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_033_96x100_psm13.png": {
+   "ko": "라무네",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_034_96x100_psm13.png": {
+   "ko": "식초 다시마",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_035_96x100_psm13.png": {
+   "ko": "식초 오징어",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_036_96x100_psm13.png": {
+   "ko": "전병",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_037_96x100_psm13.png": {
+   "ko": "비스킷",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_038_96x100_psm13.png": {
+   "ko": "간식 커틀릿",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical",
+   "note": "wording corrected: おやつカツ is a snack cutlet, not gas"
+  },
+  "mini/mini02/mg02sprt/transfer_039_96x100_psm13.png": {
+   "ko": "라면 과자",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_040_96x100_psm13.png": {
+   "ko": "후가시",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02sprt/transfer_041_96x100_psm13.png": {
+   "ko": "당첨!",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical",
+   "import_from": "assets/image_extraction/MINI/japanese_images/translated_png/임시저장/mini/mini02/mg02sprt/transfer_041_96x100_psm13.png",
+   "note": "hand-drawn artwork from the staging folder, scaled to the texture; the plate's own alpha is what shapes it"
+  },
+  "mini/mini02/mg02sprt/transfer_042_48x68_psm14.png": {
+   "ko": "도라",
+   "size": [
+    48,
+    68
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_044_40x24_psm14.png": {
+   "ko": "회전",
+   "size": [
+    40,
+    24
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_045_24x24_psm14.png": {
+   "ko": "장",
+   "size": [
+    24,
+    24
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_050_40x24_psm14.png": {
+   "ko": "남음",
+   "size": [
+    40,
+    24
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_051_120x28_psm14.png": {
+   "ko": "리치 점수",
+   "size": [
+    120,
+    28
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_053_64x32_psm14.png": {
+   "ko": "갤럭시 리치",
+   "size": [
+    64,
+    32
+   ],
+   "note": "wording corrected: ギャラクシー is Galaxy"
+  },
+  "mini/mini02/mg02sprt/transfer_061_48x28_psm14.png": {
+   "ko": "합계",
+   "size": [
+    48,
+    28
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_062_184x32_psm14.png": {
+   "ko": "갤럭시 리치",
+   "size": [
+    184,
+    32
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_063_40x24_psm14.png": {
+   "ko": "도라",
+   "size": [
+    40,
+    24
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_064_48x24_psm14.png": {
+   "ko": "쯔모",
+   "size": [
+    48,
+    24
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_065_56x28_psm14.png": {
+   "ko": "퐁",
+   "size": [
+    56,
+    28
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_066_56x28_psm14.png": {
+   "ko": "론",
+   "size": [
+    56,
+    28
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_067_56x32_psm14.png": {
+   "ko": "유국",
+   "size": [
+    56,
+    32
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_068_144x28_psm14.png": {
+   "ko": "빨강 플래시",
+   "size": [
+    144,
+    28
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_069_144x28_psm14.png": {
+   "ko": "파랑 플래시",
+   "size": [
+    144,
+    28
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_070_144x28_psm14.png": {
+   "ko": "노랑 플래시",
+   "size": [
+    144,
+    28
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_071_144x28_psm14.png": {
+   "ko": "컬러풀 세트",
+   "size": [
+    144,
+    28
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_072_64x28_psm14.png": {
+   "ko": "트리오",
+   "size": [
+    64,
+    28
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_073_176x24_psm14.png": {
+   "ko": "노멀 플래시",
+   "size": [
+    176,
+    24
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_074_216x28_psm14.png": {
+   "ko": "슈퍼 컬러풀 세트",
+   "size": [
+    216,
+    28
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_075_104x28_psm14.png": {
+   "ko": "독차지",
+   "size": [
+    104,
+    28
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_076_184x28_psm14.png": {
+   "ko": "버라이어티 세트",
+   "size": [
+    184,
+    28
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_077_200x28_psm14.png": {
+   "ko": "보너스 빨강 플래시",
+   "size": [
+    200,
+    28
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_078_200x28_psm14.png": {
+   "ko": "보너스 파랑 플래시",
+   "size": [
+    200,
+    28
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_079_200x28_psm14.png": {
+   "ko": "보너스 노랑 플래시",
+   "size": [
+    200,
+    28
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_080_88x28_psm14.png": {
+   "ko": "막과자 달인",
+   "size": [
+    88,
+    28
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_081_144x32_psm14.png": {
+   "ko": "노멀 카드",
+   "size": [
+    144,
+    32
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_082_136x32_psm14.png": {
+   "ko": "컬러 카드",
+   "size": [
+    136,
+    32
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_083_144x32_psm14.png": {
+   "ko": "당첨 카드",
+   "size": [
+    144,
+    32
+   ]
+  },
+  "mini/mini02/mg02sprt/transfer_084_88x56_psm13.png": {
+   "ko": "꽝",
+   "size": [
+    88,
+    56
+   ],
+   "note": "the 駄菓子 blank card: one big brush character centred on the card",
+   "region": [
+    0.08,
+    0.08,
+    0.92,
+    0.92
+   ],
+   "mode": "cover",
+   "stroke": 4
+  },
+  "mini/mini02/mg02sprt/transfer_085_80x28_psm14.png": {
+   "ko": "퐁",
+   "size": [
+    80,
+    28
+   ],
+   "mode": "panel",
+   "region": [
+    0.36,
+    0.05,
+    1.0,
+    0.95
+   ],
+   "note": "mahjong call button: the triangle button icon on the left is not text",
+   "stroke": 0
+  },
+  "mini/mini02/mg02spy/transfer_003_96x100_psm13.png": {
+   "ko": "경단",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_004_96x100_psm13.png": {
+   "ko": "경단",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_005_96x100_psm13.png": {
+   "ko": "경단",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_006_96x100_psm13.png": {
+   "ko": "젤리",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_007_96x100_psm13.png": {
+   "ko": "젤리",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_008_96x100_psm13.png": {
+   "ko": "젤리",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_009_96x100_psm13.png": {
+   "ko": "아이스",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_010_96x100_psm13.png": {
+   "ko": "아이스",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_011_96x100_psm13.png": {
+   "ko": "아이스",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_012_96x100_psm13.png": {
+   "ko": "초코",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_013_96x100_psm13.png": {
+   "ko": "초코",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_014_96x100_psm13.png": {
+   "ko": "초코",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_015_96x100_psm13.png": {
+   "ko": "마시멜로",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_016_96x100_psm13.png": {
+   "ko": "마시멜로",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_017_96x100_psm13.png": {
+   "ko": "마시멜로",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_018_96x100_psm13.png": {
+   "ko": "껌",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_019_96x100_psm13.png": {
+   "ko": "껌",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_020_96x100_psm13.png": {
+   "ko": "껌",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_021_96x100_psm13.png": {
+   "ko": "솜사탕",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_022_96x100_psm13.png": {
+   "ko": "솜사탕",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_023_96x100_psm13.png": {
+   "ko": "솜사탕",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_024_96x100_psm13.png": {
+   "ko": "캔디",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_025_96x100_psm13.png": {
+   "ko": "캔디",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_026_96x100_psm13.png": {
+   "ko": "캔디",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_027_96x100_psm13.png": {
+   "ko": "라무네",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_028_96x100_psm13.png": {
+   "ko": "라무네",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_029_96x100_psm13.png": {
+   "ko": "라무네",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_030_96x100_psm13.png": {
+   "ko": "식초 다시마",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_031_96x100_psm13.png": {
+   "ko": "식초 오징어",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_032_96x100_psm13.png": {
+   "ko": "전병",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_033_96x100_psm13.png": {
+   "ko": "비스킷",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_034_96x100_psm13.png": {
+   "ko": "간식 커틀릿",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical",
+   "note": "wording corrected: おやつカツ is a snack cutlet, not gas"
+  },
+  "mini/mini02/mg02spy/transfer_035_96x100_psm13.png": {
+   "ko": "라면 과자",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_036_96x100_psm13.png": {
+   "ko": "후가시",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical"
+  },
+  "mini/mini02/mg02spy/transfer_037_96x100_psm13.png": {
+   "ko": "당첨!",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "dark",
+   "region": [
+    0.0,
+    0.02,
+    0.34,
+    0.98
+   ],
+   "layout": "vertical",
+   "import_from": "assets/image_extraction/MINI/japanese_images/translated_png/임시저장/mini/mini02/mg02sprt/transfer_041_96x100_psm13.png",
+   "note": "hand-drawn artwork from the staging folder, scaled to the texture; the plate's own alpha is what shapes it"
+  },
+  "mini/mini02/mg02spy/transfer_043_128x32_psm14.png": {
+   "ko": "규칙 설명",
+   "size": [
+    128,
+    32
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_044_88x32_psm14.png": {
+   "ko": "역 설명",
+   "size": [
+    88,
+    32
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_045_180x32_psm14.png": {
+   "ko": "갤럭시 리치",
+   "size": [
+    180,
+    32
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_046_40x24_psm14.png": {
+   "ko": "도라",
+   "size": [
+    40,
+    24
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_047_48x24_psm14.png": {
+   "ko": "쯔모",
+   "size": [
+    48,
+    24
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_048_56x28_psm14.png": {
+   "ko": "퐁",
+   "size": [
+    56,
+    28
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_049_56x28_psm14.png": {
+   "ko": "론",
+   "size": [
+    56,
+    28
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_050_56x32_psm14.png": {
+   "ko": "유국",
+   "size": [
+    56,
+    32
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_051_144x28_psm14.png": {
+   "ko": "빨강 플래시",
+   "size": [
+    144,
+    28
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_052_144x28_psm14.png": {
+   "ko": "파랑 플래시",
+   "size": [
+    144,
+    28
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_053_144x28_psm14.png": {
+   "ko": "노랑 플래시",
+   "size": [
+    144,
+    28
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_054_144x28_psm14.png": {
+   "ko": "컬러풀 세트",
+   "size": [
+    144,
+    28
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_055_64x28_psm14.png": {
+   "ko": "트리오",
+   "size": [
+    64,
+    28
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_056_176x24_psm14.png": {
+   "ko": "노멀 플래시",
+   "size": [
+    176,
+    24
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_057_104x28_psm14.png": {
+   "ko": "경단 세 자매",
+   "size": [
+    104,
+    28
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_058_104x28_psm14.png": {
+   "ko": "무지개 젤리",
+   "size": [
+    104,
+    28
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_059_160x28_psm14.png": {
+   "ko": "아이스 파라다이스",
+   "size": [
+    160,
+    28
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_060_216x28_psm14.png": {
+   "ko": "슈퍼 컬러풀 세트",
+   "size": [
+    216,
+    28
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_061_104x28_psm14.png": {
+   "ko": "독차지",
+   "size": [
+    104,
+    28
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_062_184x28_psm14.png": {
+   "ko": "버라이어티 세트",
+   "size": [
+    184,
+    28
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_063_200x28_psm14.png": {
+   "ko": "보너스 빨강 플래시",
+   "size": [
+    200,
+    28
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_064_200x28_psm14.png": {
+   "ko": "보너스 파랑 플래시",
+   "size": [
+    200,
+    28
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_065_200x28_psm14.png": {
+   "ko": "보너스 노랑 플래시",
+   "size": [
+    200,
+    28
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_066_88x28_psm14.png": {
+   "ko": "막과자 달인",
+   "size": [
+    88,
+    28
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_067_152x32_psm14.png": {
+   "ko": "노멀 카드",
+   "size": [
+    152,
+    32
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_068_136x32_psm14.png": {
+   "ko": "컬러 카드",
+   "size": [
+    136,
+    32
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_069_152x32_psm14.png": {
+   "ko": "당첨 카드",
+   "size": [
+    152,
+    32
+   ]
+  },
+  "mini/mini02/mg02spy/transfer_070_88x56_psm13.png": {
+   "ko": "꽝",
+   "size": [
+    88,
+    56
+   ],
+   "note": "the 駄菓子 blank card: one big brush character centred on the card",
+   "region": [
+    0.08,
+    0.08,
+    0.92,
+    0.92
+   ],
+   "mode": "cover",
+   "stroke": 4
+  },
+  "mini/mini02/mg02spy/transfer_071_96x100_psm13.png": {
+   "ko": "꽝",
+   "size": [
+    96,
+    100
+   ],
+   "mode": "cover",
+   "region": [
+    0.08,
+    0.08,
+    0.92,
+    0.92
+   ],
+   "note": "the 駄菓子 blank card: one big brush character centred on the card",
+   "stroke": 4
+  },
+  "mini/mini04/m2d/transfer_001_136x40_psm14.png": {
+   "ko": "클리어",
+   "size": [
+    136,
+    40
+   ]
+  },
+  "mini/mini04/m2d/transfer_003_112x56_psm14.png": {
+   "ko": "힘내!",
+   "size": [
+    112,
+    56
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini04/m2d/transfer_007_144x40_psm14.png": {
+   "ko": "시작!",
+   "size": [
+    144,
+    40
+   ]
+  },
+  "mini/mini04/m2d/transfer_011_232x40_psm14.png": {
+   "ko": "시간 초과",
+   "size": [
+    232,
+    40
+   ]
+  },
+  "mini/mini04/m2d/transfer_013_96x40_psm14.png": {
+   "ko": "준비",
+   "size": [
+    96,
+    40
+   ]
+  },
+  "mini/mini04/m2d/transfer_014_112x56_psm14.png": {
+   "ko": "살살",
+   "size": [
+    112,
+    56
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/for_kl.png": {
+   "ko": "강한 왼쪽 커브로\n부탁해!",
+   "size": [
+    152,
+    76
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/for_kr.png": {
+   "ko": "강한 오른쪽 커브로\n부탁해!",
+   "size": [
+    152,
+    72
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/for_no.png": {
+   "ko": "음, 조금 다른데",
+   "size": [
+    152,
+    72
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/for_ok.png": {
+   "ko": "좋아, 왔다～!",
+   "size": [
+    160,
+    64
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/for_stra.png": {
+   "ko": "직구로 부탁해!",
+   "size": [
+    176,
+    64
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/for_yl.png": {
+   "ko": "약한 왼쪽 커브로\n부탁해!",
+   "size": [
+    152,
+    72
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/for_yr.png": {
+   "ko": "약한 오른쪽 커브로\n부탁해!",
+   "size": [
+    152,
+    72
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_000_152x72_psm14.png": {
+   "ko": "약한 왼쪽 커브로\n부탁해!",
+   "size": [
+    152,
+    72
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_008_192x208_psm13.png": {
+   "ko": "왼|오",
+   "size": [
+    192,
+    208
+   ],
+   "mode": "glyph",
+   "regions": [
+    [
+     0.0,
+     0.02,
+     0.13,
+     0.17
+    ],
+    [
+     0.87,
+     0.02,
+     1.0,
+     0.17
+    ]
+   ],
+   "labels": [
+    "왼",
+    "오"
+   ],
+   "note": "throw-direction gauge: a word in each top corner, with the gauge between them"
+  },
+  "mini/mini05/m05game/transfer_009_152x76_psm14.png": {
+   "ko": "강한 왼쪽 커브로\n부탁해!",
+   "size": [
+    152,
+    76
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_010_152x72_psm14.png": {
+   "ko": "강한 오른쪽 커브로\n부탁해!",
+   "size": [
+    152,
+    72
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_011_152x72_psm14.png": {
+   "ko": "음, 조금 다른데",
+   "size": [
+    152,
+    72
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_012_160x64_psm14.png": {
+   "ko": "좋아, 왔다～!",
+   "size": [
+    160,
+    64
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_013_176x64_psm14.png": {
+   "ko": "직구로 부탁해!",
+   "size": [
+    176,
+    64
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_015_152x72_psm14.png": {
+   "ko": "약한 오른쪽 커브로\n부탁해!",
+   "size": [
+    152,
+    72
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_016_232x40_psm14.png": {
+   "ko": "게임 오버",
+   "size": [
+    232,
+    40
+   ]
+  },
+  "mini/mini05/m05game/transfer_027_56x56_psm14.png": {
+   "ko": "으음…",
+   "size": [
+    56,
+    56
+   ],
+   "mode": "dark",
+   "note": "sleep balloon: the zeds are dark marks on the green blob"
+  },
+  "mini/mini05/m05game/transfer_029_168x80_psm14.png": {
+   "ko": "강한 왼쪽 커브로\n던져주세요～",
+   "size": [
+    168,
+    80
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_030_160x80_psm14.png": {
+   "ko": "강한 오른쪽 커브로\n던져주세요～",
+   "size": [
+    160,
+    80
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_031_160x64_psm14.png": {
+   "ko": "흑, 조금 달라요～",
+   "size": [
+    160,
+    64
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_032_184x60_psm14.png": {
+   "ko": "와～ 그거예요～!",
+   "size": [
+    184,
+    60
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_033_152x72_psm14.png": {
+   "ko": "똑바로 던져주세요～",
+   "size": [
+    152,
+    72
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_034_160x80_psm14.png": {
+   "ko": "약한 왼쪽 커브로\n던져주세요～",
+   "size": [
+    160,
+    80
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_035_160x80_psm14.png": {
+   "ko": "약한 오른쪽 커브로\n던져주세요～",
+   "size": [
+    160,
+    80
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_036_176x84_psm14.png": {
+   "ko": "강한 왼쪽 커브로\n던져주세요♪",
+   "size": [
+    176,
+    84
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_037_176x84_psm14.png": {
+   "ko": "강한 오른쪽 커브로\n던져주세요♪",
+   "size": [
+    176,
+    84
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_038_160x64_psm14.png": {
+   "ko": "그건 무리예요…",
+   "size": [
+    160,
+    64
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_039_144x56_psm14.png": {
+   "ko": "멋져요",
+   "size": [
+    144,
+    56
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_040_152x72_psm14.png": {
+   "ko": "똑바로 던져주세요♪",
+   "size": [
+    152,
+    72
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_041_176x84_psm14.png": {
+   "ko": "약한 왼쪽 커브로\n던져주세요♪",
+   "size": [
+    176,
+    84
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_042_176x84_psm14.png": {
+   "ko": "약한 오른쪽 커브로\n던져주세요♪",
+   "size": [
+    176,
+    84
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_043_64x32_psm14.png": {
+   "ko": "남음",
+   "size": [
+    64,
+    32
+   ]
+  },
+  "mini/mini05/m05game/transfer_045_176x84_psm14.png": {
+   "ko": "강한 왼쪽 커브로\n던져줘!",
+   "size": [
+    176,
+    84
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_046_176x84_psm14.png": {
+   "ko": "강한 오른쪽 커브로\n던져줘!",
+   "size": [
+    176,
+    84
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_047_184x60_psm14.png": {
+   "ko": "그건 안 된다니까!",
+   "size": [
+    184,
+    60
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_048_120x56_psm14.png": {
+   "ko": "나이스!",
+   "size": [
+    120,
+    56
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_049_152x72_psm14.png": {
+   "ko": "똑바로 부탁해!",
+   "size": [
+    152,
+    72
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_050_176x88_psm14.png": {
+   "ko": "약한 왼쪽 커브로\n던져줘!",
+   "size": [
+    176,
+    88
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_051_176x88_psm14.png": {
+   "ko": "약한 오른쪽 커브로\n던져줘!",
+   "size": [
+    176,
+    88
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_054_144x40_psm14.png": {
+   "ko": "시작!",
+   "size": [
+    144,
+    40
+   ]
+  },
+  "mini/mini05/m05game/transfer_058_232x40_psm14.png": {
+   "ko": "시간 초과",
+   "size": [
+    232,
+    40
+   ]
+  },
+  "mini/mini05/m05game/transfer_060_176x88_psm14.png": {
+   "ko": "…강한 왼쪽 커브로\n부탁드립니다",
+   "size": [
+    176,
+    88
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_061_176x84_psm14.png": {
+   "ko": "…강한 오른쪽 커브로\n부탁드립니다",
+   "size": [
+    176,
+    84
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_062_184x60_psm14.png": {
+   "ko": "…제겐 무리였습니다",
+   "size": [
+    184,
+    60
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_063_184x60_psm14.png": {
+   "ko": "감사합니다",
+   "size": [
+    184,
+    60
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_064_152x72_psm14.png": {
+   "ko": "…똑바로 부탁드립니다",
+   "size": [
+    152,
+    72
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_065_176x84_psm14.png": {
+   "ko": "…약한 왼쪽 커브로\n부탁드립니다",
+   "size": [
+    176,
+    84
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_066_176x84_psm14.png": {
+   "ko": "…약한 오른쪽 커브로\n부탁드립니다",
+   "size": [
+    176,
+    84
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/m05game/transfer_067_96x40_psm14.png": {
+   "ko": "준비",
+   "size": [
+    96,
+    40
+   ]
+  },
+  "mini/mini05/m05titlebak/transfer_000_128x32_psm14.png": {
+   "ko": "경과 시간",
+   "size": [
+    128,
+    32
+   ]
+  },
+  "mini/mini05/m05titlebak/transfer_011_256x64_psm13.png": {
+   "ko": "두근두근☆",
+   "keep_current": true,
+   "note": "the shipped translation already keeps the pink FI logo beside the words; Latin is not translated"
+  },
+  "mini/mini05/mil_kl.png": {
+   "ko": "강한 왼쪽 커브로\n던져주세요～",
+   "size": [
+    168,
+    80
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/mil_kr.png": {
+   "ko": "강한 오른쪽 커브로\n던져주세요～",
+   "size": [
+    160,
+    80
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/mil_no.png": {
+   "ko": "흑, 조금 달라요～",
+   "size": [
+    160,
+    64
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/mil_ok.png": {
+   "ko": "와～ 그거예요～!",
+   "size": [
+    184,
+    60
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/mil_stra.png": {
+   "ko": "똑바로 던져주세요～",
+   "size": [
+    152,
+    72
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/mil_yl.png": {
+   "ko": "약한 왼쪽 커브로\n던져주세요～",
+   "size": [
+    160,
+    80
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/mil_yr.png": {
+   "ko": "약한 오른쪽 커브로\n던져주세요～",
+   "size": [
+    160,
+    80
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/min_kl.png": {
+   "ko": "강한 왼쪽 커브로\n던져주세요♪",
+   "size": [
+    176,
+    84
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/min_kr.png": {
+   "ko": "강한 오른쪽 커브로\n던져주세요♪",
+   "size": [
+    176,
+    84
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/min_no.png": {
+   "ko": "후우\n조금 다르네요…",
+   "size": [
+    176,
+    84
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/min_ok.png": {
+   "ko": "멋져요",
+   "size": [
+    144,
+    56
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/min_stra.png": {
+   "ko": "똑바로 던져주세요♪",
+   "size": [
+    152,
+    72
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/min_yl.png": {
+   "ko": "약한 왼쪽 커브로\n던져주세요♪",
+   "size": [
+    176,
+    84
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/min_yr.png": {
+   "ko": "약한 오른쪽 커브로\n던져주세요♪",
+   "size": [
+    176,
+    84
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/ran_kl.png": {
+   "ko": "강한 왼쪽 커브로\n던져줘!",
+   "size": [
+    176,
+    84
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/ran_kr.png": {
+   "ko": "강한 오른쪽 커브로\n던져줘!",
+   "size": [
+    176,
+    84
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/ran_no.png": {
+   "ko": "그건 안 된다니까!",
+   "size": [
+    184,
+    60
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/ran_ok.png": {
+   "ko": "나이스!",
+   "size": [
+    120,
+    56
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/ran_stra.png": {
+   "ko": "똑바로 부탁해!",
+   "size": [
+    152,
+    72
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/ran_yl.png": {
+   "ko": "약한 왼쪽 커브로\n던져줘!",
+   "size": [
+    176,
+    88
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/ran_yr.png": {
+   "ko": "약한 오른쪽 커브로\n던져줘!",
+   "size": [
+    176,
+    88
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/van_kl.png": {
+   "ko": "…강한 왼쪽 커브로\n부탁드립니다",
+   "size": [
+    176,
+    88
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/van_kr.png": {
+   "ko": "…강한 오른쪽 커브로\n부탁드립니다",
+   "size": [
+    176,
+    84
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/van_no.png": {
+   "ko": "…아",
+   "size": [
+    80,
+    56
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/van_ok.png": {
+   "ko": "감사합니다",
+   "size": [
+    184,
+    60
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/van_stra.png": {
+   "ko": "…똑바로 부탁드립니다",
+   "size": [
+    152,
+    72
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/van_yl.png": {
+   "ko": "…약한 왼쪽 커브로\n부탁드립니다",
+   "size": [
+    176,
+    84
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  },
+  "mini/mini05/van_yr.png": {
+   "ko": "…약한 오른쪽 커브로\n부탁드립니다",
+   "size": [
+    176,
+    84
+   ],
+   "keep_current": true,
+   "note": "the shipped translation already keeps the balloon; it is left as it is"
+  }
+ }
+}

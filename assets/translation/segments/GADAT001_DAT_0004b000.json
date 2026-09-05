@@ -1,0 +1,23 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_0004b000.txt",
+    "encoding": "cp932",
+    "sha256": "3fe35126b0b8d1e930e903beca069e6be76490131bfde2bf340ce1818cdb06c9",
+    "dialogue_count": 1
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_0004b000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "0",
+        "face": "0,0,0,0"
+      },
+      "original": "■ギャラクシーエンジェル　３章　終了■\n",
+      "translation": "■갤럭시 엔젤 3장 종료■\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

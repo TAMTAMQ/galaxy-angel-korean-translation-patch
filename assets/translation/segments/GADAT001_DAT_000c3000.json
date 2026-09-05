@@ -1,0 +1,114 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000c3000.txt",
+    "encoding": "cp932",
+    "sha256": "eb284262f0fcb22566c6e9e06f2d6323610fffc554a6231b974bac581ecfced4",
+    "dialogue_count": 8
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000c3000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0"
+      },
+      "original": "　ヴァニラたちが、がんばってくれたおかげで、\n『黒き月』を破壊することができたんですから。\n",
+      "translation": "바닐라 일행이, 열심히 노력해 준 덕분에,\n『흑색 달』을 파괴할 수 있었으니까요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c3000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "203,0,0,0",
+        "voice": "GAF16001,3"
+      },
+      "original": "私は……自分のなすべきことをしただけです。\n",
+      "translation": "저는…… 제가 해야 할 일을 했을 뿐입니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c3000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,0,0",
+        "voice": "GAF16001,3"
+      },
+      "original": "でも、オレたちが助かったのは、ヴァニラが必死\nに修理を続けてくれたおかげだよ。\nありがとう。\n",
+      "translation": "하지만, 우리가 구조된 건 바닐라가 필사적\n으로 수리를 계속해 준 덕분이야. 고마워.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c3000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "203,0,0,0",
+        "voice": "GAF16002,3"
+      },
+      "original": "……いえ……。\nタクトさんが無事で何よりでした……。\n",
+      "translation": "……아니에요…… 택트 씨가 무사하셔서\n다행이에요……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c3000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "183,0,0,0",
+        "voice": "GAF16003,3"
+      },
+      "original": "これで……戦いは終わったのですね……。\n",
+      "translation": "이것으로…… 싸움은 끝난 것이군요……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c3000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAF16003,3"
+      },
+      "original": "ああ、そうさ。\nこれで平和が戻ったんだ。\n",
+      "translation": "아아, 그래. 이것으로 평화가 돌아온 거야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c3000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAF16003,3"
+      },
+      "original": "さあ、『白き月』に帰ろう。\n",
+      "translation": "자, 『백색 달』로 돌아가자.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000c3000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "200,0,0,0",
+        "voice": "GAF16004,3"
+      },
+      "original": "はい、タクトさん……。\n",
+      "translation": "네, 택트 씨……\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

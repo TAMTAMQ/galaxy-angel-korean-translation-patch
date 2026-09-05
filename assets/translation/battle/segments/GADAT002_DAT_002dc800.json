@@ -1,0 +1,1570 @@
+{
+  "schema": "galaxy-angel-battle-segment/v1",
+  "container": "GADAT002",
+  "block_offset": 3000320,
+  "units": [
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE203:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE203",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          1909,
+          1943
+        ],
+        "byte_lengths": [
+          26,
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "そら、味方が１機減ったぞ。\nこんなものか、貴様らの力は？\n",
+      "translation": "자, 아군이 1기 줄었다.\n고작 이 정도냐, 네놈들의 힘은?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE203:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE203",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          2060,
+          2090
+        ],
+        "byte_lengths": [
+          22,
+          12
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "ふん、これで終わりか。\n他愛もない。\n",
+      "translation": "흥, 이걸로 끝인가.\n하찮군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE203:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE203",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          2191,
+          2229
+        ],
+        "byte_lengths": [
+          30,
+          20
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "あの紋章機は、もう戦線離脱か？\n大したことはないな。\n",
+      "translation": "저 문장기는, 벌써 전선 이탈인가?\n별거 아니군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE206:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE206",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          3361,
+          3391
+        ],
+        "byte_lengths": [
+          22,
+          14
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "今のは効いたようだな。\nそこが急所か。\n",
+      "translation": "방금 건 통한 모양이군.\n그곳이 급소였나.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE206:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE206",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          3494,
+          3532
+        ],
+        "byte_lengths": [
+          30,
+          18
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "ふっ……今の攻撃は苦しかろう。\nすぐ楽にしてやる。\n",
+      "translation": "훗…… 방금 공격은 괴로웠겠지.\n곧 편하게 해주마.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE207:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE207",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          3993,
+          4031
+        ],
+        "byte_lengths": [
+          30,
+          18
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "ふっ、この程度の攻撃でグラつく\nとは……もろいな。\n",
+      "translation": "훗, 이 정도 공격에 흔들리다니\n……연약하군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE207:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE207",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          4138,
+          4176
+        ],
+        "byte_lengths": [
+          30,
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "命中したか……だが、『黒き月』\nの力はこんなものではないぞ。\n",
+      "translation": "명중했나…… 하지만, 『흑색 달』\n의 힘은 이 정도가 아니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE207:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE207",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          4293,
+          4331
+        ],
+        "byte_lengths": [
+          30,
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "どうした、この程度の攻撃で音を\n上げてもらっては、困るぞ。\n",
+      "translation": "왜 그러지, 이 정도 공격에 소리를\n내버리면 곤란하다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE208:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE208",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          4800,
+          4838
+        ],
+        "byte_lengths": [
+          30,
+          30
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "どうした、狙いがそれているぞ。\n照準システムをチェックし直せ。\n",
+      "translation": "왜 그러지, 조준이 어긋나고 있다.\n조준 시스템을 다시 체크해라.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE208:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE208",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          4958,
+          4996
+        ],
+        "byte_lengths": [
+          30,
+          16
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "攻撃システム、何をやっている。\nもっとよく狙え。\n",
+      "translation": "공격 시스템, 뭘 하고 있는 거냐.\n더 제대로 노려라.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE208:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE208",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          5102,
+          5126
+        ],
+        "byte_lengths": [
+          16,
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "ふむ、外れたか。\nかまわん、引き続き攻撃だ。\n",
+      "translation": "흠, 빗나갔나.\n상관없다, 계속해서 공격해라.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE209:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE209",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          5602,
+          5630
+        ],
+        "byte_lengths": [
+          20,
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "ほう、回避されたか。\nそうでなくては面白くない。\n",
+      "translation": "호오, 회피당했나.\n그래야 재미있지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE209:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE209",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          5746,
+          5780
+        ],
+        "byte_lengths": [
+          26,
+          16
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "今の攻撃を、かわすとはな。\nほめてやろうう。\n",
+      "translation": "지금 공격을, 피하다니.\n칭찬해주마.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE209:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE209",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          5886,
+          5924
+        ],
+        "byte_lengths": [
+          30,
+          24
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "あの弾幕を回避したというのか？\n想像以上の性能だな……。\n",
+      "translation": "저 탄막을 회피했다는 건가?\n상상 이상의 성능이군…….\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE20a:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE20a",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          6414,
+          6438
+        ],
+        "byte_lengths": [
+          16,
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "直撃を受けたか。\nだが、この程度なら問題ない。\n",
+      "translation": "직격을 입었나.\n하지만, 이 정도라면 문제없다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE20a:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE20a",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          6556,
+          6590
+        ],
+        "byte_lengths": [
+          26,
+          30
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "くうっ……何という威力だ。\n奴らのどこに、こんな力が……。\n",
+      "translation": "크윽…… 무슨 위력이지.\n놈들의 어디에, 이런 힘이…….\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE20a:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE20a",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          6710,
+          6744
+        ],
+        "byte_lengths": [
+          26,
+          30
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "今の攻撃は、少し効いたぞ。\nさすがは『白き月』の申し子だ。\n",
+      "translation": "방금 공격은, 조금 컸다.\n역시 『백색 달』의 아이로군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE20b:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE20b",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          7236,
+          7274
+        ],
+        "byte_lengths": [
+          30,
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "被弾したか……だが、そんなもの\nでは、この艦は落とせんよ。\n",
+      "translation": "피격당했나…… 하지만, 그런 것\n으로는, 이 함선은 떨어뜨릴 수 없다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE20b:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE20b",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          7390,
+          7428
+        ],
+        "byte_lengths": [
+          30,
+          12
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "くっ……私が攻撃をくらうとは。\n小ざかしい！\n",
+      "translation": "큭…… 내가 공격을 받다니.\n치사하구나!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE20b:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE20b",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          7530,
+          7568
+        ],
+        "byte_lengths": [
+          30,
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "その程度の攻撃しかできんのか？\nこの私も、なめられたものだ。\n",
+      "translation": "그 정도의 공격밖에 할 수 없는 건가?\n이 나를, 얕본 모양이군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE20c:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE20c",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          8047,
+          8081
+        ],
+        "byte_lengths": [
+          26,
+          20
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "ふふふ、どこを狙っている。\nかすりもしてないぞ。\n",
+      "translation": "후후후, 어디를 노리는 거냐.\n스치지도 않았다고.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE20c:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE20c",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21
+        ],
+        "raw_offsets": [
+          8191
+        ],
+        "byte_lengths": [
+          24
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "そんな攻撃、当たらんよ。\n",
+      "translation": "그런 공격, 맞지 않아.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE20c:01:030",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE20c",
+        "section_instance": 1,
+        "message_group": 30,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          31,
+          32
+        ],
+        "raw_offsets": [
+          8313,
+          8349
+        ],
+        "byte_lengths": [
+          28,
+          30
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "ふっ、惜しかったな、外れだ。\n『白き月』の力は、その程度か？\n",
+      "translation": "훗, 아까웠다, 빗나갔군.\n『백색 달』의 힘은, 그 정도인가?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE20d:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE20d",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          8832,
+          8870
+        ],
+        "byte_lengths": [
+          30,
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "なかなかの腕前だが……この艦を\n沈めるには、まだほど遠いな。\n",
+      "translation": "제법인 실력이지만…… 이 함선을\n침몰시키기에는, 아직 멀었구나.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE20d:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE20d",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          8988,
+          9026
+        ],
+        "byte_lengths": [
+          30,
+          30
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "やっと戦いらしくなってきたな。\n貴様らの力、もっと見せてみろ。\n",
+      "translation": "겨우 전투다워졌군.\n네놈들의 힘, 좀 더 보여봐라.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE20e:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE20e",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          9510,
+          9548
+        ],
+        "byte_lengths": [
+          30,
+          18
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "……いかんな、ここまでダメージ\nを受けるとは……。\n",
+      "translation": "……안 되겠군, 이만큼 데미지를\n입을 줄이야…….\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE20e:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE20e",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          9656,
+          9694
+        ],
+        "byte_lengths": [
+          30,
+          30
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "この艦をここまで追い込むとは。\n紋章機の力、見くびっていたか。\n",
+      "translation": "이 함선을 여기까지 몰아넣다니.\n문장기의 힘, 얕보고 있었나.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE20f:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE20f",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          10178,
+          10216
+        ],
+        "byte_lengths": [
+          30,
+          30
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "装甲が役に立たん……奴らの力は\n『黒き月』をしのぐというのか！\n",
+      "translation": "장갑이 도움이 안 돼…… 놈들의 힘은\n『흑색 달』을 능가한다는 건가!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE20f:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE20f",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          10336,
+          10372
+        ],
+        "byte_lengths": [
+          28,
+          30
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "防御システムが追いつかない！\nまさか奴らがここまでやるとは。\n",
+      "translation": "방어 시스템이 따라가지 못해!\n설마 놈들이 여기까지 해낼 줄이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE219:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE219",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          13753,
+          13791
+        ],
+        "byte_lengths": [
+          30,
+          30
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "やつらの紋章機の力が、これほど\nとは……やむを得ん、後退しろ！\n",
+      "translation": "놈들의 문장기의 힘이, 이 정도\n라니…… 어쩔 수 없다, 후퇴하라!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE219:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE219",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21,
+          22
+        ],
+        "raw_offsets": [
+          13911,
+          13939
+        ],
+        "byte_lengths": [
+          20,
+          26
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "くっ、この私が……！\n後退せよ、態勢を立て直す！\n",
+      "translation": "큭, 내가……!\n후퇴하라, 태세를 재정비한다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE21b:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE21b",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11,
+          12
+        ],
+        "raw_offsets": [
+          14757,
+          14783
+        ],
+        "byte_lengths": [
+          18,
+          30
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "新たな敵影を確認！\nこれは……エオニアの旗艦です！\n",
+      "translation": "새로운 적의 그림자 확인!\n이것은…… 에오니아의 기함입니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE21b:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE21b",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21
+        ],
+        "raw_offsets": [
+          14904
+        ],
+        "byte_lengths": [
+          28
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "新手の大型艦が出現しました！\n",
+      "translation": "신종 대형함이 출현했습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE21c:01:010",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE21c",
+        "section_instance": 1,
+        "message_group": 10,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          11
+        ],
+        "raw_offsets": [
+          15415
+        ],
+        "byte_lengths": [
+          34
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "エオニアの艦が、後退していきます！\n",
+      "translation": "에오니아의 함선이, 후퇴하고 있습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT002_DAT_002dc800:MESSAGE21c:01:020",
+      "context": {
+        "container": "GADAT002",
+        "block_offset": 3000320,
+        "section": "MESSAGE21c",
+        "section_instance": 1,
+        "message_group": 20,
+        "stage": "10-1",
+        "header_comments": [
+          "使用ステージ：\t10-1",
+          "エオニアより入電",
+          "0\tpgf12_01\t\tノーマル（予備）",
+          "1\tpgf12_01\t\tノーマル",
+          "2\tpgf12_02\t\tシリアス",
+          "3\tpgf12_03\t\t驚き",
+          "4\tpgf12_01\t\tノーマル（予備）",
+          "5\tpgf12_01\t\tノーマル（予備）",
+          "6\tpgf12_01\t\tノーマル（予備）",
+          "7\tpgf12_01\t\tノーマル（予備）"
+        ],
+        "fields": [
+          21
+        ],
+        "raw_offsets": [
+          15548
+        ],
+        "byte_lengths": [
+          34
+        ],
+        "runtime_copies": [
+          {
+            "container": "SLGINIT",
+            "block_offset": 17940256
+          }
+        ]
+      },
+      "original": "エオニア軍旗艦、後退を始めました！\n",
+      "translation": "에오니아 군 기함, 후퇴를 시작했습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

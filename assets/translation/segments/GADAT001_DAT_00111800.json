@@ -1,0 +1,179 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_00111800.txt",
+    "encoding": "cp932",
+    "sha256": "166ad9211f6b821b3bb6e15da657a03c509ee8d6f5c1ffbd71346693cc73cc51",
+    "dialogue_count": 13
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_00111800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "face": "001,0,0,0",
+        "speaker": "001"
+      },
+      "original": "さてと、何を食べようかな。\nちょうど昼飯どきだし、誰か誘ってみるのもいい\nかもな。\n",
+      "translation": "자, 뭘 먹을까. 마침 점심때이기도 하고,\n누군가 불러보는 것도 괜찮겠네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00111800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "face": "021,0,047,0",
+        "speaker": "002",
+        "voice": "GA903001,3"
+      },
+      "original": "…………。\n",
+      "translation": "…………。\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00111800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "face": "002,0,047,0",
+        "speaker": "001",
+        "voice": "GA903001,3"
+      },
+      "original": "あ、ミルフィー。\nちょうどよかった、今……。\n",
+      "translation": "아, 밀피. 마침 잘 됐어, 지금……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00111800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "face": "012,0,0,0",
+        "speaker": "001",
+        "voice": "GA903001,3"
+      },
+      "original": "食事に……って、あれ？\n行っちゃった。\n聞こえなかったのかな？\n",
+      "translation": "식사하러…… 어라? 가버렸네. 못 들은 걸까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00111800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "face": "004,0,0,0",
+        "speaker": "001",
+        "voice": "GA903001,3"
+      },
+      "original": "ミルフィー、さっきはどうしたんだろう。\n何か悩み事でもあるのかな？\n",
+      "translation": "밀피, 아까는 왜 그랬던 거지. 무슨 고민이라도\n있는 걸까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00111800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "face": "004,0,0,0",
+        "speaker": "001",
+        "voice": "GA903001,3"
+      },
+      "original": "しかし……ひとりで食べてても、味気ないなぁ。\nもういいや、ブリッジに戻ろう。\n",
+      "translation": "그렇지만…… 혼자 먹어도 맛이 없네. 이제\n됐어, 브릿지로 돌아가자.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00111800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "face": "021,0,027,0",
+        "speaker": "002",
+        "voice": "GA903002,3"
+      },
+      "original": "…………。\n",
+      "translation": "…………。\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00111800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "face": "002,0,027,0",
+        "speaker": "001",
+        "voice": "GA903002,3"
+      },
+      "original": "あ、ミルフィー！\nおーい、さっきはいったい……。\n",
+      "translation": "아, 밀피! 어이, 아까는 도대체……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00111800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "face": "021,0,030,0",
+        "speaker": "002",
+        "voice": "GA903003,3"
+      },
+      "original": "あっ……！\n",
+      "translation": "앗……!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00111800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "007,0,0,0",
+        "voice": "GA903003,3"
+      },
+      "original": "あ、ちょっと！\n何で逃げるんだよ、ミルフィー！？\n",
+      "translation": "아, 잠깐만! 왜 도망가는 거야, 밀피!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00111800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "voice": "GA903003,3",
+        "speaker": "001",
+        "face": "012,0,0,0"
+      },
+      "original": "オレ、何かしたかなぁ？\nおーい、待ってくれ！\n",
+      "translation": "내가 뭐 잘못했나? 어이, 기다려줘!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00111800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "face": "501,0,0,0",
+        "speaker": "017",
+        "voice": "GA903004,3"
+      },
+      "original": "補給が終了しました。\nこれより本艦は、惑星ブラマンシュを出港します。\nマイヤーズ司令、至急ブリッジにお戻りください。\n",
+      "translation": "보급이 종료되었습니다. 지금부터 본함은,\n행성 브라만슈를 출항합니다. 마이어스\n사령관님, 즉시 브릿지로 복귀해 주십시오.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00111800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "010,0,0,0",
+        "voice": "GA903004,3"
+      },
+      "original": "ああっ、何だってこんなときに呼び出しが！\nツイてないなぁ。\nしかたない、ブリッジに戻ろう。\n",
+      "translation": "아앗, 왜 하필 이럴 때 호출이! 운도 없지.\n어쩔 수 없군, 브릿지로 돌아가자.\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

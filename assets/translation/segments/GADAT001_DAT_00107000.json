@@ -1,0 +1,35 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_00107000.txt",
+    "encoding": "cp932",
+    "sha256": "ea0943fcada58e2201ff9c73d2d13e712fe8e358dfffd6deb852221e40d2e703",
+    "dialogue_count": 2
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_00107000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0"
+      },
+      "original": "うーん、これから先、どうしたものかなぁ……。\nどうもいい考えが浮かんでこない。\n",
+      "translation": "으음, 앞으로 어떻게 해야 할까나…… 도무지\n좋은 생각이 떠오르지 않아.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00107000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0"
+      },
+      "original": "とりあえず、もう少しそこらを歩き回ってみるか。\nどこに行こうかな……。\n",
+      "translation": "일단은, 조금 더 이 근처를 돌아다녀 볼까.\n어디로 가볼까……\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

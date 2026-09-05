@@ -1,0 +1,661 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000b7800.txt",
+    "encoding": "cp932",
+    "sha256": "4b16b4bb227aece9388527d538beaf33c5cc45b073fb05fb50ce7540cf89fe15",
+    "dialogue_count": 50
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GAE29001,3"
+      },
+      "original": "タクト、正面が開けたぞ。\n今ならエオニアの旗艦が狙える。\n",
+      "translation": "택트, 정면이 열렸다. 지금이라면 에오니아의\n기함을 노릴 수 있다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "010,0,225,0",
+        "voice": "GAE29001,3"
+      },
+      "original": "わかってる。\nあいつは……エオニアだけは、オレの手で倒して\nやる！\n",
+      "translation": "알고 있어. 그 녀석은…… 에오니아만은, 내\n손으로 쓰러뜨리고 말겠어!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,225,0",
+        "voice": "GAE29001,3"
+      },
+      "original": "そして、この戦いを終わらせるんだ。\n行くぞ！\n",
+      "translation": "그리고, 이 싸움을 끝내는 거야. 가자!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GAE29001,3"
+      },
+      "original": "クロノ・ブレイク・キャノン、発射準備！\n",
+      "translation": "크로노・브레이크・캐논, 발사 준비!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GAE29002,3"
+      },
+      "original": "了解！\nエネルギーチャージ、１００パーセント！\n発射準備完了！\n",
+      "translation": "네！ 에너지 충전, １００퍼센트! 발사 준비 완료!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "012",
+        "face": "313,0,0,0",
+        "voice": "GAE29003,3"
+      },
+      "original": "なぜだ……。\nなぜだ、ノア？\n私は……導き手となれるのではなかったのか……？\n",
+      "translation": "어째서인가…… 어째서냐, 노아? 나는……\n인도자가 될 수 있었던 것이 아닌가……?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "012",
+        "face": "313,0,0,0",
+        "voice": "GAE29004,3"
+      },
+      "original": "この手で、旧文明の栄華をよみがえらせ……人々\nを理想郷へ……。\n",
+      "translation": "이 손으로, 구문명의 영화를 되살려…… 사람\n들을 이상향으로……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "012",
+        "face": "313,0,0,0",
+        "voice": "GAE29005,3"
+      },
+      "original": "……その私が、なぜ……。\n",
+      "translation": "……그런 내가, 어째서……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "face": "491,0,0,0",
+        "voice": "GAE29006,3",
+        "speaker": "016"
+      },
+      "original": "敵旗艦、撃沈しました！\n",
+      "translation": "적 기함, 격침했습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "503,0,0,0",
+        "voice": "GAE29007,3"
+      },
+      "original": "すごい……。\nあれだけの巨大な艦が、一撃で……。\n",
+      "translation": "굉장해…… 그토록 거대한 함선이, 일격\n에…… .\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0",
+        "voice": "GAE29007,3"
+      },
+      "original": "長い戦いが……やっと終わったな。\n",
+      "translation": "긴 싸움이…… 겨우 끝났군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GAE29008,3"
+      },
+      "original": "ああ。\n悪党にふさわしい末路だ。\n",
+      "translation": "그래. 악당에게 어울리는 최후다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "146,0,0,0",
+        "voice": "GAE29009,3"
+      },
+      "original": "なくしたものを必死に追い求めて、歪んだ理想に\nとらわれた男の悲劇さ……。\n",
+      "translation": "잃어버린 것을 필사적으로 뒤쫓으며, 왜곡된\n이상에 사로잡힌 남자의 비극이야……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "182,0,0,0",
+        "voice": "GAE29010,3"
+      },
+      "original": "ですが……その悲劇も、幕を閉じました……。\n",
+      "translation": "하지만…… 그 비극도, 막을 내렸습니다……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,0,0",
+        "voice": "GAE29011,3"
+      },
+      "original": "ほかの無人艦も、動きを止めたようですわ。\nこれで、脅威は去りましたのね。\n",
+      "translation": "다른 무인함도, 움직임을 멈춘 모양이군요.\n이것으로, 위협은 사라졌나 봐요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAE29011,3"
+      },
+      "original": "ああ……オレたちの勝利だ。\n",
+      "translation": "아아…… 우리들의 승리다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "009",
+        "face": "251,0,0,0",
+        "voice": "GAE29012,3"
+      },
+      "original": "よくやってくれた、タクト！\nこれで皇国は救われた！\n",
+      "translation": "잘 해주었다, 택트! 이것으로 황국은 구원받았\n다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,0,0",
+        "voice": "GAE29012,3"
+      },
+      "original": "ありがとうございます。\nオレも、これで肩の荷が下りましたよ。\n",
+      "translation": "감사합니다. 저도, 이것으로 마음의 짐을\n덜었네요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "022,0,0,0",
+        "voice": "GAE29013,3"
+      },
+      "original": "それにしても、クロノ・ブレイク・キャノンって、\nすごい威力でしたね。\nあたし、びっくりしちゃいました！\n",
+      "translation": "그나저나, 크로노・브레이크・캐논이란 건,\n굉장한 위력이네요. 저, 깜짝 놀랐다니까요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "062,0,0,0",
+        "voice": "GAE29014,3"
+      },
+      "original": "でも、それを撃てたのも、アタシたちがまわりの\n敵を片づけてあげたからよ。\nルフト准将、ボーナスの査定はよろしくね★\n",
+      "translation": "하지만, 그걸 쏠 수 있었던 것도, 우리가\n주변의 적을 정리해줬기 때문이야. 루프트\n준장, 보너스 평가는 잘 부탁해★\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "009",
+        "face": "253,0,0,0",
+        "voice": "GAE29015,3"
+      },
+      "original": "はっはっは、こりゃかなわんのう。\n",
+      "translation": "핫핫하, 이건 당해낼 수가 없구먼.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAE29015,3"
+      },
+      "original": "何にしても、これでこのクーデター騒ぎも終結だ。\nみんな、本当にありがとう。\n",
+      "translation": "어찌 됐든, 이것으로 이 쿠데타 소동도\n종결이다. 모두, 정말 고맙다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "122,0,0,0",
+        "voice": "GAE29016,3"
+      },
+      "original": "お礼を申し上げるのは、私たちの方ですわ。\n",
+      "translation": "감사를 드려야 하는 건, 저희 쪽입니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "200,0,0,0",
+        "voice": "GAE29017,3"
+      },
+      "original": "タクトさんのおかげで、勝つことができました。\n",
+      "translation": "택트 씨 덕분에, 이길 수 있었습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "022,0,0,0",
+        "voice": "GAE29018,3"
+      },
+      "original": "本当にありがとうございます、タクトさん！\n",
+      "translation": "정말 감사합니다, 택트 씨!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,0,0",
+        "voice": "GAE29018,3"
+      },
+      "original": "いや、オレは自分にできることをやっただけさ。\nさてと、それじゃ『白き月』に凱旋といこうか。\n",
+      "translation": "아니, 난 내가 할 수 있는 일을 했을 뿐이야. 자, 그럼 『백색 달』로 개선하러 가 볼까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "174,0,0,0",
+        "voice": "GAE29019,3"
+      },
+      "original": "よーし！\n勝利を祝って、今日はパーッとやろうじゃないの！\n",
+      "translation": "좋아! 승리를 축하하며, 오늘은 신나게\n놀아보자고!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "089,0,0,0",
+        "voice": "GAE29020,3"
+      },
+      "original": "さんせーい！\n",
+      "translation": "찬성이다─!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,0,0",
+        "voice": "GAE29020,3"
+      },
+      "original": "あははは、そうしよう！\n",
+      "translation": "아하하하, 그러자고!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "speaker": "013",
+        "face": "338,0,0,0",
+        "voice": "GAE29021,3"
+      },
+      "original": "ふふっ……ふふふふ……。\n",
+      "translation": "후훗…… 후후후후……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "voice": "GAE29021,3",
+        "speaker": "001",
+        "face": "006,0,0,0"
+      },
+      "original": "ん？\n今の声は何だ？\n",
+      "translation": "응? 방금 그 목소리는 뭐지?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "503,0,0,0",
+        "voice": "GAE29022,3"
+      },
+      "original": "が、外部からの通信です！\nこちらの通信システムに、強力な割り込みがかけ\nられています！\n",
+      "translation": "가, 외부로부터의 통신입니다! 이쪽 통신\n시스템에 강력한 끼어들기가 걸려 있습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "speaker": "013",
+        "face": "338,0,0,0",
+        "voice": "GAE29023,3"
+      },
+      "original": "人間というものには、感心させられた。\n紋章機のＨ．Ａ．Ｌ．Ｏ．システムを使いこなし、\n私の造った最高傑作をも破ったのだからな。\n",
+      "translation": "인간이라는 존재는, 감탄스럽군. 문장기의\nH.A.L.O. 시스템을 능숙하게 다루며, 내가\n만든 최고 걸작마저 격파했으니까 말이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GAE29023,3"
+      },
+      "original": "き、君は……？\n確か、前にどこかで……。\n",
+      "translation": "너, 너는……? 분명 전에 어디선가……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "speaker": "013",
+        "face": "338,0,0,0",
+        "voice": "GAE29024,3"
+      },
+      "original": "『白き月』と人間は、私があずかり知らぬうちに、\n　さらに進歩していたようだ。\n",
+      "translation": "『백색 달』과 인간은, 내가 모르는 사이에\n한층 더 진보해 있었던 모양이군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0036",
+      "channel": 1,
+      "context": {
+        "speaker": "013",
+        "face": "338,0,0,0",
+        "voice": "GAE29025,3"
+      },
+      "original": "だが……そのおかげで、私もまた進化することが\nできた。\n",
+      "translation": "하지만…… 그 덕분에 나 또한 진화할 수\n있었다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0037",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GAE29026,3"
+      },
+      "original": "こいつ、何を言ってやがるんだ？\n何だか、気味が悪いな……。\n",
+      "translation": "이 녀석, 무슨 소리를 지껄이는 거야? 왠지\n기분 나쁘네……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0038",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "007,0,0,0",
+        "voice": "GAE29026,3"
+      },
+      "original": "そうだ！\n君はこの前、格納庫で見かけた子だろう？\n確か、ノアって名前の……。\n",
+      "translation": "맞다! 너는 요전에 격납고에서 봤던 아이잖아?\n분명 노아라는 이름의……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0039",
+      "channel": 1,
+      "context": {
+        "voice": "GAE29027,3",
+        "speaker": "013",
+        "face": "336,0,452,0"
+      },
+      "original": "人間とは、まことに興味深い。\nそれだけの能力がありながら、私の造ったインター\nフェースには、簡単に気を許す。\n",
+      "translation": "인간이란, 참으로 흥미롭군. 그만한 능력을\n갖추고 있으면서도, 내가 만든 인터 페이스에는\n쉽게 마음을 열다니.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0040",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,452,0",
+        "voice": "GAE29027,3"
+      },
+      "original": "インターフェース……？\n",
+      "translation": "인터페이스……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0041",
+      "channel": 1,
+      "context": {
+        "speaker": "013",
+        "face": "336,0,452,0",
+        "voice": "GAE29028,3"
+      },
+      "original": "人間に似せた人形に、擬似人格とノアという名を\nつけただけだというのにな。\n",
+      "translation": "인간을 닮게 만든 인형에, 의사 인격과\n노아라는 이름을 붙였을 뿐인데 말이지.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0042",
+      "channel": 1,
+      "context": {
+        "speaker": "013",
+        "face": "336,0,452,0",
+        "voice": "GAE29029,3"
+      },
+      "original": "もっとも、エオニアがだまされてくれたおかげで、\n私も『白き月』と再びめぐり合うことができたの\nだから、感謝せねばなるまい。\n",
+      "translation": "뭐, 에오니아가 속아준 덕분에, 나도 『백색\n달』과 다시 만날 수 있었으니, 감사해야겠군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0043",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,452,0",
+        "voice": "GAE29029,3"
+      },
+      "original": "エ、エオニアだと！？\n",
+      "translation": "에, 에오니아라고!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0044",
+      "channel": 1,
+      "context": {
+        "speaker": "013",
+        "face": "336,0,452,0",
+        "voice": "GAE29030,3"
+      },
+      "original": "あの人間は、なかなか便利な存在だった。\n私の言うことを、いともたやすく信じ込み、よく\n働いてくれたよ。\n",
+      "translation": "그 인간은 꽤 편리한 존재였지. 내 말을 아주\n쉽게 믿어주고, 잘 움직여 주었거든.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0045",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,452,0",
+        "voice": "GAE29030,3"
+      },
+      "original": "お前は……お前は、いったい何者なんだ！？\n",
+      "translation": "너는…… 너는 대체 누구냐!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0046",
+      "channel": 1,
+      "context": {
+        "voice": "GAE29032,3",
+        "speaker": "013",
+        "face": "000,0,0,0"
+      },
+      "original": "私は……『黒き月』。\n",
+      "translation": "나는…… 『흑색 달』.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0047",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "007,0,0,0",
+        "voice": "GAE29032,3"
+      },
+      "original": "『黒き月』……！？\n　まさか、星そのものが意思を持って話しかけて\n　いるというのか？\n",
+      "translation": "『흑색 달』……!? 설마, 별 자체가 의지를\n가지고 말을 걸고 있다는 건가?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0048",
+      "channel": 1,
+      "context": {
+        "speaker": "013",
+        "face": "000,0,0,0",
+        "voice": "GAE29033,3"
+      },
+      "original": "私のことを忘れてはいまい、『白き月』よ。\n己と対をなす、双子星のことを。\n",
+      "translation": "나를 잊지는 않았겠지, 『백색 달』이여.\n자신과 쌍을 이루는, 쌍둥이 별에 대해서\n말이다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0049",
+      "channel": 1,
+      "context": {
+        "speaker": "013",
+        "face": "000,0,0,0",
+        "voice": "GAE29034,3"
+      },
+      "original": "さあ……『白き月』よ。\n我らが造られた真の目的を、今こそ果たそうぞ！\n",
+      "translation": "자…… 『백색 달』이여. 우리가 만들어진\n진정한 목적을, 지금이야말로 이루자꾸나!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b7800:dialogue:0050",
+      "channel": 1,
+      "context": {
+        "speaker": "013",
+        "face": "000,0,0,0",
+        "voice": "GAE29035,3"
+      },
+      "original": "お前とひとつになったとき、私はさらなる進化を\nとげるのだ！\nあはははははははははっ……！\n",
+      "translation": "너와 하나가 되었을 때, 나는 더욱한 진화를\n이루어낼 것이다! 아하하하하하하하하하……!\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

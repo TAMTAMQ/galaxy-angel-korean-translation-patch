@@ -1,0 +1,1493 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_00109800.txt",
+    "encoding": "cp932",
+    "sha256": "a578f04456d39628288424341ccafbc4acb6e802b3dfab539f70a1eec5bd0f69",
+    "dialogue_count": 114
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,026,0",
+        "voice": "GA823001,3"
+      },
+      "original": "あ、タクトさん。\nちょっといいですか？\n",
+      "translation": "아, 택트 씨. 잠시 괜찮을까요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,026,0",
+        "voice": "GA823001,3"
+      },
+      "original": "どうしたんだい、ミルフィー。\nやけにまじめな顔して。\n",
+      "translation": "무슨 일이야, 밀피. 유난히 진지한 얼굴을\n하고.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,047,0",
+        "voice": "GA823002,3"
+      },
+      "original": "実は、ランファのことなんですけど……。\n",
+      "translation": "실은, 란파에 대한 건데요……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,047,0",
+        "voice": "GA823002,3"
+      },
+      "original": "ランファが、どうかしたの？\n",
+      "translation": "란파가, 왜 그러니?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,027,0",
+        "voice": "GA823003,3"
+      },
+      "original": "ランファ、なんか様子がおかしくて。\nあたし、ちょっと心配で……。\n",
+      "translation": "란파, 뭔가 상태가 이상해서요. 저, 조금\n걱정돼서……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,027,0",
+        "voice": "GA823003,3"
+      },
+      "original": "様子がおかしいって、どんな風に？\n",
+      "translation": "상태가 이상하다니, 어떤 식으로?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,028,0",
+        "voice": "GA823004,3"
+      },
+      "original": "あたし、さっき食堂に行ったんです。\nそしたら、ランファがいたんですけど、深刻な顔\nして、何か手紙のようなものを書いてたんです。\n",
+      "translation": "저, 아까 식당에 갔었거든요. 그랬더니 란파가\n있었는데, 심각한 얼굴로 편지 같은 것을 쓰고\n있었어요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,028,0",
+        "voice": "GA823004,3"
+      },
+      "original": "手紙くらい、誰だって書くだろう？\n",
+      "translation": "편지 정도는 누구나 쓰잖아?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,028,0",
+        "voice": "GA823005,3"
+      },
+      "original": "だけど、ランファったら、その手紙を書きながら、\n何かブツブツひとりごとを言ってたんです。\n気になって、こっそり聞いてみたら……。\n",
+      "translation": "하지만 란파 말이에요, 그 편지를 쓰면서 뭔가\n중얼중얼 혼잣말을 하고 있었어요. 궁금해서\n몰래 들어봤더니……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,027,0",
+        "voice": "GA823006,3"
+      },
+      "original": "「もうだめだ」とか、「天国」だとかって言って\n　たんですよ！\n",
+      "translation": "「이제 끝이야」라느니, 「천국」이라느니\n말하고 있었다고요!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "007,0,027,0",
+        "voice": "GA823006,3"
+      },
+      "original": "何だって！？\nそれは本当なのか？\n",
+      "translation": "뭐라고!? 그게 정말인가?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "face": "021,0,028,0",
+        "voice": "GA823007,3",
+        "speaker": "002"
+      },
+      "original": "間違いないです。\nしかも、あたしに気がついたら、あわてて手紙を\n隠して行っちゃいました。\n",
+      "translation": "틀림없어요. 게다가 제가 눈치채니까, 서둘러\n편지를 숨기고 가버렸어요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,047,0",
+        "voice": "GA823008,3"
+      },
+      "original": "それであたし、もしかして遺書を書いていたんじゃ\nないかって、心配になって……。\n",
+      "translation": "그래서 저, 혹시 유서를 쓰고 있었던 게\n아닐까 하고, 걱정돼서……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "voice": "GA823008,3",
+        "speaker": "001",
+        "face": "007,0,047,0"
+      },
+      "original": "い、遺書ぉ！？\n",
+      "translation": "유, 유서라고!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,025,0",
+        "voice": "GA823009,3"
+      },
+      "original": "タクトさん、お願いがあるんです。\nランファの様子を見てきてもらえませんか？\n",
+      "translation": "택트 씨, 부탁이 있어요. 란파의 상태를 좀\n보고 와 주시겠어요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,025,0",
+        "voice": "GA823009,3"
+      },
+      "original": "う～む……。\n",
+      "translation": "으음……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "voice": "GA823009,3",
+        "speaker": "001",
+        "face": "003,0,025,0"
+      },
+      "original": "わかった、すぐにランファと話をしてみるよ。\n",
+      "translation": "알았어, 바로 란파와 이야기를 해 볼게.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,046,0",
+        "voice": "GA823010,3"
+      },
+      "original": "ありがとうございます！\nタクトさんだったら、そう言ってくれると信じて\nました。\n",
+      "translation": "감사합니다! 택트 씨라면, 그렇게 말해 줄\n거라고 믿고 있었어요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,046,0",
+        "voice": "GA823010,3"
+      },
+      "original": "もしそれが本当なら、放っておけないもんな。\nランファが遺書を書くほど悩んでいたなんて。\n",
+      "translation": "만약 그게 사실이라면, 그냥 둘 수 없겠군.\n란파가 유서를 쓸 정도로 고민하고 있었다니.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "voice": "GA823010,3",
+        "speaker": "001",
+        "face": "004,0,046,0"
+      },
+      "original": "いや……もしかしたら、『黒き月』と戦うことに\n絶望して……。\nだとしたら、司令官であるオレのせいだ。\n",
+      "translation": "아니…… 어쩌면, 『흑색 달』과 싸우는 것에\n절망해서…… 그렇다면, 사령관인 내 탓이다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,046,0",
+        "voice": "GA823010,3"
+      },
+      "original": "ともかく、すぐに行ってくるよ。\n大丈夫、任せておいて。\n",
+      "translation": "어쨌든, 바로 다녀올게. 괜찮아, 맡겨 둬.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,025,0",
+        "voice": "GA823011,3"
+      },
+      "original": "よろしくお願いします。\nタクトさんになら、ランファも本心を打ち明けて\nくれると思います。\n",
+      "translation": "잘 부탁드려요. 택트 씨라면, 란파도 본심을\n털어놓아 줄 거라고 생각해요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,025,0",
+        "voice": "GA823011,3"
+      },
+      "original": "気にすることないよ。\nランファが遺書を書くような性格じゃないことは、\nミルフィーもよく知ってるだろ？\n",
+      "translation": "걱정할 거 없어. 란파가 유서를 쓸 성격이\n아니라는 건, 밀피도 잘 알고 있잖아?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "voice": "GA823012,3",
+        "speaker": "002",
+        "face": "021,0,047,0"
+      },
+      "original": "そうなんですけど……。\n",
+      "translation": "그렇긴 하지만……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "face": "021,0,028,0",
+        "speaker": "002",
+        "voice": "GA823013,3"
+      },
+      "original": "でも、やっぱり気になります。\nあのときのランファ、やけに思いつめた顔をして\nいましたし。\n",
+      "translation": "하지만, 역시 신경 쓰여요. 그때의 란파,\n유난히 막다른 길에 몰린 듯한 얼굴을 하고\n있었으니까요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,028,0",
+        "voice": "GA823013,3"
+      },
+      "original": "う～ん、ミルフィーがそこまで言うとなると……。\nやっぱり何かあるのかな。\n",
+      "translation": "으음, 밀피가 그렇게까지 말한다면…… 역시\n뭔가 있는 걸까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,028,0",
+        "voice": "GA823013,3"
+      },
+      "original": "……今の苦しい状況で思い悩んだあげく、最悪の\n手段に……という可能性も、考えられないわけじゃ\nないな。\n",
+      "translation": "……지금의 괴로운 상황에서 고민에 고민을\n거듭한 끝에, 최악의 수단에……라는 가능성도,\n생각할 수 없는 건 아니네.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "voice": "GA823014,3",
+        "speaker": "002",
+        "face": "021,0,023,0"
+      },
+      "original": "きっとそれですよ！\nタクトさん、どうしましょう？\n",
+      "translation": "분명 그거예요! 택트 씨, 어떡하죠?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,023,0",
+        "voice": "GA823014,3"
+      },
+      "original": "落ち着いて、ミルフィー。\nとにかく、ランファに話を聞いてくるよ。\nオレも心配になってきた。\n",
+      "translation": "진정해, 밀피. 어쨌든, 란파에게 이야기를\n듣고 올게. 나도 걱정되기 시작했어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "face": "021,0,028,0",
+        "speaker": "002",
+        "voice": "GA823015,3"
+      },
+      "original": "はい。\nお願いします、タクトさん。\n",
+      "translation": "네. 부탁해요, 택트 씨.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "face": "012,0,025,0",
+        "speaker": "001",
+        "voice": "GA823015,3"
+      },
+      "original": "やっぱり信じられないなぁ。\nランファが遺書だなんて、そんなバカバカしい。\n何かの間違いじゃないの？\n",
+      "translation": "역시 믿기지 않는걸. 란파가 유서라니, 그런\n말도 안 되는 소리가. 무슨 착오 아니야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,053,0",
+        "voice": "GA823016,3"
+      },
+      "original": "本当なんですってば！\nあたし、この目で見たんですから！\n",
+      "translation": "정말이라니까요! 저, 이 눈으로 봤단 말이에요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,047,0",
+        "voice": "GA823017,3"
+      },
+      "original": "タクトさんになら、ランファも悩みを打ち明けて\nくれると思って相談したのに……。\nタクトさんが、そんな冷たい人だったなんて。\n",
+      "translation": "택트 씨라면, 란파도 고민을 털어놓아 줄\n거라고 생각해서 상담한 건데…… 택트 씨가,\n그렇게 차가운 사람이라니.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,025,0",
+        "voice": "GA823018,3"
+      },
+      "original": "きっと、ランファが思いつめているのも、タクト\nさんがそんな人だからですよ！\n",
+      "translation": "분명, 란파가 막다른 길에 몰린 것도, 택트\n씨가 그런 사람이기 때문이에요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,025,0",
+        "voice": "GA823018,3"
+      },
+      "original": "そ、そうなのかなぁ……。\n",
+      "translation": "그, 그럴까……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0036",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,023,0",
+        "voice": "GA823019,3"
+      },
+      "original": "急いでください、タクトさん！\n早くしないと、ランファが死んじゃう！\n",
+      "translation": "서둘러 주세요, 택트 씨! 빨리 하지 않으면,\n란파가 죽어버려요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0037",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,023,0",
+        "voice": "GA823019,3"
+      },
+      "original": "わ、わかった。\nそこまで言われると、オレも気になってきたよ。\nランファに話を聞いてみる。\n",
+      "translation": "아, 알았어. 그렇게까지 말하니, 나도 신경\n쓰이기 시작했어. 란파에게 이야기를 들어볼게.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0038",
+      "channel": 1,
+      "context": {
+        "voice": "GA823019,3",
+        "speaker": "001",
+        "face": "011,0,0,0"
+      },
+      "original": "はぁ……はぁ……。\nランファ、無事でいてくれ……！\n",
+      "translation": "하아…… 하아…… 란파, 무사해줘라……!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0039",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GA823019,3"
+      },
+      "original": "ランファ、いるかい？\n話があるんだ、ここを開けてくれ！\n",
+      "translation": "란파, 안에 있어? 할 말이 있으니까, 문 좀\n열어줘!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0040",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "087,0,0,0",
+        "voice": "GA823020,3"
+      },
+      "original": "はーい、ちょっと待ってて！\n",
+      "translation": "네～ 잠시만 기다려 줘!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0041",
+      "channel": 1,
+      "context": {
+        "voice": "GA823021,3",
+        "speaker": "003",
+        "face": "061,0,065,0"
+      },
+      "original": "あら、タクトじゃない。\nどうしたの？\n",
+      "translation": "어머, 택트 아니니. 무슨 일이야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0042",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,065,0",
+        "voice": "GA823021,3"
+      },
+      "original": "よかった、まだ無事だったか……。\n",
+      "translation": "다행이다, 아직 무사했구나……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0043",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,065,0",
+        "voice": "GA823022,3"
+      },
+      "original": "へ？\n何が無事だったって？\n",
+      "translation": "에? 뭐가 무사하다는 거니?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0044",
+      "channel": 1,
+      "context": {
+        "face": "012,0,065,0",
+        "speaker": "001",
+        "voice": "GA823022,3"
+      },
+      "original": "いや、その……。\nここじゃ何だから、よかったら中に入れてもらえ\nないか？\n",
+      "translation": "아니, 그게…… 여기서는 좀 그러니까,\n괜찮다면 안으로 들여보내 주지 않을래?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0045",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,088,0",
+        "voice": "GA823023,3"
+      },
+      "original": "別にかまわないけど？\nどうぞ、入って。\n",
+      "translation": "딱히 상관없지만 말이야. 어서 들어오렴.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0046",
+      "channel": 1,
+      "context": {
+        "face": "061,0,088,0",
+        "speaker": "003",
+        "voice": "GA823024,3"
+      },
+      "original": "ごめんねー。\nお茶とかお菓子とか、今切らしちゃってるのよ。\n",
+      "translation": "미안해～. 차나 과자 같은 건, 지금 다\n떨어졌거 든.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0047",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,088,0",
+        "voice": "GA823024,3"
+      },
+      "original": "いや、けっこうだ。\nさっそく本題に入りたいんだけど。\n",
+      "translation": "아니, 괜찮아. 곧바로 본론으로 들어가고\n싶은데.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0048",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,069,0",
+        "voice": "GA823025,3"
+      },
+      "original": "どうしたの、そんなにマジメな顔して？\n",
+      "translation": "왜 그래, 그렇게 진지한 얼굴을 하고?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0049",
+      "channel": 1,
+      "context": {
+        "face": "003,0,069,0",
+        "speaker": "001",
+        "voice": "GA823025,3"
+      },
+      "original": "ミルフィーから聞いたんだけど、何か悩みがある\nみたいだね。\nオレでよければ、相談に乗るよ？\n",
+      "translation": "밀피에게 들었는데, 뭔가 고민이 있는 것\n같네. 나로 괜찮다면, 상담해 줄게?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0050",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,065,0",
+        "voice": "GA823026,3"
+      },
+      "original": "悩み？\n別にないわよ、そんなもの。\n",
+      "translation": "고민? 딱히 없어, 그런 거.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0051",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,065,0",
+        "voice": "GA823026,3"
+      },
+      "original": "隠さなくてもいい。\nオレは、司令官としては未熟かもしれないけど、\nランファが悩んでるのを放っておけないよ。\n",
+      "translation": "숨기지 않아도 돼. 내가 지휘관으로서는\n미숙할지도 모르지만, 란파가 고민하고 있는\n걸 그냥 둘 순 없어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0052",
+      "channel": 1,
+      "context": {
+        "face": "061,0,066,0",
+        "speaker": "003",
+        "voice": "GA823027,3"
+      },
+      "original": "はぁ？\n何のこと？\n",
+      "translation": "하아? 무슨 소리야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0053",
+      "channel": 1,
+      "context": {
+        "face": "003,0,066,0",
+        "voice": "GA823027,3",
+        "speaker": "001"
+      },
+      "original": "もし、オレの指揮に不満があるのなら、ハッキリ\nそう言ってくれ。\nひとりで悩みを抱え込まないでくれ。\n",
+      "translation": "만약 내 지휘에 불만이 있다면, 확실히 그렇게\n말해줘. 혼자서 고민을 떠안지 말아줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0054",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,069,0",
+        "voice": "GA823028,3"
+      },
+      "original": "あのー……。\nぜんぜん、話が見えないんだけど？\n",
+      "translation": "저기…… 전혀, 무슨 상황인지 모르겠는데?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0055",
+      "channel": 1,
+      "context": {
+        "voice": "GA823028,3",
+        "face": "004,0,069,0",
+        "speaker": "001"
+      },
+      "original": "だけど、遺書を書くほど不安に思っていたなんて、\nオレもけっこうショックだよ。\nそんなに、君を追いつめていたなんて……。\n",
+      "translation": "그렇지만, 유서를 쓸 정도로 불안해하고\n있었다니, 나도 꽤 충격이야. 그렇게 너를\n몰아붙이고 있었다니……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0056",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,071,0",
+        "voice": "GA823029,3"
+      },
+      "original": "遺書ぉ！？\n",
+      "translation": "유서어!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0057",
+      "channel": 1,
+      "context": {
+        "face": "004,0,071,0",
+        "voice": "GA823029,3",
+        "speaker": "001"
+      },
+      "original": "本当にすまない。\nこれからは、ケガひとつさせないように気を配る。\nだから、そんなに思いつめないでくれ。\n",
+      "translation": "정말 미안해. 앞으로는, 상처 하나 입히지\n않도록 주의할게. 그러니까, 그렇게 자책하지\n말아줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0058",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,065,0",
+        "voice": "GA823030,3"
+      },
+      "original": "ねぇねぇ。\n遺書って、誰の？\n",
+      "translation": "있잖아. 유서라는 거, 누구 거야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0059",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,065,0",
+        "voice": "GA823030,3"
+      },
+      "original": "ランファのに決まってるだろ。\n",
+      "translation": "란파의 것이 뻔하잖아.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0060",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,066,0",
+        "voice": "GA823031,3"
+      },
+      "original": "アタシ？\nアタシが遺書をどうしたっての？\n",
+      "translation": "내가? 내가 유서를 어떻게 했다는 거야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0061",
+      "channel": 1,
+      "context": {
+        "face": "003,0,066,0",
+        "voice": "GA823031,3",
+        "speaker": "001"
+      },
+      "original": "だから、遺書を書いたんだろ？\nミルフィーがそう言ってたよ。\n",
+      "translation": "그러니까, 유서를 썼다며? 밀피가 그렇게\n말했어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0062",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,065,0",
+        "voice": "GA823032,3"
+      },
+      "original": "ミルフィーが？\nアタシが、遺書を書いてたって？\n",
+      "translation": "밀피가? 내가, 유서를 쓰고 있었다고?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0063",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,065,0",
+        "voice": "GA823032,3"
+      },
+      "original": "さっき食堂で書いてたんだろ？\nミルフィーが心配して、オレのところに相談しに\nきたんだ。\n",
+      "translation": "아까 식당에서 쓰고 있었잖아? 밀피가\n걱정하며, 나에게 상담하러 왔었어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0064",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,062,0",
+        "voice": "GA823033,3"
+      },
+      "original": "……ははーん。\nようやく話が見えてきたわ。\n",
+      "translation": "……흐음. 이제야 이야기가 보이네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0065",
+      "channel": 1,
+      "context": {
+        "voice": "GA823034,3",
+        "speaker": "003",
+        "face": "061,0,094,0"
+      },
+      "original": "あははは、なーるほど。\nそういうことかぁ。\n",
+      "translation": "아하하하, 그렇구나. 그런 거였어?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0066",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,094,0",
+        "voice": "GA823034,3"
+      },
+      "original": "何で笑うんだよ？\nオレは真剣なんだぞ。\n",
+      "translation": "왜 웃는 거야? 난 진지하다고.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0067",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,061,0",
+        "voice": "GA823035,3"
+      },
+      "original": "あのねぇ、タクト。\nアタシ、遺書なんて書いてないわよ。\n",
+      "translation": "있잖아, 택트. 나, 유서 같은 건 안 썼어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0068",
+      "channel": 1,
+      "context": {
+        "voice": "GA823035,3",
+        "speaker": "001",
+        "face": "007,0,061,0"
+      },
+      "original": "何だって！？\n",
+      "translation": "뭐라고!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0069",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,066,0",
+        "voice": "GA823036,3"
+      },
+      "original": "きっと、故郷の家族にあてた手紙を、ミルフィー\nが勝手に遺書だとカン違いしたのよ。\n",
+      "translation": "분명, 고향의 가족에게 쓰는 편지를, 밀피가\n멋대로 유서라고 착각한 거야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0070",
+      "channel": 1,
+      "context": {
+        "face": "006,0,066,0",
+        "voice": "GA823036,3",
+        "speaker": "001"
+      },
+      "original": "　だって、手紙を書きながら『もうだめだ』とか\n『天国』とかって言ってたんだろ？\n",
+      "translation": "그치만, 편지를 쓰면서 『이제 끝이야』라든가\n『천국』이라든가 말했었잖아?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0071",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,063,0",
+        "voice": "GA823037,3"
+      },
+      "original": "ああ、それはちょうど、この前の舞踏会のことを\n書いてたからよ。\n思ってたことが、つい口に出ちゃったのね。\n",
+      "translation": "아아, 그건 마침 지난번 무도회에 대해서 쓰고\n있었으니까 그래. 생각했던 게, 나도 모르게\n입 밖으로 나와버린 거야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0072",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,063,0",
+        "voice": "GA823037,3"
+      },
+      "original": "舞踏会……？\nますますわからなくなってきた。\nもっとくわしく説明してくれよ。\n",
+      "translation": "무도회……? 점점 더 모르겠어지기 시작했어.\n좀 더 자세히 설명해 줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0073",
+      "channel": 1,
+      "context": {
+        "face": "061,0,070,0",
+        "voice": "GA823038,3",
+        "speaker": "003"
+      },
+      "original": "　その……笑わないでよ？\n『もうだめだ』っていうのはね、足が痛くて歩け\n　なくなったときのことなの。\n",
+      "translation": "그…… 웃지 마! 『이제 안 돼』라는 건\n말이야, 다리가 아파서 걸을 　수 없게 됐을\n때를 말하는 거야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0074",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "007,0,070,0",
+        "voice": "GA823038,3"
+      },
+      "original": "ああ、あのときの！\n何だ、そうだったのか……。\n",
+      "translation": "아아, 그때의! 뭐야, 그랬던 건가……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0075",
+      "channel": 1,
+      "context": {
+        "face": "005,0,070,0",
+        "voice": "GA823038,3",
+        "speaker": "001"
+      },
+      "original": "それじゃ、『天国』ってのは？\n舞踏会が開かれたのは、天国じゃないぞ？\n",
+      "translation": "그럼, 『천국』이라는 건? 무도회가 열린 곳은\n천국이 아니라고?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0076",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,070,0",
+        "voice": "GA823039,3"
+      },
+      "original": "それは……その……。\n……だったから……。\n",
+      "translation": "그건…… 그게…… ……였으니까……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0077",
+      "channel": 1,
+      "context": {
+        "voice": "GA823039,3",
+        "speaker": "001",
+        "face": "006,0,070,0"
+      },
+      "original": "えっ？\nよく聞こえないよ。\nもっとハッキリ言ってくれ。\n",
+      "translation": "엣? 잘 안 들려. 좀 더 확실히 말해줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0078",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,070,0",
+        "voice": "GA823040,3"
+      },
+      "original": "……だから、その……。\nタクトと……。\n",
+      "translation": "……그러니까, 그게…… 택트랑……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0079",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "063,0,0,0",
+        "voice": "GA823041,3"
+      },
+      "original": "タクトと踊れて幸せだったから、まるで『天国』\nにいるみたいな気がしたってことよ。\n",
+      "translation": "택트와 춤출 수 있어서 행복했으니까, 마치\n『천국』 에 있는 것 같은 기분이 들었다는\n거야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0080",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GA823041,3"
+      },
+      "original": "え……。\n",
+      "translation": "에……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0081",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "063,0,0,0",
+        "voice": "GA823042,3"
+      },
+      "original": "あーもう、恥ずかしいわねっ！\nこんなこと、女の子の口から言わせないでよ！\n",
+      "translation": "아 정말, 창피해! 이런 거, 여자애 입으로\n말하게 하지 마!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0082",
+      "channel": 1,
+      "context": {
+        "face": "008,0,0,0",
+        "speaker": "001",
+        "voice": "GA823042,3"
+      },
+      "original": "そ、そうだったのか。\nそれを聞いたミルフィーが、誤解したんだな。\nなーんだ、人騒がせだなぁ。\n",
+      "translation": "그, 그랬던 건가. 그걸 들은 밀피가 오해한\n거구나. 뭐야, 사람 놀라게 하기는.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0083",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "066,0,0,0",
+        "voice": "GA823043,3"
+      },
+      "original": "ミルフィーはそそっかしいんだから、言うことを\nそのまま素直に聞く方が悪いのよ。\n",
+      "translation": "밀피는 덜렁대니까, 하는 말을 그대로 곧이곧대\n로 듣는 쪽이 잘못이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0084",
+      "channel": 1,
+      "context": {
+        "face": "012,0,0,0",
+        "speaker": "001",
+        "voice": "GA823043,3"
+      },
+      "original": "あはは……。\n何にせよ、ホッとしたよ。\nよかったぁ。\n",
+      "translation": "아하하…… 어쨌든 안심했어. 다행이다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0085",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "068,0,0,0",
+        "voice": "GA823044,3"
+      },
+      "original": "まったく、ミルフィーの早とちりにも困ったもん\nよねぇ。\n",
+      "translation": "정말이지, 밀피의 성급함도 못 말린다니까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0086",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "087,0,0,0",
+        "voice": "GA823045,3"
+      },
+      "original": "……だけど、ちょっぴりうれしいわ。\nアタシのこと、心配してくれたんでしょ？\n",
+      "translation": "……하지만, 조금은 기뻐. 나를 걱정해 준\n거지?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0087",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "087,0,0,0",
+        "voice": "GA823046,3"
+      },
+      "original": "ドアの前に立ってたとき、息が切れてたもの。\nそれって、走ってきたからでしょう？\n",
+      "translation": "문 앞에 서 있었을 때, 숨이 차 있었는걸.\n그건 달려왔기 때문이지?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0088",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,0,0",
+        "voice": "GA823046,3"
+      },
+      "original": "そりゃそうだよ。\nランファのことなら、どんなことでも気になるし。\n本当に心配したんだぞ？\n",
+      "translation": "당연하지. 란파 일이라면 뭐든지 신경 쓰인다\n고 . 정말로 걱정했단 말이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0089",
+      "channel": 1,
+      "context": {
+        "voice": "GA823047,3",
+        "speaker": "003",
+        "face": "089,0,0,0"
+      },
+      "original": "やっぱりそうだったんだ！\nありがとう、タクト。\n",
+      "translation": "역시 그랬구나! 고마워, 택트.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0090",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "087,0,0,0",
+        "voice": "GA823048,3"
+      },
+      "original": "じゃあさ、お礼に今度は、アタシが相談に乗って\nあげるわ。\n悩み事があったら、何でも気軽に言ってね。\n",
+      "translation": "그럼 말이야, 답례로 다음번엔 내가 상담해\n줄게. 고민이 있으면 뭐든지 편하게 말해줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0091",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,0,0",
+        "voice": "GA823048,3"
+      },
+      "original": "ああ……でも、もう大丈夫。\nランファの笑顔を見ていたら、悩みなんて全部、\n吹っ飛んだよ。\n",
+      "translation": "아아…… 하지만 이제 괜찮아. 란파의 웃는\n얼굴을 보고 있으니, 고민 따위 전부 날아가\n버렸어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0092",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "063,0,0,0",
+        "voice": "GA823049,3"
+      },
+      "original": "な、何よそれ。\nバカね……。\n",
+      "translation": "뭐, 뭐야 그게. 바보 같긴……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0093",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,0,0",
+        "voice": "GA823049,3"
+      },
+      "original": "あははは。\nでも、本当によかった。\n安心したよ。\n",
+      "translation": "아하하하. 그래도 정말 다행이야. 안심했어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0094",
+      "channel": 1,
+      "context": {
+        "face": "001,0,0,0",
+        "speaker": "001",
+        "voice": "GA823049,3"
+      },
+      "original": "じゃあ、オレは部屋に戻るよ。\nおやすみ。\n",
+      "translation": "그럼, 난 방으로 돌아갈게. 잘 자.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0095",
+      "channel": 1,
+      "context": {
+        "voice": "GA823050,3",
+        "speaker": "003",
+        "face": "061,0,0,0"
+      },
+      "original": "うん。\nおやすみ、タクト。\n",
+      "translation": "응. 잘 자, 택트.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0096",
+      "channel": 1,
+      "context": {
+        "face": "012,0,070,0",
+        "voice": "GA823050,3",
+        "speaker": "001"
+      },
+      "original": "人騒がせだなぁ。\nこっちは心配していたのに。\n",
+      "translation": "사람 놀라게 하기는. 이쪽은 걱정하고 있었는\n데 .\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0097",
+      "channel": 1,
+      "context": {
+        "voice": "GA823051,3",
+        "speaker": "003",
+        "face": "061,0,066,0"
+      },
+      "original": "アタシのせいにしないでよ。\n勝手にカン違いして騒いでただけじゃない。\n",
+      "translation": "내 탓으로 돌리지 마. 멋대로 착각해서 소란\n피운 것뿐이잖아.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0098",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,066,0",
+        "voice": "GA823052,3"
+      },
+      "original": "だいたい、ミルフィーの天然ボケは今に始まった\nことじゃないんだから、いいかげん慣れなさいよ。\n",
+      "translation": "애초에, 밀피의 천연 보케는 어제오늘 일도\n아니니까, 적당히 좀 익숙해지라고.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0099",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,066,0",
+        "voice": "GA823052,3"
+      },
+      "original": "うーむ、それもそうか……。\nでも、何事もなくて本当によかったよ。\n",
+      "translation": "으음, 그것도 그렇네…… 그래도, 아무 일\n없어서 정말 다행이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0100",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,062,0",
+        "voice": "GA823053,3"
+      },
+      "original": "あってたまるもんですか。\n心配してくれるのは、ありがたいけどね。\n",
+      "translation": "아무 일 없긴 개뿔이. 걱정해 주는 건 고맙지만\n말이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0101",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,062,0",
+        "voice": "GA823053,3"
+      },
+      "original": "そうだな。\nじゃあ、オレは部屋に戻るよ。\nおやすみ。\n",
+      "translation": "그렇네. 그럼, 난 방으로 돌아갈게. 잘 자.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0102",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,070,0",
+        "voice": "GA823053,3"
+      },
+      "original": "あはははは！\nなーんだ、そういうことだったのかぁ！\n心配して損したよ。\n",
+      "translation": "아하하하하! 뭐야, 그런 거였어! 걱정해서\n손해 봤네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0103",
+      "channel": 1,
+      "context": {
+        "face": "061,0,073,0",
+        "speaker": "003",
+        "voice": "GA823054,3"
+      },
+      "original": "笑うなって言ったでしょ！\nアタシの気も知らないで！\n",
+      "translation": "웃지 말라고 했잖아! 내 마음도 모르면서!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0104",
+      "channel": 1,
+      "context": {
+        "face": "012,0,073,0",
+        "speaker": "001",
+        "voice": "GA823054,3"
+      },
+      "original": "ランファこそ。\nオレは、てっきり遺書を書いてるのかと思って、\nびっくりしたんだから。\n",
+      "translation": "란파야말로. 난, 정말로 유서를 쓰고 있는 줄\n알고, 깜짝 놀랐단 말이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0105",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,070,0",
+        "voice": "GA823055,3"
+      },
+      "original": "おおかた、ミルフィーが早とちりしたんでしょ。\nホント、人騒がせなんだから。\n",
+      "translation": "보아하니, 밀피가 성급하게 판단한 거겠지.\n정말이지, 사람을 들었다 놨다 한다니까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0106",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,070,0",
+        "voice": "GA823055,3"
+      },
+      "original": "いや、まったく。\nところで、『天国』ってのは何だったの？\n",
+      "translation": "아니, 정말이지. 그건 그렇고, 『천국』이라는\n건 뭐였어?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0107",
+      "channel": 1,
+      "context": {
+        "voice": "GA823056,3",
+        "speaker": "003",
+        "face": "061,0,067,0"
+      },
+      "original": "教えない！\n誰が言うもんですか。\n",
+      "translation": "안 알려줘! 누가 말해준대?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0108",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,067,0",
+        "voice": "GA823056,3"
+      },
+      "original": "安心したら、逆に気になってきたよ。\n話して困ることでもないんだろ？\nだったら、教えてくれよ。\n",
+      "translation": "안심하니까 오히려 궁금해지네. 말한다고\n곤란할 것도 없잖아? 그렇다면, 알려줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0109",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,072,0",
+        "voice": "GA823057,3"
+      },
+      "original": "イ・ヤ・よっ！\n少なくとも、アンタにだけは、絶対に言わないん\nだから！\n",
+      "translation": "아・ㄴ・니! 적어도, 너한테만은, 절대로 말\n안 할 거니까!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0110",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,072,0",
+        "voice": "GA823057,3"
+      },
+      "original": "オレにだけは？\nどういうことだい？\n",
+      "translation": "나한테만? 그게 무슨 소리야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0111",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,070,0",
+        "voice": "GA823058,3"
+      },
+      "original": "な……何でもないわよ！\n用が終わったんなら、さっさと帰ってよ。\n",
+      "translation": "아…… 아무것도 아니야! 볼일 끝났으면, 얼른\n돌아가.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0112",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,070,0",
+        "voice": "GA823058,3"
+      },
+      "original": "わかった、わかった。\nだから、そう怒るなよ。\n",
+      "translation": "알았어, 알았다고. 그러니까, 그렇게 화내지\n마.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0113",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,070,0",
+        "voice": "GA823058,3"
+      },
+      "original": "じゃあ、オレはもう行くよ。\nおじゃましたね。\n",
+      "translation": "그럼, 난 이제 갈게. 방해했네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00109800:dialogue:0114",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,072,0",
+        "voice": "GA823059,3"
+      },
+      "original": "さっさと行きなさいよっ！\n",
+      "translation": "얼른 가버려!\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

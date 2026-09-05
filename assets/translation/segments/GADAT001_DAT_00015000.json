@@ -1,0 +1,141 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_00015000.txt",
+    "encoding": "cp932",
+    "sha256": "1ea5a28b938d4d66026808d3c6312cdaa4aaa384bbdbbb23eb6c491b1a1e1c06",
+    "dialogue_count": 10
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_00015000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,0,0",
+        "voice": "GA202001,3"
+      },
+      "original": "これがエルシオール内の様子です。\n色が赤く変わっているところは、移動可能な施設\nを表しています。\n",
+      "translation": "이것이 에르시올 내부의 모습입니다. 색이 붉게\n변해 있는 곳은, 이동 가능한 시설 을 나타냅니\n다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00015000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,021,0",
+        "voice": "GAPS300,3"
+      },
+      "original": "方向キーで選択すると、その施設の名前や、\n簡単な説明が出ます。そこで○ボタンを押すと、\nその施設に移動できます。\n",
+      "translation": "방향키로 선택하면, 그 시설의 이름이나,\n간단한 설명이 나옵니다. 거기서 ○버튼을\n누르면, 그 시설로 이동할 수 있습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00015000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,021,0",
+        "voice": "GAPS301,3"
+      },
+      "original": "艦内は、ＡからＤの４ブロックに分かれています。\n別のブロックを表示させたいときは、\nＬ１ボタンかＲ１ボタンを押してください。\n",
+      "translation": "함내는, A부터 D까지 4개의 블록으로 나뉘어\n있습니다. 다른 블록을 표시하고 싶을 때는,\nL1 버튼이나 R1 버튼을 눌러 주세요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00015000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,0,0",
+        "voice": "GA202004,3"
+      },
+      "original": "一部の施設に、誰かの顔が表示されていることが\nあります。\nそれは、その場所にその人がいるという意味です。\n",
+      "translation": "일부 시설에, 누군가의 얼굴이 표시되어 있는\n것이 있습니다. 그것은, 그 장소에 그 사람이\n있다는 의미입니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00015000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,022,0",
+        "voice": "GA202005,3"
+      },
+      "original": "もう一度、説明しましょうか？\n",
+      "translation": "다시 한번, 설명해 드릴까요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00015000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,022,0",
+        "voice": "GA202005,3"
+      },
+      "original": "いや、その必要はないよ。\nだいたいのことはわかった。\n",
+      "translation": "아니, 그럴 필요는 없어. 대강은 알겠어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00015000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA202005,3"
+      },
+      "original": "移動できる場所は、色が赤く変わっている。\nそれから、エンジェル隊の誰かがいる場所には、\n顔のマークが出るんだったな。\n",
+      "translation": "이동할 수 있는 장소는, 색이 붉게 변해 있다.\n그리고, 엔젤대의 누군가가 있는 장소에는,\n얼굴 마크가 나온다는 거였지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00015000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,0,0",
+        "voice": "GA202005,3"
+      },
+      "original": "顔マークがある場所から見ていくのも、いいかも\nしれないな。\nよし、出発しよう。\n",
+      "translation": "얼굴 마크가 있는 장소부터 살펴가는 것도,\n좋을지도 모르겠네. 좋아, 출발하자.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00015000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,022,0",
+        "voice": "GA202005,3"
+      },
+      "original": "悪いけど、もう一度教えてもらえるかな？\n",
+      "translation": "미안하지만, 다시 한번 알려줄 수 있을까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00015000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "voice": "GA202006,3",
+        "speaker": "002",
+        "face": "021,0,046,0"
+      },
+      "original": "お安いご用です。\nじゃあ、よく聞いていてくださいね。\n",
+      "translation": "식은 죽 먹기입니다. 그럼, 잘 들어 주세요.\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

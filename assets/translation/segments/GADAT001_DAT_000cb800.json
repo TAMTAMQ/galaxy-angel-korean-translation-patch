@@ -1,0 +1,517 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000cb800.txt",
+    "encoding": "cp932",
+    "sha256": "60f4508c5fa5024e4d85a0f12683110139d4224bfa187102807fee28f9548245",
+    "dialogue_count": 39
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,0,0"
+      },
+      "original": "それじゃ、オレはもう行くよ。\nみんな、元気でね！\n",
+      "translation": "그럼, 난 이만 가볼게. 모두, 잘 지내!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,028,0",
+        "voice": "GAF25001,3"
+      },
+      "original": "……エルシオール、もう見えなくなっちゃったね。\n",
+      "translation": "……에르시올, 이제 보이지 않게 되어버렸네.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,0,069",
+        "voice": "GAF25002,3"
+      },
+      "original": "正直、ちょっとさびしいわね。\n",
+      "translation": "솔직히, 조금 쓸쓸하네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,147,0,069",
+        "voice": "GAF25003,3"
+      },
+      "original": "そうだね。\nタクトだけじゃなく、ミントも……だからね。\n",
+      "translation": "그렇네. 택트뿐만 아니라, 민트도…… 그러니까\n말이야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,107,0",
+        "voice": "GAF25004,3"
+      },
+      "original": "私も、お名残惜しいですけれど……。\n",
+      "translation": "저도, 아쉬움이 남습니다만……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,102,0",
+        "voice": "GAF25005,3"
+      },
+      "original": "もう決めたことですもの。\nみなさんには、本当に感謝していますわ。\n",
+      "translation": "이미 결정한 일이니까요. 여러분께는, 정말로\n감사하고 있어요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,181,0,0",
+        "voice": "GAF25006,3"
+      },
+      "original": "このことは、タクトさんには伝えていないのです\nか……？\n",
+      "translation": "이 사실은, 택트 씨에게는 말하지 않은\n건가요……?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,109,0",
+        "voice": "GAF25007,3"
+      },
+      "original": "ええ。\n伝えるまでもありませんわ。\n",
+      "translation": "네. 말할 필요도 없으니까요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GAF25008,3"
+      },
+      "original": "エルシオール、全システム異常なし。\nあと１時間でクロノ・ドライヴに入ります。\n",
+      "translation": "에르시올, 전 시스템 이상 없음. 앞으로 1시간\n뒤에 크로노・드라이브에 진입합니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "face": "221,0,221,0",
+        "speaker": "007",
+        "voice": "GAF25009,3"
+      },
+      "original": "了解。\nこれでしばらく、トランスバール本星ともお別れ\nだな。\n",
+      "translation": "알았다. 이걸로 당분간, 트랜스벌 본성과도\n작별이 군.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "face": "001,0,221,0",
+        "speaker": "001",
+        "voice": "GAF25009,3"
+      },
+      "original": "まぁ、辺境調査の大役とはいえ、気楽に行こう、\n気楽に。\n",
+      "translation": "뭐, 변방 조사라는 중책이긴 하지만, 편하게\n가자고, 편하게.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "voice": "GAF25010,3",
+        "speaker": "007",
+        "face": "221,0,224,0"
+      },
+      "original": "やれやれ……お前はあいかわらずだな。\n",
+      "translation": "어휴…… 너는 여전하구나.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "face": "001,0,224,0",
+        "voice": "GAF25010,3",
+        "speaker": "001"
+      },
+      "original": "なに当たり前のこと言ってるんだ？\n",
+      "translation": "뭐, 당연한 소리를 하고 있어?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "face": "221,0,222,0",
+        "voice": "GAF25011,3",
+        "speaker": "007"
+      },
+      "original": "いや、別に。\n安心したってことだ。\n",
+      "translation": "아니, 딱히. 안심했다는 뜻이다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GAF25012,3"
+      },
+      "original": "後方より、正体不明の機影が急速に接近中！\n間もなく、本艦と接触します！\n",
+      "translation": "후방으로부터, 정체불명의 기영이 급속 접근\n중! 곧, 본함과 접촉합니다!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GAF25013,3"
+      },
+      "original": "なにっ！？\nまさか、エオニア軍の残党か！？\n",
+      "translation": "뭐라고!? 설마, 에오니아군 잔당인가!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,225,0",
+        "voice": "GAF25013,3"
+      },
+      "original": "心配いらないよ。\nそろそろ、来てくれると思ってた。\n",
+      "translation": "걱정할 것 없어. 슬슬, 와줄 거라고 생각했어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GAF25014,3"
+      },
+      "original": "はぁ……？\n",
+      "translation": "하아……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "492,0,0,0",
+        "voice": "GAF25015,3"
+      },
+      "original": "目標の識別ができました！\n紋章機……トリックマスターです！\n",
+      "translation": "목표의 식별이 완료되었습니다! 문장기……\n트릭 마스터입니다!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "502,0,0,0",
+        "voice": "GAF25016,3"
+      },
+      "original": "トリックマスター……ミントさんが！？\n",
+      "translation": "트릭 마스터…… 민트 씨가!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GAF25017,3"
+      },
+      "original": "どういうことだ……？\nタクト、お前、このことを知ってたのか？\n",
+      "translation": "어떻게 된 거지……? 택트, 너, 이 사실을\n알고 있었나?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,223,0",
+        "voice": "GAF25017,3"
+      },
+      "original": "いや、ぜんぜん。\n",
+      "translation": "아니, 전혀.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAF25017,3"
+      },
+      "original": "ただ、何となく、ミントが来てくれるような気が\nしてたんだ。\n",
+      "translation": "그냥, 왠지 모르게, 민트가 와줄 것 같은\n기분이 들었어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "face": "002,0,0,0",
+        "voice": "GAF25017,3",
+        "speaker": "001"
+      },
+      "original": "本当に、来てくれたんだな……。\nいろいろ、めんどうな手続きもあったろうに。\n",
+      "translation": "정말로, 와줬구나…… 여러 가지로, 번거로운\n절차도 있었을 텐데.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "492,0,0,0",
+        "voice": "GAF25018,3"
+      },
+      "original": "トリックマスター、本艦と並びました。\n",
+      "translation": "트릭 마스터, 본함과 나란히 섰습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "502,0,0,0",
+        "voice": "GAF25019,3"
+      },
+      "original": "司令、ミントさんと交信しますか？\n",
+      "translation": "사령관님, 민트 씨와 교신하시겠습니까?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "voice": "GAF25019,3",
+        "speaker": "001",
+        "face": "001,0,0,0"
+      },
+      "original": "いや……その必要はない。\nトリックマスターを収容してくれ。\n",
+      "translation": "아니…… 그럴 필요는 없다. 트릭 마스터를\n수용해 줘.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAF25019,3"
+      },
+      "original": "オレとミントの間に、言葉はいらない。\n……そうだろ、ミント。\n",
+      "translation": "나와 민트 사이에는, 말은 필요 없어. ……그렇\n지, 민트.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GAF25020,3"
+      },
+      "original": "あ……トリックマスターから通信です。\n",
+      "translation": "아…… 트릭 마스터로부터 통신입니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,0,0",
+        "voice": "GAF25020,3"
+      },
+      "original": "あれっ？\n",
+      "translation": "어라?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "voice": "GAF25021,3",
+        "speaker": "004",
+        "face": "101,0,0,0"
+      },
+      "original": "たとえそうであっても、言葉がほしいときだって\nありますわ。\nね、タクトさん？\n",
+      "translation": "설령 그렇다 하더라도, 말이 필요할 때도\n있답니다. 그쵸, 택트 씨?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "face": "012,0,0,0",
+        "voice": "GAF25021,3",
+        "speaker": "001"
+      },
+      "original": "ミント……今の話、聞いてたの？\n",
+      "translation": "민트…… 방금 이야기, 듣고 있었어?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "122,0,0,0",
+        "voice": "GAF25022,3"
+      },
+      "original": "いいえ。\nですが、タクトさんの考えていることは、私にも\nわかりますわ。\n",
+      "translation": "아니요. 하지만, 택트 씨가 생각하고 있는\n것은, 저도 알 수 있답니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,0,0",
+        "voice": "GAF25022,3"
+      },
+      "original": "あははは。\nミントには、かなわないなぁ。\n",
+      "translation": "아하하하. 민트에게는, 못 당하겠네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "121,0,0,0",
+        "voice": "GAF25023,3"
+      },
+      "original": "それで、タクトさん。\n私がお聞きしたい言葉は、まだおっしゃってくだ\nさいませんの？\n",
+      "translation": "그래서, 택트 씨. 제가 듣고 싶은 말은, 아직\n말씀해 주시지 않으시는 건가요?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0036",
+      "channel": 1,
+      "context": {
+        "face": "008,0,0,0",
+        "voice": "GAF25023,3",
+        "speaker": "001"
+      },
+      "original": "ああ、わかってるよ。\n",
+      "translation": "아아, 알고 있어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0037",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAF25023,3"
+      },
+      "original": "ミントとなら、一緒に並んで歩いて行ける。\n大好きだよ、ミント。\n",
+      "translation": "민트와 함께라면, 나란히 걸어갈 수 있어.\n정말 좋아해, 민트.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0038",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "102,0,0,0",
+        "voice": "GAF25024,3"
+      },
+      "original": "はい。\nずっと、お供いたします。\n",
+      "translation": "네. 언제까지나, 모시겠습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000cb800:dialogue:0039",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "122,0,0,0",
+        "voice": "GAF25025,3"
+      },
+      "original": "タクトさん、愛してますわ★\n",
+      "translation": "택트 씨, 사랑해요★\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

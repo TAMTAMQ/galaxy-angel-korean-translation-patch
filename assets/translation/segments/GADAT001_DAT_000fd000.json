@@ -1,0 +1,739 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000fd000.txt",
+    "encoding": "cp932",
+    "sha256": "596cf14baf6d30362e4764526555accd9420c651ef65b564f6da4afaee2c1f31",
+    "dialogue_count": 56
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "012",
+        "face": "312,0,289,0",
+        "voice": "GA806002,3"
+      },
+      "original": "あの輝き……。\nあれが、ロストテクノロジーの真の力なのか！？\n",
+      "translation": "저 빛은…… 저것이, 로스트 테크놀로지의\n진정한 힘인가!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "042",
+        "face": "361,306,0,0",
+        "voice": "GA806003,3"
+      },
+      "original": "『黒き月』のエネルギー反応、低下していきます。\n",
+      "translation": "『흑색 달』의 에너지 반응, 저하되고 있습니\n다 .\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "012",
+        "face": "312,0,287,0",
+        "voice": "GA806004,3"
+      },
+      "original": "何だと？\nノアは何をしているのだ！\n",
+      "translation": "뭐라고? 노아는 무엇을 하고 있는 것이냐!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "042",
+        "face": "361,306,0,0",
+        "voice": "GA806005,3"
+      },
+      "original": "ノア様からの応答、ありません。\nただ……。\n",
+      "translation": "노아 님으로부터의 응답, 없습니다. 다만……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "042",
+        "face": "361,306,0,0",
+        "voice": "GA806006,3"
+      },
+      "original": "センサー類の出力は、むしろ上昇中です。\nまるで何かを探っているような……。\n",
+      "translation": "센서류의 출력은, 오히려 상승 중입니다. 마치\n무언가를 탐색하고 있는 듯한……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "012",
+        "face": "312,0,286,0",
+        "voice": "GA806007,3"
+      },
+      "original": "　ノア……そうか、観察しているのか。\n『白き月』の落とし子たちの、秘められた力を。\n",
+      "translation": "노아…… 그런가, 관찰하고 있는 건가. 『백색\n달』의 아이들의, 숨겨진 힘을.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "042",
+        "face": "361,306,0,0",
+        "voice": "GA806008,3"
+      },
+      "original": "いかがいたしましょう、エオニア様？\n",
+      "translation": "어떻게 할까요, 에오니아 님?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "012",
+        "face": "312,0,288,0",
+        "voice": "GA806009,3"
+      },
+      "original": "……やむを得ん。\nコントロール可能な艦隊は、すべて『黒き月』の\n周辺まで後退させろ。\n",
+      "translation": "……어쩔 수 없군. 통제 가능한 함대는, 모두\n『흑색 달』의 주변까지 후퇴시켜라.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "042",
+        "face": "361,306,0,0",
+        "voice": "GA806010,3"
+      },
+      "original": "はっ、承知いたしました。\n",
+      "translation": "옛, 알겠습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GA806011,3"
+      },
+      "original": "『黒き月』のエネルギー反応、低下。\n　周辺の無人艦隊、後退していきます。\n",
+      "translation": "『흑색 달』의 에너지 반응, 저하. 　주변의\n무인 함대, 후퇴하고 있습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GA806012,3"
+      },
+      "original": "やったか！？\n",
+      "translation": "해냈나!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "voice": "GA806012,3",
+        "speaker": "001",
+        "face": "005,0,225,0"
+      },
+      "original": "このまま『黒き月』にとどめを刺すぞ！\n",
+      "translation": "이대로 『흑색 달』에 숨통을 끊어놓자!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GA806013,3"
+      },
+      "original": "マイヤーズ司令、エンジェル隊から通信です！\n",
+      "translation": "마이어스 사령관님, 엔젤대로부터 통신입니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA806013,3"
+      },
+      "original": "よし、つないでくれ。\n",
+      "translation": "좋아, 연결해 줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA806013,3"
+      },
+      "original": "みんな、よくやってくれた。\nありがとう。\n",
+      "translation": "모두, 잘해주었다. 고맙다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "voice": "GA806014,3",
+        "speaker": "002",
+        "face": "022,0,0,0"
+      },
+      "original": "やりましたよ、タクトさん！\nこのまま一気に、『黒き月』を……。\n",
+      "translation": "해냈어요, 택트 씨! 이대로 단숨에, 『흑색\n달』을……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "027,0,0,0",
+        "voice": "GA806015,3"
+      },
+      "original": "いえ……あたし、お役に立てなくて……。\nあ～あ、せっかく大活躍できそうだったのになぁ。\n",
+      "translation": "아니…… 나, 도움이 되지 못해서…… 아～아,\n기껏 대활약할 수 있을 것 같았는데 말이야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "026,0,0,0",
+        "voice": "GA806016,3"
+      },
+      "original": "……あれ？\nあれれ？\n",
+      "translation": "……어라? 어라라?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "voice": "GA806016,3",
+        "speaker": "001",
+        "face": "006,0,0,0"
+      },
+      "original": "どうした、ミルフィー？\n",
+      "translation": "왜 그래, 밀피?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "face": "023,0,0,0",
+        "voice": "GA806017,3",
+        "speaker": "002"
+      },
+      "original": "ラッキースターの翼が、消えちゃいました！\nそれに、いきなり出力も落ちて……。\n",
+      "translation": "럭키 스타의 날개가, 사라져 버렸어요!\n게다가, 갑자기 출력도 떨어져서……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "062,0,0,0",
+        "voice": "GA806018,3"
+      },
+      "original": "　アタシの大活躍、見ててくれた！？\n『黒き月』だかなんだか知らないけど、このまま\n　一気に……。\n",
+      "translation": "내 대활약, 보고 있었어!? 『흑색 달』인지\n뭔지 모르겠지만, 이대로 　단숨에……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "068,0,0,0",
+        "voice": "GA806019,3"
+      },
+      "original": "アンタこそ、やっちゃってくれたわね！\nあーもう、この翼のおかげで、敵をバッタバッタ\nとなぎ倒してやれると思ってたのにぃ！\n",
+      "translation": "너야말로, 저질러 버렸구나! 아～ 정말, 이\n날개 덕분에, 적을 퍽퍽 쓰러뜨릴 수 있을 줄\n알았는데 말이야!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "face": "065,0,0,0",
+        "voice": "GA806020,3",
+        "speaker": "003"
+      },
+      "original": "……って、あれ？\n何よ、これ？\n",
+      "translation": "……어라? 뭐야, 이거?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GA806020,3"
+      },
+      "original": "どうした、ランファ？\n",
+      "translation": "왜 그래, 란파?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "068,0,0,0",
+        "voice": "GA806021,3"
+      },
+      "original": "翼が……カンフーファイターの翼が消えちゃった。\n反応速度もにぶってる。\nどうなってんの？\n",
+      "translation": "날개가…… 쿵푸 파이터의 날개가 사라져\n버렸어. 반응 속도도 무뎌지고 있어. 어떻게\n된 거야?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "face": "101,0,0,0",
+        "speaker": "004",
+        "voice": "GA806022,3"
+      },
+      "original": "うまくいったようですわね。\nタクトさんの指揮のおかげです。\n",
+      "translation": "잘 풀린 모양이네요. 택트 씨의 지휘 덕분이에\n요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "105,0,0,0",
+        "voice": "GA806023,3"
+      },
+      "original": "私は残念ですわ。\nこの翼があれば、もっと戦果をあげることができ\nたはずですのに……。\n",
+      "translation": "저는 아쉽군요. 이 날개만 있었다면, 더 많은\n전과를 올릴 수 있었을 텐데 말이죠……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "voice": "GA806024,3",
+        "speaker": "004",
+        "face": "104,0,0,0"
+      },
+      "original": "ともかく、『黒き月』にとどめを……。\n……あら？\n",
+      "translation": "어쨌든, 『흑색 달』에게 최후의 일격 을……\n……어라?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GA806024,3"
+      },
+      "original": "どうした、ミント？\n",
+      "translation": "왜 그래, 민트?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "104,0,0,0",
+        "voice": "GA806025,3"
+      },
+      "original": "トリックマスターから翼が消えてしまいましたわ！\nそれに、急に出力が落ちてきて……。\n",
+      "translation": "트릭 마스터의 날개가 사라져 버렸어요!\n게다가 갑자기 출력이 떨어지고 있어서……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "142,0,0,0",
+        "voice": "GA806026,3"
+      },
+      "original": "でかい図体して、案外たいしたことなかったね。\nさあ、このまま一気に……。\n",
+      "translation": "덩치만 컸지, 의외로 별거 아니었네. 자,\n이대로 단숨에……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "146,0,0,0",
+        "voice": "GA806027,3"
+      },
+      "original": "翼が生えて性能が上がったってのに、また修理の\n世話になるとは思わなかったよ。\nタクト、ちゃんと指示しとくれよ。\n",
+      "translation": "날개가 생겨서 성능이 올라갔다더니, 또 수리\n할 일이 생길 줄은 몰랐어. 택트, 제대로 지시\n좀 해줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "face": "144,0,0,0",
+        "voice": "GA806028,3",
+        "speaker": "005"
+      },
+      "original": "……うん？\n何だこりゃ？\n",
+      "translation": "……응? 이게 뭐야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GA806028,3"
+      },
+      "original": "どうした、フォルテ？\n",
+      "translation": "왜 그래, 포르테?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "146,0,0,0",
+        "voice": "GA806029,3"
+      },
+      "original": "ハッピートリガーの翼が消えていく！\n……出力も急に落ちちまったよ。\nどうなってんだい？\n",
+      "translation": "해피 트리거의 날개가 사라지고 있어! ……출력\n도 갑자기 떨어져 버렸다고. 어떻게 된 거야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0036",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "184,0,0,0",
+        "voice": "GA806030,3"
+      },
+      "original": "ファーゴの人々の無念を……晴らせたでしょうか。\n",
+      "translation": "파르고 사람들의 원한을…… 풀 수 있었을까요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0037",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "182,0,0,0",
+        "voice": "GA806031,3"
+      },
+      "original": "……いえ……。\n私は、修理中ですから……。\n",
+      "translation": "……아니요…… 저는, 수리 중이니까요……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0038",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,0,0,0",
+        "voice": "GA806032,3"
+      },
+      "original": "…………？\nこれは……。\n",
+      "translation": "…………? 이것은……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0039",
+      "channel": 1,
+      "context": {
+        "voice": "GA806032,3",
+        "speaker": "001",
+        "face": "006,0,0,0"
+      },
+      "original": "どうした、ヴァニラ？\n",
+      "translation": "왜 그래, 바닐라?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0040",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "182,0,0,0",
+        "voice": "GA806033,3"
+      },
+      "original": "……ハーベスターの翼が、消えました……。\n反応、出力、ともに低下していきます。\n",
+      "translation": "……하베스터의 날개가, 사라졌습니다……\n반응, 출력, 모두 저하되고 있습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0041",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GA806033,3"
+      },
+      "original": "何だって？\nほかのみんなは？\n",
+      "translation": "뭐라고? 다른 애들은?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0042",
+      "channel": 1,
+      "context": {
+        "face": "503,0,0,0",
+        "voice": "GA806034,3",
+        "speaker": "017"
+      },
+      "original": "ほかの紋章機からも、翼が消えました！\n",
+      "translation": "다른 문장기에서도, 날개가 사라졌습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0043",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "493,0,0,0",
+        "voice": "GA806035,3"
+      },
+      "original": "紋章機の出力が、平常以下に落ちています。\n",
+      "translation": "문장기의 출력이, 평상시 이하로 떨어지고\n있습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0044",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GA806036,3"
+      },
+      "original": "　どういうことだ……？\n『黒き月』を叩く、絶好のチャンスだってのに。\n",
+      "translation": "어떻게 된 거지……? 『흑색 달』을 타격할,\n절호의 찬스인데 말이야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0045",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,225,0",
+        "voice": "GA806036,3"
+      },
+      "original": "ちょっと調子に乗りすぎちゃったとか……？\nともかく、紋章機なしでは戦いようがないか。\n",
+      "translation": "좀 너무 들떴던 걸까……? 어쨌든, 문장기\n없이는 싸울 방법이 없겠군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0046",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,225,0",
+        "voice": "GA806036,3"
+      },
+      "original": "このへんが引き際だな。\nレスター、紋章機を収容して撤退するぞ。\n",
+      "translation": "지금이 물러날 때로군. 레스터, 문장기를\n수용하고 철수한다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0047",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GA806037,3"
+      },
+      "original": "司令、ルフト准将から通信が入りました。\n",
+      "translation": "사령관님, 루프트 준장으로부터 통신이\n왔습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0048",
+      "channel": 1,
+      "context": {
+        "speaker": "009",
+        "face": "253,0,0,0",
+        "voice": "GA806038,3"
+      },
+      "original": "タクト、見事だったぞ！\nいやぁ、胸がすく思いじゃった。\nまだ興奮がおさまらんよ。\n",
+      "translation": "택트, 훌륭했다! 이야, 속이 다 시원하더군.\n아직 흥분이 가라앉지 않아.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0049",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA806038,3"
+      },
+      "original": "いえ、エンジェル隊のおかげですよ。\nとどめを刺せなかったのが心残りですが……。\n",
+      "translation": "아니요, 엔젤대 덕분입니다. 마무리를 짓지\n못한 것이 아쉬움으로 남습니다만……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0050",
+      "channel": 1,
+      "context": {
+        "speaker": "009",
+        "face": "251,0,0,0",
+        "voice": "GA806039,3"
+      },
+      "original": "あのデカブツも、何やら動きを止めたようじゃ。\n今のうちに撤退し、体勢を整えよう。\n",
+      "translation": "저 거구도, 무언가 움직임을 멈춘 듯하구나.\n지금 기회에 철수하여, 태세를 정비하자.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0051",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0",
+        "voice": "GA806039,3"
+      },
+      "original": "ですが、皇国軍の艦船は動けないんじゃあ……。\n",
+      "translation": "하지만, 황국군 함선은 움직일 수 없지\n않습니까……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0052",
+      "channel": 1,
+      "context": {
+        "speaker": "009",
+        "face": "251,0,0,0",
+        "voice": "GA806040,3"
+      },
+      "original": "敵が動きを止めたとたんに、こちらは自由を取り\n戻した。\n今、惑星ロームの裏側に再集結中じゃ。\n",
+      "translation": "적이 움직임을 멈춘 순간, 이쪽은 자유를\n되찾았다. 지금, 행성 롬의 뒷면으로 재집결\n중이다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0053",
+      "channel": 1,
+      "context": {
+        "face": "001,0,0,0",
+        "voice": "GA806040,3",
+        "speaker": "001"
+      },
+      "original": "ここから反対側ですか。\nわかりました、我々もエンジェル隊を収容したら、\nそちらへ向かいます。\n",
+      "translation": "여기서 반대편 말씀이십니까? 알겠습니다,\n저희도 엔젤대를 수용하면, 그쪽으로 향하겠습\n니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0054",
+      "channel": 1,
+      "context": {
+        "voice": "GA806041,3",
+        "speaker": "009",
+        "face": "251,0,0,0"
+      },
+      "original": "うむ、そこで改めて話をしよう。\nではな。\n",
+      "translation": "음, 거기서 다시 이야기를 나누도록 하자.\n그럼 이만.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0055",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA806041,3"
+      },
+      "original": "聞いてのとおりだ。\nいったん友軍と合流して、体勢を整えよう。\n",
+      "translation": "들은 대로다. 일단 아군과 합류하여, 태세를\n정비하자.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000fd000:dialogue:0056",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GA806042,3"
+      },
+      "original": "了解。\nエルシオール、前進！\n紋章機を収容後、合流ポイントへ向かう！\n",
+      "translation": "네. 에르시올, 전진! 문장기 수용 후, 합류\n포인트로 향한다!\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

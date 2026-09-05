@@ -1,0 +1,583 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000b9800.txt",
+    "encoding": "cp932",
+    "sha256": "fda9629d34437dc401f298b0ed380de73af169b97ede809f4ff3a7d602661a44",
+    "dialogue_count": 44
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "493,0,0,0",
+        "voice": "GAF01001,3"
+      },
+      "original": "『黒き月』のエネルギー反応、急速に増大中！\n　け……計測器が振り切れそうですっ！\n",
+      "translation": "『흑색 달』의 에너지 반응, 급속히 증대 중!\n계…… 계측기가 한계치를 넘을 것 같습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GAF01001,3"
+      },
+      "original": "な、何が起こっているんだ……！？\n",
+      "translation": "무, 무엇이 일어나고 있는 거지……!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "503,0,0,0",
+        "voice": "GAF01002,3"
+      },
+      "original": "司令、ルフト准将から通信です！\n",
+      "translation": "사령관님, 루프트 준장으로부터 통신입니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "009",
+        "face": "255,0,0,0",
+        "voice": "GAF01003,3"
+      },
+      "original": "タクト、これは何事じゃ！？\n急に『黒き月』の反応が強くなりおった！\n",
+      "translation": "택트, 이것은 대체 무슨 일이냐!? 갑자기\n『흑색 달』의 반응이 강해졌구나!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "010,0,0,0",
+        "voice": "GAF01003,3"
+      },
+      "original": "わ、わかりません！\nエオニアを倒せば、『黒き月』も止まると思って\nいたのに……。\n",
+      "translation": "모, 모르겠습니다! 에오니아를 쓰러뜨리면,\n『흑색 달』도 멈출 줄 알았는데……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GAF01004,3"
+      },
+      "original": "タクト！\n見ろ、『黒き月』の形が……！\n",
+      "translation": "택트! 봐라, 『흑색 달』의 형태가……!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "026,0,0,0",
+        "voice": "GAF01005,3"
+      },
+      "original": "『黒き月』が……変形していく……。\n",
+      "translation": "『흑색 달』이…… 변형되고 있어……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "086,0,0,0",
+        "voice": "GAF01006,3"
+      },
+      "original": "　それだけじゃないわ！\n『白き月』も、どんどん軌道を外れていってる！\n",
+      "translation": "그것뿐만이 아니야! 『백색 달』도, 점점\n궤도를 벗어나고 있어!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "123,0,0,0",
+        "voice": "GAF01007,3"
+      },
+      "original": "『白き月』と『黒き月』の間に、強力なエネルギー\n　反応があります。\n　互いに引き寄せ合っているんですわ！\n",
+      "translation": "『백색 달』과 『흑색 달』 사이에, 강력한\n에너지 　반응이 있습니다. 　서로 끌어당기고\n있어요!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "145,0,0,0",
+        "voice": "GAF01008,3"
+      },
+      "original": "何だか知らないけど、悪い予感がするよ……。\n",
+      "translation": "뭔지는 모르겠지만, 불길한 예감이 들어……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "183,0,0,0",
+        "voice": "GAF01009,3"
+      },
+      "original": "……シャトヤーン様は、ご無事でしょうか……？\n",
+      "translation": "……샤토얀 님은, 무사하실까요……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GAF01009,3"
+      },
+      "original": "そうだ、シャトヤーン様にシヴァ皇子！\n",
+      "translation": "맞다, 샤토얀 님과 시바 황자!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GAF01009,3"
+      },
+      "original": "シャトヤーン様、シヴァ皇子！\n応答願います！\nご無事ですか！？\n",
+      "translation": "샤토얀 님, 시바 황자! 응답 바랍니다!\n무사하십니까!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "283,0,0,0",
+        "voice": "GAF01010,3"
+      },
+      "original": "マイヤーズか？\n私たちは、何とか無事だ。\nだが、この先どうなるかは予想がつかぬ。\n",
+      "translation": "마이어스인가? 우리는 어떻게든 무사하다.\n하지만, 이 뒤에 어떻게 될지는 예측할 수\n없구나.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "face": "283,0,0,0",
+        "voice": "GAF01011,3",
+        "speaker": "011"
+      },
+      "original": "システムが制御不能になっている上に、『白き月』\nまで奇妙な変形を始めているのだ。\n",
+      "translation": "시스템이 제어 불능 상태인 데다, 『백색 달』\n까지 기묘한 변형을 시작하고 있다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "010,0,0,0",
+        "voice": "GAF01011,3"
+      },
+      "original": "何てことだ……！\nふたつの月に、いったい何が起きているんですか？\n",
+      "translation": "이럴 수가……! 두 개의 달에, 도대체 무슨\n일이 일어나고 있는 겁니까?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "010",
+        "face": "268,0,0,0",
+        "voice": "GAF01012,3"
+      },
+      "original": "マイヤーズ司令、聞こえますか？\n",
+      "translation": "마이어스 사령관님, 들리십니까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "voice": "GAF01012,3",
+        "speaker": "001",
+        "face": "003,0,0,0"
+      },
+      "original": "は、はい、シャトヤーン様。\n",
+      "translation": "네, 네, 샤토얀 님.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "face": "268,0,0,0",
+        "voice": "GAF01013,3",
+        "speaker": "010"
+      },
+      "original": "　いいですか、よく聞いてください。\n『黒き月』は、この『白き月』を呼び寄せ、融合\n　を果たそうとしているようです。\n",
+      "translation": "잘 들으십시오. 『흑색 달』은, 이 『백색\n달』을 불러들여, 융합 　을 이루려 하고 있는\n듯합니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "007,0,0,0",
+        "voice": "GAF01013,3"
+      },
+      "original": "融合……？\nどういうことですか！？\n",
+      "translation": "융합……? 그게 무슨 말씀이십니까!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "010",
+        "face": "268,0,0,0",
+        "voice": "GAF01014,3"
+      },
+      "original": "『黒き月』が『白き月』を飲み込もうとしている\n　のです。\n",
+      "translation": "『흑색 달』이 『백색 달』을 삼키려 하고\n있는 것입니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "010",
+        "face": "268,0,0,0",
+        "voice": "GAF01015,3"
+      },
+      "original": "おそらく、ふたつの月が造られたときから、こう\nなるように設計されていたのでしょう。\n",
+      "translation": "아마도, 두 개의 달이 만들어졌을 때부터,\n이렇게 되도록 설계되어 있었겠지요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "010",
+        "face": "268,0,0,0",
+        "voice": "GAF01016,3"
+      },
+      "original": "いずれにせよ、『黒き月』からの誘導に、『白き\n月』は従おうとしています。\nまるで、自らの意思に目覚めたかのように……。\n",
+      "translation": "어찌 되었든, 『흑색 달』의 유도에, 『백색\n달』은 따르려 하고 있습니다. 마치, 스스로\n의지를 깨달은 것처럼……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "010,0,0,0",
+        "voice": "GAF01016,3"
+      },
+      "original": "そんな……！\n融合って、いったい何のために！？\n",
+      "translation": "말도 안 돼……! 융합이라니, 도대체 무엇을\n위해서!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "speaker": "010",
+        "face": "268,0,0,0",
+        "voice": "GAF01017,3"
+      },
+      "original": "お互いの持つデータ、兵器生産機能、武装……。\nそれらを統合し、ひとつの存在になろうとしてい\nるのではないかと思います。\n",
+      "translation": "서로가 가진 데이터, 병기 생산 기능, 무\n장…… . 그것들을 통합하여 하나의 존재가\n되려 하고 있는 것이 아닌가 생각합니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "010",
+        "face": "268,0,0,0",
+        "voice": "GAF01018,3"
+      },
+      "original": "もしそうなったら……。\n破壊という目的のみに力を振るう、恐るべき自動\n機械が生まれてしまうでしょう……。\n",
+      "translation": "만약 그렇게 된다면…… 파괴라는 목적만을\n위해 힘을 휘두르는, 두려운 자동 기계가\n태어나고 말 것입니다……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GAF01018,3"
+      },
+      "original": "そんな……！？\nだとしたら、なおさら融合を止めなければ！\n",
+      "translation": "그럴 수가……!? 만약 그렇다면, 더욱더\n융합을 멈춰야 해!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "speaker": "010",
+        "face": "268,0,0,0",
+        "voice": "GAF01019,3"
+      },
+      "original": "しかし、こちらからは『黒き月』の干渉を止める\nことはできません。\nあまりにも『黒き月』の力が強すぎるのです。\n",
+      "translation": "하지만, 이쪽에서는 『흑색 달』의 간섭을\n멈출 수는 없습니다. 너무나도 『흑색 달』의\n힘이 강력합니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "speaker": "010",
+        "face": "268,0,0,0",
+        "voice": "GAF01020,3"
+      },
+      "original": "ですから、マイヤーズ司令。\nあなたがたに、何とかこの融合を止めていただき\nたいのです。\n",
+      "translation": "그러니, 마이어스 사령관님. 당신들이 어떻게든\n이 융합을 멈춰 주셨으면 합니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GAF01020,3"
+      },
+      "original": "どうすればいいんですか、シャトヤーン様？\n",
+      "translation": "어떻게 하면 되나요, 샤토얀 님?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "speaker": "010",
+        "face": "268,0,0,0",
+        "voice": "GAF01021,3"
+      },
+      "original": "『黒き月』の核（コア）を、クロノ・ブレイク・\n　キャノンで破壊すれば、あるいは……。\n",
+      "translation": "『흑색 달』의 핵(코어)을, 크로노・브레이크・\n캐논으로 파괴한다면, 어쩌면……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "speaker": "010",
+        "face": "268,0,0,0",
+        "voice": "GAF01022,3"
+      },
+      "original": "『黒き月』のコアは、大きく開いた中心部にある\n　赤いクリスタルです。\n　それを狙ってください。\n",
+      "translation": "『흑색 달』의 코어는, 크게 열린 중심부에\n있는 　붉은 크리스탈입니다. 　그것을\n노려주십시오.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GAF01022,3"
+      },
+      "original": "わ、わかりました。\n何とかやってみます！\n",
+      "translation": "아, 알겠습니다. 어떻게든 해보겠습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "face": "268,0,0,0",
+        "speaker": "010",
+        "voice": "GAF01023,3"
+      },
+      "original": "どうかお願いします、マイヤーズ司令。\n皇国の……いえ、この宇宙に生きるすべての命の\nために。\n",
+      "translation": "부디 부탁드립니다, 마이어스 사령관님.\n황국의…… 아니, 이 우주에 살아있는 모든\n생명의 위해서.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "283,0,0,0",
+        "voice": "GAF01024,3"
+      },
+      "original": "私からも頼む。\nマイヤーズ、お前にすべてを任せ……。\n",
+      "translation": "나도 부탁하마. 마이어스, 네게 모든 것을\n맡기겠……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0036",
+      "channel": 1,
+      "context": {
+        "voice": "GAF01024,3",
+        "speaker": "094",
+        "face": "000,0,0,0"
+      },
+      "original": "　\n",
+      "translation": "\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0037",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "007,0,0,0",
+        "voice": "GAF01024,3"
+      },
+      "original": "シヴァ皇子？\nどうしたんですか？\n",
+      "translation": "시바 황자? 왜 그러십니까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0038",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "503,0,0,0",
+        "voice": "GAF01025,3"
+      },
+      "original": "『白き月』からの交信、途絶えました！\n",
+      "translation": "『백색 달』로부터의 교신, 끊겼습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0039",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GAF01025,3"
+      },
+      "original": "通信機能がマヒしたのか？\nくそっ、早く融合を止めないと！\n",
+      "translation": "통신 기능이 마비된 건가? 제기랄, 빨리\n융합을 멈춰야 해!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0040",
+      "channel": 1,
+      "context": {
+        "speaker": "009",
+        "face": "255,0,0,0",
+        "voice": "GAF01026,3"
+      },
+      "original": "タクト、急がねば。\nもう時間がないぞ！\n",
+      "translation": "택트, 서둘러야 한다. 이제 시간이 없어!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0041",
+      "channel": 1,
+      "context": {
+        "face": "003,0,0,0",
+        "speaker": "001",
+        "voice": "GAF01026,3"
+      },
+      "original": "ルフト准将、そちらの艦隊で、『黒き月』の推進\n機関を攻撃してください。\nスピードが遅くなれば、それだけ時間がかせげる。\n",
+      "translation": "루프트 준장, 그쪽 함대로 『흑색 달』의 추진\n기관을 공격해 주십시오. 스피드가 느려지면,\n그만큼 시간을 벌 수 있습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0042",
+      "channel": 1,
+      "context": {
+        "speaker": "009",
+        "face": "252,0,0,0",
+        "voice": "GAF01027,3"
+      },
+      "original": "承知した。\nタクト、お前たちも気をつけろよ。\n",
+      "translation": "알았다. 택트, 너희도 조심하도록 해라.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0043",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GAF01027,3"
+      },
+      "original": "エルシオール、前進！\n今からクロノ・ブレイク・キャノンで『黒き月』\nのコアを破壊する！\n",
+      "translation": "에르시올, 전진! 지금부터 크로노・브레이크・캐\n논으로 『흑색 달』 의 코어를 파괴하겠다!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b9800:dialogue:0044",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GAF01027,3"
+      },
+      "original": "エンジェル隊のみんな、聞いているな！？\nエルシオールがコアを狙える位置に達するまで、\n援護を頼む！\n",
+      "translation": "엔젤대 여러분, 듣고 있나!? 에르시올이 코어를\n노릴 수 있는 위치에 도달할 때까지, 엄호를\n부탁한다!\n",
+      "state": "needs_human",
+      "use_translation": true
+    }
+  ]
+}

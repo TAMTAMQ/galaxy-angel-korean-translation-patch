@@ -1,0 +1,309 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_0003b800.txt",
+    "encoding": "cp932",
+    "sha256": "d8e8293667d009ba156530b1f628ba6f97456940d56bf31545e6f57429e0baf1",
+    "dialogue_count": 23
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_0003b800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0"
+      },
+      "original": "レスター、あれから何か新しい情報は入っていな\nいか？\n",
+      "translation": "레스터, 그때부터 뭔가 새로운 정보는 들어오지\n않았나?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0003b800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,221,0",
+        "voice": "3E316001,3"
+      },
+      "original": "いや、別に。\nたった２、３分の間に、そんなに変わるわけない\nだろ？\n",
+      "translation": "아니, 딱히. 고작 2, 3분 사이에 그렇게 변할\n리가 없잖아?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0003b800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,221,0",
+        "voice": "3E316001,3"
+      },
+      "original": "２、３分って……？\nもうひとりのオレが、食堂にいたって聞いたのが\n最後だぞ？\n",
+      "translation": "2, 3분이라니……? 또 다른 내가 식당에\n있었다는 게 마지막이라고?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0003b800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "3E316002,3"
+      },
+      "original": "なに言ってやがる。\nついさっき、このブリッジに来たばかりだろうが。\n",
+      "translation": "무슨 소리를 하는 거야. 방금 전까지 이\n브릿지에 있었잖아.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0003b800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,341,0,0",
+        "voice": "3E316003,3"
+      },
+      "original": "ええ、あたしたちも見てましたよ？\n",
+      "translation": "네, 저희도 봤어요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0003b800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,341,0,336",
+        "voice": "3E316004,3"
+      },
+      "original": "マイヤーズ司令が入ってきたので、クールダラス\n副司令が「異常なし」と報告なさっていました。\n",
+      "translation": "마이어스 사령관님이 들어오셔서, 쿨다라스\n부사령님이 「이상 없음」이라고 보고하고\n계셨습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0003b800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "3E316005,3"
+      },
+      "original": "そしたらお前、黙ったままで、すぐ出て行ったじゃ\nないか。\n",
+      "translation": "그랬으면 너, 아무 말도 없이 바로 나가버렸잖\n냐.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0003b800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,223,0",
+        "voice": "3E316005,3"
+      },
+      "original": "そ、それはオレじゃない！\nしまった、入れ違いか！\n",
+      "translation": "그, 그건 내가 아니야! 아차, 엇갈린 건가!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0003b800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "3E316006,3"
+      },
+      "original": "なに？\nアレが宇宙ドッペルゲンガーだったのか？\nうっわ、また見ちまった……。\n",
+      "translation": "뭐라고? 저게 우주 도플갱어였다는 거야?\n우와, 또 봐버렸네……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0003b800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,225,0",
+        "voice": "3E316006,3"
+      },
+      "original": "まだ遠くには行っていないはずだ。\n絶対に見つけてやる！\n",
+      "translation": "아직 멀리 가지는 않았을 거야. 반드시\n찾아내고 말겠어!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0003b800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "224,0,0,0",
+        "voice": "3E316007,3"
+      },
+      "original": "あ、おい、タクト！\n",
+      "translation": "아, 어이, 택트!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0003b800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,071,0",
+        "voice": "3E316008,3"
+      },
+      "original": "あっ……！\n",
+      "translation": "앗……!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0003b800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,071,0",
+        "voice": "3E316008,3"
+      },
+      "original": "……やあ、ランファ。\n",
+      "translation": "……안녕, 란파.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0003b800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "voice": "3E316009,3",
+        "speaker": "003",
+        "face": "061,0,062,0"
+      },
+      "original": "あ、あら、タクトじゃない。\n奇遇ねぇ、こんなところでバッタリ会うなんて。\n",
+      "translation": "어, 어머, 택트잖아. 이런 곳에서 마주치다니 우연이네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0003b800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "voice": "3E316009,3",
+        "speaker": "001",
+        "face": "012,0,062,0"
+      },
+      "original": "ああ、本当に奇遇だねぇ。\n",
+      "translation": "아아, 정말 기우네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0003b800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "face": "061,0,094,0",
+        "voice": "3E316010,3",
+        "speaker": "003"
+      },
+      "original": "あ、アタシ、用事を思い出したわ！\nじゃあね！\n",
+      "translation": "아, 나, 볼일이 생각났어! 그럼 이만!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0003b800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "094",
+        "face": "000,0,0,0",
+        "voice": "3E316010,3"
+      },
+      "original": "　\n",
+      "translation": "\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0003b800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "064,0,0,0",
+        "voice": "3E316011,3"
+      },
+      "original": "（じーっ……）\n",
+      "translation": "(지긋이……)\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0003b800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,0,0",
+        "voice": "3E316011,3"
+      },
+      "original": "用事ってのは、オレを尾行することか……？\nまったく、何だってオレをつけ回すんだろう。\n",
+      "translation": "볼일이라는 게, 나를 미행하는 건가……?\n정말이지, 대체 왜 나를 따라다니는 거야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0003b800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "voice": "3E316011,3",
+        "speaker": "001",
+        "face": "003,0,0,0"
+      },
+      "original": "いや、それよりも今は、もうひとりのオレを捜し\n出さなきゃ。\nよし、行こう。\n",
+      "translation": "아니, 그것보다 지금은 또 다른 나를 찾아\n내야 해. 좋아, 가자.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0003b800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "face": "003,0,0,0",
+        "speaker": "001",
+        "voice": "3E316011,3"
+      },
+      "original": "意外と、もうひとりのオレが、自分の部屋にいる\nなんてことはないよな……？\n",
+      "translation": "의외로, 또 다른 내가 내 방에 있는 일 같은\n건 없겠지……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0003b800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "face": "004,0,0,0",
+        "speaker": "001",
+        "voice": "3E316011,3"
+      },
+      "original": "……やっぱり誰もいない。\n真犯人は、いったいどこにいるんだ？\n",
+      "translation": "……역시 아무도 없어. 진범은 대체 어디에\n있는 거지?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0003b800:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "3E316011,3"
+      },
+      "original": "何としても見つけ出して、オレの無実を証明して\nやるぞ。\n",
+      "translation": "어떻게 해서든 찾아내서, 나의 무죄를 증명해\n보이겠어.\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

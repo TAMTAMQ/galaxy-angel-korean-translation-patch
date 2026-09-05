@@ -1,0 +1,23 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000a1000.txt",
+    "encoding": "cp932",
+    "sha256": "1d994dd1454c3627020d8c3ba79f5e48c12b06372bd71e5e78101b4f02655497",
+    "dialogue_count": 1
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000a1000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "0",
+        "face": "0,0,0,0"
+      },
+      "original": "■ギャラクシーエンジェル　８章　終了■\n",
+      "translation": "■갤럭시 엔젤 8장 종료■\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

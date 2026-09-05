@@ -1,0 +1,335 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_00132000.txt",
+    "encoding": "cp932",
+    "sha256": "34a17e0c0f564d4af1209386ed1f40b8f53d19e0e14d5c3d66c1d5b420b24942",
+    "dialogue_count": 25
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0"
+      },
+      "original": "やれやれ、何とか逃げ切ったか。\n",
+      "translation": "이런, 어떻게든 따돌렸나.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GAC08001,3"
+      },
+      "original": "いや、まだ油断はできないぞ。\n敵があきらめるとは思えん。\n",
+      "translation": "아니, 아직 방심할 순 없어. 적이 포기할 것\n같지는 않다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,223,0",
+        "voice": "GAC08002,3"
+      },
+      "original": "後方のエンジェル隊から通信です！\n",
+      "translation": "후방의 엔젤대로부터 통신입니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "103,0,0,0",
+        "voice": "GAC08003,3"
+      },
+      "original": "タクトさん、後ろから敵が追いついてきましたわ！\n",
+      "translation": "택트 씨, 뒤에서 적이 따라붙었습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "010,0,0,0",
+        "voice": "GAC08003,3"
+      },
+      "original": "了解。\nしつこいなぁ、もう少しでこの回廊を抜けられる\nのに。\n",
+      "translation": "알았다. 끈질기게 구는군, 조금만 더 하면 이\n회랑을 빠져나갈 수 있는데.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GAC08004,3"
+      },
+      "original": "文句は敵に言え。\n機関室、もっとスピードを上げろ！\n",
+      "translation": "불평은 적에게 해라. 기관실, 속도를 더 올려!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,225,0",
+        "voice": "GAC08004,3"
+      },
+      "original": "ミントたちは、後方の敵をけん制してくれ。\n時間をかせぐんだ。\n",
+      "translation": "민트 일행은 후방의 적을 견제해 줘. 시간을\n벌어야 한다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "103,0,0,0",
+        "voice": "GAC08005,3"
+      },
+      "original": "わかりましたわ。\n",
+      "translation": "알겠습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GAC08005,3"
+      },
+      "original": "先にクロノ・ドライヴに入ってしまえば、こっち\nのものだ。\nここを抜けたら、すぐクロノ・ドライヴに入る！\n",
+      "translation": "먼저 크로노・드라이브에 들어가 버리면 우리\n것이다. 여기를 빠져나오면 바로 크로노・드라\n이브로 진입한다!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GAC08006,3"
+      },
+      "original": "了解！\nクロノ・ドライヴの準備にかかります。\n",
+      "translation": "네！ 크로노・드라이브 준비에 들어가겠\n습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GAC08007,3"
+      },
+      "original": "マイヤーズ司令、先行するハッピートリガーから\n緊急通信です！\n",
+      "translation": "마이어스 사령관님, 선행하는 해피 트리거로부\n터 긴급 통신입니다!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "143,0,0,0",
+        "voice": "GAC08008,3"
+      },
+      "original": "タクト、前にも敵がいる！\nあいつら、回廊の向こう側にも艦隊を呼び寄せて\nいたんだ！\n",
+      "translation": "택트, 앞에도 적이 있어! 저 녀석들, 회랑\n저편에도 함대를 불러모으고 있었어!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "010,0,0,0",
+        "voice": "GAC08008,3"
+      },
+      "original": "何だって！？\nしまった、はさみ撃ちか！\n",
+      "translation": "뭐라고!? 제길, 협공인가!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GAC08009,3"
+      },
+      "original": "エルシオール、回廊を抜けました！\nレーダーで確認します。\n",
+      "translation": "에르시올, 회랑을 빠져나왔습니다! 레이더로\n확인하겠습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "493,0,0,0",
+        "voice": "GAC08010,3"
+      },
+      "original": "前方に艦隊を確認！\nこのままでは、間もなくハッピートリガーが交戦\n圏内に入ります！\n",
+      "translation": "전방에 함대 확인! 이대로라면 곧 해피\n트리거가 교전 권 내로 들어갑니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GAC08011,3"
+      },
+      "original": "ハッピートリガー１機で前方の艦隊を相手にする\nのは、きびしいぞ。\n",
+      "translation": "해피 트리거 1기로 전방의 함대를 상대하는 건\n벅차겠군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,225,0",
+        "voice": "GAC08011,3"
+      },
+      "original": "…………。\n",
+      "translation": "…………\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GAC08011,3"
+      },
+      "original": "ヴァニラ、すぐに前方の敵に向かってくれ。\nフォルテの援護にあたるんだ！\n",
+      "translation": "바닐라, 즉시 전방의 적을 향해 가줘. 포르테의\n엄호를 맡는 거다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "195,0,0,0",
+        "voice": "GAC08012,3"
+      },
+      "original": "ハーベスター、了解。\n",
+      "translation": "하베스터, 알았다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "157,0,0,0",
+        "voice": "GAC08013,3"
+      },
+      "original": "すまない、ヴァニラ。\n",
+      "translation": "미안해, 바닐라.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "143,0,0,0",
+        "voice": "GAC08014,3"
+      },
+      "original": "ミルフィー、ランファ、ミント。\n３機だけになるけど、後ろは頼むよ！\n",
+      "translation": "밀피, 란파, 민트. 3기뿐이지만, 뒤는 부탁할\n게 !\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "025,0,0,0",
+        "voice": "GAC08015,3"
+      },
+      "original": "はい、大丈夫です！\n",
+      "translation": "네, 괜찮습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "face": "067,0,0,0",
+        "voice": "GAC08016,3",
+        "speaker": "003"
+      },
+      "original": "フォルテさんこそ、気をつけてくださいね！\n",
+      "translation": "포르테 씨야말로 조심하세요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "103,0,0,0",
+        "voice": "GAC08017,3"
+      },
+      "original": "これ以上、エルシオールには近づけさせませんわ。\nお任せください。\n",
+      "translation": "이 이상 에르시올에는 접근시키지 않겠습니다.\n맡겨주세요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00132000:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "face": "005,0,0,0",
+        "voice": "GAC08017,3",
+        "speaker": "001"
+      },
+      "original": "みんな、頼むぞ。\nここを突破して、何としても『白き月』にたどり\n着く！\n",
+      "translation": "모두, 부탁한다. 여기를 돌파해서, 어떻게\n해서든 『백색 달』에 도달 한다!\n",
+      "state": "needs_human",
+      "use_translation": true
+    }
+  ]
+}

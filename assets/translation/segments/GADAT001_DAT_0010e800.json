@@ -1,0 +1,1374 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_0010e800.txt",
+    "encoding": "cp932",
+    "sha256": "12e57253e5fc96a74dc8f1bd9fc98bf74843b32f05bdc094a38f849d380d990e",
+    "dialogue_count": 105
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "face": "004,0,0,0",
+        "speaker": "001"
+      },
+      "original": "ふぅ……。\nしかし、今日だけでいろんなことがあったなぁ。\n",
+      "translation": "후우……. 하지만 오늘 하루만 해도 여러 일이\n있었네.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "face": "004,0,0,0",
+        "speaker": "001"
+      },
+      "original": "少し横になって、疲れを取るか。\nふぁ～あ……。\n",
+      "translation": "잠시 누워서 피로를 좀 풀까. 하아～아……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "face": "501,0,0,0",
+        "speaker": "017",
+        "voice": "GA827001,3"
+      },
+      "original": "マイヤーズ司令とエンジェル隊は、ブリッジまで\nお集まりください。\n繰り返します、マイヤーズ司令……。\n",
+      "translation": "마이어스 사령관님과 엔젤대는 브릿지로 모여\n주십시오. 다시 말씀드립니다, 마이어스\n사령관……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "face": "006,0,0,0",
+        "speaker": "001",
+        "voice": "GA827001,3"
+      },
+      "original": "う～ん……？\nあ、もうこんな時間か。\n",
+      "translation": "으음……? 아, 벌써 이런 시간인가.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "face": "001,0,0,0",
+        "speaker": "001",
+        "voice": "GA827001,3"
+      },
+      "original": "とりあえず、だいぶ疲れは取れたな。\n顔を洗って、ブリッジに行こう。\n",
+      "translation": "일단 피로는 꽤 풀린 것 같군. 세수를 하고\n브릿지로 가자.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "face": "004,0,0,0",
+        "speaker": "001",
+        "voice": "GA827001,3"
+      },
+      "original": "すまない、遅くなった。\n",
+      "translation": "미안하다, 늦었어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "face": "281,0,0,271",
+        "speaker": "011",
+        "voice": "GA827002,3"
+      },
+      "original": "うむ、遅い。\n待ちくたびれたぞ。\n",
+      "translation": "음, 늦었다. 기다리다 지쳤다고.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "face": "006,0,0,271",
+        "speaker": "001",
+        "voice": "GA827002,3"
+      },
+      "original": "あれ、シヴァ皇子？\nどうして皇子がここに？\n",
+      "translation": "어라, 시바 황자? 어째서 황자께서 여기에?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "019",
+        "face": "521,0,346,0",
+        "voice": "GA827003,3"
+      },
+      "original": "紋章機とエルシオールに起こった現象の説明に、\nシヴァ皇子にもご協力をいただければと思って、\n私からお願いしたんです。\n",
+      "translation": "문장기와 에르시올에 일어난 현상 설명에, 시바\n황자님도 협력을 해주셨으면 해서 제가\n부탁드렸습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,346,0",
+        "voice": "GA827003,3"
+      },
+      "original": "なるほど。\nそれで、何かわかったのかい？\n",
+      "translation": "그렇군. 그래서 뭐 좀 알아낸 게 있나?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,141,0,0",
+        "voice": "GA827004,3"
+      },
+      "original": "ぜひ説明を聞きたいね。\nあたしらも、ずっと気がかりだったんだ。\n",
+      "translation": "꼭 설명을 듣고 싶네. 우리도 계속 신경\n쓰였거든.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,141,0,0",
+        "voice": "GA827004,3"
+      },
+      "original": "あれ？\nそれより、ミルフィーとランファがいないようだ\nけど？\n",
+      "translation": "어라? 그보다 밀피랑 란파가 없는 것 같은데?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,173,0,0",
+        "voice": "GA827005,3"
+      },
+      "original": "ああ、ランファなら、今ミルフィーを捜しに……。\n",
+      "translation": "아아, 란파라면 지금 밀피를 찾으러……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,088,0",
+        "voice": "GA827006,3"
+      },
+      "original": "お待たせー！\nやっと見つけてきたわ！\n",
+      "translation": "기다렸지-! 겨우 찾아왔어!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "face": "021,0,047,0",
+        "speaker": "002",
+        "voice": "GA827007,3"
+      },
+      "original": "…………。\n",
+      "translation": "…………\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,067,0,0",
+        "voice": "GA827008,3"
+      },
+      "original": "ねぇ、聞いてよ！\nミルフィーったら、倉庫に隠れてたのよ！\n",
+      "translation": "있지, 내 말 좀 들어봐! 밀피 말이야, 창고에\n숨어 있었어!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "face": "021,067,0,027",
+        "speaker": "002",
+        "voice": "GA827009,3"
+      },
+      "original": "べ、別に、隠れてたわけじゃないもん。\n",
+      "translation": "별, 별로 숨어 있었던 게 아니야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,066,0,027",
+        "voice": "GA827010,3"
+      },
+      "original": "ふーん。\nアンタの辞書では、人目につかないところで丸く\nちぢこまっているのは、隠れるって言わないワケ？\n",
+      "translation": "흐음. 너의 사전에는, 남들 눈에 띄지 않는\n곳에서 웅크리고 있는 건 숨는 거라고 안 되어\n있나 봐?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,066,0,027",
+        "voice": "GA827010,3"
+      },
+      "original": "ミルフィー、どうしたんだい？\n",
+      "translation": "밀피, 무슨 일이야?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,066,0,028",
+        "voice": "GA827011,3"
+      },
+      "original": "あ……いえ、何でもないんです。\n大丈夫ですから。\n",
+      "translation": "아…… 아뇨, 아무것도 아니에요.\n괜찮으니까요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,101,0",
+        "voice": "GA827012,3"
+      },
+      "original": "これで全員そろいましたわね。\nでは、クレータさん、お話をお聞かせ願えます？\n",
+      "translation": "이걸로 전원 모였군요. 그럼, 크레이타 씨,\n이야기를 들려주시겠어요?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "019",
+        "face": "521,0,346,0",
+        "voice": "GA827013,3"
+      },
+      "original": "はい。\n昨夜の戦闘中、エルシオールと紋章機に起こった\n現象なのですが……。\n",
+      "translation": "네. 어젯밤 전투 중 에르시올과 문장기에 일어난\n현상입니다만……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "019",
+        "face": "521,0,346,0",
+        "voice": "GA827014,3"
+      },
+      "original": "調査の結果、紋章機もエルシオールも、制御系・\n動力系などの全システムが新しいものに書き換え\nられていました。\n",
+      "translation": "조사 결과, 문장기도 에르시올도 제어계・\n동력계 등 모든 시스템이 새로운 것으로 다시\n쓰여져 있었습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "speaker": "019",
+        "face": "521,0,346,0",
+        "voice": "GA827015,3"
+      },
+      "original": "つまり、見た目こそ今までと変わりありませんが、\nその中身は、丸ごと生まれ変わったとも言えます。\n",
+      "translation": "즉, 겉모습은 지금까지와 다를 바 없지만, 그\n알맹이는 통째로 새로 태어났다고도 할 수\n있습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "voice": "GA827016,3",
+        "speaker": "016",
+        "face": "491,0,0,336"
+      },
+      "original": "やっぱり……。\nあれは暴走ではなかったんですね？\n",
+      "translation": "역시…… 그건 폭주가 아니었던 거군요?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,341,0,336",
+        "voice": "GA827017,3"
+      },
+      "original": "でも、あのとき外部からは、これといって不審な\nアクセスはありませんでしたよ？\n",
+      "translation": "하지만 그때 외부로부터는 딱히 수상한\n액세스는 없었습니다만?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "speaker": "019",
+        "face": "521,0,346,0",
+        "voice": "GA827018,3"
+      },
+      "original": "外部からの干渉ではないわ。\n新しいシステムデータは、エルシオールと紋章機\nの内部に、ずっと眠っていたものだったの。\n",
+      "translation": "외부에서의 간섭이 아니야. 새로운 시스템\n데이터는, 에르시올과 문장기 내부에 계속\n잠들어 있던 것이었어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,346,0",
+        "voice": "GA827018,3"
+      },
+      "original": "内部に眠っていた？\nそれが、何らかのきっかけで目覚めたっていうの\nかい？\n",
+      "translation": "내부에 잠들어 있었다고? 그게 어떤 계기로\n깨어났다는 건가?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "speaker": "019",
+        "face": "521,0,346,0",
+        "voice": "GA827019,3"
+      },
+      "original": "そうです。\nご存知のとおり、ロストテクノロジーには未知の\n領域が数多く存在します。\n",
+      "translation": "그렇습니다. 아시다시피 로스트 테크놀로지에는\n미지의 영역이 수없이 존재합니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "face": "521,0,346,0",
+        "voice": "GA827020,3",
+        "speaker": "019"
+      },
+      "original": "その解析がある程度進んだ技術は、宇宙船などに\nコピーして利用しているわけですが……。\n",
+      "translation": "그 해석이 어느 정도 진행된 기술은, 우주선\n등에 복사해서 이용하고 있습니다만……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "face": "521,0,346,0",
+        "voice": "GA827021,3",
+        "speaker": "019"
+      },
+      "original": "紋章機とエルシオールに使われているテクノロジー\nについては、私たち『月の巫女』の必死の研究に\nもかかわらず、ほとんど謎のままでした。\n",
+      "translation": "문장기와 에르시올의 테크놀로지는 우리 『백색\n달의 무녀』가 필사적으로 연구했는데도 거의\n수수께끼로 남았습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "voice": "GA827022,3",
+        "speaker": "005",
+        "face": "141,173,0,0"
+      },
+      "original": "ロストテクノロジーの結晶とか言われてるけど、\n要はブラックボックスばっかりで、オリジナルの\nまま使うしかなかったってことだろ？\n",
+      "translation": "로스트 테크놀로지의 결정체라고들 하지만,\n요컨대 블랙박스뿐이라 오리지널 상태 그대로\n쓸 수밖에 없었다는 거 아냐?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "speaker": "019",
+        "face": "521,0,346,0",
+        "voice": "GA827023,3"
+      },
+      "original": "そう言われると、立場がないですね。\nですが、昨夜の事件で、その謎に迫る手がかりが\nようやくつかめたんです。\n",
+      "translation": "그렇게 말씀하시니 입장이 난처하군요. 하지만\n어젯밤 사건으로 그 수수께끼에 다가갈\n실마리를 겨우 잡았습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "speaker": "019",
+        "face": "521,0,346,0",
+        "voice": "GA827024,3"
+      },
+      "original": "まず、システムの更新については、パイロットの\n精神状態と何らかの関わりがあるのではないかと\n推測していますが、詳しいことはまだ不明です。\n",
+      "translation": "우선 시스템 갱신은 파일럿의 정신 상태와\n관련된 듯하다고 추측하지만, 자세한 내용은\n아직 모릅니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "speaker": "019",
+        "face": "521,0,346,0",
+        "voice": "GA827025,3"
+      },
+      "original": "ただ、あの翼が出現している間、紋章機の攻撃・\n防御・機動性など、あらゆる性能が向上していた\nことはわかっています。\n",
+      "translation": "다만 그 날개가 출현하는 동안, 문장기의\n공격・방어・기동성 등 모든 성능이\n향상되었다는 것은 알고 있습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0036",
+      "channel": 1,
+      "context": {
+        "speaker": "019",
+        "face": "521,0,346,0",
+        "voice": "GA827026,3"
+      },
+      "original": "また、パイロットとＨ．Ａ．Ｌ．Ｏ．システムの\n同調率も、各機１００パーセントを超える数値を\n記録しています。\n",
+      "translation": "또한 파일럿과 H.A.L.O. 시스템의 동조율도 각\n기체 100퍼센트를 넘는 수치를 기록하고\n있습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0037",
+      "channel": 1,
+      "context": {
+        "voice": "GA827027,3",
+        "speaker": "019",
+        "face": "521,0,349,0"
+      },
+      "original": "これらの状況から、あの輝く翼が出現している間、\n紋章機はその持てる性能をフルに引き出していた\nものと思われます。\n",
+      "translation": "이러한 상황으로 보아, 그 빛나는 날개가\n출현하는 동안 문장기는 가진 성능을 풀로\n끌어내고 있었던 것으로 생각됩니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0038",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,0,120",
+        "voice": "GA827028,3"
+      },
+      "original": "１００パーセントを超える数値！？\nあの、いくら何でも、それは何かの間違いなので\nは……？\n",
+      "translation": "100퍼센트를 넘는 수치!? 그건 아무리 그래도\n뭔가 착오가 아닐까……?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0039",
+      "channel": 1,
+      "context": {
+        "speaker": "019",
+        "face": "521,0,346,0",
+        "voice": "GA827029,3"
+      },
+      "original": "私たちも目を疑いましたが、これは事実です。\n理論限界値以上の性能を引き出していたことは、\n現在の紋章機からも見て取れます。\n",
+      "translation": "저희도 눈을 의심했지만 사실입니다. 이론적\n한계 이상의 성능을 끌어냈다는 것은 현재의\n문장기에서도 확인됩니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0040",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,0,103",
+        "voice": "GA827030,3"
+      },
+      "original": "どういうことですの？\n",
+      "translation": "무슨 말씀이신가요?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0041",
+      "channel": 1,
+      "context": {
+        "speaker": "019",
+        "face": "521,0,346,0",
+        "voice": "GA827031,3"
+      },
+      "original": "スロットルや照準といった操縦系統が、今までの\n調整では不可能なレベルまで最適化されていたん\nです。\n",
+      "translation": "스로틀이나 조준 같은 조종 계통이, 지금까지의\n조정으로는 불가능한 레벨까지 최적화되어\n있었던 것입니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0042",
+      "channel": 1,
+      "context": {
+        "speaker": "019",
+        "face": "521,0,346,0",
+        "voice": "GA827032,3"
+      },
+      "original": "つまり、各パイロットの特性やクセに合わせて、\nチューニングし直されたと言えます。\n",
+      "translation": "즉, 각 파일럿의 특성이나 버릇에 맞춰 튜닝된\n것이라고 할 수 있습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0043",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,069,0,0",
+        "voice": "GA827033,3"
+      },
+      "original": "やっぱりそうだったんだ。\n何だか今までと操作性が少し違うと思ったのに、\nやけにスンナリ動かせたのは、そのせいなのね。\n",
+      "translation": "역시 그랬던 거구나. 왠지 지금까지와 조작감이\n조금 다르다 싶었는데, 유난히 매끄럽게\n움직였던 건 그것 때문이었네.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0044",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,0,022",
+        "voice": "GA827034,3"
+      },
+      "original": "つまり、紋章機はパワーアップしたということで\nすか？\nそれってすごいじゃないですか！\n",
+      "translation": "즉, 문장기가 파워업했다는 건가요? 그거\n대단하잖아요!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0045",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,181,0,022",
+        "voice": "GA827035,3"
+      },
+      "original": "……ですが、一度出た翼が消えてしまったのは、\nなぜなのでしょうか？\n",
+      "translation": "……하지만, 한 번 나타난 날개가 사라져 버린\n것은 왜인 걸까요?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0046",
+      "channel": 1,
+      "context": {
+        "speaker": "019",
+        "face": "521,0,346,0",
+        "voice": "GA827036,3"
+      },
+      "original": "その原因は、今のところ不明です。\n翼が消えた際に、性能の低下が見られましたが、\nこれは限界性能を引き出した反動と思われます。\n",
+      "translation": "그 원인은 현재 불명입니다. 날개가 사라질 때\n성능 저하가 보였습니다만, 이는 한계 성능을\n끌어낸 반동이라 생각됩니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0047",
+      "channel": 1,
+      "context": {
+        "voice": "GA827036,3",
+        "speaker": "001",
+        "face": "004,0,346,0"
+      },
+      "original": "あの翼を常に出現させる……つまり、紋章機の力\nを、常に１００パーセント引き出しておけるよう\nにはできないのかな？\n",
+      "translation": "그 날개를 항상 출현시키는…… 즉, 문장기의\n힘을 항상 100퍼센트 끌어낼 수는 없는 건가?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0048",
+      "channel": 1,
+      "context": {
+        "voice": "GA827036,3",
+        "speaker": "001",
+        "face": "003,0,346,0"
+      },
+      "original": "翼があるときの紋章機は、すさまじい力を見せた。\nあれなら、『黒き月』に対抗できるかもしれない。\n",
+      "translation": "날개가 있을 때의 문장기는 엄청난 힘을\n보여줬다. 그렇다면 『흑색 달』에 대항할 수\n있을지도 몰라.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0049",
+      "channel": 1,
+      "context": {
+        "face": "221,0,0,223",
+        "voice": "GA827037,3",
+        "speaker": "007"
+      },
+      "original": "そうだな。\nあのまま行けば、『黒き月』にとどめを刺すこと\nができたかもしれない。\n",
+      "translation": "그렇군. 저대로 갔다면 『흑색 달』에 최후의\n일격을 가할 수도 있었을지도 몰라.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0050",
+      "channel": 1,
+      "context": {
+        "speaker": "019",
+        "face": "521,0,346,0",
+        "voice": "GA827038,3"
+      },
+      "original": "翼の起動条件も、現在調査中です。\nたぶん、パイロットと機体のリンクが一定レベル\n以上に達することで起動するようなのですが……。\n",
+      "translation": "날개의 기동 조건도 현재 조사 중입니다. 아마\n파일럿과 기체의 링크가 일정 수준 이상\n달성되어야 기동하는 것 같습니다만……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0051",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,068,0,0",
+        "voice": "GA827039,3"
+      },
+      "original": "結局、詳しいことは何もわかってないってワケね。\n改めて考えると、そんなものに命あずけてるのよ\nね、アタシたちって。\n",
+      "translation": "결국, 자세한 건 아무것도 모른다는 거네.\n다시 생각해보면, 그런 것에 목숨을 맡기고\n있는 거야, 우리들은.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0052",
+      "channel": 1,
+      "context": {
+        "speaker": "019",
+        "face": "521,0,349,0",
+        "voice": "GA827040,3"
+      },
+      "original": "私たち研究者にとっても、衝撃的でした。\n紋章機とエルシオールに、こんな秘密が隠されて\nいたなんて。\n",
+      "translation": "저희 연구자들에게도 충격적이었습니다.\n문장기와 에르시올에 이런 비밀이 숨겨져\n있었다니.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0053",
+      "channel": 1,
+      "context": {
+        "speaker": "019",
+        "face": "521,0,346,0",
+        "voice": "GA827041,3"
+      },
+      "original": "シャトヤーン様がこの場にいらっしゃれば、何か\n助言をたまわることができたかもしれませんが、\n今の状況では……。\n",
+      "translation": "샤토얀 님이 이 자리에 계셨다면, 무언가\n조언을 얻었을지도 모르겠습니다만, 지금의\n상황으로는……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0054",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,346,0",
+        "voice": "GA827041,3"
+      },
+      "original": "いや、ありがとう、クレータ班長。\nだいたいのことは理解できたつもりだよ。\n",
+      "translation": "아니, 고마워, 크레이타 반장. 대강의 일은\n이해한 것 같아.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0055",
+      "channel": 1,
+      "context": {
+        "voice": "GA827041,3",
+        "speaker": "001",
+        "face": "001,0,346,0"
+      },
+      "original": "ところで、エルシオールはどうなのかな？\n紋章機みたいに、何かパワーアップしたりしたの？\n",
+      "translation": "그런데 에르시올은 어떻게 됐나? 문장기처럼 뭔가\n파워업이라도 했어?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0056",
+      "channel": 1,
+      "context": {
+        "face": "521,0,346,0",
+        "speaker": "019",
+        "voice": "GA827042,3"
+      },
+      "original": "はい。\nエルシオールも、シールドの出力をはじめとする\n防御面が強化されています。\n",
+      "translation": "네. 에르시올도 실드 출력을 비롯한 방어면이\n강화되어 있습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0057",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,0,225",
+        "voice": "GA827043,3"
+      },
+      "original": "攻撃面は強化されていないのか？\nただでさえ、この艦は火力が足りないってのに。\n",
+      "translation": "공격면은 강화되지 않은 건가? 안 그래도 이\n함선은 화력이 부족한데.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0058",
+      "channel": 1,
+      "context": {
+        "voice": "GA827044,3",
+        "speaker": "019",
+        "face": "521,0,346,0"
+      },
+      "original": "ええ……今のところは、ですが。\n",
+      "translation": "네…… 지금으로서는 말입니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0059",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,346,0",
+        "voice": "GA827044,3"
+      },
+      "original": "「今のところは」？\n　なんか含みのある言い方だね。\n",
+      "translation": "「지금으로서는」? 뭔가 의미심장한 말투네.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0060",
+      "channel": 1,
+      "context": {
+        "speaker": "019",
+        "face": "521,0,347,0",
+        "voice": "GA827045,3"
+      },
+      "original": "うふふ……実は、書き換えられたシステムの中に、\nエルシオールに追加兵装があることを示すデータ\nが発見されたんです。\n",
+      "translation": "우후후…… 사실은 새로 쓰인 시스템 속에,\n에르시올에 추가 병기가 있다는 것을 나타내는\n데이터가 발견되었습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0061",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,347,0",
+        "voice": "GA827045,3"
+      },
+      "original": "追加兵装？\nそれって何なんだい？\n",
+      "translation": "추가 병기? 그게 뭔데?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0062",
+      "channel": 1,
+      "context": {
+        "face": "521,0,346,0",
+        "voice": "GA827046,3",
+        "speaker": "019"
+      },
+      "original": "船首部分に取りつける、大型のエネルギー砲です。\nこれがあれば、『黒き月』にも、十分対抗できる\nかと思います。\n",
+      "translation": "선수 부분에 장착하는 대형 에너지포입니다.\n이것만 있다면 『흑색 달』에도 충분히 대항할\n수 있을 거라 생각합니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0063",
+      "channel": 1,
+      "context": {
+        "face": "021,0,0,026",
+        "voice": "GA827047,3",
+        "speaker": "002"
+      },
+      "original": "そんなにすごい武器があるなんて、初耳です。\nその武器は、どこにあるんですか？\n",
+      "translation": "그렇게 대단한 무기가 있다니 처음 듣습니다.\n그 무기는 어디에 있습니까?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0064",
+      "channel": 1,
+      "context": {
+        "speaker": "019",
+        "face": "521,0,346,0",
+        "voice": "GA827048,3"
+      },
+      "original": "それについては、このデータをご覧ください。\n",
+      "translation": "그 점은 이 데이터를 봐 주십시오.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0065",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GA827048,3"
+      },
+      "original": "何だい、この図面は？\nどこかの地図かな？\n",
+      "translation": "뭐지, 이 도면은? 어딘가의 지도인가?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0066",
+      "channel": 1,
+      "context": {
+        "voice": "GA827049,3",
+        "speaker": "019",
+        "face": "521,0,0,0"
+      },
+      "original": "追加兵装のデータとともに発見されたものです。\nこの図面の中心部、兵器生産プラントとおぼしき\n場所に、この武器が眠っているようです。\n",
+      "translation": "추가 병기 데이터와 함께 발견된 것입니다. 이\n도면의 중심부, 병기 생산 플랜트라 추정되는\n장소에 이 무기가 잠들어 있는 듯합니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0067",
+      "channel": 1,
+      "context": {
+        "voice": "GA827049,3",
+        "speaker": "001",
+        "face": "003,0,0,0"
+      },
+      "original": "『黒き月』を破壊できれば、この戦いに終止符を\n　打つこともできる。\n　それで、この見取り図の場所ってどこなんだい？\n",
+      "translation": "『흑색 달』을 파괴할 수 있다면, 이 싸움에\n종지부를 찍을 수도 있어. 그래서, 이 약도의\n장소는 어디지?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0068",
+      "channel": 1,
+      "context": {
+        "speaker": "019",
+        "face": "521,0,346,0",
+        "voice": "GA827050,3"
+      },
+      "original": "……それについては、私よりも、シヴァ皇子の方\nがよくご存じかと思います。\n",
+      "translation": "……그 점에 대해서는 저보다 시바 황자님께서\n더 잘 알고 계실 겁니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0069",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "007,0,346,0",
+        "voice": "GA827050,3"
+      },
+      "original": "シヴァ皇子が！？\n",
+      "translation": "시바 황자님이!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0070",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "281,0,282,0",
+        "voice": "GA827051,3"
+      },
+      "original": "私にも、確証があるわけではない。\nただ、おそらく私は、この場所を知っている。\n",
+      "translation": "나에게도 확증이 있는 것은 아니다. 다만,\n아마 나는 이 장소를 알고 있다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0071",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,282,0",
+        "voice": "GA827051,3"
+      },
+      "original": "教えてください、シヴァ皇子！\nこの図面の場所は、どこなんですか？\n",
+      "translation": "알려주세요, 시바 황자님! 이 도면의 장소는\n어디입니까?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0072",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "281,0,273,0",
+        "voice": "GA827052,3"
+      },
+      "original": "それは……『白き月』だ。\n",
+      "translation": "그것은…… 『백색 달』이다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0073",
+      "channel": 1,
+      "context": {
+        "voice": "GA827052,3",
+        "speaker": "001",
+        "face": "006,0,273,0"
+      },
+      "original": "し、『白き月』ですって！？\n",
+      "translation": "아니, 『백색 달』이라고 했나요!?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0074",
+      "channel": 1,
+      "context": {
+        "face": "491,0,0,338",
+        "voice": "GA827053,3",
+        "speaker": "016"
+      },
+      "original": "　ち……ちょっと待ってください！\n『白き月』に、兵器が隠されているとおっしゃる\n　んですか！？\n",
+      "translation": "기……잠시만 기다려 주세요! 『백색 달』에\n병기가 숨겨져 있다는 말씀이신가요!?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0075",
+      "channel": 1,
+      "context": {
+        "speaker": "019",
+        "face": "521,0,349,0",
+        "voice": "GA827054,3"
+      },
+      "original": "私も、信じたくはないわ。\nでも、この兵器がロストテクノロジーだとしたら、\nそれが『白き月』にあるのも不思議ではない。\n",
+      "translation": "나도 믿고 싶지는 않아. 하지만 이 병기가\n로스트 테크놀로지라면, 그것이 『백색 달』에\n있는 것도 이상할 건 없어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0076",
+      "channel": 1,
+      "context": {
+        "speaker": "019",
+        "face": "521,0,349,0",
+        "voice": "GA827055,3"
+      },
+      "original": "それに……もっと信じたくないことだけど、図面\nを見る限り、『白き月』は最初から兵器の製造が\n可能なように作られていた可能性があるわ。\n",
+      "translation": "게다가…… 더 믿고 싶지 않은 사실이지만,\n도면을 보는 한 『백색 달』은 처음부터 병기\n제조가 가능하도록 만들어졌을 가능성이 있어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0077",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,341,0,0",
+        "voice": "GA827056,3"
+      },
+      "original": "　そんな……そんなはずないです！\n『白き月』が、兵器工場だなんて！\n",
+      "translation": "말도 안 돼…… 그럴 리가 없어요! 『백색\n달』이 병기 공장이라니!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0078",
+      "channel": 1,
+      "context": {
+        "voice": "GA827057,3",
+        "speaker": "011",
+        "face": "281,0,273,0"
+      },
+      "original": "信じるかどうかは、そなたたちの自由だ。\nだが、以前シャトヤーン様から、同じ図を見せて\nいただいたことがある。\n",
+      "translation": "믿을지 말지는 그대들의 자유다. 하지만 이전에\n샤토얀 님으로부터 같은 도면을 보여드린 적이\n있다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0079",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,065,0,0",
+        "voice": "GA827058,3"
+      },
+      "original": "そういえば、アタシたちも、この見取り図にある\nような奥の方まで入ったことはないわね。\n",
+      "translation": "그러고 보니 우리들도 이 도면에 있는 것처럼\n안쪽 깊숙한 곳까지 들어간 적은 없네.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0080",
+      "channel": 1,
+      "context": {
+        "face": "101,065,0,107",
+        "speaker": "004",
+        "voice": "GA827059,3"
+      },
+      "original": "　そうですわね。\n『月の巫女』のみなさんは、てっきりご存じかと\n　思っていたのですが。\n",
+      "translation": "그렇군요. 『달의 무녀』 여러분은 당연히 알고\n계실 줄 알았습니다만.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0081",
+      "channel": 1,
+      "context": {
+        "face": "491,0,0,336",
+        "voice": "GA827060,3",
+        "speaker": "016"
+      },
+      "original": "この見取り図にある区画は、シャトヤーン様から\n立ち入りを禁じられていたんです。\n",
+      "translation": "이 설계도에 있는 구역은, 샤토얀 님으로부터\n출입을 금지당했었습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0082",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,341,0,336",
+        "voice": "GA827061,3"
+      },
+      "original": "だから、『白き月』に兵器なんてあるわけが……。\n",
+      "translation": "그러니까 『백색 달』에 병기 같은 게 있을\n리가……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0083",
+      "channel": 1,
+      "context": {
+        "speaker": "011",
+        "face": "281,0,273,0",
+        "voice": "GA827062,3"
+      },
+      "original": "信じるかどうかは自由だと言ったはずだ。\nそなたはどうだ、マイヤーズ。\n決定権は、司令官のそなたにある。\n",
+      "translation": "믿을지 말지는 자유라고 했을 터다. 그대는\n어떤가, 마이어스. 결정권은 사령관인 그대에게\n있다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0084",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0",
+        "voice": "GA827062,3"
+      },
+      "original": "…………。\n",
+      "translation": "…………。\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0085",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA827062,3"
+      },
+      "original": "　……よし、行こう。\n『白き月へ』！\n",
+      "translation": "……좋아, 가자. 『백색 달로』!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0086",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA827062,3"
+      },
+      "original": "『白き月』には、エオニア軍に……『黒き月』に\n　対抗できる手段か、少なくともその手がかりが\n　あるのは間違いない。\n",
+      "translation": "『백색 달』에는, 에오니아군에…… 『흑색\n달』에 대항할 수 있는 수단인가, 적어도 그\n실마리가 있는 것은 틀림없어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0087",
+      "channel": 1,
+      "context": {
+        "voice": "GA827062,3",
+        "speaker": "001",
+        "face": "003,0,0,0"
+      },
+      "original": "ロストテクノロジーの権威であるシャトヤーン様\nに聞いてみよう。\nそれで、すべてが明らかになるはずだ。\n",
+      "translation": "로스트 테크놀로지의 권위자인 샤토얀 님께\n물어보자. 그러면 모든 것이 밝혀질 거야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0088",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,0,223",
+        "voice": "GA827063,3"
+      },
+      "original": "それはいいが、『白き月』とトランスバール本星\nに向かうとなると、エオニア軍の拠点に飛び込む\nことになるぜ？\n",
+      "translation": "그건 그렇지만, 『백색 달』과 트랜스벌 본성\n으로 향하게 되면, 에오니아군의 거점으로\n뛰어드는 셈이 되잖아?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0089",
+      "channel": 1,
+      "context": {
+        "voice": "GA827063,3",
+        "speaker": "001",
+        "face": "012,0,0,223"
+      },
+      "original": "ここだって、大軍の目の前だよ。\nどこに行こうが、危険なのは一緒さ。\n",
+      "translation": "여기도 대군 앞이야. 어디를 가든 위험한 건\n마찬가지야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0090",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,223",
+        "voice": "GA827063,3"
+      },
+      "original": "むしろ、今がチャンスなんだ。\n主力がこっちに来ている分、本星は手薄になって\nいるはずだ。\n",
+      "translation": "오히려 지금이 기회야. 주력이 이쪽으로 온\n만큼, 본성은 허술해져 있을 거야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0091",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,0,221",
+        "voice": "GA827064,3"
+      },
+      "original": "まぁ、それはそうだな。\n",
+      "translation": "뭐, 그건 그렇군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0092",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,221",
+        "voice": "GA827064,3"
+      },
+      "original": "どのみち、このままここにいても、『黒き月』に\n勝てる見込みは薄い。\nだったら、少しでも可能性がある方に賭けたい。\n",
+      "translation": "어차피 이대로 여기 있어 봤자, 『흑색 달』에\n이길 가망은 희박해. 그렇다면 조금이라도\n가능성이 있는 쪽에 걸고 싶어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0093",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,221",
+        "voice": "GA827064,3"
+      },
+      "original": "エオニアを倒して、この無益な争いを終わらせる\nんだ。\nそして、みんなの笑顔を取り戻そう。\n",
+      "translation": "에오니아를 쓰러뜨리고, 이 무익한 다툼을\n끝내는 거야. 그리고 모두의 미소를 되찾자.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0094",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,047,0",
+        "voice": "GA827065,3"
+      },
+      "original": "わかりました。\nあたし……その、タクトさんのご迷惑にならない\nようにがんばります。\n",
+      "translation": "알겠습니다. 저…… 그게, 택트 씨에게 폐가\n되지 않도록 노력할게요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0095",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,047,0",
+        "voice": "GA827065,3"
+      },
+      "original": "迷惑だなんて、とんでもない。\nありがとう、ミルフィー。\nみんなも、オレについて来てくれ。\n",
+      "translation": "폐라니, 말도 안 돼. 고마워, 밀피. 모두들,\n나를 따라와 줘.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0096",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,062,0",
+        "voice": "GA827066,3"
+      },
+      "original": "オッケー。\nアンタに任せるわ。\n",
+      "translation": "오케이. 너에게 맡길게.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0097",
+      "channel": 1,
+      "context": {
+        "face": "001,0,062,0",
+        "speaker": "001",
+        "voice": "GA827066,3"
+      },
+      "original": "ありがとう、ランファ。\nみんなも、オレについて来てくれ。\n",
+      "translation": "고마워, 란파. 모두들, 나를 따라와 줘.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0098",
+      "channel": 1,
+      "context": {
+        "voice": "GA827067,3",
+        "speaker": "004",
+        "face": "101,0,101,0"
+      },
+      "original": "タクトさんのお好きなように。\n私は、どこまでもご一緒いたしますわ。\n",
+      "translation": "택트 씨가 원하시는 대로. 저는 어디까지라도\n함께하겠습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0099",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,101,0",
+        "voice": "GA827067,3"
+      },
+      "original": "ありがとう、ミント。\nみんなも、オレについて来てくれ。\n",
+      "translation": "고마워, 민트. 모두들, 나를 따라와 줘.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0100",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,141,0",
+        "voice": "GA827068,3"
+      },
+      "original": "いいよ。\nタクト、あんたの決断を信じるよ。\n",
+      "translation": "좋아. 택트, 네 결단을 믿을게.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0101",
+      "channel": 1,
+      "context": {
+        "face": "001,0,141,0",
+        "voice": "GA827068,3",
+        "speaker": "001"
+      },
+      "original": "ありがとう、フォルテ。\nみんなも、オレについて来てくれ。\n",
+      "translation": "고마워, 포르테. 모두들, 나를 따라와 줘.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0102",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,0,181,0",
+        "voice": "GA827069,3"
+      },
+      "original": "わかりました。\n……タクトさんを信じます。\n",
+      "translation": "알겠습니다. ……택트 씨를 믿을게요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0103",
+      "channel": 1,
+      "context": {
+        "face": "001,0,181,0",
+        "speaker": "001",
+        "voice": "GA827069,3"
+      },
+      "original": "ありがとう、ヴァニラ。\nみんなも、オレについて来てくれ。\n",
+      "translation": "고마워, 바닐라. 모두들, 나를 따라와 줘.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0104",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GA827069,3"
+      },
+      "original": "エルシオール、発進準備！\n目的地は、『白き月』！\n",
+      "translation": "에르시올, 발진 준비! 목적지는 『백색 달』!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0010e800:dialogue:0105",
+      "channel": 1,
+      "context": {
+        "speaker": "099",
+        "face": "0,0,0,0",
+        "voice": "GA827070,3"
+      },
+      "original": "了解！\n",
+      "translation": "네！\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_00031000.txt",
+    "encoding": "cp932",
+    "sha256": "8c8040621ac5f755154d2c18473f63071a81463ee9d321912f4473d8a82dd7a8",
+    "dialogue_count": 33
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0"
+      },
+      "original": "ふぅ……何だか疲れた。\n大した時間も取れないけど、少し休もうかな？\n",
+      "translation": "후우…… 왠지 피곤하네. 긴 시간을 낼 수는\n없지만, 조금 쉴까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0"
+      },
+      "original": "いや、まだ大丈夫だ。\nそれに、ここじゃ暇つぶしもできないしな。\nまた艦内を回ってみよう。\n",
+      "translation": "아니, 아직 괜찮아. 게다가 여기선 시간\n때우기도 할 수 없고 말이야. 다시 함내를\n돌아다녀 보자.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0"
+      },
+      "original": "疲れを取るには、横になるのが一番だ。\nちょっと休もう……。\n",
+      "translation": "피로를 풀려면, 눕는 게 제일이다. 잠깐\n쉬자……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0"
+      },
+      "original": "ふぁ～あ、よく寝た。\n……と思ったけど、まだこんな時間か。\n",
+      "translation": "후아～아, 잘 잤다. ……라고 생각했는데,\n아직 이런 시간인가.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0"
+      },
+      "original": "交替までには、まだ余裕があるな。\n疲れも取れたことだし、また艦の中を歩き回って\nみるか。\n",
+      "translation": "교대까지는 아직 여유가 있네. 피로도 풀린\n겸, 다시 함선 안을 돌아다녀 볼까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,221,0",
+        "voice": "GA304001,3"
+      },
+      "original": "おお、タクトか。\nどうした、もう休憩は終わりか？\n",
+      "translation": "오오, 택트인가. 왜 그래, 벌써 휴식은 끝난\n건가?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,221,0",
+        "voice": "GA304001,3"
+      },
+      "original": "いーや、まだまだ散歩の途中だよ。\nもうちょっとブリッジはよろしく。\n",
+      "translation": "아니이-, 아직 산책 중이야. 브릿지는 조금 더\n잘 부탁해.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GA304001,3"
+      },
+      "original": "ん……何だ？\nどこからか話し声が……。\n",
+      "translation": "음…… 뭐야? 어디선가 말소리가……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "502,0,0,0",
+        "voice": "GA304002,3"
+      },
+      "original": "（……ねー、ちょっといいと思わない？）\n",
+      "translation": "（……있잖아, 좀 괜찮다고 생각하지 않아?）\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "492,0,0,0",
+        "voice": "GA304003,3"
+      },
+      "original": "（……ふぅん、そうなの？）\n",
+      "translation": "（……흐응, 그래?）\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GA304003,3"
+      },
+      "original": "ココとアルモが、何かひそひそ話をしてる……。\n",
+      "translation": "코코랑 아르모가, 뭔가 소곤소곤 이야기하고\n있어……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,0,0",
+        "voice": "GA304003,3"
+      },
+      "original": "ねぇ、ふたりとも。\nいったい何を話してるんだい？\n",
+      "translation": "저기, 두 사람 다. 대체 뭘 이야기하고 있는\n거야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,343,0,0",
+        "voice": "GA304004,3"
+      },
+      "original": "あ、マイヤーズ司令！\nいえ、その……何でもないんです。\n",
+      "translation": "아, 마이어스 사령관님! 아니, 그게……\n아무것도 아니에요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,343,0,0",
+        "voice": "GA304004,3"
+      },
+      "original": "あ、オレがいたらマズイ話？\nだったら悪かった。\n",
+      "translation": "아, 내가 있으면 곤란한 이야기야? 그렇다면\n미안.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,336",
+        "voice": "GA304005,3"
+      },
+      "original": "いえ、そういうわけでは……。\nただ、あまり大声を出されると……。\nもっとこちらに寄っていただけますか？\n",
+      "translation": "아니요, 그런 건 아니지만…… 다만, 너무 큰\n소리로 말씀하시면…… 좀 더 이쪽으로 와\n주시겠어요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,336",
+        "voice": "GA304005,3"
+      },
+      "original": "いいけど。\nいったい何の話？\n",
+      "translation": "괜찮지만. 대체 무슨 이야기야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,343,0,336",
+        "voice": "GA304006,3"
+      },
+      "original": "ちょ、ちょっと、ココ……！\n",
+      "translation": "자, 잠깐만, 코코……!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,343,0,337",
+        "voice": "GA304007,3"
+      },
+      "original": "ちょうどいい機会かもよ。\n司令は、いちばん身近にいる人なんだもの。\n本当のところを、ズバリ聞いてみたら？\n",
+      "translation": "딱 좋은 기회일지도 몰라. 사령관님은 가장\n가까이 있는 사람이니까. 진짜 속마음을,\n단도직입적으로 물어보는 건 어때?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,341,0,337",
+        "voice": "GA304008,3"
+      },
+      "original": "うーん、確かにそうかも……。\n",
+      "translation": "으음, 확실히 그럴지도……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "face": "012,341,0,337",
+        "speaker": "001",
+        "voice": "GA304008,3"
+      },
+      "original": "えーと、話が見えないんだけど？\n",
+      "translation": "에이-, 무슨 말인지 모르겠는데?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "voice": "GA304009,3",
+        "speaker": "017",
+        "face": "501,341,0,337"
+      },
+      "original": "あの、司令。\nひとつお聞きしたいことがあるんですが。\n",
+      "translation": "저기, 사령관님. 하나 여쭤보고 싶은 게\n있는데요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,341,0,337",
+        "voice": "GA304010,3"
+      },
+      "original": "その……クールダラス副司令に、つきあってる人\nはいるんですか？\n",
+      "translation": "그…… 쿨다라스 부사령관님과, 교제하는 사람\n이 있나요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "007,341,0,337",
+        "voice": "GA304010,3"
+      },
+      "original": "つきあってる人ぉ？\nレスターに？\n",
+      "translation": "교제하는 사람이라니? 레스터랑?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,341,0,338",
+        "voice": "GA304011,3"
+      },
+      "original": "しーっ！\n司令、声が大きいです。\n",
+      "translation": "쉿! 사령관님, 목소리가 커요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,341,0,338",
+        "voice": "GA304011,3"
+      },
+      "original": "なぁんだ、レスターかぁ……。\n",
+      "translation": "뭐야, 레스터인가...\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,341,0,338",
+        "voice": "GA304012,3"
+      },
+      "original": "で、どうなんですか？\n",
+      "translation": "그래서, 어떤가요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,341,0,338",
+        "voice": "GA304012,3"
+      },
+      "original": "レスターなら、今も昔も恋人なんていないよ。\n硬派ってやつでね。\n",
+      "translation": "레스터라면, 예나 지금이나 연인 같은 건\n없어. 강직한 녀석이라 말이지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,342,0,338",
+        "voice": "GA304013,3"
+      },
+      "original": "いないんですね？\nホッ……。\n",
+      "translation": "없군요? 휴우……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,342,0,337",
+        "voice": "GA304014,3"
+      },
+      "original": "よかったじゃない、アルモ。\n",
+      "translation": "다행이네, 아르모.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,342,0,337",
+        "voice": "GA304015,3"
+      },
+      "original": "うん！\nよーし、がんばろっと。\n",
+      "translation": "응! 좋아, 힘내야지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "face": "501,342,0,337",
+        "voice": "GA304016,3",
+        "speaker": "017"
+      },
+      "original": "ありがとうございました、司令。\nあたし、副司令に報告がありますんで、これで。\n",
+      "translation": "감사합니다, 사령관님. 저, 부사령관님께\n보고할 게 있어서 이만.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,337",
+        "voice": "GA304017,3"
+      },
+      "original": "私も、もう一度データをチェックしておこうっと。\n",
+      "translation": "나도 다시 한번 데이터를 체크해둬야겠다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00031000:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "voice": "GA304017,3",
+        "speaker": "001",
+        "face": "012,0,0,0"
+      },
+      "original": "あ……はい、お仕事ご苦労さま……。\n",
+      "translation": "아…… 네, 업무 수고하세요……\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

@@ -1,0 +1,569 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_00127000.txt",
+    "encoding": "cp932",
+    "sha256": "5e61e26f91ab231cdb3b95f994d0ef0938808223ff3a23007b6b8f0057e0e829",
+    "dialogue_count": 43
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "009,0,0,0"
+      },
+      "original": "……はあぁぁぁ～……。\n寿命がちぢまったぁ。\n",
+      "translation": "……하아아아～…… 수명이 줄어들었어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,121,0",
+        "voice": "GAB05001,3"
+      },
+      "original": "うふふ、どうなさいましたの？\nさっきは、あんなに威勢がよろしかったのに。\n",
+      "translation": "우후후, 왜 그러시나요? 아까는 그렇게 기세가\n좋으셨으면서.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,121,0",
+        "voice": "GAB05001,3"
+      },
+      "original": "いやぁ……ダルノーさんとの対決で、めちゃくちゃ\n緊張してた反動が、今になって一気に……。\n",
+      "translation": "아니…… 달르노 씨와의 대결에서 엄청나게\n긴장했던 반동이, 이제 와서 한꺼번에……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,109,0",
+        "voice": "GAB05002,3"
+      },
+      "original": "あの父にひと泡吹かせるなんて芸当、タクトさん\nにしかできませんわ。\n",
+      "translation": "그 아버님께 한 방 먹이다니, 택트 씨 밖에 할\n수 없는 재주예요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,109,0",
+        "voice": "GAB05002,3"
+      },
+      "original": "そうかな？\nあれは、ダルノーさんがオレの心を読んだ上で、\n茶番につきあってくれただけな気もする。\n",
+      "translation": "그럴까? 그건 달르노 씨가 내 마음을 읽은\n상태에서, 연극에 어울려 준 것뿐이라는\n기분도 들어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,104,0",
+        "voice": "GAB05003,3"
+      },
+      "original": "では、時間までにエルシオールに戻らないと砲撃\nするとおっしゃったのは……？\n",
+      "translation": "그럼, 시간까지 에르시올로 돌아가지 않으면\n포격 하겠다고 말씀하신 건……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,104,0",
+        "voice": "GAB05003,3"
+      },
+      "original": "もちろん、ハッタリだよ。\n本当にそんなことするわけないだろ？\n",
+      "translation": "물론, 허세야. 정말로 그런 짓을 할 리가\n없잖아?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,104,0",
+        "voice": "GAB05003,3"
+      },
+      "original": "それでも、ダルノーさんが許してくれたのは……。\nきっと心の中では、ミントの成長を認めてくれた\nからじゃないかな。\n",
+      "translation": "그래도 달르노 씨가 용서해 준 것은…… 분명\n마음속으로는, 민트의 성장을 인정해 줬기\n때문이 아닐까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,107,0",
+        "voice": "GAB05004,3"
+      },
+      "original": "そうかもしれませんわね……。\n",
+      "translation": "그럴지도 모르겠네요……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,107,0",
+        "voice": "GAB05004,3"
+      },
+      "original": "ダルノーさんには、感謝しないとな。\nおかげで、こうしてミントと一緒にエルシオール\nに帰ることができたんだもの。\n",
+      "translation": "달르노 씨에게는, 감사해야겠어. 덕분에\n이렇게 민트와 함께 에르시올로 돌아갈 수 있게\n된 거니까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,101,0",
+        "voice": "GAB05005,3"
+      },
+      "original": "でも、タクトさんにも、本当に感謝していますわ。\nもしタクトさんが迎えに来てくださらなかったら、\nこうはなっていませんでした。\n",
+      "translation": "하지만 택트 씨에게도, 정말로 감사하고\n있어요. 만약 택트 씨가 데리러 와 주지\n않으셨다면, 이렇게 되지 않았을 거예요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "voice": "GAB05005,3",
+        "speaker": "001",
+        "face": "002,0,101,0"
+      },
+      "original": "自分のわがままを通しただけさ。\n感謝だなんて、大げさだよ。\n",
+      "translation": "내 고집을 부린 것뿐이야. 감사라니, 과해.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,101,0",
+        "voice": "GAB05005,3"
+      },
+      "original": "オレだけじゃなく、みんなも心配していたしね。\n感謝だなんて、大げさだよ。\n",
+      "translation": "나뿐만 아니라, 모두가 걱정하고 있었으니까\n말이야. 감사라니, 과해.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,121,0",
+        "voice": "GAB05006,3"
+      },
+      "original": "いいえ、いくら感謝しても足りませんわ。\nタクトさんのおかげで、私とお父様の間にあった\n溝も、埋まったような気がするんです。\n",
+      "translation": "아니요, 아무리 감사해도 부족해요. 택트 씨\n덕분에, 저와 아버님 사이에 있었던 간극도,\n메워진 것 같은 기분이 들거든요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,101,0",
+        "voice": "GAB05007,3"
+      },
+      "original": "本当に、なんとお礼を申し上げれば……。\nいいえ、言葉では言い切れませんわ。\n",
+      "translation": "정말이지, 뭐라고 감사를 드려야 할지……\n아니요, 말로는 다 표현할 수 없어요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "008,0,101,0",
+        "voice": "GAB05007,3"
+      },
+      "original": "そんな、気にしなくていいってば。\nオレには、もう十分に伝わってるよ。\n",
+      "translation": "그런, 신경 쓰지 않아도 된다니까. 나에게는,\n이미 충분히 전달됐어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,109,0",
+        "voice": "GAB05008,3"
+      },
+      "original": "いいですから。\nちょっと、座ったままでいてくださいます？\n",
+      "translation": "그러니까요. 잠시, 앉아 있어 주시겠어요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,109,0",
+        "voice": "GAB05008,3"
+      },
+      "original": "あ、うん……。\nこうかな？\n",
+      "translation": "아, 응…… 이렇게 하면 될까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "voice": "GAB05009,3",
+        "speaker": "004",
+        "face": "101,0,102,0"
+      },
+      "original": "はい。\nそのまま正面を向いていてくださいませ……。\n",
+      "translation": "네. 그대로 정면을 봐 주세요……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "000,0,0,0",
+        "voice": "GAB05010,3"
+      },
+      "original": "んー……。\n",
+      "translation": "음～……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "007,0,0,0",
+        "voice": "GAB05010,3"
+      },
+      "original": "えっ？\nミ、ミント……今、オレのほっぺたに……。\n",
+      "translation": "엣? 미, 민트…… 지금, 내 뺨에……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "122,0,0,0",
+        "voice": "GAB05011,3"
+      },
+      "original": "私の、お礼の気持ちですわ★\n",
+      "translation": "저의, 감사의 마음이에요★\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "008,0,0,0",
+        "voice": "GAB05011,3"
+      },
+      "original": "ミント……。\nあ、ありがとう。\n",
+      "translation": "민트…… 고, 고마워.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "102,0,0,0",
+        "voice": "GAB05012,3"
+      },
+      "original": "どういたしまして。\n正直な気持ちを表しただけですもの。\n",
+      "translation": "천만에요. 솔직한 마음을 나타냈을 뿐이니까요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "121,0,0,0",
+        "voice": "GAB05013,3"
+      },
+      "original": "……でも、ちょっぴり恥ずかしいですわね。\n",
+      "translation": "……하지만, 조금 부끄럽네요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "face": "008,0,0,0",
+        "voice": "GAB05013,3",
+        "speaker": "001"
+      },
+      "original": "う、うん……オレも、ちょっぴり……。\n",
+      "translation": "으, 응…… 나도, 조금은……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "122,0,0,0",
+        "voice": "GAB05014,3"
+      },
+      "original": "うふふっ。\n今のことは、みなさんにはナイショですわよ？\n",
+      "translation": "우후훗. 지금 일은, 모두에게 비밀이에요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "face": "102,0,0,0",
+        "voice": "GAB05015,3",
+        "speaker": "004"
+      },
+      "original": "さぁ、帰りましょう。\n私たちの艦、エルシオールへ。\n",
+      "translation": "자, 돌아가요. 우리들의 함선, 에르시올로.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,0,0",
+        "voice": "GAB05015,3"
+      },
+      "original": "ああ、帰ろう。\nみんな、ミントを待ってるよ！\n",
+      "translation": "아아, 돌아가자. 모두, 민트를 기다리고 있어!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "speaker": "062",
+        "face": "645,0,0,0",
+        "voice": "GAB05016,3"
+      },
+      "original": "いやはや……。\nお嬢様も、すっかりご立派になられましたな。\n",
+      "translation": "이런이런…… 아가씨도, 완전히 훌륭해지셨군\n요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "speaker": "064",
+        "face": "631,0,376,0",
+        "voice": "GAB05017,3"
+      },
+      "original": "ずいぶんと、うれしそうだな？\n",
+      "translation": "상당히, 기뻐 보이는데?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "speaker": "062",
+        "face": "645,0,376,0",
+        "voice": "GAB05018,3"
+      },
+      "original": "はい、それはもう。\nお嬢様のご成長は、我がことのようにうれしゅう\nございます。\n",
+      "translation": "네, 그야도. 아가씨의 성장은, 제 일처럼\n기쁘옵 니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "face": "631,0,376,0",
+        "voice": "GAB05019,3",
+        "speaker": "064"
+      },
+      "original": "確かに、ミントが私に対して、あれだけはっきり\nと自分の意見を言ったのは初めてだ。\nそれだけは事実として認めてやろう。\n",
+      "translation": "확실히, 민트가 나에게, 저렇게 명확 하게\n자신의 의견을 말한 건 처음이다. 그것만큼은\n사실로서 인정해주마.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "speaker": "062",
+        "face": "645,0,376,0",
+        "voice": "GAB05020,3"
+      },
+      "original": "それに……ミントお嬢様は、マイヤーズ様という\nすばらしいパートナーともめぐり会われたご様子。\n",
+      "translation": "게다가…… 민트 아가씨는, 마이어스 님이라는\n멋진 파트너와도 만남을 가지신 듯하옵니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "face": "645,0,376,0",
+        "voice": "GAB05021,3",
+        "speaker": "062"
+      },
+      "original": "お嬢様が生まれたときから、お世話をさせていた\nだいておりますが、あんなにお幸せそうな笑顔を\n拝見したのは初めてでございます。\n",
+      "translation": "아가씨가 태어났을 때부터, 보살펴 드려\n왔습니다만, 그렇게 행복해 보이는 미소를 뵌\n것은 처음이옵니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0036",
+      "channel": 1,
+      "context": {
+        "speaker": "064",
+        "face": "631,0,376,0",
+        "voice": "GAB05022,3"
+      },
+      "original": "ふん……。\n私は、この先のことを考えると頭が痛いわ。\n",
+      "translation": "흥…… 나는, 앞으로의 일을 생각하면 머리가\n아프구나.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0037",
+      "channel": 1,
+      "context": {
+        "face": "645,0,376,0",
+        "speaker": "062",
+        "voice": "GAB05023,3"
+      },
+      "original": "旦那様、そう気を落とされませんように。\nお嬢様は、必ず無事にお戻りになられますとも。\n",
+      "translation": "주인님, 그렇게 낙담하지 마십시오. 아가씨는,\n반드시 무사히 돌아오실 것이옵니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0038",
+      "channel": 1,
+      "context": {
+        "face": "631,0,376,0",
+        "speaker": "064",
+        "voice": "GAB05024,3"
+      },
+      "original": "……何を当然のことを言っておる。\nそれよりも、今回のクーデターによる我が財閥の\n損失を考えると、頭が痛いと言っているのだ。\n",
+      "translation": "……무슨 당연한 소리를 하는 거냐. 그것보다,\n이번 쿠데타에 의한 우리 재벌의 손실을\n생각하면, 머리가 아프다고 말하는 것이다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0039",
+      "channel": 1,
+      "context": {
+        "voice": "GAB05025,3",
+        "speaker": "062",
+        "face": "645,0,376,0"
+      },
+      "original": "やれやれ……こちらの子離れの方は、まだ時間が\nかかりそうですな……。\n",
+      "translation": "이런이런…… 이쪽의 자녀 독립은, 아직\n시간이 걸릴 것 같군요……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0040",
+      "channel": 1,
+      "context": {
+        "voice": "GAB05026,3",
+        "speaker": "064",
+        "face": "631,0,376,0"
+      },
+      "original": "ん？\n何か言ったか？\n",
+      "translation": "음? 방금 뭐라고 했나?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0041",
+      "channel": 1,
+      "context": {
+        "voice": "GAB05027,3",
+        "speaker": "062",
+        "face": "645,0,376,0"
+      },
+      "original": "いいえ、何も。\n",
+      "translation": "아니요, 아무것도.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0042",
+      "channel": 1,
+      "context": {
+        "speaker": "064",
+        "face": "631,0,376,0",
+        "voice": "GAB05028,3"
+      },
+      "original": "タクト・マイヤーズ、か……。\n",
+      "translation": "택트・마이어스, 인가……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00127000:dialogue:0043",
+      "channel": 1,
+      "context": {
+        "speaker": "064",
+        "face": "631,0,376,0",
+        "voice": "GAB05029,3"
+      },
+      "original": "私の大事なひとり娘をあずけるのだ。\nミントのことも、皇国の未来のことも、しっかり\nと頼むぞ。\n",
+      "translation": "내 소중한 외동딸을 맡기겠다. 민트에 대해서\n도 , 황국의 미래에 대해서도, 확실 히\n부탁하마.\n",
+      "state": "needs_human",
+      "use_translation": true
+    }
+  ]
+}

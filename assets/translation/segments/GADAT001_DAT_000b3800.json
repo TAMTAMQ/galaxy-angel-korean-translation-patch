@@ -1,0 +1,375 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000b3800.txt",
+    "encoding": "cp932",
+    "sha256": "c2d72ac365806f955486a908cc6316f84c47e475ef39b75fc4edd8514855d567",
+    "dialogue_count": 28
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "face": "491,0,0,0",
+        "speaker": "016",
+        "voice": "GAE24001,3"
+      },
+      "original": "……エオニア軍、引き続き接近中。\nあと１０分で戦闘宙域に入ります。\n",
+      "translation": "……에오니아군, 계속해서 접근 중. 앞으로\n10분 후 전투 우역에 진입합니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "face": "221,0,223,0",
+        "speaker": "007",
+        "voice": "GAE24002,3"
+      },
+      "original": "来たか……これが最後の戦いだな。\n",
+      "translation": "왔는가…… 이것이 마지막 싸움이 되겠군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "face": "005,0,223,0",
+        "speaker": "001",
+        "voice": "GAE24002,3"
+      },
+      "original": "ああ……これで終わらせるさ。\n総員、第１戦闘配備！\n",
+      "translation": "아아…… 이걸로 끝내버리겠어. 총원, 제1전투\n배비!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "face": "221,0,225,0",
+        "speaker": "007",
+        "voice": "GAE24003,3"
+      },
+      "original": "総員、第１戦闘配備！\n最終チェックを急げ！\n",
+      "translation": "총원, 제1전투배비! 최종 체크를 서둘러라!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "face": "006,0,0,0",
+        "speaker": "001",
+        "voice": "GAE24003,3"
+      },
+      "original": "それにしても、このクロノ・ブレイク・キャノン\nを取りつけただけで、かなり印象が変わったなぁ。\n今までのエルシオールとは、別の艦みたいだよ。\n",
+      "translation": "그건 그렇고, 이 크로노・브레이크・캐논을\n장착한 것만으로도 인상이 상당히 바뀌었어.\n지금까지의 에르시올과는 다른 함선 같아.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "face": "221,0,0,0",
+        "speaker": "007",
+        "voice": "GAE24004,3"
+      },
+      "original": "シャトヤーン様の話だと、これがエルシオールの\n本来の姿だそうだな。\n",
+      "translation": "샤토얀 님의 말씀으로는, 이것이 에르시올의\n본래 모습이라고 하더군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "face": "002,0,0,0",
+        "speaker": "001",
+        "voice": "GAE24004,3"
+      },
+      "original": "そうらしい。\nいったい、どれだけの威力なんだろうなぁ。\n何だかワクワクするよ。\n",
+      "translation": "그런 모양이야. 도대체 어느 정도의 위력일까.\n왠지 두근거리는걸.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "face": "223,0,0,0",
+        "speaker": "007",
+        "voice": "GAE24005,3"
+      },
+      "original": "浮かれるのはいいが、それに飲まれるなよ。\nこれはオモチャじゃない。\n立派な兵器だ。\n",
+      "translation": "들뜨는 건 좋지만, 거기에 휩쓸리지 마라.\n이건 장난감이 아니다. 훌륭한 병기다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "face": "223,0,0,0",
+        "speaker": "007",
+        "voice": "GAE24006,3"
+      },
+      "original": "それを理解せずに、むやみやたらとブッ放すよう\nなら、お前もエオニアと同じになっちまうぞ。\n",
+      "translation": "그걸 이해하지 못한 채 무턱대고 쏴대기만\n한다면, 너도 에오니아와 같아지고 말 거다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "face": "004,0,0,0",
+        "speaker": "001",
+        "voice": "GAE24006,3"
+      },
+      "original": "そうだな……。\n肝に銘じておこう。\n",
+      "translation": "그렇군…… 명심해 두지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "face": "003,0,0,0",
+        "voice": "GAE24006,3",
+        "speaker": "001"
+      },
+      "original": "整備班、クロノ・ブレイク・キャノンのエネルギー\nチャージはどうなっている？\n",
+      "translation": "정비반, 크로노・브레이크・캐논의 에너지\n충전은 어떻게 되어가고 있지?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "face": "524,0,0,0",
+        "voice": "GAE24007,3",
+        "speaker": "019"
+      },
+      "original": "それが……思いのほか調整に手間取っています。\n出力が上がらなくて、発射に必要なエネルギーが\n充てんされるには、まだ……。\n",
+      "translation": "그게…… 생각보다 조정에 시간이 걸리고\n있습니다. 출력이 올라가지 않아서, 발사에\n필요한 에너지가 충전되기까지는, 아직……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "224,0,0,0",
+        "voice": "GAE24008,3"
+      },
+      "original": "何だと？\nせっかく取りつけたのに、かんじんのときに発射\nできなかったら、シャレにならねぇぞ。\n",
+      "translation": "뭐라고? 기껏 장착했는데, 정작 중요한 때에\n발사 할 수 없다면 농담이 아니라고.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "019",
+        "face": "524,0,0,0",
+        "voice": "GAE24009,3"
+      },
+      "original": "現在、整備班を総動員して調整にあたっています。\nもう少し時間をください。\n",
+      "translation": "현재, 정비반을 총동원하여 조정에 임하고\n있습니다. 조금만 더 시간을 주십시오.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAE24009,3"
+      },
+      "original": "わかった。\nできるだけ急いでくれ。\n",
+      "translation": "알았다. 가능한 한 서둘러 줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GAE24010,3"
+      },
+      "original": "まったく、やっかいなシロモノだな。\n４００年以上眠っている間に、サビついたんじゃ\nないのか？\n",
+      "translation": "정말이지, 까다로운 물건이군. 400년 이상\n잠들어 있는 동안에 녹슬어 버린 게 아닌가?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,0,0",
+        "voice": "GAE24010,3"
+      },
+      "original": "そうボヤくなって。\n万が一、クロノ・ブレイク・キャノンが使えなく\nても、エンジェル隊がいれば大丈夫さ。\n",
+      "translation": "그렇게 투덜대지 마. 만일의 경우, 크로노・브\n레이크・캐논을 쓸 수 없더라도 엔젤대가\n있다면 괜찮아.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "face": "221,0,223,0",
+        "voice": "GAE24011,3",
+        "speaker": "007"
+      },
+      "original": "ふと思ったんだが……。\nひょっとして、クロノ・ブレイク・キャノンも、\n紋章機のように使用者の意思が関係するのか？\n",
+      "translation": "문득 든 생각인데…… 혹시, 크로노・브레이크\n・캐논도 문장기처럼 사용자의 의사가 관계되는\n건가?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,223,0",
+        "voice": "GAE24011,3"
+      },
+      "original": "は？\nそりゃ、どういうことだ？\n",
+      "translation": "하아? 그건 무슨 소리야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,224,0",
+        "voice": "GAE24012,3"
+      },
+      "original": "つまりだ、エネルギーチャージが進まない原因は、\nタクト、お前の気合いが足りてないからなんじゃ\nないのか？\n",
+      "translation": "말하자면, 에너지 충전이 진행되지 않는\n원인은, 택트, 네 기합이 부족해서 그런 거\n아니냐?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "face": "012,0,224,0",
+        "voice": "GAE24012,3",
+        "speaker": "001"
+      },
+      "original": "そ、それは関係ないと思うけど。\nだいいち、オレは気合い十分だぞ？\n",
+      "translation": "그, 그건 상관없다고 생각하는데. 애초에 난\n기합 만만하다고?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GAE24013,3"
+      },
+      "original": "とりあえず、試しにもっと気合い入れてみろ！\nクロノ・ブレイク・キャノンが撃てなくてもいい\nのか！？\n",
+      "translation": "일단, 시험 삼아 좀 더 기합을 넣어 봐!\n크로노・브레이크・캐논을 못 쏴도 상관없는\n거냐!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,225,0",
+        "voice": "GAE24013,3"
+      },
+      "original": "そ、そんなムチャクチャな！\n",
+      "translation": "그, 그렇게 무리한 건가!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GAE24014,3"
+      },
+      "original": "エオニア軍、間もなく戦闘宙域に入ります！\n",
+      "translation": "에오니아군, 곧 전투 우역에 진입합니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GAE24015,3"
+      },
+      "original": "司令も副司令も、ふざけてないで、ちゃんと指揮\nしてください！\n",
+      "translation": "사령관님도 부사령관님도, 장난하지 말고\n제대로 지휘 해주세요!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,224,0",
+        "voice": "GAE24016,3"
+      },
+      "original": "はい……。\n",
+      "translation": "네……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "009,0,224,0",
+        "voice": "GAE24016,3"
+      },
+      "original": "オレはふざけてないのに……。\n",
+      "translation": "난 장난하는 게 아닌데……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000b3800:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GAE24016,3"
+      },
+      "original": "いや、今はそんなのどうでもいい。\nとにかく、戦闘準備だ！\n",
+      "translation": "아니, 지금은 그런 건 아무래도 좋아. 어쨌든,\n전투 준비다!\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

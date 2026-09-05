@@ -1,0 +1,388 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000e9800.txt",
+    "encoding": "cp932",
+    "sha256": "16dd8b8c2cb2d78b667a68fb3e81d456bf733ea80cf8ee02e2644143c47c2be8",
+    "dialogue_count": 29
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "152,0,155,0",
+        "voice": "GA731001,3"
+      },
+      "original": "それじゃ、タクト。\nあたしたちも行こうか。\n",
+      "translation": "그럼, 택트. 우리도 갈까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,155,0",
+        "voice": "GA731001,3"
+      },
+      "original": "うん。\nだけど、その前に……。\n",
+      "translation": "응. 하지만, 그 전에……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "152,0,158,0",
+        "voice": "GA731002,3"
+      },
+      "original": "何だい？\n",
+      "translation": "왜 그래?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,158,0",
+        "voice": "GA731002,3"
+      },
+      "original": "さっき言いかけた続きだけど……。\nその、とても……。\n",
+      "translation": "아까 하려던 말의 뒷부분인데…… 그게,\n아주……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "152,0,158,0",
+        "voice": "GA731003,3"
+      },
+      "original": "とても？\n",
+      "translation": "아주?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "008,0,158,0",
+        "voice": "GA731003,3"
+      },
+      "original": "とても……きれいだよ。\n",
+      "translation": "아주…… 예뻐.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "152,0,170,0",
+        "voice": "GA731004,3"
+      },
+      "original": "え……。\n",
+      "translation": "에……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "152,0,156,0",
+        "voice": "GA731005,3"
+      },
+      "original": "あ、あはは……。\nそう来たか。\n",
+      "translation": "아, 아하하…… 그렇게 나오는 건가.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,156,0",
+        "voice": "GA731005,3"
+      },
+      "original": "え？\n",
+      "translation": "에?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "152,0,155,0",
+        "voice": "GA731006,3"
+      },
+      "original": "まぁ、それっぽいセリフが来ると想像してはいた\nけど、実際に聞くと……。\n",
+      "translation": "뭐, 그럴 법한 대사가 나올 거라고 상상은\n했지만 실제로 들으니까……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "152,0,170,0",
+        "voice": "GA731007,3"
+      },
+      "original": "……やっぱ、少し照れるね。\n",
+      "translation": "……역시, 조금 부끄럽네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "008,0,170,0",
+        "voice": "GA731007,3"
+      },
+      "original": "実はオレも、少し恥ずかしかったけど。\nでも、きれいだと思っているのは本当だよ。\n",
+      "translation": "사실 나도, 조금 쑥스러웠지만. 하지만,\n예쁘다고 생각하는 건 진심이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "152,0,155,0",
+        "voice": "GA731008,3"
+      },
+      "original": "ありがとう。\nタクトも、けっこう男前に見えるよ。\n",
+      "translation": "고마워. 택트도, 제법 멋있어 보여.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GA731008,3"
+      },
+      "original": "ん？\nこの音楽は……。\n",
+      "translation": "응? 이 음악은……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "152,0,158,0",
+        "voice": "GA731009,3"
+      },
+      "original": "もう始まったみたいだね、舞踏会。\n",
+      "translation": "벌써 시작된 모양이네, 무도회.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "voice": "GA731009,3",
+        "speaker": "001",
+        "face": "001,0,158,0"
+      },
+      "original": "本当だ。\nみんな踊り始めたな。\nオレたちも行こうか。\n",
+      "translation": "정말이다. 다들 춤추기 시작했어. 우리도 갈까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "060",
+        "face": "726,0,0,0",
+        "voice": "GA731010,3"
+      },
+      "original": "失礼、エンジェル隊のお嬢さん。\n次の曲は、先約がおありですかな？\n",
+      "translation": "실례합니다, 엔젤대 아가씨. 다음 곡은,\n선약이 있으신지요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "152,0,158,0",
+        "voice": "GA731011,3"
+      },
+      "original": "え？\nいや、あるというか、ないというか……。\n",
+      "translation": "에? 아니, 있다고 해야 할지, 없다고 해야\n할지……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "voice": "GA731012,3",
+        "speaker": "060",
+        "face": "726,0,0,0"
+      },
+      "original": "それでは、私と踊っていただけないでしょうか。\n",
+      "translation": "그렇다면, 저와 춤춰 주시지 않겠습니까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "152,0,156,0",
+        "voice": "GA731013,3"
+      },
+      "original": "悪いけど、パス。\nあたしのパートナーは、ここにいるタクトなんで\nねぇ。\n",
+      "translation": "미안하지만, 패스. 내 파트너는 여기 있는\n택트니까 말이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "voice": "GA731014,3",
+        "speaker": "060",
+        "face": "726,0,0,0"
+      },
+      "original": "それは、ラストダンスのときのことでしょう。\nそのときまでは、うわさに名高いエンジェル隊と\n踊る機会を、我々にも与えてくださいませんか？\n",
+      "translation": "그건, 라스트 댄스 때의 이야기겠지요.\n그때까지는, 소문이 자자한 엔젤대와 춤출\n기회를, 저희에게도 주시지 않겠습니까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "152,0,169,0",
+        "voice": "GA731015,3"
+      },
+      "original": "それは……そうだけど……。\n",
+      "translation": "그건…… 그렇긴 하지만……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,169,0",
+        "voice": "GA731015,3"
+      },
+      "original": "……まぁ、正論ではあるね。\n",
+      "translation": "……뭐, 정론이네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "voice": "GA731016,3",
+        "speaker": "060",
+        "face": "726,0,0,0"
+      },
+      "original": "それでは、パートナー君にも納得していただいた\nところで……。\n踊っていただけますか、お嬢さん？\n",
+      "translation": "그렇다면, 파트너 군도 납득한 것으로 보\n고…… . 춤춰 주시겠습니까, 아가씨?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "face": "152,0,155,0",
+        "speaker": "005",
+        "voice": "GA731017,3"
+      },
+      "original": "まぁ、１回くらいなら……。\nタクト、ちょいと行ってくるよ。\n",
+      "translation": "뭐, 한 번 정도라면…… 택트, 잠시 다녀올게.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "voice": "GA731017,3",
+        "speaker": "001",
+        "face": "001,0,155,0"
+      },
+      "original": "ラストダンスの時間が近くなったら迎えに行くよ、\nフォルテ。\n",
+      "translation": "라스트 댄스 시간이 가까워지면 데리러 갈게,\n포르테.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "152,0,155,0",
+        "voice": "GA731018,3"
+      },
+      "original": "待ってるよ。\nそれじゃ、また後で。\n",
+      "translation": "기다릴게. 그럼, 나중에 봐.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "speaker": "094",
+        "face": "000,0,0,0",
+        "voice": "GA731018,3"
+      },
+      "original": "　\n",
+      "translation": "\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000e9800:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "face": "009,0,0,0",
+        "voice": "GA731018,3",
+        "speaker": "001"
+      },
+      "original": "ちぇっ……まぁ、しかたないか。\nあの客の言うとおり、ラストダンスまでは誰でも\nフォルテと踊る権利はあるし。\n",
+      "translation": "쳇…… 뭐, 어쩔 수 없나. 저 손님이 말한\n대로, 라스트 댄스까지는 누구든 포르테와\n춤출 권리는 있으니까.\n",
+      "state": "needs_human",
+      "use_translation": true
+    }
+  ]
+}

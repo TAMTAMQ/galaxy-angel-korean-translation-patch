@@ -1,0 +1,141 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000be800.txt",
+    "encoding": "cp932",
+    "sha256": "22af080e8d23c006501d1167654b5552ce62d770666b53c540cd1124f877c184",
+    "dialogue_count": 10
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000be800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "201,0,0,0",
+        "voice": "GAF09001,3"
+      },
+      "original": "エルシオールが……。\nタクトさん……！\n",
+      "translation": "에르시올이…… 택트 씨……!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000be800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GAF09001,3"
+      },
+      "original": "ありがとう、ヴァニラ。\nおかげで、命拾いしたよ。\n",
+      "translation": "고마워, 바닐라. 덕분에 목숨을 건졌어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000be800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "195,0,0,0",
+        "voice": "GAF09005,3"
+      },
+      "original": "いえ……。\nそれより、早く『黒き月』を。\n",
+      "translation": "아니에요…… 그것보다, 빨리 『흑색 달』을.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000be800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GAF09005,3"
+      },
+      "original": "ああ、わかってる。\n後は任せてくれ。\n",
+      "translation": "아아, 알고 있어. 나머지는 맡겨줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000be800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GAF09005,3"
+      },
+      "original": "よし、今のうちに前進だ！\n敵の防衛線、一気に突破する！\n",
+      "translation": "좋아, 지금 기세로 전진이다! 적의 방위선,\n단번에 돌파한다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000be800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GAF09002,3"
+      },
+      "original": "了解！\nエルシオール、全速前進！\n",
+      "translation": "네！ 에르시올, 전속전진!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000be800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "503,0,0,0",
+        "voice": "GAF09003,3"
+      },
+      "original": "Ｅブロック左舷に被弾！\n",
+      "translation": "E 블록 좌현에 피격!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000be800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "492,0,0,0",
+        "voice": "GAF09004,3"
+      },
+      "original": "ハーベスターのナノマシンにより、Ｅブロックの\n修復完了！\n",
+      "translation": "하베스터의 나노머신에 의해, E 블록의 수리\n완료!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000be800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "voice": "GAF09006,3",
+        "speaker": "007",
+        "face": "221,0,225,0"
+      },
+      "original": "よし、抜けたぞ！\n今なら『黒き月』のコアを狙える！\n",
+      "translation": "좋아, 빠져나왔다! 지금이라면 『흑색 달』의\n코어를 노릴 수 있어!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_000be800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,225,0",
+        "voice": "GAF09006,3"
+      },
+      "original": "わかった！\nアルモ、エネルギーのチャージは？\n",
+      "translation": "알았다! 아르모, 에너지 충전은?\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

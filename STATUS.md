@@ -1,6 +1,38 @@
 # Galaxy Angel (PS2) 한글화 진행 상태
 
-갱신: 2026-08-24
+갱신: 2026-08-27
+
+## 2026-08-27 MINI.DAT 일본어 이미지 전수 한글화
+
+- MINI.DAT의 디코드 가능한 이미지 1,229개(AGI 180개, TAG 1,049개)를 전수
+  추출했고, 픽셀 중복을 제거한 776종을 26개 검토 시트로 모두 확인했다.
+- 기존 4B 감사의 1차 후보 182종을 다시 검토한 뒤, `qwen3.8-27b`로 776종을
+  26배치 전수 재감사했다. 기존 후보 밖의 누락 31종을 추가로 잡아 최종 검토
+  후보는 213종이며, 실제 일본어 포함 이미지 185종과 숫자·장식 오인 28종을
+  확정했다. 중복 리소스를 포함한 실제 패치 위치는 272곳이다.
+- 버튼, 반투명 글자 스프라이트, 막과자 카드, 합성 타이틀, 마작 문패, 볼링
+  말풍선·방향계·게이지를 원본 캔버스 크기와 배치에 맞춰 한글로 다시 그렸다.
+  새로 확인한 공용 pause의 `いいえ/はい/종료 확인문`, `よーい`, `2P対戦`,
+  `親 フォルテ`, `経過時間` 등도 추가 반영했다. `Flying Disk` 영문 영역과
+  캐릭터 초상화는 픽셀 단위로 보존했다. 원본 AGI/TAG 팔레트로 재양자화하므로
+  이미지 크기·픽셀 포맷은 변하지 않는다.
+- 4bpp/8bpp AGI와 PSMT4/PSMT8 TAG를 원래 압축 방식으로 재인코딩했다.
+  MINI.DAT 로컬 PIDX 61개와 IDX.DAT 중앙 미러 61개를 동기화했으며, 완성
+  리소스를 다시 디코드해 272개 대상의 양자화 후 픽셀 해시가 모두 일치함을
+  확인했다. 팔레트 최근접색 계산은 기존 버킷/첫 픽셀 규칙을 그대로 유지한
+  NumPy 벡터화로 최적화했고, 기존 구현과 바이트 단위 동일함을 검증했다.
+- 전체 빌드 체인에서 기존 시나리오 210블록, 전투 262블록, 일반 한글 이미지
+  473종과 런타임 복사본 1,421개, 분기·중앙 인덱스 검증도 함께 통과했다.
+  런타임 시나리오 인덱스 stale 복사본은 0건이며 전투 런타임 복사본 795곳도
+  최종 ISO에서 다시 검증했다.
+- 재현 도구:
+  `tools/galaxy_angel_verify_minigame_image_hits.py`,
+  `tools/galaxy_angel_localize_minigame_images.py`,
+  `tools/galaxy_angel_review_minigame_localization.py`,
+  `tools/galaxy_angel_patch_minigame_images.py`.
+- 완성 ISO: `build/Galaxy Angel (Korean).iso`
+- 크기: 4,156,518,400바이트
+- SHA-256: `1e27ddfe40c31a423c38990de999db0bb40326c167b71d0f7a9046a97c396ed8`
 
 ## 2026-08-24 IDS/:L 실제 위치 인덱스 재생성
 
@@ -1138,3 +1170,197 @@ ELF에는 `m_hFont`, `m_nFontH`, `CGMan::CreateTextObj`, `CGMan::ResetText` 문�
 - 크기: `4,157,970,432`바이트
 - SHA-256: `fc989f139a05962b9ed4e8195dab53b7b2bc8b512a3dba8d257bcb6a216c37fb`
 - 위의 `a203...`, `ef2b...` 해시는 중간 빌드이며 이 최종본으로 대체됐다.
+
+## 2026-08-26 표시용 물결표 전각 통일
+
+- 게임 화면에 표시되는 한국어 번역에서 물결표는 ASCII 반각 `~`를 사용하지 않는다.
+  원작 일본어 폰트/렌더러가 사용하는 전각 `～`(U+FF5E)만 사용한다.
+- 이 규칙은 GADAT001 일반 대사, GADAT002 전투 대사, 선택지, 메인 ELF의
+  미니게임 문자열에 공통 적용한다. 문서에서 범위를 설명하는 `A~B` 표기는
+  화면 문자열이 아니므로 예외다.
+- `galaxy_angel_translation.py`에 표시용 문장부호 정규화를 추가해 활성 시나리오
+  번역의 반각 `~`를 빌드 시 전각 `～`로 바꾼 뒤 줄폭 검증과 인코딩을 수행한다.
+- `galaxy_angel_build_battle.py`도 전투 문자열 인코딩 전에 같은 정규화를 적용한다.
+- `galaxy_angel_minigame_elf.py`는 기존 Gemma 캐시를 읽을 때와 새 번역/축약 결과를
+  받을 때 모두 `~`→`～`를 정규화하며, Gemma 프롬프트에도 전각 사용 규칙을 명시한다.
+  따라서 이전 캐시에 반각 물결표가 남아 있어도 다음 빌드에서 자동 교정된다.
+- 미니게임 ELF 캐시 644개를 다시 정규화한 결과 표시 문자열의 반각 `~`는 0개,
+  전각 `～`가 포함된 문자열은 32개다. 전투 262블록과 런타임 복사본 795개도
+  새 인코더 기준 검증을 통과했다.
+- 기존 `Galaxy Angel (Korean).iso`가 실행 중인 프로그램에 잠겨 있어 검증용 완성본은
+  `build/Galaxy Angel (Korean) Wave.iso`로 생성했다. 이미지 473개/런타임 복사본
+  1,421개, 시나리오 인덱스 1,166개, cross-section 점프 869개까지 전수 검증했다.
+- 검증용 ISO 크기: `4,156,518,400`바이트
+- 검증용 ISO SHA-256: `4cab5cbd5637a344731d3064ebdef9292646832398cab5c796bba5ad2f01c435`
+
+## 2026-08-26 밀피유 샌드위치 미니게임 레시피 이미지 번역
+
+- 샌드위치 미니게임의 카드 상단 `レシピ`는 GADAT032 UI가 아니라 `MINI.DAT`의
+  `mini/mini00/resipi.agi` 4bpp AGI 이미지에서 그려진다. 카드 번호는 별도
+  `resip_no.agi`를 사용하므로 `resipi.agi`만 `레시피`로 교체하면 레시피 1~10에
+  공통 적용된다.
+- 원본 `resipi.agi`는 64x32이며 실제 글자 점유 영역은 `x=0..49, y=0..20`이다.
+  Pretendard Bold 18px와 2px 외곽선을 사용해 `레시피`를 같은 50x21 영역에 맞춰
+  다시 그린다. 원본 AGI 팔레트, 이미지 크기, 카드에서의 배치 위치는 그대로 유지한다.
+- 새 패처 `galaxy_angel_patch_minigame_recipe.py`는 MINI.DAT의 전체 PIDX 디렉터리
+  트리를 이름까지 해석해 정확히 `mini/mini00/resipi.agi`만 수정한다. 새 AGI는 원본
+  16색 팔레트로 재양자화하고 원래 물리 슬롯에서 재압축하며, MINI.DAT 로컬 PIDX와
+  중앙 `IDX.DAT`의 압축 크기 미러도 함께 갱신하고 다시 해제해 바이트 검증한다.
+- `build_patch.ps1`의 기본 빌드 체인에 이 패치를 포함시켜 이후 ISO 재빌드에서도
+  자동으로 반영한다.
+- 전체 빌드를 다시 실행해 최종 ISO까지 검증했다. `resipi.agi`는 원본 물리 위치
+  `0xBE000`, raw 1,136바이트를 유지하며 압축 크기만 `666 -> 561`바이트로 줄었다.
+  MINI.DAT 로컬 PIDX `(778240, 1136, 561)`과 중앙 IDX.DAT file id 153 미러가
+  일치하고, 최종 ISO에서 다시 해제한 AGI가 기대 렌더링과 바이트 단위로 일치한다.
+- 최종 ISO: `build/Galaxy Angel (Korean).iso`
+  - 크기: `4,156,518,400`바이트
+  - SHA-256: `3739a0bd460bdefa2c5567761141b35747da61266b33c64e40b400eb8f6e162d`
+
+## 2026-08-27 레시피 이미지 적용 재검증
+
+- 사용 중인 최종 ISO에서 `MINI.DAT/mini/mini00/resipi.agi`를 직접 다시 해제해
+  확인했으며, 64x32 픽셀은 `레시피` 렌더링과 바이트 단위로 일치한다.
+- 일반 MINI 이미지 패킹이 이후에 대상 이미지를 덮어쓸 가능성까지 차단하기 위해
+  `build_patch.ps1`의 레시피 패치 단계를 MINI 이미지 전체 패킹 뒤로 이동했다.
+- 레시피 패처는 이미 동일한 압축 크기와 중앙 IDX 미러가 적용된 ISO에도 안전하게
+  재실행할 수 있도록 멱등 처리했다. 현재 로컬 PIDX는 `(778240, 1136, 561)`,
+  중앙 IDX file id는 `153`이며 재해제 검증을 통과했다.
+- 최종 ISO: `build/Galaxy Angel (Korean).iso`
+  - 크기: `4,156,518,400`바이트
+  - SHA-256: `1e27ddfe40c31a423c38990de999db0bb40326c167b71d0f7a9046a97c396ed8`
+- PCSX2 저장 상태에는 이전의 일본어 텍스처가 RAM/VRAM과 함께 저장될 수 있다.
+  검수 시 저장 상태 불러오기가 아니라 최신 ISO를 새로 부팅한 뒤 미니게임에
+  진입하거나, 최소한 미니게임을 완전히 나갔다가 다시 진입해 텍스처를 재로딩한다.
+
+## 2026-08-27 MINI.DAT 이미지 최종 ISO 전수 검증
+
+- `galaxy_angel_verify_minigame_iso.py`를 추가해 번역 PNG가 있다는 사실이나 패치
+  보고서만 확인하지 않고, 완성 ISO의 `MINI.DAT`에서 모든 대상 이미지를 다시
+  해제하여 픽셀 해시를 직접 비교한다.
+- 번역 이미지 185종이 쓰이는 61개 리소스의 272개 위치와 별도 레시피 이미지
+  1개를 합친 총 273개 위치를 전수 검사했으며 불일치는 0건이다.
+- 일본어 후보 자동 탐지에서 제외된 28종도 접촉시트로 다시 검토했다. 숫자·순위
+  (`4th.`, `5th.`, `pts.`), 영문 UI(`Character Select`, `VS.COM`), 배경·캐릭터·아이콘
+  이미지뿐이며 번역이 필요한 일본어 이미지는 없었다.
+- `build_patch.ps1`에 이 최종 ISO 검증을 기본 단계로 추가했다. 이후에는 일반 MINI
+  이미지 272곳과 레시피가 하나라도 누락되거나 덮어써지면 빌드가 실패한다.
+- 검증 보고서: `build/mini_image_iso_verification.json`
+  - `verified_occurrences`: 273
+  - `verified_resources`: 61
+  - `recipe_verified`: true
+  - `mismatch_count`: 0
+
+## 2026-08-28 MINI.DAT 실제 런타임 이미지 풀 패치
+
+- 실기 검수에서 이름이 붙은 PIDX 이미지가 번역되어 있어도 게임 화면은 일본어인
+  사실을 확인했다. 기존 검증은 PIDX 원본 슬롯만 검사했기 때문에 실제 로더 경로를
+  검증하지 못했다.
+- 일본 원본 ISO의 압축 블록을 기준으로 현재 `MINI.DAT` 전체를 다시 검색한 결과,
+  번역 대상 61개 리소스 모두에 이름 없는 16바이트 정렬 런타임 복사본이 하나씩
+  남아 있었다. `resipi.agi`도 PIDX 위치 `0xBE000`과 별개로 런타임 위치
+  `0xB39320`에 일본어 원본 블록이 남아 있었다.
+- `galaxy_angel_patch_minigame_runtime_images.py`를 추가해 일반 리소스 61개와 레시피
+  1개, 총 62개의 런타임 블록을 시작 위치를 움직이지 않고 번역 블록으로 교체했다.
+- 번역 압축 데이터가 원래 16바이트 슬롯보다 큰 독립 AGI 6개는 원본 16색 팔레트의
+  시각적으로 가장 가까운 안티앨리어싱 색 단계 한 쌍만 병합했다. 문구·글자 위치·
+  투명도·캔버스는 유지되며, `mini_runtime_palette_fit_contact_sheet.png`에서 PIDX
+  번역본과 런타임용 결과를 확대 대조했다.
+- 패치 후 62개 일본어 원본 압축 블록의 잔존 수는 0개다. PIDX 번역 이미지 273곳,
+  GADAT032 이미지 473개와 런타임 복사본 1,421개, 시나리오/전투/런타임 인덱스
+  검증도 모두 다시 통과했다.
+- 이후 전체 빌드에서도 재발하지 않도록 MINI 런타임 풀 패치를 모든 다른 ISO 패치와
+  검증이 끝난 뒤 마지막 단계로 배치했다.
+- 보고서: `build/mini_runtime_image_patch_report.json`
+  - `patched_resources`: 62
+  - `palette_fitted_resources`: 6
+  - `remaining_japanese_blocks`: 0
+- 최종 ISO: `build/Galaxy Angel (Korean).iso`
+  - 크기: `4,156,518,400`바이트
+  - SHA-256: `747838130fa6c572bab48b955b581cbf892ffe38aefd2073d903a5779c8314b1`
+
+## 2026-08-28 MINI.DAT FSTS 런타임 길이 테이블 수정
+
+- 실제 게임에서 레시피의 일본어 `レシピ`는 사라졌지만 한글 `레시피`도 표시되지
+  않는 현상을 확인했다. 완성 ISO의 named/runtime `resipi.agi`를 직접 해제하면
+  두 위치 모두 64x32 한글 픽셀이 정상이며 raw SHA도 동일했으므로 이미지 자체가
+  비어 있는 문제는 아니었다.
+- `MINI.DAT`의 런타임 풀 앞에 별도 `FSTS` 인덱스가 존재한다. 구조는 32바이트
+  헤더 뒤 16바이트 레코드 `resource_id / relative_offset / raw_size /
+  compressed_size`이며, 레시피는 FSTS base `0xAB8800`, record `0xAB8F40`,
+  resource id `0xAC8`, relative offset `0x80B20`이다. base와 relative offset을
+  더하면 실제 런타임 블록 `0xB39320`과 정확히 일치한다.
+- 기존 런타임 패처는 블록 시작 위치와 16바이트 슬롯만 유지하고 한글 스트림을
+  `666 -> 561`바이트로 줄였지만 FSTS의 `compressed_size=666`을 갱신하지 않았다.
+  게임은 이 오래된 길이로 trailing padding까지 리소스로 읽어 텍스처 로드가
+  실패했고, 결과적으로 카드 상단 글자가 빈 상태로 표시됐다.
+- `galaxy_angel_patch_minigame_runtime_images.py`를 수정해 62개 런타임 이미지마다
+  실제 FSTS 레코드를 1:1로 찾아 번역 스트림 길이까지 함께 갱신한다. 이미 블록이
+  패치된 ISO는 기존 보고서의 raw SHA/실제 consumed 길이를 대조한 뒤 FSTS만 빠르게
+  수리하는 `--repair-fsts-only` 모드도 추가했다.
+- 현재 ISO의 62개 FSTS 레코드를 모두 수리했다. 레시피는 `(raw=1136,
+  compressed=561)`로 바뀌었고 실제 decompressor consumed도 561바이트다. 62개 전체에서
+  `FSTS raw/compressed == 실제 decoded/consumed`가 일치하고 raw SHA 불일치는 0건이다.
+- `galaxy_angel_verify_minigame_iso.py`를 v2로 확장해 named MINI 273곳뿐 아니라
+  런타임 FSTS 62개도 최종 ISO에서 다시 읽어 검증한다. `build_patch.ps1` 마지막에
+  이 검증을 추가해 이후 FSTS 길이가 stale이면 빌드를 실패시킨다.
+- 최종 검증: `unique=185`, named occurrence `273`, runtime FSTS `62/62`,
+  mismatch `0`.
+- 최종 ISO: `build/Galaxy Angel (Korean).iso`
+  - 크기: `4,156,518,400`바이트
+  - SHA-256: `57a6e2d6fdbb9d255c017833d346fce56640d115dd1a718295fc3acce09b9dac`
+
+## 2026-08-28 레시피 런타임 LZ 스트림 호환성 재검증
+
+- FSTS `compressed_size`를 실제 스트림 길이와 맞춘 뒤에도 실기 화면에서 카드 상단
+  한글이 표시되지 않았다. 따라서 위 FSTS 길이 불일치는 실제 버그였지만, 레시피
+  미표시의 단독 원인이라고 단정할 수 없음을 확인했다.
+- named/runtime `resipi.agi`의 해제 raw와 64x32 픽셀은 계속 동일했고 헤더 0x30바이트도
+  일본 원본과 동일했다. 다음 차이로 남은 것은 새 압축 스트림 자체이므로 레시피에 한해
+  `ikusa_lz.compress_optimal()` 대신 프로젝트에서 오래 사용해 온 일반
+  `ikusa_lz.compress()` 경로로 다시 압축했다.
+- 같은 `레시피` raw의 압축 크기는 `561 -> 567`바이트가 됐다. named PIDX,
+  중앙 IDX.DAT, FSTS 런타임 복사본을 모두 같은 567바이트 스트림으로 동기화했다.
+  런타임 물리 슬롯은 672바이트이므로 시작 위치와 다음 리소스 위치는 변하지 않는다.
+- 현재 확인값:
+  - named offset `0xBE000`, raw `1136`, compressed/consumed `567/567`
+  - runtime offset `0xB39320`, FSTS record `0xAB8F40`, compressed/consumed `567/567`
+  - named/runtime raw SHA-256 `fa2a5424b3ab5681b264a230d256ae775834e435c5808b43bac5f1cc0e49d961`
+  - MINI named 검증 273곳, 레시피 runtime/FSTS 검증 1/1, mismatch 0
+- `galaxy_angel_patch_minigame_runtime_images.py`에는 빠른 실기 반복용 `--recipe-only`
+  모드를 추가했다. 이 변경은 아직 실기 표시 재확인 전이며, 표시 성공으로 기록하지 않는다.
+- 실기 재확인 대상 ISO: `build/Galaxy Angel (Korean).iso`
+  - 크기: `4,156,518,400`바이트
+  - SHA-256: `8696cd934d25fc99c48d898f3463b21ba194df5288b856b4a97fa660a08e97b6`
+
+## 2026-09-04 frozen 이미지 기준 최종 배포 v1.0
+
+- 현재 승인 이미지 전체를 `build/frozen_images_20260904_1630`으로 고정하고 해당
+  snapshot만 최종 빌드 입력으로 사용했다. UI 482장 + MINI 275장, 총 757장의
+  SHA-256을 작업 종료 시 다시 검사했으며 live 원본 mismatch 0, frozen copy mismatch 0이다.
+- 최종 빌드 디렉터리는 `build/final_frozen_20260904_1630`이다. 일반 MINI 번역
+  268 occurrence와 직접 추가 8 occurrence를 완성 ISO에서 다시 해제했고, runtime
+  FSTS 63/63도 raw SHA/decoded size/compressed consumed까지 모두 일치하며 mismatch 0이다.
+- `mini/mini05/for_kl.agi` 등 세 리소스는 canonical translated block이 원래 runtime
+  슬롯보다 컸다. 픽셀/팔레트 색을 병합하지 않고 같은 MINI05 FSTS 테이블 안의
+  기존 슬롯을 3쌍 교환해 해결했다. 재배치된 FSTS record는 6개이며 palette merge는 0개다.
+  MINI05 FSTS table `0x115D800`의 214개 record는 최종 ISO에서 offset 214개 모두
+  유일하고 stream overlap 0, strict LZ raw/size mismatch 0을 확인했다.
+- 최종 통합 재검증:
+  - GADAT032 이미지 473개 / runtime copy 1,417개 / quantized TEX 72개 PASS
+  - 시나리오 210개 / indexed target 1,166개 / cross jump 869개 PASS
+  - stale runtime scenario index 0
+  - 전투 262개 / runtime copy 795개 PASS
+  - localized UI 482개, GADAT032 TEX codec round-trip 1,843개 PASS
+  - 일본어 이미지 runtime audit 431 assets / 1,478 runtime copies 완료
+- 최종 ISO: `build/final_frozen_20260904_1630/Galaxy Angel (Korean).iso`
+  - 크기: `4,156,518,400`바이트
+  - MD5: `0525bada52e223f12ff493462df2eeed`
+  - SHA-1: `094133b564504c517343a3a297d1f80a9b52f859`
+  - SHA-256: `ab362ed34e4acc8c0206727de534de7a91cb1b9839c416a21e9bbeebf84fda15`
+- 배포 XDelta: `release/galaxy_angel_ps2_kr_v1.0.xdelta`
+  - 크기: `18,011,520`바이트
+  - SHA-256: `a9078fd3e35109502270b0c20dd534983fc2033f6a9d9e28ffe538ceabba203f`
+- XDelta를 지원 원본 ISO에 실제 역적용해 `build/release_verify_v1.0.iso`를 만들고
+  최종 ISO와 크기/MD5/SHA-1/SHA-256 전부 일치하는 것을 확인했다.
+- 배포 메타데이터는 `release/SHA256SUMS.txt`, `release/release.json`,
+  `release/README.txt`에 확정했다.

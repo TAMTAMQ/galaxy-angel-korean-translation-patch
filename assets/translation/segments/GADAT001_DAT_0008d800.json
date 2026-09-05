@@ -1,0 +1,648 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_0008d800.txt",
+    "encoding": "cp932",
+    "sha256": "2d5899fd8aa0bdddca1687a3189a47143cf2322bea122dd79c00fc5ad17d9f57",
+    "dialogue_count": 49
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,336",
+        "voice": "GA603001,3"
+      },
+      "original": "うう～ん……。\n頭がぼーっとする……。\n",
+      "translation": "으으～음…… 머리가 멍해진다……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,341,0,336",
+        "voice": "GA603002,3"
+      },
+      "original": "目が痛いよぉ……。\n",
+      "translation": "눈이 아파요…….\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GA603003,3"
+      },
+      "original": "あー、鼻水が止まらねぇ。\nクシャミのしすぎで、腹まで筋肉痛だし。\n",
+      "translation": "아-, 콧물이 안 멈춰. 재채기를 너무 해서,\n배까지 근육통이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,225,0",
+        "voice": "GA603003,3"
+      },
+      "original": "本当につらそうだなぁ。\nまさか花見の最中に、みんなが急に苦しみ始める\nとは、思ってもみなかったよ。\n",
+      "translation": "정말 괴로워 보이네. 설마 꽃구경 도중에,\n모두가 갑자기 고통스러워지기 시작할 줄은\n생각지도 못했어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GA603004,3"
+      },
+      "original": "お前だけ平気ってのが、納得いかないんだが。\n",
+      "translation": "너만 멀쩡하다는 게, 납득이 안 가는데.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,223,0",
+        "voice": "GA603004,3"
+      },
+      "original": "あと、ミルフィーも無事だったみたいだよ。\n体質のせいもあるんじゃないかな？\n",
+      "translation": "그리고, 밀피도 무사했던 것 같아. 체질 탓도\n있는 거 아닐까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GA603005,3"
+      },
+      "original": "ナントカはカゼをひかないってのと、同じ原理か？\n",
+      "translation": "어쩐 쪽은 감기에 안 걸린다는 거랑, 같은\n원리냐?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,223,0",
+        "voice": "GA603005,3"
+      },
+      "original": "何か言ったか？\n",
+      "translation": "방금 뭐라고 했나?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GA603005,3"
+      },
+      "original": "ん、通信？\n誰からだろう。\n",
+      "translation": "음, 통신? 누구로부터일까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "067,0,0,0",
+        "voice": "GA603006,3"
+      },
+      "original": "ちょっと、タクト！\n何とかしてよ！\n",
+      "translation": "잠깐, 택트! 어떻게 좀 해봐!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "007,0,0,0",
+        "voice": "GA603006,3"
+      },
+      "original": "うわっ！\nな、何だよいきなり？\n",
+      "translation": "우와! 뭐, 뭐야 갑자기?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "086,0,0,0",
+        "voice": "GA603007,3"
+      },
+      "original": "アンタのせいよ！\nミルフィーに乗せられて、花見を許可したりする\nから！\n",
+      "translation": "당신 때문이야! 밀피한테 넘어가서, 꽃구경을\n허가하거나 하니까!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "face": "086,0,0,0",
+        "voice": "GA603008,3",
+        "speaker": "003"
+      },
+      "original": "涙が止まらなくて、アタシの美貌がだいなしじゃ\nない！\nもう、何とかしてよ～。\n",
+      "translation": "눈물이 멈추지 않아서, 내 미모가 엉망이 됐잖\n아! 정말, 어떻게 좀 해봐～.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "face": "012,0,0,0",
+        "voice": "GA603008,3",
+        "speaker": "001"
+      },
+      "original": "わ、わかった。\n今しばらくのしんぼうだ。\nじゃあね！\n",
+      "translation": "아, 알았어. 조금만 참아줘. 그럼 이만!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "009,0,0,0",
+        "voice": "GA603008,3"
+      },
+      "original": "……ああ、怖かった……。\n",
+      "translation": "……아아, 무서웠다……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "face": "501,341,0,0",
+        "voice": "GA603009,3",
+        "speaker": "017"
+      },
+      "original": "でも、このままじゃ、みんな仕事になりませんよ。\n",
+      "translation": "하지만, 이대로라면, 다들 일을 할 수가\n없어요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "face": "221,0,223,0",
+        "speaker": "007",
+        "voice": "GA603010,3"
+      },
+      "original": "こんな状態で、エオニア軍との戦いにのぞむのは\n自殺行為だぞ。\nどうにかしないとな。\n",
+      "translation": "이런 상태로, 에오니아군과의 싸움에 임하는\n건 자살 행위다. 어떻게든 해야겠어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "face": "012,0,223,0",
+        "voice": "GA603010,3",
+        "speaker": "001"
+      },
+      "original": "確かに……。\nクシャミした勢いで、押してはいけないボタンを\n押したりしたら、シャレにならないな。\n",
+      "translation": "확실히…… 재채기한 기세로, 눌러서는 안 될\n버튼을 눌러버리기라도 하면, 농담이 아니겠는\n걸.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,223,0",
+        "voice": "GA603010,3"
+      },
+      "original": "とりあえず、医務室に行ってくるよ。\nケーラ先生に、何かいい治療法がないか、聞いて\nみる。\n",
+      "translation": "일단, 의무실에 다녀올게. 케라 선생님께,\n뭔가 좋은 치료법이 없는지, 물어 볼게.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,336",
+        "voice": "GA603011,3"
+      },
+      "original": "よろしくお願いしま……グスッ。\n",
+      "translation": "부탁할게…… 훌쩍.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "026",
+        "face": "601,0,370,0",
+        "voice": "GA603012,3"
+      },
+      "original": "クシャミ、鼻水、目のかゆみ、頭痛……。\n乗組員の多くが、共通の症状をうったえているわ。\n",
+      "translation": "재채기, 콧물, 눈 가려움, 두통…… 승무원\n다수가, 공통된 증상을 호소하고 있어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "026",
+        "face": "601,0,370,0",
+        "voice": "GA603013,3"
+      },
+      "original": "症状や、その発生した状況から考えるに、これは\nカフカフの木の花粉によるアレルギーね。\nいわゆる花粉症の一種だわ。\n",
+      "translation": "증상이나, 그 발생한 상황으로 미루어 보아, 이\n것은 카프카프 나무의 꽃가루에 의한 알레르기\n네. 이른바 꽃가루 알레르기의 일종이야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,370,0",
+        "voice": "GA603013,3"
+      },
+      "original": "花粉症ですか？\n話に聞いたことはあるけど、実際に目の当たりに\nしたのは初めてですね。\n",
+      "translation": "꽃가루 알레르기 말입니까? 이야기로 들어본\n적은 있지만, 실제로 눈앞에서 목격한 건\n처음이네요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "speaker": "026",
+        "face": "601,0,370,0",
+        "voice": "GA603014,3"
+      },
+      "original": "今では、ほとんど絶滅した病気だものね。\nでも、１００年に一度だけ花を咲かせる木なんて、\nさすがにノーチェックだったのよ。\n",
+      "translation": "지금은, 거의 멸종한 병이니까 말이야.\n하지만, 100년에 한 번만 꽃을 피우는 나무라\n니 , 역시 체크 미스였어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "voice": "GA603015,3",
+        "speaker": "026",
+        "face": "601,0,366,0"
+      },
+      "original": "あの後、もしやと思って、公園の空調を独立循環\nに切り替えて正解だったわね。\nとりあえず、これ以上の被害の拡大は防げるわ。\n",
+      "translation": "그 후, 혹시나 하는 마음에 공원의 공조를\n독립 순환 으로 전환하길 잘했네. 일단, 이\n이상의 피해 확산은 막을 수 있어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,366,0",
+        "voice": "GA603015,3"
+      },
+      "original": "とはいえ、みんな見るからに大変そうですよね。\n花粉症って、そんなに苦しいんですか。\n",
+      "translation": "그렇긴 해도, 다들 눈에 띄게 힘들어 보이네요.\n꽃가루 알레르기가 그렇게 괴로운 건가요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "speaker": "026",
+        "face": "601,0,370,0",
+        "voice": "GA603016,3"
+      },
+      "original": "普通の花粉症は、アレルギーの原因となる花粉が\nないところでは、症状が出ないの。\nでも、このカフカフの木の花粉症は特殊みたい。\n",
+      "translation": "보통 꽃가루 알레르기는 원인 꽃가루가 없는\n곳에선 증상이 안 나와. 하지만 카프카프\n나무의 꽃가루 알레르기는 특수한가 봐.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "face": "601,0,370,0",
+        "speaker": "026",
+        "voice": "GA603017,3"
+      },
+      "original": "一度発症したら、花粉がない澄んだ空気のもとで\nも、症状が続くのよ。\n",
+      "translation": "한번 발병하면, 꽃가루가 없는 맑은 공기\n속에서도 증상이 계속되는 거야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "face": "012,0,370,0",
+        "speaker": "001",
+        "voice": "GA603017,3"
+      },
+      "original": "それはやっかいですね。\n何か治療法はないんですか？\n",
+      "translation": "그건 골치 아프네요. 무슨 치료법은 없는\n건가요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "face": "601,0,370,0",
+        "voice": "GA603018,3",
+        "speaker": "026"
+      },
+      "original": "とりあえず、今は投薬治療を行なっているわ。\nただし、一時的に症状をおさえているだけだし、\n副作用のことを考えたら、多用はできないわ。\n",
+      "translation": "일단, 지금은 투약 치료를 하고 있어. 다만,\n일시적으로 증상을 억제하고 있을 뿐이라,\n부작용을 생각하면 남용할 수는 없어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "voice": "GA603019,3",
+        "speaker": "026",
+        "face": "601,0,370,0"
+      },
+      "original": "免疫療法で、体質そのものを改善する方法もある\nけど……。\n効果が出るまで、１～２年はかかるの。\n",
+      "translation": "면역 요법으로 체질 그 자체를 개선하는\n방법도 있지만…… 효과가 나타나기까지\n1～2년은 걸려.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "face": "004,0,370,0",
+        "speaker": "001",
+        "voice": "GA603019,3"
+      },
+      "original": "どっちにしても、今度の戦いには間に合いそうも\nないか……。\n何とか、安全に手早く治療できないかなぁ。\n",
+      "translation": "어느 쪽이든, 이번 싸움에는 맞출 수 없을 것\n같네…… 어떻게든 안전하고 빠르게 치료할\n방법은 없을까.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "voice": "GA603020,3",
+        "speaker": "026",
+        "face": "601,0,366,0"
+      },
+      "original": "そうね……。\nひとつだけ、方法がないこともないわ。\n",
+      "translation": "글쎄…… 한 가지, 방법이 없는 건 아니야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,366,0",
+        "voice": "GA603020,3"
+      },
+      "original": "本当ですか！？\nどんな方法なんです？\n",
+      "translation": "정말입니까!? 어떤 방법인데요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "speaker": "026",
+        "face": "601,0,366,0",
+        "voice": "GA603021,3"
+      },
+      "original": "ナノマシンによる治療よ。\nこれなら副作用もないし、すぐ完治するわ。\n",
+      "translation": "나노 머신에 의한 치료야. 이거라면 부작용도\n없고, 바로 완치할 수 있어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0036",
+      "channel": 1,
+      "context": {
+        "speaker": "026",
+        "face": "601,0,368,0",
+        "voice": "GA603022,3"
+      },
+      "original": "効果は実証ずみよ。\n私自身が、ヴァニラに治してもらったから。\n",
+      "translation": "효과는 실증되었어. 나 자신이 바닐라에게\n치료받았으니까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0037",
+      "channel": 1,
+      "context": {
+        "voice": "GA603022,3",
+        "speaker": "001",
+        "face": "004,0,368,0"
+      },
+      "original": "なるほど、その手があったか。\nでも、ナノマシンを使えるのは、ヴァニラひとり\nですよね。\n",
+      "translation": "그렇군요, 그런 방법이 있었나. 하지만 나노\n머신을 사용할 수 있는 건, 바닐라 혼자뿐이죠?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0038",
+      "channel": 1,
+      "context": {
+        "face": "601,0,370,0",
+        "voice": "GA603023,3",
+        "speaker": "026"
+      },
+      "original": "ええ、それが問題なのよ。\n多くの患者がいるのに、対応できるのがヴァニラ\nだけじゃ、相当な負担をかけてしまうわ。\n",
+      "translation": "응, 그게 문제야. 많은 환자가 있는데, 대응할\n수 있는 게 바닐라 뿐이라면 상당한 부담이 될\n거야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0039",
+      "channel": 1,
+      "context": {
+        "face": "004,0,370,0",
+        "speaker": "001",
+        "voice": "GA603023,3"
+      },
+      "original": "そうですよね……。\n",
+      "translation": "그렇군요……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0040",
+      "channel": 1,
+      "context": {
+        "voice": "GA603024,3",
+        "speaker": "006",
+        "face": "181,0,0,181"
+      },
+      "original": "……私なら、平気です。\n",
+      "translation": "……저라면, 괜찮습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0041",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,181",
+        "voice": "GA603024,3"
+      },
+      "original": "あ、ヴァニラ！？\nいつからそこに……。\n",
+      "translation": "아, 바닐라!? 언제부터 거기에……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0042",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,0,0,181",
+        "voice": "GA603025,3"
+      },
+      "original": "……１分ほど前からです。\n何か手伝えることがあればと思いまして……。\n",
+      "translation": "……1분 전쯤부터입니다. 무엇인가 도울 일이\n있을까 해서……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0043",
+      "channel": 1,
+      "context": {
+        "speaker": "026",
+        "face": "601,370,0,181",
+        "voice": "GA603026,3"
+      },
+      "original": "そう……。\nヴァニラ、今の話だけど……。\n",
+      "translation": "그래…… 바닐라, 방금 그 이야기 말인데……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0044",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,370,0,181",
+        "voice": "GA603027,3"
+      },
+      "original": "……花粉症の治療ですね。\nお引き受けします。\n",
+      "translation": "……꽃가루 알레르기 치료군요. 맡겠습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0045",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,370,0,181",
+        "voice": "GA603027,3"
+      },
+      "original": "それは助かるけど……いいのかい、ヴァニラ？\n",
+      "translation": "그건 도움이 되겠지만…… 괜찮겠니, 바닐라?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0046",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,370,0,181",
+        "voice": "GA603028,3"
+      },
+      "original": "……私も、そのつもりでいましたから。\nみなさんのお役に立てるのでしたら……。\n",
+      "translation": "……저도 그럴 생각이었으니까요. 여러분의\n도움이 될 수 있다면……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0047",
+      "channel": 1,
+      "context": {
+        "speaker": "026",
+        "face": "601,366,0,181",
+        "voice": "GA603029,3"
+      },
+      "original": "ありがとう。\n私も、できる限りサポートするわ。\n",
+      "translation": "고마워. 나도 가능한 한 서포트할게.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0048",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,366,0,181",
+        "voice": "GA603029,3"
+      },
+      "original": "すまない、ヴァニラ。\nよろしく頼むよ。\n",
+      "translation": "미안해, 바닐라. 잘 부탁한다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0008d800:dialogue:0049",
+      "channel": 1,
+      "context": {
+        "voice": "GA603030,3",
+        "speaker": "006",
+        "face": "181,366,0,181"
+      },
+      "original": "はい。\nお任せください。\n",
+      "translation": "네. 맡겨 주십시오.\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

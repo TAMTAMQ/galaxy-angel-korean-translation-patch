@@ -1,0 +1,206 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_00128000.txt",
+    "encoding": "cp932",
+    "sha256": "236c04f14e96b84d5f94a15fd6a95ec19ab4478f6903d1116cdb47d062586160",
+    "dialogue_count": 15
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_00128000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "face": "501,0,0,0",
+        "speaker": "017",
+        "voice": "GAB06001,3"
+      },
+      "original": "エルシオール、ドライヴ・アウトしました。\nこれより惑星フリードを通過します。\n",
+      "translation": "에르시올, 드라이브・아웃했습니다. 이후 행성\n프리드를 통과합니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00128000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "face": "001,0,0,0",
+        "speaker": "001",
+        "voice": "GAB06001,3"
+      },
+      "original": "了解。\nここを通過すれば、本星はもう目の前だな。\n",
+      "translation": "알았다. 여기를 통과하면, 본성은 이제\n눈앞로군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00128000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "face": "221,0,223,0",
+        "speaker": "007",
+        "voice": "GAB06002,3"
+      },
+      "original": "それまで、敵の攻撃がなければな。\n",
+      "translation": "그때까지, 적의 공격이 없다면 말이지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00128000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "face": "491,0,223,0",
+        "speaker": "016",
+        "voice": "GAB06003,3"
+      },
+      "original": "惑星フリードの軌道上に、艦隊を発見！\nエオニア軍です！\n",
+      "translation": "행성 프리드의 궤도상에, 함대를 발견!\n에오니아군입니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00128000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "face": "221,0,221,0",
+        "speaker": "007",
+        "voice": "GAB06004,3"
+      },
+      "original": "ほら、おいでなすった。\n",
+      "translation": "이런, 오셨구먼.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00128000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "face": "012,0,221,0",
+        "speaker": "001",
+        "voice": "GAB06004,3"
+      },
+      "original": "仕事熱心だねぇ、敵さんも。\n艦内に第１戦闘配備を通達！\n",
+      "translation": "일 욕심이 대단하네, 적들도. 함내에 제1전투배\n치 통달!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00128000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "face": "221,0,225,0",
+        "speaker": "007",
+        "voice": "GAB06005,3"
+      },
+      "original": "総員、第１戦闘配備！\n敵の編成の確認を急げ！\n",
+      "translation": "총원, 제1전투배치! 적의 편성을 확인하는\n것을 서둘러라!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00128000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "face": "491,0,0,0",
+        "speaker": "016",
+        "voice": "GAB06006,3"
+      },
+      "original": "敵艦の中に、以前交戦したシェリーと名乗る女性\n将校の戦艦を確認しました。\nこれが旗艦と思われます。\n",
+      "translation": "적함 중에, 이전에 교전했던 셰리라고 자칭하는\n여성 장교의 전함을 확인했습니다. 이것이\n기함으로 판단됩니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00128000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "face": "491,0,0,0",
+        "speaker": "016",
+        "voice": "GAB06007,3"
+      },
+      "original": "それから、大型戦闘機が５機。\n急速に接近してきます！\n",
+      "translation": "그리고, 대형 전투기가 5기. 급속히 접근해\n옵니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00128000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "face": "221,0,223,0",
+        "speaker": "007",
+        "voice": "GAB06008,3"
+      },
+      "original": "戦闘機？\nまたあいつらか。\n",
+      "translation": "전투기? 또 그놈들인가.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00128000:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,223,0",
+        "voice": "GAB06008,3"
+      },
+      "original": "　敵が誰だろうと、迎え撃つのみだ。\n『黒き月』は？\n",
+      "translation": "적이 누구든, 맞서 싸울 뿐이다. 『흑색\n달』은?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00128000:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,0",
+        "voice": "GAB06009,3"
+      },
+      "original": "いえ、『黒き月』の反応はありません。\n",
+      "translation": "아니요, 『흑색 달』의 반응은 없습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00128000:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "face": "003,0,0,0",
+        "speaker": "001",
+        "voice": "GAB06009,3"
+      },
+      "original": "敵の狙いは、オレたちの足止めか。\nだけど、こんなところで時間を食うわけにはいか\nないんだ。\n",
+      "translation": "적의 목적은, 우리들의 발을 묶는 건가.\n하지만, 이런 곳에서 시간을 허비할 수는 없다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00128000:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GAB06010,3"
+      },
+      "original": "エンジェル隊、発進準備整いました！\n",
+      "translation": "엔젤대, 발진 준비 마쳤습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00128000:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GAB06010,3"
+      },
+      "original": "よし。\nそれじゃ、行きますか！\n",
+      "translation": "좋아. 그럼, 가볼까!\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

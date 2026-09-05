@@ -1,0 +1,566 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_0009e800.txt",
+    "encoding": "cp932",
+    "sha256": "9927b79da6b271ad4c923c4b22e5026cf3be6005823ad8cae121690d3b59a04e",
+    "dialogue_count": 43
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0"
+      },
+      "original": "これより攻撃を開始する。\n作戦図をモニターへ出してくれ。\n",
+      "translation": "지금부터 공격을 개시한다. 작전도를 모니터에\n띄워줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GA299001_BL,3"
+      },
+      "original": "了解。\n",
+      "translation": "네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,0,0",
+        "voice": "GA698001_MD,3"
+      },
+      "original": "これが現在の状況だ。\n",
+      "translation": "이것이 현재 상황이다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,0,0",
+        "voice": "GA698002_MD,3"
+      },
+      "original": "エルシオールは、ここにいる。\n",
+      "translation": "에르시올은, 여기에 있다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,0,0",
+        "voice": "GA698002_BL,3"
+      },
+      "original": "我々は友軍艦とともに、布陣している敵に攻撃を\nしかける。\n",
+      "translation": "우리는 아군 함선과 함께, 포진하고 있는\n적에게 공격을 가한다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA698003_BL,3"
+      },
+      "original": "しかし、交戦圏内にいる敵だけでも、この数だ。\nはげしい抵抗が予想される。\n",
+      "translation": "하지만, 교전권 내에 있는 적만 해도 이\n숫자다. 격렬한 저항이 예상된다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,0,0",
+        "voice": "GA698003_BL,3"
+      },
+      "original": "味方の艦が、どこまで戦力になるかな……。\nまぁ、期待はしない方がいいか。\n",
+      "translation": "아군 함선이 어디까지 전력이 될 수 있을지...\n뭐, 기대는 하지 않는 편이 좋으려나.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "062,0,0,0",
+        "voice": "GA698004_BL,3"
+      },
+      "original": "あたしたちだけで十分よ。\n速攻で片づけてやるわ！\n",
+      "translation": "우리들만으로도 충분해. 속전속결로 해치워\n주겠어!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,0,0",
+        "voice": "GA698005_BL,3"
+      },
+      "original": "そうよね。\nがんばって敵を倒して、早くお休みがほしいし。\n",
+      "translation": "그렇네. 열심히 적을 쓰러뜨려서, 빨리 쉬고\n싶으니까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "173,0,0,0",
+        "voice": "GA698006_BL,3"
+      },
+      "original": "がんばるのはいいけど、あたしたちの本来の役目\nは、エルシオールの防衛だよ。\n",
+      "translation": "열심히 하는 건 좋지만, 우리들의 본래 임무는\n에르시올의 방위야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,0,0",
+        "voice": "GA698007_BL,3"
+      },
+      "original": "確かに、守りを固めるのも手ですわね。\n今までは私たちだけで戦うしかありませんでした\nが、今回は味方もいらっしゃいますし。\n",
+      "translation": "확실히, 수비를 굳히는 것도 방법이겠네요.\n지금까지는 저희들만으로 싸울 수밖에 없었지\n만 , 이번에는 아군도 계시니까요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "face": "181,0,0,0",
+        "voice": "GA698008_BL,3",
+        "speaker": "006"
+      },
+      "original": "『負けない』ことも……戦略のひとつです……。\n",
+      "translation": "『지지 않는 것』 또한... 전략의 하나입니\n다.. .\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GA698009_BL,3"
+      },
+      "original": "ふむ……強気に攻めるか、エルシオールの防衛に\n重点を置くか……。\nどうする、タクト？\n",
+      "translation": "흠... 강하게 공격할 것인가, 에르시올의 방위에\n중점을 둘 것인가... 어떻게 할 거지, 택트?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,223,0",
+        "voice": "GA698009_BL,3"
+      },
+      "original": "う～ん……。\n",
+      "translation": "으～음...\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "face": "003,0,0,0",
+        "voice": "GA698009_BL,3",
+        "speaker": "001"
+      },
+      "original": "今まで、さんざん苦労させられて来たんだ。\nみんな、ここでエオニア軍に目にもの見せてやれ！\n",
+      "translation": "지금까지, 실컷 고생해 왔어. 모두, 여기서\n에오니아군에게 본때를 보여주자!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "022,0,0,0",
+        "voice": "GA698010_BL,3"
+      },
+      "original": "はい、わかりました！\nがんばろうね、ランファ。\n",
+      "translation": "네, 알겠습니다! 힘내자, 란파.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "voice": "GA698011_BL,3",
+        "speaker": "003",
+        "face": "062,0,0,0"
+      },
+      "original": "言われるまでもないわ！\n今までのうっぷん、晴らさせてもらうわよ！\n",
+      "translation": "말 안 해도 알아! 지금까지의 울분을, 날려버리\n겠어!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA698011_BL,3"
+      },
+      "original": "やはり、エルシオールを守り抜くのが大事だ。\nシヴァ皇子に何かあったら一大事だしな。\n",
+      "translation": "역시, 에르시올을 지켜내는 것이 중요하다. 시바\n황자님께 무슨 일이라도 생기면 큰일이니까.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,0,0",
+        "voice": "GA698012_BL,3"
+      },
+      "original": "わかった。\nじゃあ、無理せずに戦線維持につとめるってわけ\nだね。\n",
+      "translation": "알았어. 그럼, 무리하지 말고 전선 유지에\n힘쓰겠다는 거네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,0,0,0",
+        "voice": "GA698013_BL,3"
+      },
+      "original": "……了解しました。\n",
+      "translation": "...알겠습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,0,0",
+        "voice": "GA698014_BL,3"
+      },
+      "original": "では、エルシオールを守ることに専念しましょう。\n後は味方が、何とかしてくださいますわ。\n",
+      "translation": "그럼, 에르시올을 지키는 것에 전념하도록 하죠.\n나머지는 아군이, 어떻게든 해 주겠지요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA698014_BL,3"
+      },
+      "original": "じゃあ、その方針で作戦を立てよう。\nアルモ、もう一度モニターに状況を出してくれ。\n",
+      "translation": "그럼, 그 방침으로 작전을 세우자. 아르모,\n다시 한번 모니터에 상황을 띄워줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GA299001_BL,3"
+      },
+      "original": "了解。\n",
+      "translation": "네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "voice": "GA299001_BL,3",
+        "speaker": "001",
+        "face": "001,0,0,0"
+      },
+      "original": "レスター、目の前にいる艦隊の旗艦はわかるか？\n",
+      "translation": "레스터, 눈앞에 있는 함대의 기함은 알겠나?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA698016_BL,3"
+      },
+      "original": "ああ、おそらく……。\n",
+      "translation": "아아, 아마도……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "223,0,0,0",
+        "voice": "GA698017_BL,3"
+      },
+      "original": "こいつだろう。\n",
+      "translation": "이놈이겠지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "face": "003,0,0,0",
+        "voice": "GA698017_BL,3",
+        "speaker": "001"
+      },
+      "original": "なるほど。\nそれじゃ、この旗艦の撃破を作戦目標とする。\n",
+      "translation": "그렇군. 그럼, 이 기함의 격파를 작전 목표로\n한다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA698017_BL,3"
+      },
+      "original": "途中にいる艦隊を蹴散らしながら突き進み……。\n",
+      "translation": "도중에 있는 함대를 흩어버리며 돌진해……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA698017_BL,3"
+      },
+      "original": "敵の旗艦を叩く。\nエンジェル隊の力を、味方に見せてやろう。\n",
+      "translation": "적의 기함을 타격한다. 엔젤대의 힘을,\n아군에게 보여주자.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "face": "001,0,0,0",
+        "speaker": "001",
+        "voice": "GA698017_BL,3"
+      },
+      "original": "以上だ。\n頼んだぞ。\n",
+      "translation": "이상이다. 부탁하마.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0031",
+      "channel": 0,
+      "context": {
+        "voice": "GA698017_BL,3",
+        "speaker": "094",
+        "face": "0,0,0,0"
+      },
+      "original": "～敵部隊の編成～\n　駆逐艦×１０　　　　　巡洋艦×３\n　装甲ミサイル艦×２　　戦艦×２\n　大型戦闘母艦×１\n　\n～勝利条件～\n　敵旗艦の破壊\n　\n～敗北条件～\n　エルシオールの破壊\n　タイムオーバー\n",
+      "translation": "～적 부대 편성～\n　구축함×10　　　　　순양함×3\n　장갑 미사일함×2　　전함×2\n　대형 전투 모함×1\n　\n～승리 조건～\n　적 기함의 파괴\n　\n～패배 조건～\n　에르시올의 파괴\n　타임 오버\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA698017_BL,3"
+      },
+      "original": "我々の目標は、エルシオールの防衛。\nこれは今までと同じだ。\n",
+      "translation": "우리의 목표는, 에르시올의 방위. 이것은\n지금까지와 같다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "voice": "GA698017_BL,3",
+        "speaker": "001",
+        "face": "003,0,0,0"
+      },
+      "original": "敵の戦力はあなどれない。\nその上、増援が来ることも考えられる。\n決して楽な戦いとは言えないだろう。\n",
+      "translation": "적의 전력은 얕볼 수 없다. 게다가 증원이 올\n수도 있다. 결코 쉬운 싸움이라고는 할 수\n없겠지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "face": "001,0,0,0",
+        "voice": "GA698017_BL,3",
+        "speaker": "001"
+      },
+      "original": "ただし、今までと違うのは、まわりに友軍がいる\nという点だ。\n待っていれば、いずれ増援が来てくれるだろう。\n",
+      "translation": "다만, 지금까지와 다른 것은, 주변에 우군이\n있다는 점이다. 기다리고 있으면, 머지않아\n증원이 와 줄 것이다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "face": "001,0,0,0",
+        "speaker": "001"
+      },
+      "original": "時間は気にしなくていい。\n早く敵を倒すことより、エルシオールに接近する\n敵を叩くことを優先してくれ。\n",
+      "translation": "시간은 신경 쓰지 않아도 된다. 빨리 적을\n쓰러뜨리는 것보다, 에르시올에 접근하는 적을\n타격하는 것을 우선해라.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0036",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0"
+      },
+      "original": "以上だ。\n頼んだぞ。\n",
+      "translation": "이상이다. 부탁하마.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0037",
+      "channel": 0,
+      "context": {
+        "speaker": "094",
+        "face": "0,0,0,0"
+      },
+      "original": "～敵部隊の編成～\n　駆逐艦×１０　　　　　巡洋艦×３\n　装甲ミサイル艦×２　　戦艦×２\n　大型戦闘母艦×１\n　\n～勝利条件～\n　敵の撃退\n　\n～敗北条件～\n　エルシオールの破壊\n",
+      "translation": "～적 부대 편성～\n　구축함×10　　　　　순양함×3\n　장갑 미사일함×2　　전함×2\n　대형 전투 모함×1\n　\n～승리 조건～\n　적의 격퇴\n　\n～패배 조건～\n　에르시올의 파괴\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0038",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,221,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "もう一度、作戦内容を確認するか？\n",
+      "translation": "다시 한번, 작전 내용을 확인할까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0039",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,221,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "そうだなぁ……。\n",
+      "translation": "글쎄……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0040",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "うん。\n念のため、もう一度確認しておこう。\n",
+      "translation": "응. 만약을 위해, 다시 한번 확인해 두자.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0041",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "いや、その必要はない。\nみんな、準備はいいな？\n",
+      "translation": "아니, 그럴 필요는 없다. 모두, 준비는 됐나?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0042",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GA198010_BL,3"
+      },
+      "original": "エンジェル隊、出撃！\n",
+      "translation": "엔젤대, 출격!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0009e800:dialogue:0043",
+      "channel": 1,
+      "context": {
+        "face": "0,0,0,0",
+        "speaker": "099",
+        "voice": "GA199012_BL,3"
+      },
+      "original": "了解！\n",
+      "translation": "네！\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_00008800.txt",
+    "encoding": "cp932",
+    "sha256": "f336bddbefb908c0df768a1e0f73df6ed37e9da9788ac3feba8f3dca55a5f89a",
+    "dialogue_count": 11
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_00008800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,0,0",
+        "voice": "GA102001,3"
+      },
+      "original": "マイヤーズ大佐、高速リンク指揮システムを転送\nするから、データ通信用の回線を開けとくれ。\n",
+      "translation": "마이어스 대령, 고속 링크 지휘 시스템을 전송\n할 테니까, 데이터 통신용 회선을 열어두게.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00008800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GA102001,3"
+      },
+      "original": "高速リンク指揮システム？\n",
+      "translation": "고속 링크 지휘 시스템?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00008800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "142,0,0,0",
+        "voice": "GA102002,3"
+      },
+      "original": "紋章機専用の特別製さ。\n各機体の情報を、リアルタイムでモニターできる\nシステムだよ。\n",
+      "translation": "문장기 전용 특제라네. 각 기체의 정보를\n실시간으로 모니터링할 수 있는 시스템이지.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00008800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "173,0,0,0",
+        "voice": "GA102003,3"
+      },
+      "original": "紋章機の戦いは、刻一刻と状況が移り変わるもん\nでね。\nこのシステムじゃないと追いきれないのさ。\n",
+      "translation": "문장기의 전투는, 시시각각 상황이 변하는\n법이라 말이야. 이 시스템이 아니면 따라갈 수\n없거든.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00008800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GA102003,3"
+      },
+      "original": "そうなのか。\nじゃあ、高速リンク指揮システムを転送してくれ。\n",
+      "translation": "그런가. 그럼, 고속 링크 지휘 시스템을\n전송해주게.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00008800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,0,0",
+        "voice": "GA102004,3"
+      },
+      "original": "わかった、今から送るよ。\n",
+      "translation": "알았네, 지금 바로 보내지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00008800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA102004,3"
+      },
+      "original": "高速リンク指揮システム…。\n紋章機はそんなシステムを使って\n戦っていたのか…。\n",
+      "translation": "고속 링크 지휘 시스템... 문장기는 그런\n시스템을 사용해서 싸우고 있었던 건가...\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00008800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,0,0",
+        "voice": "GAPS201,3"
+      },
+      "original": "さぁ、転送が終わったよ\n",
+      "translation": "자, 전송이 끝났네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00008800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0",
+        "voice": "GAPS201,3"
+      },
+      "original": "ええっ!？もう終ったって？\n",
+      "translation": "에엣!? 벌써 끝났다고?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00008800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "142,0,0,0",
+        "voice": "GAPS202,3"
+      },
+      "original": "そうだよ。驚いたかい？\n紋章機がどんな戦況にもすぐに対応できるような\n計らいってわけさ。よろしく頼むよ！\n",
+      "translation": "그렇다네. 놀랐나? 문장기가 어떤 전황에도\n즉각 대응할 수 있도록 배려해둔 셈이지. 잘\n부탁하네!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00008800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAPS202,3"
+      },
+      "original": "ああ、任せてくれ。よーし、いくぞ！\n",
+      "translation": "아아, 맡겨두게. 좋아, 간다!\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

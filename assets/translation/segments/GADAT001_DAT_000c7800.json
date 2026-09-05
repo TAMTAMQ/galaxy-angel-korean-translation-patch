@@ -1,0 +1,23 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_000c7800.txt",
+    "encoding": "cp932",
+    "sha256": "58745bacca88fcf6b46ec806609be44926f574b83a3ff038fe6802666dfbb7d2",
+    "dialogue_count": 1
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_000c7800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,101,0"
+      },
+      "original": "■■　１１章・シーン１０・ＡＤＶ１０　■■\n　　　　　　ミント　ルート\n",
+      "translation": "■■　11장・씬 10・ADV10　■■ 민트　루트\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

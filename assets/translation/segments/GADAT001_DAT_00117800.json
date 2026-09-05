@@ -1,0 +1,569 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_00117800.txt",
+    "encoding": "cp932",
+    "sha256": "17c0f3fba13a05e3059af0e9fdaf2eb012f5ef9718e488b2d1ddc0cfcc66162b",
+    "dialogue_count": 43
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,0,0"
+      },
+      "original": "ところで、ミルフィーは……？\n",
+      "translation": "그런데, 밀피는……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,0,104,0",
+        "voice": "GA911001,3"
+      },
+      "original": "あら？\n確か、もう先に帰艦しているはずですが。\n",
+      "translation": "어머? 분명, 이미 먼저 귀함했을 텐데요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,104,0",
+        "voice": "GA911001,3"
+      },
+      "original": "……まさか、またオレを避けてるってことは……。\n",
+      "translation": "……설마, 또 나를 피하고 있는 건가……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,026,0",
+        "voice": "GA911002,3"
+      },
+      "original": "タクトさん……。\n",
+      "translation": "택트 씨……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "002,0,026,0",
+        "voice": "GA911002,3"
+      },
+      "original": "おかえり、ミルフィー。\n",
+      "translation": "어서 와, 밀피.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,022,0",
+        "voice": "GA911003,3"
+      },
+      "original": "……はい、ただいま戻りました！\n",
+      "translation": "……네, 방금 돌아왔습니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,046,0",
+        "voice": "GA911004,3"
+      },
+      "original": "えへへ、我ながら、うまくやったと思います。\nタクトさんの指示のおかげですね。\nありがとうございます！\n",
+      "translation": "에헤헤, 제가 생각해도 잘 해낸 것 같아요.\n택트 씨의 지시 덕분이에요. 감사합니다!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,046,0",
+        "voice": "GA911004,3"
+      },
+      "original": "オレの方こそ、感謝してるよ。\nミルフィーたちが、敵の旗艦にダメージを与えて\nくれていなかったら、危ないところだった。\n",
+      "translation": "나야말로, 감사하고 있어. 밀피 일행이, 적의\n기함에 데미지를 주지 않았더라면, 위험할\n뻔했어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,021,0",
+        "voice": "GA911005,3"
+      },
+      "original": "タクトさんも、無事でよかったです。\nあの戦艦が突っ込んでいったときは、本当に心配\nしたんですよ。\n",
+      "translation": "택트 씨도, 무사해서 다행이에요. 그 전함이\n돌진해 왔을 때는, 정말로 걱정 했다고요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,101,0",
+        "voice": "GA911005,3"
+      },
+      "original": "ミルフィーたちが先にダメージを与えていてくれ\nなかったら、危ないところだったよ。\nありがとう。\n",
+      "translation": "밀피 일행이 먼저 데미지를 주지 않았더라면,\n위험할 뻔했어. 고마워.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,028,0",
+        "voice": "GA911006,3"
+      },
+      "original": "でも、あまりお役に立てなくて、すみません……。\n",
+      "translation": "하지만, 별로 도움이 되지 못해서, 죄송해\n요… ….\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,028,0",
+        "voice": "GA911006,3"
+      },
+      "original": "何を言ってるんだ。\nあの特攻を失敗に終わらせられたのは、ミルフィー\nたちがダメージを与えてくれていたおかげさ。\n",
+      "translation": "무슨 소리를 하는 거야. 그 특공을 실패로\n끝낼 수 있었던 건, 밀피 일행이 데미지를\n주었기 때문이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,023,0",
+        "voice": "GA911007,3"
+      },
+      "original": "でも、ラッキースター、壊れちゃいました……。\nごめんなさい……。\n",
+      "translation": "하지만, 럭키 스타, 망가져 버렸어요……\n죄송해요……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "face": "001,0,023,0",
+        "voice": "GA911007,3",
+        "speaker": "001"
+      },
+      "original": "いや、オレの指示が悪かったんだ。\nそれに、ミルフィーたちのおかげで、あの特攻を\n防ぐことができたんだし。\n",
+      "translation": "아니, 내 지시가 나빴던 거야. 게다가, 밀피\n일행 덕분에, 그 특공을 막을 수 있었으니까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,027,0",
+        "voice": "GA911008,3"
+      },
+      "original": "…………。\n",
+      "translation": "…………\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,027,0",
+        "voice": "GA911008,3"
+      },
+      "original": "どうしたんだい、ミルフィー？\n急に黙り込んじゃって。\n",
+      "translation": "왜 그래, 밀피? 갑자기 침묵해버리고.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,047,0",
+        "voice": "GA911009,3"
+      },
+      "original": "いえ……。\nあのシェリーさんって人、どうしてあんなことを\nしたんだろうと思って……。\n",
+      "translation": "아니…… 그 셰리 씨라는 사람, 왜 그런 짓을\n한 걸까 싶어서……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,047,0",
+        "voice": "GA911009,3"
+      },
+      "original": "命を捨てても、オレたちを止めたかったんだろう。\n敵ながら、見上げた忠誠心というか……。\n",
+      "translation": "목숨을 버려서라도, 우리를 막고 싶었던\n거겠지. 적이지만, 경의를 표할 만한 충성심이\n라고 할까……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,028,0",
+        "voice": "GA911010,3"
+      },
+      "original": "……それって、あたしにはよくわかりません。\n",
+      "translation": "……그건, 저로서는 잘 모르겠어요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,028,0",
+        "voice": "GA911010,3"
+      },
+      "original": "え？\n",
+      "translation": "에?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,025,0",
+        "voice": "GA911011,3"
+      },
+      "original": "だって、命を捨ててもいいくらい大事な人がいる\nなら、逆にその人を置いて死ねるわけがないもの。\n",
+      "translation": "그치만, 목숨을 버려도 좋을 만큼 소중한\n사람이 있다면, 반대로 그 사람을 두고 죽을\n수 있을 리가 없잖아요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,025,0",
+        "voice": "GA911012,3"
+      },
+      "original": "あたしだったら、大事な人をひとりぼっちにする\nことなんて、できません！\n",
+      "translation": "저라면, 소중한 사람을 홀로 남겨두는 일\n따위, 할 수 없어요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,025,0",
+        "voice": "GA911012,3"
+      },
+      "original": "ミルフィー……。\n",
+      "translation": "밀피……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,0,173",
+        "voice": "GA911013,3"
+      },
+      "original": "ミルフィーが言ってることは、あたしも同感だよ。\nだけど、感傷的になっていてもしょうがない。\n",
+      "translation": "밀피가 말하는 건, 나도 동감이야. 하지만,\n감상적으로 있어 봤자 별수 없어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "face": "141,0,0,141",
+        "speaker": "005",
+        "voice": "GA911014,3"
+      },
+      "original": "その気持ちは、敵にぶつけてやりな。\nみすみす部下を死なせた、大バカ野郎のエオニア\nにさ。\n",
+      "translation": "그 마음은, 적에게 쏟아부어 버리라고. 미처\n부하를 죽게 내버려 둔, 대바보인 에오니아\n에게 말이야.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "face": "021,0,026,0",
+        "voice": "GA911015,3",
+        "speaker": "002"
+      },
+      "original": "フォルテさん……。\n",
+      "translation": "포르테 씨……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,0,166",
+        "voice": "GA911016,3"
+      },
+      "original": "と・こ・ろ・で。\nミルフィー、今言ったあんたの「大事な人」って\nのは、いったい誰のことなんだい？\n",
+      "translation": "그·러·나. 밀피, 방금 네가 말한 「소중한\n사람」이라는 건 대체 누구를 말하는 거야?\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,023,0",
+        "voice": "GA911017,3"
+      },
+      "original": "え……えっ？\n",
+      "translation": "에…… 엣?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,109,0,0",
+        "voice": "GA911018,3"
+      },
+      "original": "私も興味がありますわ。\nぜひ、そのかたのお名前をうかがいたいですわね？\n",
+      "translation": "저도 흥미가 있답니다. 부디, 그분의 성함을\n듣고 싶군요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "voice": "GA911019,3",
+        "speaker": "002",
+        "face": "021,0,022,0"
+      },
+      "original": "え、えーと……何の話だか、あたしにはさっぱり！\nねぇ、タクトさん？\n",
+      "translation": "에, 에이토…… 무슨 이야기인지, 난 전혀\n모르겠어! 있지, 택트 씨?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "007,0,022,0",
+        "voice": "GA911019,3"
+      },
+      "original": "そ、そこでオレに振るかっ！？\n",
+      "translation": "거, 거기서 나한테 넘기는 거야!?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,061,0,0",
+        "voice": "GA911020,3"
+      },
+      "original": "あら、冷たいじゃない。\nドライヴ・アウト前に、タクトとミルフィーが、\nふたりっきりでいたって聞いたわよ。\n",
+      "translation": "어머, 차갑기도 해라. 드라이브・아웃 전에,\n택트와 밀피가, 둘이서만 같이 있었다고\n들었는걸.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,061,0,181",
+        "voice": "GA911021,3"
+      },
+      "original": "……聞きました。\n",
+      "translation": "……들었습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,061,0,181",
+        "voice": "GA911021,3"
+      },
+      "original": "あう、それは……。\nランファ、昨日は助けてくれたのに、それはない\nだろ？\n",
+      "translation": "아우, 그건…… 란파, 어제는 도와줬는데,\n그건 좀 아니지 않아?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,062,0,181",
+        "voice": "GA911022,3"
+      },
+      "original": "あらぁ、そのときに言わなかったっけ？\nアタシの友情でできることは、ここまで。\nあとは自分で何とかすれば？\n",
+      "translation": "어머머, 그때 말하지 않았었나? 내 우정으로\n할 수 있는 건, 여기까지. 남은 건 스스로\n어떻게든 해보지 그래?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0036",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "007,062,0,181",
+        "voice": "GA911022,3"
+      },
+      "original": "そ、そんなぁ～。\n",
+      "translation": "아, 아아～.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0037",
+      "channel": 1,
+      "context": {
+        "speaker": "004",
+        "face": "101,109,0,0",
+        "voice": "GA911023,3"
+      },
+      "original": "なるほど。\nやはり、そういうことでしたの。\n",
+      "translation": "과연. 역시, 그런 것이었군요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0038",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,109,0,0",
+        "voice": "GA911023,3"
+      },
+      "original": "し、しまった。\nついうっかり……。\n",
+      "translation": "이, 이런. 그만 깜빡하고……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0039",
+      "channel": 1,
+      "context": {
+        "voice": "GA911024,3",
+        "speaker": "006",
+        "face": "181,109,0,189"
+      },
+      "original": "……何となく、理解できました。\n",
+      "translation": "……어쩐지, 이해했습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0040",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,166,0",
+        "voice": "GA911025,3"
+      },
+      "original": "いやいや、まだまだ。\nやっぱ、当人同士の口からハッキリ言ってもらわ\nないと、あらぬ誤解を招くからねぇ～？\n",
+      "translation": "아니 아니, 아직 멀었어. 역시, 당사자들의\n입으로 확실히 말해주지 않으면, 엉뚱한\n오해를 부르니까 말이야～?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0041",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,032,0",
+        "voice": "GA911026,3"
+      },
+      "original": "だ、だから、その、あたしとタクトさんは、別に\n何も……。\n",
+      "translation": "그, 그러니까, 그게, 나랑 택트 씨은, 딱히\n아무것도……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0042",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,094,0,0",
+        "voice": "GA911027,3"
+      },
+      "original": "今さら隠すこともないでしょ？\nほらほら、ちゃんと言ってごらんなさい？\n",
+      "translation": "이제 와서 숨길 것도 없잖아? 자, 자, 제대로\n말해 보렴?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00117800:dialogue:0043",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "009,0,0,0",
+        "voice": "GA911027,3"
+      },
+      "original": "こ……こんなことなら、レスターに説教くらって\nいた方がマシだぁ～！\n",
+      "translation": "이…… 이럴 거면, 레스터에게 설교를 듣는 게\n차라리 낫겠어～!\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

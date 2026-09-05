@@ -1,0 +1,49 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_0003e000.txt",
+    "encoding": "cp932",
+    "sha256": "430ec90cb06bc87506623ac88c5712c46ac940f96d8a754d520bb14e1571a5e4",
+    "dialogue_count": 3
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_0003e000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,351,0"
+      },
+      "original": "あ、そうですか……。\n何か変わったことはありませんでしたか？\n",
+      "translation": "아, 그렇습니까…… 딱히 변한 점은 없었나요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0003e000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "033",
+        "face": "541,0,352,0",
+        "voice": "GA321001,3"
+      },
+      "original": "いいえ、これといって。\n何かあったのですか？\n",
+      "translation": "아니요, 딱히. 무슨 일이라도 있었나요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0003e000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,352,0",
+        "voice": "GA321001,3"
+      },
+      "original": "いえ、だったらいいんです。\n失礼します。\n",
+      "translation": "아니요, 그렇다면 다행입니다. 실례하겠습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

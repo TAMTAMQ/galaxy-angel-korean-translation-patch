@@ -1,0 +1,192 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_00041000.txt",
+    "encoding": "cp932",
+    "sha256": "d9e128ca82fe282cd6b72835a42027993d0ad8aa3901125958b1a229bcff881c",
+    "dialogue_count": 14
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_00041000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,223,0"
+      },
+      "original": "レスター、あれから何か変わったことはないか？\n",
+      "translation": "레스터, 그 뒤로 뭔가 변한 건 없나?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00041000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GA325001,3"
+      },
+      "original": "いや、あの後は特にないな。\nそっちはどうだ。\n宇宙ドッペルゲンガーは見つかったか？\n",
+      "translation": "아니, 그 후로는 딱히 없어. 그쪽은 어때.\n우주 도플갱거는 찾아냈나?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00041000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,223,0",
+        "voice": "GA325001,3"
+      },
+      "original": "うーん、足取りをつかめているような、つかめて\nいないような……。\n正直、困ってるよ。\n",
+      "translation": "으음, 행방을 파악하고 있는 것 같기도 하고,\n안 하고 있는 것 같기도…… 솔직히 말해서\n곤란해.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00041000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,221,0",
+        "voice": "GA325002,3"
+      },
+      "original": "一応、こっちでも艦内の様子はモニターしている\nから、何かあったら連絡を入れる。\n",
+      "translation": "일단 이쪽에서도 함내 상황은 모니터링하고\n있으니까, 무슨 일이 생기면 연락을 넣으마.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00041000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,221,0",
+        "voice": "GA325002,3"
+      },
+      "original": "ああ、よろしく頼む。\n",
+      "translation": "아아, 부탁하네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00041000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GA325003,3"
+      },
+      "original": "ところで、タクト。\n……あいつは、何やってんだ？\n",
+      "translation": "그건 그렇고, 택트. ……그 녀석은, 뭐 하고\n있는 거지?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00041000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,223,0",
+        "voice": "GA325003,3"
+      },
+      "original": "あいつ？\n",
+      "translation": "그 녀석?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00041000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,224,0",
+        "voice": "GA325004,3"
+      },
+      "original": "ほら、そこで何かの昆虫みたいにはいつくばって、\n床を観察してる、お前の連れ。\n",
+      "translation": "봐라, 저기서 무슨 곤충처럼 엎드려서, 바닥을\n관찰하고 있는 네 동료 말이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00041000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,224,0",
+        "voice": "GA325004,3"
+      },
+      "original": "あ、ああ……。\n",
+      "translation": "아, 아아……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00041000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "003",
+        "face": "061,0,072,0",
+        "voice": "GA325005,3"
+      },
+      "original": "昆虫とは何よ、昆虫とは！？\nアタシは必死なんだからね！\n",
+      "translation": "곤충이라니 뭐야 곤충이라니!? 난 필사적이라\n고 !\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00041000:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,221,0",
+        "voice": "GA325006,3"
+      },
+      "original": "へいへい、そりゃ悪かったな。\n",
+      "translation": "예이 예이, 그건 미안하게 됐군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00041000:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0",
+        "voice": "GA325006,3"
+      },
+      "original": "ランファ、お守りは見つかった？\n",
+      "translation": "란파, 부적은 찾았어?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00041000:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "face": "061,0,069,0",
+        "speaker": "003",
+        "voice": "GA325007,3"
+      },
+      "original": "ううん、ここにもないみたい。\n",
+      "translation": "아니, 여기에도 없는 것 같아.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00041000:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,069,0",
+        "voice": "GA325007,3"
+      },
+      "original": "そうか。\nしかたない、ほかを当たってみよう。\n",
+      "translation": "그런가. 어쩔 수 없지, 다른 곳을 찾아보자.\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

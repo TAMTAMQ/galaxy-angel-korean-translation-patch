@@ -1,0 +1,891 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_00139800.txt",
+    "encoding": "cp932",
+    "sha256": "a337f23647a204ba5fde3d77ef680def74e1f33bac35aaa0fd7188ab5bed914e",
+    "dialogue_count": 68
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "face": "012,0,0,0",
+        "speaker": "001"
+      },
+      "original": "……ん……ああ、もうこんな時間か。\nそろそろクロノ・ドライヴが終わるな。\n",
+      "translation": "……음……아아, 벌써 이런 시간인가. 슬슬\n크로노・드라이브가 끝나겠군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "face": "004,0,0,0",
+        "speaker": "001"
+      },
+      "original": "ヴァニラ、あれからどうしたかな。\nもしかして、ひと晩中、宇宙ウサギの治療をして\nいたとか……。\n",
+      "translation": "바닐라, 그 뒤로 어떻게 됐으려나. 혹시\n밤새도록 우주 토끼를 치료하고 있었다거\n나…… .\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "face": "004,0,0,0",
+        "speaker": "001"
+      },
+      "original": "うーむ……ヴァニラだったら、ないとは言い切れ\nないよなぁ……。\n",
+      "translation": "으음…… 바닐라라면, 아니라고는 말할 수\n없겠군……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "face": "006,0,0,0",
+        "speaker": "001"
+      },
+      "original": "ん、通信？\n誰からだろう……。\n",
+      "translation": "응, 통신? 누구로부터일까……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "face": "605,0,0,0",
+        "speaker": "026",
+        "voice": "GAD05001,3"
+      },
+      "original": "マイヤーズ司令、ちょっといいかしら？\n",
+      "translation": "마이어스 사령관, 잠시 괜찮을까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "face": "006,0,0,0",
+        "speaker": "001",
+        "voice": "GAD05001,3"
+      },
+      "original": "あ、はい。\nどうかなさったんですか、先生？\n",
+      "translation": "아, 네. 무슨 일이신가요, 선생님?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "face": "605,0,0,0",
+        "speaker": "026",
+        "voice": "GAD05002,3"
+      },
+      "original": "今から、クジラルームに来てほしいの。\n宇宙ウサギのことで、お話ししたいことがあって。\n",
+      "translation": "지금 바로 퀴랄 룸으로 와줬으면 해. 우주\n토끼 일로, 하고 싶은 이야기가 있어서.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "face": "011,0,0,0",
+        "speaker": "001",
+        "voice": "GAD05002,3"
+      },
+      "original": "何かわかったんですか？\nすぐ行きます。\n",
+      "translation": "무엇인가 알아내셨나요? 금방 가겠습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "026",
+        "face": "605,236,0,367",
+        "voice": "GAD05003,3"
+      },
+      "original": "ああ、司令。\nごめんなさいね、こんな時間に呼び出したりして。\n",
+      "translation": "아아, 사령관. 미안해, 이런 시간에 불러내서.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,236,0,367",
+        "voice": "GAD05003,3"
+      },
+      "original": "いえ、とんでもない。\nそれで、ウギウギが弱っている原因はわかったん\nですか？\n",
+      "translation": "아니요, 천만의 말씀입니다. 그래서, 우기우기\n가 쇠약해진 원인은 알아냈 나요?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "026",
+        "face": "605,236,0,370",
+        "voice": "GAD05004,3"
+      },
+      "original": "それが……。\n",
+      "translation": "그게……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,236,0,370",
+        "voice": "GAD05004,3"
+      },
+      "original": "どうしたんですか？\n治療法があるのなら、早くヴァニラに教えてあげ\nないと！\n",
+      "translation": "어떻게 된 건가요? 치료법이 있다면, 빨리\n바닐라에게 알려주 지 않으면!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "008",
+        "face": "236,241,0,370",
+        "voice": "GAD05005,3"
+      },
+      "original": "……治療法は……ありません。\n",
+      "translation": "……치료법은…… 없습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "voice": "GAD05005,3",
+        "speaker": "001",
+        "face": "006,241,0,370"
+      },
+      "original": "え……？\n",
+      "translation": "에……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "008",
+        "face": "236,241,0,370",
+        "voice": "GAD05006,3"
+      },
+      "original": "あの宇宙ウサギは、もう寿命なんです。\n",
+      "translation": "그 우주 토끼는, 이제 수명이 다했습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,241,0,370",
+        "voice": "GAD05006,3"
+      },
+      "original": "なん……だって……？\n",
+      "translation": "뭐……라고……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "026",
+        "face": "605,241,0,370",
+        "voice": "GAD05007,3"
+      },
+      "original": "データベースで、宇宙ウサギの生態について調べ\nてみたの。\nそうしたら……。\n",
+      "translation": "데이터베이스로, 우주 토끼의 생태에 대해\n조사 해봤어. 그랬더니……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "face": "605,241,0,370",
+        "speaker": "026",
+        "voice": "GAD05008,3"
+      },
+      "original": "ヴァニラが飼っている種類の宇宙ウサギは、寿命\nがとても短いことがわかったの。\n",
+      "translation": "바닐라가 기르고 있는 종류의 우주 토끼는,\n수명 이 매우 짧다는 걸 알게 되었어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "face": "236,241,0,370",
+        "speaker": "008",
+        "voice": "GAD05009,3"
+      },
+      "original": "ケーラ先生からうかがった様子だと……おそらく、\n今日明日の命だと思います。\n",
+      "translation": "케라 선생님께 들은 상태로는…… 아마, 오늘\n내일 중에는 목숨이 위태로울 것 같습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "face": "006,241,0,370",
+        "voice": "GAD05009,3",
+        "speaker": "001"
+      },
+      "original": "そ、そんな……。\n",
+      "translation": "그, 그럴 수가……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "010,241,0,370",
+        "voice": "GAD05009,3"
+      },
+      "original": "これじゃ、まったく同じじゃないか……シスター\nのときと……。\n",
+      "translation": "이건, 완전히 똑같잖아…… 시스 터 때와……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "026",
+        "face": "605,241,0,367",
+        "voice": "GAD05010,3"
+      },
+      "original": "シスターって……？\n",
+      "translation": "시스터라니……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "voice": "GAD05010,3",
+        "speaker": "001",
+        "face": "010,241,0,367"
+      },
+      "original": "ヴァニラの育ての親です。\n老衰で亡くなったのを、ヴァニラは自分の治療の\n腕が未熟だったせいだと思い込んでいるんです。\n",
+      "translation": "바닐라의 양부모입니다. 노쇠로 돌아가신\n것을, 바닐라는 자신의 치료 실력이 미숙했던\n탓이라고 믿고 있어요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "010,241,0,367",
+        "voice": "GAD05010,3"
+      },
+      "original": "ウギウギのことも、かつて救えなかったシスター\nに重ね合わせて見ているようなんです。\n今度こそ、助けたいって……。\n",
+      "translation": "우기우기의 일도, 과거에 구하지 못했던 시스\n터와 겹쳐서 보고 있는 것 같습니다. 이번에야\n말로, 구하고 싶다면서……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "face": "236,239,0,367",
+        "speaker": "008",
+        "voice": "GAD05011,3"
+      },
+      "original": "そうだったんですか……。\n寿命で死ぬことは、ヴァニラさんのせいじゃない\nのに……。\n",
+      "translation": "그랬던 건가요…… 수명으로 죽는 것은,\n바닐라 씨의 탓이 아닌데도……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "026",
+        "face": "605,239,0,370",
+        "voice": "GAD05012,3"
+      },
+      "original": "きっと、当時のヴァニラは、身近な人の死という\nものを受け入れられなかったのね。\n",
+      "translation": "분명, 당시의 바닐라는, 가까운 사람의\n죽음이라는 것을 받아들일 수 없었던 거겠지.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "face": "605,239,0,370",
+        "voice": "GAD05013,3",
+        "speaker": "026"
+      },
+      "original": "だから、自分を責めることで、精神のバランスを\n取った……。\nでも、そんなのあんまりだわ……。\n",
+      "translation": "그래서, 자신을 자책함으로써, 정신의 균형을\n맞춘 거야…… 하지만, 그건 너무해……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,239,0,370",
+        "voice": "GAD05013,3"
+      },
+      "original": "ウギウギが寿命だということは、もうヴァニラに\nは教えたんですか……？\n",
+      "translation": "우기우기가 수명이라는 건, 이미 바닐라에게\n말했나요……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0029",
+      "channel": 1,
+      "context": {
+        "speaker": "026",
+        "face": "605,239,0,370",
+        "voice": "GAD05014,3"
+      },
+      "original": "……いいえ、まだ……。\nヴァニラが、あんな一生懸命に治療しようとして\nいるのを見たら、とても……。\n",
+      "translation": "……아니요, 아직…… 바닐라가, 그렇게\n열심히 치료하려고 하는 걸 보면, 도저히……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0030",
+      "channel": 1,
+      "context": {
+        "face": "236,241,0,370",
+        "speaker": "008",
+        "voice": "GAD05015,3"
+      },
+      "original": "僕は、タクトさんもヴァニラさんも、宇宙ウサギ\nの寿命のことをご存じだと思っていたもので……。\nすみません……考えが足りませんでした。\n",
+      "translation": "저는, 택트 씨도 바닐라 씨도, 우주 토끼 의\n수명을 알고 계신 줄 알고서…… 죄송합니\n다… … 생각이 짧았습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0031",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "010,241,0,370",
+        "voice": "GAD05015,3"
+      },
+      "original": "いや……クロミエが悪いんじゃない。\n宇宙ウサギを飼うことをヴァニラにすすめたのは、\nオレなんだから。\n",
+      "translation": "아니…… 크로미에가 잘못한 게 아니야. 우주\n토끼를 키우는 걸 바닐라에게 권한 건, 나니까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0032",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "010,241,0,370",
+        "voice": "GAD05015,3"
+      },
+      "original": "……オレが、ヴァニラに伝えてくる。\nオレが言わなくちゃならないんだ。\n",
+      "translation": "……내가, 바닐라에게 전하고 오겠어. 내가\n말해야만 해.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0033",
+      "channel": 1,
+      "context": {
+        "face": "003,241,0,370",
+        "speaker": "001",
+        "voice": "GAD05015,3"
+      },
+      "original": "……ヴァニラのところへ行ってくる。\n",
+      "translation": "……바닐라가 있는 곳으로 다녀올게.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0034",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "010,0,0,0",
+        "voice": "GAD05015,3"
+      },
+      "original": "しまった、もうそんな時間か。\n急がないと……。\n",
+      "translation": "아차, 벌써 그런 시간인가. 서둘러야 해……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0035",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GAD05015,3"
+      },
+      "original": "敵襲！？\nああもう、こんなときに！\n",
+      "translation": "적습!? 아 정말, 이럴 때에!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0036",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAD05015,3"
+      },
+      "original": "ちょっとだけ、待ってもらえないか？\n大事な用があるんだ。\n",
+      "translation": "잠시만, 기다려 줄 수 없겠나? 중요한 용건이\n있어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0037",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "226,0,0,0",
+        "voice": "GAD05016,3"
+      },
+      "original": "なに言ってやがる。\n戦闘の指揮をとること以上に大事な用があるか！\n",
+      "translation": "무슨 소리를 하는 거야. 전투 지휘를 맡는\n것보다 중요한 용건이 있냐!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0038",
+      "channel": 1,
+      "context": {
+        "voice": "GAD05016,3",
+        "speaker": "001",
+        "face": "011,0,0,0"
+      },
+      "original": "いいから、少しだけ時間をくれ。\nそれが終わったら、すぐに行くから！\n",
+      "translation": "됐으니까, 조금만 시간을 줘. 그게 끝나면\n바로 갈 테니까!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0039",
+      "channel": 1,
+      "context": {
+        "face": "224,0,0,0",
+        "voice": "GAD05017,3",
+        "speaker": "007"
+      },
+      "original": "おい、タクト……！\n",
+      "translation": "어이, 택트……!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0040",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,0,0",
+        "voice": "GAD05017,3"
+      },
+      "original": "今のままで、ヴァニラを出撃させたら……。\n早く伝えなきゃ……。\n",
+      "translation": "지금 이대로 바닐라를 출격시키면…… 빨리\n알려줘야 해……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0041",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "011,0,0,0",
+        "voice": "GAD05017,3"
+      },
+      "original": "はぁ、はぁ……。\nヴァニラ、待っていてくれ。\n",
+      "translation": "하아, 하아…… 바닐라, 기다려 줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0042",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,0,183,0",
+        "voice": "GAD05018,3"
+      },
+      "original": "……あ……。\n",
+      "translation": "……아……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0043",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,183,0",
+        "voice": "GAD05018,3"
+      },
+      "original": "あっ、ヴァニラ。\n……ウギウギは、どうなった？\n",
+      "translation": "앗, 바닐라. ……우기우기는, 어떻게 됐어?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0044",
+      "channel": 1,
+      "context": {
+        "face": "181,0,186,0",
+        "speaker": "006",
+        "voice": "GAD05019,3"
+      },
+      "original": "……まだ、治療中です……。\n",
+      "translation": "……아직, 치료 중이에요……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0045",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "003,0,186,0",
+        "voice": "GAD05019,3"
+      },
+      "original": "そうか……。\nあ、あのさ、ヴァニラ。\n言っておかないといけないことがあるんだけど。\n",
+      "translation": "그렇구나…… 저기, 있잖아, 바닐라. 말해둬야\n할 게 있는데.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0046",
+      "channel": 1,
+      "context": {
+        "face": "181,0,187,0",
+        "speaker": "006",
+        "voice": "GAD05020,3"
+      },
+      "original": "何でしょうか……？\n",
+      "translation": "무엇인가요……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0047",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,187,0",
+        "voice": "GAD05020,3"
+      },
+      "original": "実は、その……。\n",
+      "translation": "사실은, 그게……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0048",
+      "channel": 1,
+      "context": {
+        "face": "010,0,187,0",
+        "speaker": "001",
+        "voice": "GAD05020,3"
+      },
+      "original": "いいかい、落ち着いて聞いてくれ。\nウギウギは、病気なんかじゃない。\n寿命なんだ。\n",
+      "translation": "잘 들어, 진정하고 들어줘. 우기우기는, 병\n같은 게 아니야. 수명이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0049",
+      "channel": 1,
+      "context": {
+        "face": "181,0,183,0",
+        "speaker": "006",
+        "voice": "GAD05021,3"
+      },
+      "original": "……え……？\n",
+      "translation": "……에……?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0050",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,183,0",
+        "voice": "GAD05021,3"
+      },
+      "original": "ヴァニラがいくら必死に治療しても、治ることは\nないんだ。\nこれは、ヴァニラのせいなんかじゃなくて……。\n",
+      "translation": "바닐라가 아무리 필사적으로 치료해도, 나을\n수는 없어. 이건 바닐라의 탓 같은 게 아니\n라… ….\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0051",
+      "channel": 1,
+      "context": {
+        "face": "181,0,205,0",
+        "speaker": "006",
+        "voice": "GAD05022,3"
+      },
+      "original": "……大丈夫です……。\nウギウギは、必ず治します。\n",
+      "translation": "……괜찮습니다…… 우기우기는, 반드시 고칠\n거예요.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0052",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,205,0",
+        "voice": "GAD05022,3"
+      },
+      "original": "ヴァニラ、違うんだ。\n寿命ってのは……。\n",
+      "translation": "바닐라, 그게 아니야. 수명이란 건……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0053",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,0,189,0",
+        "voice": "GAD05023,3"
+      },
+      "original": "……申し訳ありませんが、失礼します。\n……出撃している間……ウギウギをケーラ先生に\nあずかっていただかないといけませんので。\n",
+      "translation": "……죄송합니다만, 실례하겠습니다. ……출격하\n는 동안…… 우기우기를 케라 선생님께\n맡겨두어야 해서요.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0054",
+      "channel": 1,
+      "context": {
+        "speaker": "094",
+        "face": "000,0,0,0",
+        "voice": "GAD05023,3"
+      },
+      "original": "　\n",
+      "translation": "\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0055",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,0,0",
+        "voice": "GAD05023,3"
+      },
+      "original": "……ヴァニラ……。\n",
+      "translation": "……바닐라……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0056",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,187,0",
+        "voice": "GAD05023,3"
+      },
+      "original": "……出撃、がんばってくれ。\n",
+      "translation": "……출격, 힘내줘.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0057",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,0,198,0",
+        "voice": "GAD05024,3"
+      },
+      "original": "……はい。\n……ウギウギのためにも、必ず勝ちます。\n",
+      "translation": "……네. ……우기우기를 위해서라도, 반드시\n이기겠습니다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0058",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,198,0",
+        "voice": "GAD05024,3"
+      },
+      "original": "そう……だな……。\nエオニア軍を早く撃退できれば、それだけ早く、\n治療に戻れるもんな……。\n",
+      "translation": "그렇……겠지…… 에오니아군을 빨리 격퇴할\n수 있다면, 그만큼 빨리, 치료로 돌아갈 수\n있을 테니까……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0059",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,0,205,0",
+        "voice": "GAD05025,3"
+      },
+      "original": "……はい。\n",
+      "translation": "……네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0060",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,205,0",
+        "voice": "GAD05025,3"
+      },
+      "original": "ウギウギは……オレからケーラ先生にあずかって\nもらえるよう、お願いしておくよ。\n",
+      "translation": "우기우기는…… 내가 케라 선생님께 맡길 수\n있도록, 부탁해 둘게.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0061",
+      "channel": 1,
+      "context": {
+        "speaker": "006",
+        "face": "181,0,185,0",
+        "voice": "GAD05026,3"
+      },
+      "original": "……よろしくお願いします。\nでは、格納庫へ向かいますので、これで……。\n",
+      "translation": "……잘 부탁드립니다. 그럼, 격납고로 향할\n테니, 이만……\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0062",
+      "channel": 1,
+      "context": {
+        "voice": "GAD05026,3",
+        "speaker": "094",
+        "face": "000,0,0,0"
+      },
+      "original": "　\n",
+      "translation": "\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0063",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "010,0,0,0",
+        "voice": "GAD05026,3"
+      },
+      "original": "……言えなかった……。\nどう言えばいいんだよ、あんなに必死なヴァニラ\nに……。\n",
+      "translation": "……말하지 못했어…… 어떻게 말해야 하는\n거야, 그렇게 필사적인 바닐라에게……\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0064",
+      "channel": 1,
+      "context": {
+        "face": "003,0,0,0",
+        "voice": "GAD05026,3",
+        "speaker": "001"
+      },
+      "original": "……いや、今は気持ちを切り替えなきゃ。\n生き残らなければ、元も子もないんだ。\nとにかく、ブリッジに行こう。\n",
+      "translation": "……아니, 지금은 마음을 다잡아야 해.\n살아남지 못하면, 아무 소용도 없으니까.\n어쨌든, 브릿지로 가자.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0065",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "005,0,0,0",
+        "voice": "GAD05026,3"
+      },
+      "original": "すまない、遅くなった！\n",
+      "translation": "미안하다, 늦었어!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0066",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GAD05027,3"
+      },
+      "original": "悪いと思ってるなら、さっさと自分の仕事につけ。\nもうエンジェル隊もスタンバイしている。\n",
+      "translation": "잘못하고 있다고 생각한다면, 빨리 네 일에\n복귀해. 이미 엔젤대도 스탠바이 중이다.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0067",
+      "channel": 1,
+      "context": {
+        "face": "010,0,223,0",
+        "speaker": "001",
+        "voice": "GAD05027,3"
+      },
+      "original": "敵の狙いは、こちらの足止めか。\nだけど、こんなところで時間をとられるわけには\nいかないんだ。\n",
+      "translation": "적의 노림수는, 이쪽의 발을 묶는 건가.\n하지만, 이런 곳에서 시간을 지체할 수는 없어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00139800:dialogue:0068",
+      "channel": 1,
+      "context": {
+        "face": "011,0,0,0",
+        "voice": "GAD05027,3",
+        "speaker": "001"
+      },
+      "original": "これより敵の迎撃に移る。\nみんな、よろしく頼むぞ！\n",
+      "translation": "지금부터 적의 요격에 들어간다. 모두, 잘\n부탁한다!\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

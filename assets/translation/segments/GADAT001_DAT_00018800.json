@@ -1,0 +1,128 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_00018800.txt",
+    "encoding": "cp932",
+    "sha256": "de313c11dbf85376878cd6803e223eae5ca745b3d9de3d2995ffc196fc9b2baf",
+    "dialogue_count": 9
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_00018800:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,046,0",
+        "voice": "GA210001,3"
+      },
+      "original": "こちらが、シヴァ皇子のお部屋です。\nシヴァ皇子に謁見なさいますか？\n",
+      "translation": "이곳이, 시바 황자님의 방입니다. 시바\n황자님을 알현하시겠습니까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00018800:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,046,0",
+        "voice": "GA210001,3"
+      },
+      "original": "そうだな。\nさっきもお会いしたけど、何度も話をして、信頼\n関係が持てるようになるとうれしいし。\n",
+      "translation": "그렇군. 아까도 만났지만, 몇 번이고 이야기를\n나누어서, 신뢰 관계를 쌓을 수 있게 된다면\n기쁠 테니까.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00018800:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,022,0",
+        "voice": "GA210002,3"
+      },
+      "original": "そうですね。\nじゃあ、中にいるお付きの人を呼んできます。\n",
+      "translation": "그렇네요. 그럼, 안에 있는 수행원을 불러오겠\n습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00018800:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,046,0",
+        "voice": "GA211001,3"
+      },
+      "original": "ここは、あたしの部屋です。\nさっきも来ましたよね。\n",
+      "translation": "여기는, 내 방이야. 아까도 왔었지?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00018800:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,021,0",
+        "voice": "GA211002,3"
+      },
+      "original": "あたしたちエンジェル隊は、このＣブロックに、\nまとまってお部屋をいただいているんです。\n",
+      "translation": "우리 엔젤대는, 이 C 블록에, 모아서 방을\n쓰고 있어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00018800:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,021,0",
+        "voice": "GA211002,3"
+      },
+      "original": "みんな個室なんだね。\n間違って別の人の部屋に行ったりしないように、\n気をつけないとな。\n",
+      "translation": "다들 개인실이구나. 잘못해서 다른 사람의\n방에 가거나 하지 않도록, 조심해야겠어.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00018800:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "006,0,021,0",
+        "voice": "GA211002,3"
+      },
+      "original": "そういえば、さっきシヴァ皇子に謁見するとき、\nこのあたりを通ったな。\n",
+      "translation": "그러고 보니, 아까 시바 황자님을 알현할 때,\n이 근처를 지나갔었지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00018800:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "002",
+        "face": "021,0,021,0",
+        "voice": "GA211003,3"
+      },
+      "original": "皇子のお部屋は、このブロックのいちばん奥の、\nいちばん大きな部屋です。\n",
+      "translation": "황자님의 방은, 이 블록의 가장 안쪽에 있는,\n가장 큰 방이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_00018800:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "face": "001,0,021,0",
+        "voice": "GA211003,3",
+        "speaker": "001"
+      },
+      "original": "ああ、さすが皇族って感じの部屋だったな。\nさてと、そろそろ別のところに行こうか。\n",
+      "translation": "아아, 역시 황족이라는 느낌이 드는 방이었어.\n자, 슬슬 다른 곳으로 가볼까.\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}

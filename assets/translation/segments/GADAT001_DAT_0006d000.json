@@ -1,0 +1,374 @@
+{
+  "schema": "galaxy-angel-translation-segment/v1",
+  "source": {
+    "path": "GADAT001_DAT_0006d000.txt",
+    "encoding": "cp932",
+    "sha256": "5231848e5dcd596e08b42b164052bebec0888062afd4809e52aa71d005596043",
+    "dialogue_count": 28
+  },
+  "units": [
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0001",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,0,0"
+      },
+      "original": "このエルシオールに乗り込んで、かれこれ２週間\n近くか。\n思えば遠くへ来たもんだ。\n",
+      "translation": "이 에르시올에 올라탄 지도, 벌써 2주일 가까이\n되었나. 생각해 보니 멀리까지 왔군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0002",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,221,0",
+        "voice": "GA501001,3"
+      },
+      "original": "このあたりまで来れば、もう第３方面軍の勢力圏\n内のはずだ。\nローム星系まで、もうひと息だな。\n",
+      "translation": "이 근처까지 오면, 이제 제3방면군의 세력권\n안일 터다. 롬 성계까지, 이제 한 고비 남았군.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0003",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,221,0",
+        "voice": "GA501001,3"
+      },
+      "original": "このまま一気に行きたいもんだなぁ。\nいいかげんに味方と会いたいよ。\n",
+      "translation": "이대로 단숨에 가고 싶구만. 적당히 아군을\n만나고 싶어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0004",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,141,0",
+        "voice": "GA501002,3"
+      },
+      "original": "ん、誰に会いたいんだって？\n",
+      "translation": "응, 누구를 만나고 싶다는 거야?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0005",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,141,0",
+        "voice": "GA501002,3"
+      },
+      "original": "やあ、フォルテ。\n何か用かい？\n",
+      "translation": "여어, 포르테. 볼일이라도 있어?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0006",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,173,0",
+        "voice": "GA501003,3"
+      },
+      "original": "用がなきゃ、来ちゃいけないのかい？\n例えば、他愛もない世間話をしに、とか。\n",
+      "translation": "볼일이 없으면, 오면 안 되는 거야? 예를\n들어, 시시콜콜한 잡담을 하러 말이야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0007",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,0,173,0",
+        "voice": "GA501003,3"
+      },
+      "original": "いや。\nだけどフォルテは、おしゃべりをするためだけに\nここまで足を運んだりはしないだろうと思ってね。\n",
+      "translation": "아니. 하지만 포르테는, 수다를 떨기 위해서만\n여기까지 발걸음을 하지는 않을 거라고\n생각해서 말이지.\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0008",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,141,0",
+        "voice": "GA501004,3"
+      },
+      "original": "フフン、当たりだよ。\n何かいいニュースが届いてないか、確かめに来た\nのさ。\n",
+      "translation": "후훗, 정답이야. 뭔가 좋은 뉴스가 들려오지\n않았는지, 확인하러 온 거야.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0009",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,141,0",
+        "voice": "GA501004,3"
+      },
+      "original": "なるほどね。\nでも残念ながら、まだ何もないよ。\n",
+      "translation": "그렇군. 하지만 아쉽게도, 아직 아무것도 없어.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0010",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,141,0",
+        "voice": "GA501005,3"
+      },
+      "original": "マイヤーズ司令、通信をキャッチしました。\nこの暗号パターンは、皇国軍のものです。\n",
+      "translation": "마이어스 사령관님, 통신을 포착했습니다. 이\n암호 패턴은, 황국군의 것입니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0011",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,166,0",
+        "voice": "GA501006,3"
+      },
+      "original": "おっと、いいタイミングだね。\n",
+      "translation": "오호, 타이밍 좋네.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0012",
+      "channel": 1,
+      "context": {
+        "face": "002,0,166,0",
+        "voice": "GA501006,3",
+        "speaker": "001"
+      },
+      "original": "さっき、味方に会いたいって言ったばかりだよ。\n何でも言ってみるもんだなぁ。\n",
+      "translation": "방금 전, 아군을 만나고 싶다고 말한 참이야.\n말하는 대로 되는 법이라니까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0013",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GA501007,3"
+      },
+      "original": "……暗号を解読しました。\n読み上げます。\n",
+      "translation": "……암호를 해독했습니다. 낭독하겠습니다.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0014",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,0,0,0",
+        "voice": "GA501008,3"
+      },
+      "original": "『当方、第３方面軍ギムソン星系駐留艦隊。\n　付近を航行中のエルシオールに告ぐ。\n　この通信をキャッチしたら……』\n",
+      "translation": "『당방, 제3방면군 김선 성계 주둔 함대.\n부근을 항행 중인 에르시올에 알린다. 　이\n통신을 포착하면……』\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0015",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "503,0,0,0",
+        "voice": "GA501009,3"
+      },
+      "original": "『当方と合流し、ローム星系までご一緒されたし。\n　ポイントＹＪｎ６７４にて待つ』だそうです！\n",
+      "translation": "『당방과 합류하여, 롬 성계까지 동행할 것.\n포인트 YJｎ674에서 기다리겠다』라고 합니다!\n",
+      "state": "needs_human",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0016",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,0,144,0",
+        "voice": "GA501010,3"
+      },
+      "original": "第３方面軍？\n合流だって？\n",
+      "translation": "제3방면군? 합류라고?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0017",
+      "channel": 1,
+      "context": {
+        "speaker": "016",
+        "face": "491,0,0,337",
+        "voice": "GA501011,3"
+      },
+      "original": "ということは、エルシオールを迎えに来てくれた\nんですね！\n",
+      "translation": "그렇다는 건, 에르시올을 마중 나와 준 거군요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0018",
+      "channel": 1,
+      "context": {
+        "speaker": "017",
+        "face": "501,342,0,337",
+        "voice": "GA501012,3"
+      },
+      "original": "通信には、非常用を含めて、ふたつのランデブー\nポイントの座標も示されています。\nこれで味方と合流できますね！\n",
+      "translation": "통신에는, 비상용을 포함하여, 두 개의 란데부\n포인트 좌표도 표시되어 있습니다. 이걸로\n아군과 합류할 수 있겠네요!\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0019",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,223,0",
+        "voice": "GA501013,3"
+      },
+      "original": "いや、おかしいぞ。\nこのあたりにいる皇国軍が、なぜエルシオールの\nことを知っている。\n",
+      "translation": "아니, 이상하다. 이 근처에 있는 황국군이, 왜\n에르시올의 것을 알고 있는 거지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0020",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "004,0,223,0",
+        "voice": "GA501013,3"
+      },
+      "original": "なぜって……エオニア軍も知っているくらいだし、\n別におかしくはないんじゃないか？\n",
+      "translation": "왜냐하면…… 에오니아군도 알고 있을 정도니,\n딱히 이상할 건 없지 않나?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0021",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,0,225,0",
+        "voice": "GA501014,3"
+      },
+      "original": "お前、俺たちが隠密行動をしていることを忘れた\nのか？\n",
+      "translation": "너, 우리가 은밀 행동을 하고 있다는 걸 잊은\n거냐?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0022",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "012,0,225,0",
+        "voice": "GA501014,3"
+      },
+      "original": "あ、そういえばそうだった。\n",
+      "translation": "아, 그러고 보니 그랬지.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0023",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,173,0,0",
+        "voice": "GA501015,3"
+      },
+      "original": "敵のワナ……という可能性はないかい？\n皇国軍の中には、エオニアに寝返った連中もいる\nはずだ。\n",
+      "translation": "적의 함정……일 가능성은 없을까? 황국군\n중에는, 에오니아로 변절한 녀석들도 있을\n테니까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0024",
+      "channel": 1,
+      "context": {
+        "speaker": "007",
+        "face": "221,173,0,223",
+        "voice": "GA501016,3"
+      },
+      "original": "そこから暗号コードがもれた……か。\nあり得ない話じゃないな。\n",
+      "translation": "거기서 암호 코드가 새어 나갔다……인가.\n있을 법한 이야기군.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0025",
+      "channel": 1,
+      "context": {
+        "face": "001,173,0,223",
+        "voice": "GA501016,3",
+        "speaker": "001"
+      },
+      "original": "でも、信用してもいいんじゃないかな？\n",
+      "translation": "하지만, 신용해도 괜찮지 않을까?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0026",
+      "channel": 1,
+      "context": {
+        "speaker": "005",
+        "face": "141,144,0,223",
+        "voice": "GA501017,3"
+      },
+      "original": "なぜだい？\n",
+      "translation": "왜 그러지?\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0027",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,144,0,223",
+        "voice": "GA501017,3"
+      },
+      "original": "確率の問題だよ。\n第３方面軍の勢力圏内で通信してくるのは、敵と\n味方、どっちの確率が高いか。\n",
+      "translation": "확률의 문제야. 제3방면군 세력권 내에서\n통신해 오는 것은, 적과 아군, 어느 쪽일\n확률이 높을까.\n",
+      "state": "draft",
+      "use_translation": true
+    },
+    {
+      "id": "GADAT001_DAT_0006d000:dialogue:0028",
+      "channel": 1,
+      "context": {
+        "speaker": "001",
+        "face": "001,144,0,223",
+        "voice": "GA501017,3"
+      },
+      "original": "ワナだったら、そのときはそのときさ。\nよし、ポイントＹＪｎ６７４にクロノ・ドライヴ\nだ。\n",
+      "translation": "함정이라면 그때 가서 생각하면 돼. 좋아, 포인트 ＹＪｎ６７４로 크로노・드라이브다.\n",
+      "state": "draft",
+      "use_translation": true
+    }
+  ]
+}
