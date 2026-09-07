@@ -136,14 +136,29 @@ def main() -> int:
     ap = argparse.ArgumentParser(description="Repack all translated GADAT PSS files into the Korean Galaxy Angel ISO.")
     ap.add_argument("--iso", type=Path, default=Path("build/Galaxy Angel (Korean).iso"))
     ap.add_argument("--pss-dir", type=Path, default=Path("movie/subtitled/final"))
+    ap.add_argument("--subtitles-dir", type=Path, default=Path("movie/subtitles"))
     ap.add_argument("--output", type=Path, default=Path("build/Galaxy Angel (Korean)_SUBTITLED_MOVIES.iso"))
     ap.add_argument("--report", type=Path, default=Path("build/all_movies_iso_patch.json"))
     ap.add_argument("--plan-only", action="store_true")
     args = ap.parse_args()
 
-    replacements = sorted(args.pss_dir.glob("GADAT*.PSS"))
-    if len(replacements) != 30:
-        raise ValueError(f"expected 30 final PSS files, found {len(replacements)}")
+    all_subtitle_names = {
+        p.name.removesuffix(".ko.ass")
+        for p in args.subtitles_dir.glob("GADAT*.ko.ass")
+    }
+    nonempty_names = {
+        p.name.removesuffix(".ko.ass")
+        for p in args.subtitles_dir.glob("GADAT*.ko.ass")
+        if any(line.startswith("Dialogue:") for line in p.read_text(encoding="utf-8").splitlines())
+    }
+    replacements = sorted(
+        p for p in args.pss_dir.glob("GADAT*.PSS")
+        if p.stem in nonempty_names
+    )
+    if len(replacements) != len(nonempty_names):
+        raise ValueError(
+            f"expected {len(nonempty_names)} non-empty-subtitle PSS files, found {len(replacements)}"
+        )
 
     with args.iso.open("rb") as f:
         meta = f.read(META_BYTES)
@@ -289,8 +304,35 @@ def main() -> int:
         if a[1] > b[0]:
             raise ValueError(f"movie extents overlap: {a} vs {b}")
 
+    untouched_verification: list[dict[str, object]] = []
+    for name in sorted(all_subtitle_names - nonempty_names):
+        identifier = f"{name}.PSS;1"
+        source_rec = find_record(meta, identifier)
+        output_rec = find_record(out_meta, identifier)
+        if (
+            int(output_rec["extent"]) != int(source_rec["extent"])
+            or int(output_rec["size"]) != int(source_rec["size"])
+        ):
+            raise ValueError(f"{name}: untouched ISO9660 directory record changed")
+        extent = int(source_rec["extent"])
+        size = int(source_rec["size"])
+        source_hash = sha256_region(args.iso, extent * SECTOR, size)
+        output_hash = sha256_region(args.output, extent * SECTOR, size)
+        if output_hash != source_hash:
+            raise ValueError(f"{name}: untouched PSS region changed")
+        untouched_verification.append(
+            {
+                "name": name,
+                "extent": extent,
+                "size": size,
+                "sha256": output_hash,
+                "matches_source_iso": True,
+            }
+        )
+
     plan["volume_descriptors_updated"] = volume_descriptors
     plan["verification"] = verification
+    plan["untouched_verification"] = untouched_verification
     plan["output_iso"] = str(args.output.resolve())
     plan["output_iso_size"] = args.output.stat().st_size
     plan["output_iso_sha256"] = sha256_file(args.output)

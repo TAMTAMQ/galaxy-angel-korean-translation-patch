@@ -105,7 +105,18 @@ def main() -> int:
     args.output_dir.mkdir(parents=True, exist_ok=True)
     args.report.parent.mkdir(parents=True, exist_ok=True)
 
-    names = args.names or sorted(p.stem for p in synced.glob("GADAT*.mkv"))
+    all_names = sorted(p.stem for p in synced.glob("GADAT*.mkv"))
+    if args.names:
+        names = args.names
+    else:
+        names = [
+            name for name in all_names
+            if any(
+                line.startswith("Dialogue:")
+                for line in (subtitles / f"{name}.ko.ass").read_text(encoding="utf-8").splitlines()
+            )
+        ]
+    skipped_empty = sorted(set(all_names) - set(names)) if not args.names else []
     ffmpeg = get_ffmpeg()
     results: list[dict[str, object]] = []
 
@@ -183,6 +194,7 @@ def main() -> int:
                     "vbv_bytes": args.vbv_bytes,
                     "completed": len(results),
                     "requested": len(names),
+                    "skipped_empty_subtitles": skipped_empty,
                     "results": results,
                 },
                 ensure_ascii=False,

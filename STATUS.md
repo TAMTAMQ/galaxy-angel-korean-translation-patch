@@ -2,6 +2,25 @@
 
 갱신: 2026-09-07
 
+## 2026-09-07 빈 ASS 영상 제외 재패키징
+
+영상 자막 패키징 대상을 `Dialogue:` 이벤트가 실제로 존재하는 ASS로 제한했다.
+
+- `movie/subtitles`의 30개 ASS 중 실제 자막이 있는 **24편만** 자막 PSS 교체 대상이다.
+- 빈 ASS 6편: `GADAT100`, `GADAT103`, `GADAT105`, `GADAT111`, `GADAT120`, `GADAT122`.
+- 위 6편은 재인코딩/재mux하지 않고 `build/Galaxy Angel (Korean).iso`의 기존 PSS를 그대로 유지한다.
+- `tools/galaxy_angel_build_all_subtitled_pss.py`는 기본 실행 시 빈 ASS를 자동 제외한다.
+- `tools/galaxy_angel_patch_all_movies_iso.py`도 실제 자막 PSS만 ISO에 넣고, 제외 영상은 source ISO와 byte-identical인지 검증한다.
+- 새 ISO 내부 교체 PSS **24/24 SHA-256 readback PASS**.
+- 제외 PSS **6/6 source ISO와 byte-identical PASS**.
+- `tools/galaxy_angel_verify_all_movies_iso.py`: `ok=true`, 허용 범위 밖 **3,293,906,552 bytes byte-exact PASS**.
+- 새 최종 ISO: `build/Galaxy Angel (Korean)_SUBTITLED_MOVIES.iso`
+  - 크기: `4,348,381,184 bytes`
+  - MD5: `9f4051f2a14d9cf190e3b096fb2888f3`
+  - SHA-1: `b97d78f7ebe956af15429aadd02437292953cf09`
+  - SHA-256: `5ee608e2da2151acd7f15e8eddfbc307c8ab9b9759c57e7351ba82c97acdbbb5`
+- 기존 `release/` v0.1은 이 재패키징 전 산출물이므로 이번 작업에서는 갱신하지 않았다.
+
 ## 2026-09-07 전체 자막 영상 PSS / 최종 ISO 해결 및 실기 검증
 
 - `movie/synced`의 실제 영상 30개(`112/113/125`는 원래 없음)에 대응하는 한국어 ASS 30개를 최종 검수했고, 전부 자막 번인 MPEG-2 + PS2 PSS로 생성했다.
