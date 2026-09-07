@@ -1,6 +1,52 @@
 # Galaxy Angel (PS2) 한글화 진행 상태
 
-갱신: 2026-08-27
+갱신: 2026-09-07
+
+## 2026-09-07 전체 자막 영상 PSS / 최종 ISO 해결 및 실기 검증
+
+- `movie/synced`의 실제 영상 30개(`112/113/125`는 원래 없음)에 대응하는 한국어 ASS 30개를 최종 검수했고, 전부 자막 번인 MPEG-2 + PS2 PSS로 생성했다.
+- 최종 PSS 산출물은 `movie/subtitled/final/`이며 각 `GADATxxx.PSS`와 대응 빌드 보고서가 있다.
+- 이전 실패 원인은 한 가지가 아니라 다음 조건이 겹친 것이었다.
+  - 새 MPEG-2를 원본 PSS의 고정 video PES slot에 억지로 stream-fill하면 picture 시작과 PTS/DTS가 같은 PES에 놓이지 않아 게임에서 즉시 스킵될 수 있다.
+  - ISO9660 디렉터리 엔트리의 file size를 실제 새 PSS 크기로 갱신하지 않으면 게임이 옛 크기에서 재생을 끝낸다.
+  - PSS가 원래 extent보다 커졌는데 LBA를 그대로 두면 뒤 파일을 침범하므로, 실제 새 위치로 extent(LBA)도 함께 갱신해야 한다.
+  - 모든 영상을 24fps로 고정하면 `GADAT100`(30fps), `GADAT132`(30000/1001fps)의 프레임 수/타임라인이 깨진다. 반드시 원본 MPEG-2 sequence header의 fps를 유지해야 한다.
+- 최종 정상 방식:
+  1. `movie/synced/GADATxxx.mkv`에 `movie/subtitles/GADATxxx.ko.ass`를 FFmpeg `ass` 필터로 번인한다.
+  2. 640x448 / yuv420p / 4:3 MPEG-2로 인코딩하며 원본 fps를 자동 판독해 그대로 사용한다. 최대 비트레이트는 6Mbps, VBV는 1,835,008 bytes 기준이다.
+  3. `tools/galaxy_angel_pssplex_mux.py`로 PSS Plex 호환 형식의 16KiB pack을 만들고, mux rate 7,536,000bps에서 video `0xE0`와 PCM private stream `0xBD`를 배치한다.
+  4. GOP timecode + `temporal_reference`로 실제 display frame을 계산해 picture별 PTS/DTS를 생성한다. 24fps뿐 아니라 30fps/29.97fps도 해당 fps의 90kHz clock 간격으로 계산한다.
+  5. mux 후 video ES, SShd/SSbd audio stream, 16KiB pack alignment를 다시 파싱해 readback 검증한다.
+  6. ISO에서는 새 PSS 실제 sector 수에 맞춰 ISO9660 extent(LBA)와 size의 little/big endian 필드를 모두 갱신한다.
+- ISO 배치:
+  - `GADAT100~131` 29개는 기존 연속 MOVIE LBA 풀 안에서 새 크기로 다시 촘촘히 배치했다. 총량이 기존 풀보다 작아 다른 게임 데이터는 이동하지 않았다.
+  - `GADAT132`는 새 PSS가 148,865,028 bytes로 원래 extent보다 커서 ISO 끝의 새 LBA `2029550`으로 이동했다.
+  - ISO Primary Volume Descriptor의 Volume Space Size도 새 최종 sector 수로 갱신했다.
+- 최종 검증:
+  - PSS 30/30 생성 성공.
+  - ISO 내부 30/30 PSS readback SHA-256 일치.
+  - ISO9660 extent 중복 없음.
+  - 영화 데이터/ISO9660 메타데이터/PVD 크기 필드 외 3,125,118,488 bytes가 이전 한국어 ISO와 byte-for-byte 동일.
+  - `build/all_movies_iso_verify.json`: `ok=true`.
+  - `GADAT101.PSS` 엔트리가 `GADAT132.PSS`의 LBA/size를 가리키는 `build/Galaxy Angel (Korean)_GADAT132_AS_101_TEST.iso`를 만들어, 사용자가 실제 게임의 101 재생 지점에서 132 재생에 문제가 없음을 확인했다. 이 테스트로 커진 `GADAT132`의 새 LBA/size 및 PSS mux 방식의 실기 호환성을 확정했다.
+- 최종 ISO: `build/Galaxy Angel (Korean)_SUBTITLED_MOVIES.iso`
+  - 크기: 4,305,385,472 bytes
+  - MD5: `e6e1cd4b2f2048842986f28b9a349397`
+  - SHA-1: `0f142e90da10f207188b88e137fd4faf1b8d8fe1`
+  - SHA-256: `4f5114cc8e94fd3ecfa5bbbec767cab83c7120045c580a148a6760f8dc160d7a`
+- 재현/검증 도구:
+  - `tools/galaxy_angel_build_all_subtitled_pss.py`
+  - `tools/galaxy_angel_pssplex_mux.py`
+  - `tools/galaxy_angel_patch_all_movies_iso.py`
+  - `tools/galaxy_angel_verify_all_movies_iso.py`
+  - `tools/galaxy_angel_alias_movie_test.py`
+- 최종 배포 정책은 **본편 한글화 + 전체 영상 한국어 자막을 하나의 v0.1 XDelta에 통합**하는 것으로 확정했다. 사용자는 일본판 원본 ISO에 패치 하나만 적용하면 된다.
+  - 지원 원본 ISO SHA-256: `5561d6e0592125eec1d8ef6d5c419b0c14b668868176567f8028be532ce931a3`
+  - 최종 통합 ISO SHA-256: `4f5114cc8e94fd3ecfa5bbbec767cab83c7120045c580a148a6760f8dc160d7a`
+  - `release/galaxy_angel_ps2_kr_v0.1.xdelta`: 588,645,753 bytes, SHA-256 `85683af4d0d9f956db4ea19fab1b649a0486123e82edd03899c977edd39a3045`
+  - `release/Galaxy_Angel_PS2_KO_v0.1.zip`: 571,950,584 bytes, SHA-256 `0752aa31528fee2875968918306321eff769d959a300638f4e4542c7daf3ceda`
+  - XDelta를 일본판 원본 ISO에 실제 decode해 최종 통합 ISO의 MD5/SHA-1/SHA-256과 크기가 모두 정확히 일치함을 검증했다.
+  - 이전에 시험한 본편/영상 분리 배포안은 폐기했으며, 이후 버전도 특별한 이유가 없으면 영상 PSS를 통합한 단일 XDelta 방식으로 갱신한다.
 
 ## 2026-08-27 MINI.DAT 일본어 이미지 전수 한글화
 
