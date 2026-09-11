@@ -16,7 +16,7 @@
         "voice": "GA106001,3"
       },
       "original": "格納庫のエンジェル隊から通信です！\n",
-      "translation": "격납고의 엔젤대로부터 통신입니다!\n",
+      "translation": "격납고의 엔젤대에서 통신입니다!\n",
       "state": "draft",
       "use_translation": true
     },
@@ -42,7 +42,7 @@
         "voice": "GA106002,3"
       },
       "original": "お待たせしました！\nエンジェル隊、出撃準備完了です！\n",
-      "translation": "오래 기다리셨습니다! 엔젤대, 출격 준비\n완료입니다!\n",
+      "translation": "기다리셨죠! 엔젤대, 출격 준비 완료입니다!\n",
       "state": "draft",
       "use_translation": true
     },
@@ -55,7 +55,7 @@
         "voice": "GA106003,3"
       },
       "original": "たった５機で何ができるか、あのオッサンに目に\nもの見せてやるわ。\n",
-      "translation": "고작 5기로 무엇을 할 수 있을지, 그 아저씨에\n게 본때를 보여주겠어.\n",
+      "translation": "고작 5기로 뭘 할 수 있는지 그 아저씨에게\n본때를 보여주겠어.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -81,7 +81,7 @@
         "voice": "GA106005,3"
       },
       "original": "なぁに、心配するこたぁないよ、司令官どの。\n多少ヤボな指揮をしても、あたしらの腕でカバー\nしてあげるさ。\n",
-      "translation": "뭐 어때, 걱정할 거 없어, 사령관님. 다소\n서툰 지휘를 하더라도, 우리 실력으로 커버 해\n줄 테니까.\n",
+      "translation": "뭐 어때, 걱정할 거 없어, 사령관 나리. 지휘가 좀\n서툴러도 우리 실력으로 메워 줄 테니까.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -120,7 +120,7 @@
         "voice": "GA199001_BL,3"
       },
       "original": "はい、マイヤーズ司令。\nメインモニターに出します。\n",
-      "translation": "네, 마이어스 사령. 메인 모니터로 띄우겠습니\n다.\n",
+      "translation": "네, 마이어스 사령관님. 메인 모니터에\n띄우겠습니다.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -263,7 +263,7 @@
         "voice": "GA199010_BL,3"
       },
       "original": "エルシオールを戦力に数えたとしても、この大軍\nを相手にするのは分が悪いな。\n",
-      "translation": "에르시올을 전력에 포함시킨다고 해도, 이 대군\n을 상대하는 건 불리하겠군.\n",
+      "translation": "에르시올을 전력에 포함시킨다고 해도, 이\n대군을 상대하는 건 불리하겠군.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -302,7 +302,7 @@
         "voice": "GA199010_BL,3"
       },
       "original": "紋章機ならダメージを受けても、ヴァニラに修理\nを指示するか、エルシオールに補給に戻らせれば\n回復できる。\n",
-      "translation": "문장기라면 데미지를 입어도, 바닐라에게 수리\n를 지시하거나, 에르시올로 보급을 보내면\n회복할 수 있다.\n",
+      "translation": "문장기는 데미지를 입어도, 바닐라에게\n수리를 지시하거나, 에르시올로 돌아가\n보급받으면 회복할 수 있다.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -341,7 +341,7 @@
         "voice": "GA199010_BL,3"
       },
       "original": "以上だ。\n頼んだぞ、みんな。\n",
-      "translation": "이상이다. 부탁한다, 모두.\n",
+      "translation": "이상이다. 다들, 부탁한다.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -354,7 +354,7 @@
         "face": "0,0,0,0"
       },
       "original": "～敵部隊の編成～\n　駆逐艦×７　　　　　　巡洋艦×４\n　戦艦×１\n　\n～勝利条件～\n　敵旗艦の撃退\n　\n～敗北条件～\n　エルシオールの破壊\n　タイムオーバー\n",
-      "translation": "～적 부대의 편성～\n　구축함×７　　　　　　순양함×４\n　전함×１\n　\n～승리 조건～\n　적 기함의 격퇴\n　\n～패배 조건～\n　에르시올의 파괴\n　타임 오버\n",
+      "translation": "～적 부대의 편성～\n　구축함×7　　　　　　순양함×4\n　전함×1\n　\n～승리 조건～\n　적 기함의 격퇴\n　\n～패배 조건～\n　에르시올의 파괴\n　타임 오버\n",
       "state": "draft",
       "use_translation": true
     },
@@ -380,7 +380,7 @@
         "voice": "GA198010_BL,3"
       },
       "original": "そうだなぁ……。\n",
-      "translation": "글쎄...\n",
+      "translation": "글쎄……\n",
       "state": "draft",
       "use_translation": true
     },
@@ -393,7 +393,7 @@
         "voice": "GA198010_BL,3"
       },
       "original": "うん。\n念のため、もう一度確認しておこう。\n",
-      "translation": "응. 만약을 위해, 다시 한번 확인해 두자.\n",
+      "translation": "응. 혹시 모르니 다시 한번 확인해 두자.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -432,7 +432,7 @@
         "voice": "GA199012_BL,3"
       },
       "original": "了解！\n",
-      "translation": "네！\n",
+      "translation": "네!\n",
       "state": "draft",
       "use_translation": true
     }

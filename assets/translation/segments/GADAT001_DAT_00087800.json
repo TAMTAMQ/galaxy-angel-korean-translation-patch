@@ -29,7 +29,7 @@
         "voice": "GA536002,3"
       },
       "original": "また新手の敵か？\n",
-      "translation": "또 새로운 종류의 적인가?\n",
+      "translation": "또 새로운 적인가?\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -42,7 +42,7 @@
         "voice": "GA536002,3"
       },
       "original": "いや、違うと思う。\nこれはおそらく……。\n",
-      "translation": "아니, 다른 것 같아. 이건 아마도……\n",
+      "translation": "아니, 아닌 것 같아. 이건 아마도……\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -81,7 +81,7 @@
         "voice": "GA536004,3"
       },
       "original": "通信が入りました。\n友軍からです！\n",
-      "translation": "통신이 들어왔습니다. 아군으로부터입니다!\n",
+      "translation": "통신이 들어왔습니다. 아군입니다!\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -94,7 +94,7 @@
         "voice": "GA536005,3"
       },
       "original": "おお、ちゃんと通信は届いておったか。\n心配したぞ。\n",
-      "translation": "오오, 통신은 제대로 닿았던 모양이구나.\n걱정했다.\n",
+      "translation": "오오, 통신이 제대로 닿았구나.\n걱정했네.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -120,7 +120,7 @@
         "voice": "GA536006,3"
       },
       "original": "ご無事だったんですか！\n……いや、それより、どうしてここに！？\n",
-      "translation": "무사하셨던 겁니까! ……아니, 그보다 어째서\n여기에!?\n",
+      "translation": "무사하셨습니까! ……아니, 그보다 어째서\n여기에!?\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -146,7 +146,7 @@
         "voice": "GA536007,3"
       },
       "original": "了解しました。\nエルシオール、およびエンジェル隊全機、ルフト\n艦隊の射線上から離脱する！\n",
-      "translation": "알겠습니다. 에르시올 및 엔젤대 전 기체,\n루프트 함대의 사선에서 이탈한다!\n",
+      "translation": "알겠습니다. 에르시올과 엔젤대 전 기체,\n루프트 함대의 사선에서 이탈한다!\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -172,7 +172,7 @@
         "voice": "GA536009,3"
       },
       "original": "エルシオール……運がよかったな。\nいや……度胸もいい。\n",
-      "translation": "에르시올…… 운이 좋았군. 아니…… 배짱도\n좋아.\n",
+      "translation": "에르시올…… 운이 좋았군. 아니…… 배짱도\n좋군.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -185,7 +185,7 @@
         "voice": "GA536010,3"
       },
       "original": "申し訳ございません、エオニア様。\nどうかわたくしに、雪辱の機会を。\nエルシオールの追撃をご下命ください。\n",
-      "translation": "죄송합니다, 에오니아 님. 부디 저에게 수치의\n설욕을 할 기회를. 에르시올의 추격을\n명해주십시오.\n",
+      "translation": "죄송합니다, 에오니아 님. 부디 저에게\n설욕할 기회를 주십시오. 에르시올 추격을\n명해주십시오.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -263,7 +263,7 @@
         "voice": "GA536016,3"
       },
       "original": "はっ。\nでは、後ほど……。\n",
-      "translation": "하. 그럼, 나중에……\n",
+      "translation": "예. 그럼 나중에……\n",
       "state": "draft",
       "use_translation": true
     },
@@ -276,7 +276,7 @@
         "voice": "GA536017,3"
       },
       "original": "タクト・マイヤーズ……。\nエルシオールと紋章機、ふたつのロストテクノロ\nジーを任された男か。\n",
-      "translation": "택트・마이어스…… 에르시올과 문장기, 두 개의\n로스트 테크놀로지를 맡은 남자인가.\n",
+      "translation": "택트・마이어스…… 에르시올과 문장기,\n두 로스트 테크놀로지를 맡은 남자인가.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -315,7 +315,7 @@
         "voice": "GA536020,3"
       },
       "original": "ああ、ノアか。\n",
-      "translation": "아아, 노아냐.\n",
+      "translation": "아, 노아구나.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -328,7 +328,7 @@
         "face": "331,0,299,0"
       },
       "original": "何か悩み事？\nノアに何でも話してちょうだい。\n",
-      "translation": "무슨 고민이라도 있어? 노아에게 뭐든\n말해주렴.\n",
+      "translation": "무슨 고민이라도 있어? 노아한테 뭐든 말해줘.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -341,7 +341,7 @@
         "speaker": "012"
       },
       "original": "向こう側のロストテクノロジーの力、少しばかり\nあなどっていたようだ。\nそれを使う男も、どうしたものかと思ってね。\n",
-      "translation": "저쪽의 로스트 테크놀로지의 힘, 조금은\n얕보고 있었던 모양이다. 그것을 사용하는\n남자도, 어떻게 해야 할지 싶어서 말이지.\n",
+      "translation": "저쪽 로스트 테크놀로지의 힘을 조금\n얕봤던 모양이군. 그걸 쓰는 남자도\n어떻게 해야 할까 싶어서 말이지.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -354,7 +354,7 @@
         "voice": "GA536023,3"
       },
       "original": "そんな人間ひとり、気にすることないわ。\nだって、お兄さまには、ノアがついているのよ？\n",
-      "translation": "그런 인간 한 명, 신경 쓸 것 없어.\n오라버니에게는 노아가 있으니까!\n",
+      "translation": "그런 인간 하나 신경 쓸 것 없어.\n오라버니에겐 노아가 있잖아?\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -406,7 +406,7 @@
         "voice": "GA536027,3"
       },
       "original": "いくら紋章機が強いといっても、それは普通の艦\nに比べての話でしょ？\n",
-      "translation": "아무리 문장기가 강해도, 그건 보통 함선과\n비교한 이야기잖아?\n",
+      "translation": "아무리 문장기가 강해도 그건 보통 함선과\n비교해서 그런 거잖아?\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -445,7 +445,7 @@
         "voice": "GA536030,3"
       },
       "original": "それは楽しみだな。\n期待しているよ、ノア。\n",
-      "translation": "그건 기대되는군. 기대하겠다, 노아.\n",
+      "translation": "그거 기대되는군. 기대하고 있겠다, 노아.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -458,7 +458,7 @@
         "face": "002,0,0,0"
       },
       "original": "ルフト准将！\n生きてらしたんですか！\n",
-      "translation": "루프트 준장님! 살아계셨던 건가요!\n",
+      "translation": "루프트 준장님! 살아 계셨습니까!\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -471,7 +471,7 @@
         "voice": "GA536031,3"
       },
       "original": "勝手に殺すでない。\nこのとおり、ピンピンしておるわ。\n",
-      "translation": "멋대로 죽이지 말게. 이래 봬도 아주\n팔팔하니까.\n",
+      "translation": "멋대로 죽은 사람 취급하지 말게. 이래 봬도\n아주 팔팔하니까.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -484,7 +484,7 @@
         "voice": "GA536032,3"
       },
       "original": "よかったぁ。\nあたしたち、心配してたんですよ。\n",
-      "translation": "다행이다아. 우리들, 걱정하고 있었다고요.\n",
+      "translation": "다행이다아. 저희, 걱정하고 있었어요.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -510,7 +510,7 @@
         "face": "221,0,0,221"
       },
       "original": "ご無事で何よりです、ルフト准将。\nしかし、なぜあの場に？\n",
-      "translation": "무사하셔서 다행입니다, 루프트 준장님. 하지만\n어째서 그 자리에?\n",
+      "translation": "루프트 준장님, 무사하셔서 다행입니다. 하지만\n어째서 그 자리에?\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -523,7 +523,7 @@
         "face": "251,0,251,0"
       },
       "original": "ギムソン星系艦隊が、逃げのびておったのじゃよ。\n彼らの情報から、お前たちの救出とエオニア軍の\n討伐のために出向いたというわけじゃ。\n",
-      "translation": "기무슨 성계 함대가 도망치고 있었네. 그들의\n정보로 너희의 구출과 에오니아군의 토벌을\n위해 출동했다는 것이라네.\n",
+      "translation": "기무슨 성계 함대가 무사히 탈출해 있었네.\n그들의 정보를 바탕으로 너희를 구출하고\n에오니아군을 토벌하러 출동한 것이라네.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -549,7 +549,7 @@
         "voice": "GA536036,3"
       },
       "original": "でも、それ以前の問題が残ってます。\nどうしてオレたちより先に、ここまで来られたん\nですか？\n",
-      "translation": "하지만 그 이전의 문제가 남아있습니다. 어떻게\n우리들보다 먼저 여기까지 올 수 있었던\n겁니까?\n",
+      "translation": "하지만 그보다 먼저 궁금한 게 있습니다.\n어떻게 저희보다 먼저 여기까지\n올 수 있었던 겁니까?\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -588,7 +588,7 @@
         "voice": "GA536038,3"
       },
       "original": "引きつけた無人艦隊をしのいだら、それ以降は、\nワシらに追撃の手は伸びてこなかったのじゃ。\n",
-      "translation": "유인한 무인 함대를 따돌리고 나니, 그\n이후로는 우리에게 추격의 손길은 뻗어오지\n않았네.\n",
+      "translation": "유인한 무인 함대를 따돌리고 나니\n그 뒤로는 더 이상 우리를 추격하지 않았네.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -614,7 +614,7 @@
         "speaker": "009"
       },
       "original": "こちらにエルシオールがおらんと、わかったせい\nじゃろうな。\nよって、率いた艦隊も、ほとんど無傷！\n",
-      "translation": "이쪽에 에르시올이 없다는 걸 알게 된 탓이겠지.\n그래서 이끄는 함대도 거의 무사하네!\n",
+      "translation": "이쪽에 에르시올이 없다는 걸 알았기\n때문이겠지. 덕분에 이끌고 온 함대도\n거의 무사하네!\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -627,7 +627,7 @@
         "face": "251,0,251,0"
       },
       "original": "だから我々は、一直線にローム星系を目指した。\nそのため、エルシオールよりも先に到着できたと\nいうわけじゃよ。\n",
-      "translation": "그래서 우리는 일직선으로 롬 성계를 목표로\n했다. 그 덕분에 에르시올보다 먼저 도착할 수\n있었던 것이라네.\n",
+      "translation": "그래서 우리는 곧장 롬 성계로 향했네.\n그 덕분에 에르시올보다 먼저 도착할 수\n있었던 것이라네.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -653,7 +653,7 @@
         "voice": "GA536041,3"
       },
       "original": "まぁまぁ、タクトさん。\nこうして、ちゃんと再会できたんですから！\n",
-      "translation": "자자, 택트 씨. 이렇게 제대로 재회할 수\n있었으니까요!\n",
+      "translation": "자자, 택트 씨. 이렇게 무사히 다시\n만났잖아요!\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -679,7 +679,7 @@
         "voice": "GA536043,3"
       },
       "original": "お互い無事だったのですから、よろしいではあり\nませんか。\n",
-      "translation": "서로 무사했으니, 다행이 아닌가요.\n",
+      "translation": "서로 무사했으니 됐잖아요.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -692,7 +692,7 @@
         "speaker": "006"
       },
       "original": "……結果よければ、すべてよし。\n",
-      "translation": "……결과가 좋으면, 모든 것이 좋다.\n",
+      "translation": "……끝이 좋으면 다 좋은 법.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -731,7 +731,7 @@
         "voice": "GA536046,3"
       },
       "original": "どうしたんです？\nひとりで驚いたり、納得したりして。\n",
-      "translation": "왜 그러세요? 혼자서 놀라거나 납득하거나\n하고.\n",
+      "translation": "왜 그러세요? 혼자 놀랐다가 수긍했다가\n하시고.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -744,7 +744,7 @@
         "voice": "GA536047,3"
       },
       "original": "すっかりエンジェル隊と仲よくなったようじゃの。\nさすがに、ワシが見込んだだけのことはある。\nもう司令官としては、一人前のようじゃな。\n",
-      "translation": "완전히 엔젤대와 사이가 좋아진 모양이구나.\n역시 내가 눈여겨본 보람이 있군. 이미\n사령관으로서 제 몫을 다하는 것 같구나.\n",
+      "translation": "완전히 엔젤대와 친해진 모양이구나.\n과연 내가 사람을 잘 봤군. 이제\n사령관으로서 제 몫을 다하는 것 같구나.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -757,7 +757,7 @@
         "voice": "GA536048,3"
       },
       "original": "いいえ、ルフト准将。\nあなたの教え子は、まだまだですよ。\n",
-      "translation": "아니요, 루프트 준장. 당신의 제자는 아직\n멀었어요.\n",
+      "translation": "아니요, 루프트 준장. 준장님의 제자는 아직\n멀었어요.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -770,7 +770,7 @@
         "voice": "GA536049,3"
       },
       "original": "さっきの戦いでも、未熟な指揮のおかげで、相当\nスリルのある戦いを強いられましたしね。\n",
-      "translation": "방금 전 전투에서도 미숙한 지휘 덕분에,\n상당히 스릴 있는 전투를 강요받았으니까요.\n",
+      "translation": "방금 전 전투에서도 미숙한 지휘 덕분에\n상당히 아슬아슬한 싸움을 해야 했으니까요.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -809,7 +809,7 @@
         "speaker": "005"
       },
       "original": "ええ、まだまだ。\nこの調子で、あと１年はがんばってもらわないと。\n",
-      "translation": "네, 아직 멀었어요. 이 기세로, 앞으로 1년은\n더 노력해줘야겠어요.\n",
+      "translation": "네, 아직 멀었어요. 이대로 앞으로 1년은\n더 노력해 줘야겠어요.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -835,7 +835,7 @@
         "voice": "GA536052,3"
       },
       "original": "４年分は、サービスしとくよ。\n今回の戦いに免じて、ね。\n",
-      "translation": "4년 치는 서비스해 줄게. 이번 전투를 봐서\n말이야, 네.\n",
+      "translation": "4년 치는 서비스로 쳐 줄게. 이번 전투를\n봐서 말이야.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -861,7 +861,7 @@
         "voice": "GA536053,3"
       },
       "original": "何だ、そのヘンな顔は？\n部下にけなされたんだぞ。\n",
-      "translation": "뭐야, 그 이상한 표정은? 부하한테\n깎아내려졌다고.\n",
+      "translation": "뭐야, 그 이상한 표정은? 부하한테\n핀잔 들었잖아.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -874,7 +874,7 @@
         "voice": "GA536053,3"
       },
       "original": "いやぁ、そうでもないよ。\nあははは。\n",
-      "translation": "아니, 그렇지 않아. 아하하하.\n",
+      "translation": "아니, 꼭 그렇지도 않아. 아하하하.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -900,7 +900,7 @@
         "speaker": "009"
       },
       "original": "さて、おしゃべりはこれくらいにして……。\n行こうか、タクトよ。\n",
-      "translation": "자, 수다는 이쯤 하고…… 가도록 하지,\n택트여.\n",
+      "translation": "자, 수다는 이쯤 하고…… 가자꾸나, 택트.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -913,7 +913,7 @@
         "voice": "GA536055,3"
       },
       "original": "え？\n行くって、どこへです？\n",
-      "translation": "에? 간다니요, 어디로 말입니까?\n",
+      "translation": "네? 간다니 어디로요?\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -926,7 +926,7 @@
         "face": "251,0,251,0"
       },
       "original": "この先の宙域に、第３方面軍を中心とする艦隊が\n集結しておるのじゃ。\nそこへ合流するぞ。\n",
-      "translation": "이 앞 해역에 제3방면군을 중심으로 하는\n함대가 집결해 있느니라. 그곳으로 합류하겠다.\n",
+      "translation": "이 앞 구역에 제3방면군을 중심으로 한\n함대가 집결해 있네. 거기에 합류하자.\n",
       "state": "needs_human",
       "use_translation": true
     },

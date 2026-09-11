@@ -296,6 +296,8 @@ def patch_runtime(
     mini_patch_report: Path,
     report_path: Path,
     seed_runtime_iso: Path | None = None,
+    seed_runtime_mini: Path | None = None,
+    update_seed_mini: Path | None = None,
     reuse_fit_report: Path | None = None,
     recipe_only: bool = False,
     preserve_pixels: bool = False,
@@ -310,7 +312,14 @@ def patch_runtime(
     seed_nodes = None
     seed_paths = None
     seed_fsts_by_offset: dict[int, dict] = {}
-    if seed_runtime_iso is not None:
+    if seed_runtime_mini is not None:
+        seed_runtime = seed_runtime_mini.read_bytes()
+        seed_nodes, _seed_strings, seed_paths = parse_named_nodes(seed_runtime)
+        seed_fsts_by_offset = {
+            int(entry["absolute_offset"]): entry
+            for entry in iter_fsts_entries(seed_runtime)
+        }
+    elif seed_runtime_iso is not None:
         seed_image = seed_runtime_iso.read_bytes()
         _seed_file, seed_runtime = mini_container(seed_image)
         seed_nodes, _seed_strings, seed_paths = parse_named_nodes(seed_runtime)
@@ -557,7 +566,7 @@ def patch_runtime(
                             merges = [
                                 {
                                     "reused_verified_seed": True,
-                                    "seed_iso": str(seed_runtime_iso),
+                                    "seed": str(seed_runtime_mini or seed_runtime_iso),
                                     "compressed_size": seed_runtime_consumed,
                                 }
                             ]
@@ -674,6 +683,14 @@ def patch_runtime(
     begin = mini_file.extent * builder.SECTOR
     image[begin : begin + mini_file.size] = current
     iso_path.write_bytes(image)
+    if update_seed_mini is not None:
+        update_seed_mini.parent.mkdir(parents=True, exist_ok=True)
+        update_seed_mini.write_bytes(current)
+        print(
+            f"updated MINI runtime seed: {update_seed_mini} "
+            f"sha256={hashlib.sha256(current).hexdigest()}",
+            flush=True,
+        )
 
     report = {
         "schema": "galaxy-angel-mini-runtime-image-patch/v2",
@@ -717,6 +734,16 @@ def main() -> None:
         help="Reuse a previously verified runtime stream only when its named translated raw matches the current target",
     )
     parser.add_argument(
+        "--seed-runtime-mini",
+        type=Path,
+        help="Reuse a previously verified MINI.DAT runtime seed without reading a full ISO",
+    )
+    parser.add_argument(
+        "--update-seed-mini",
+        type=Path,
+        help="After a successful patch, save the verified MINI.DAT as the reusable runtime seed",
+    )
+    parser.add_argument(
         "--reuse-fit-report",
         type=Path,
         help="Reuse only prior palette-merge decisions, then recompress with the current codec",
@@ -742,6 +769,8 @@ def main() -> None:
             args.mini_patch_report,
             args.report,
             seed_runtime_iso=args.seed_runtime_iso,
+            seed_runtime_mini=args.seed_runtime_mini,
+            update_seed_mini=args.update_seed_mini,
             reuse_fit_report=args.reuse_fit_report,
             recipe_only=args.recipe_only,
             preserve_pixels=args.preserve_pixels,

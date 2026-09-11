@@ -25,7 +25,7 @@ PlayStation 2용 『ギャラクシーエンジェル』 일본판(시리즈 1�
 
 | 항목 | 값 |
 | --- | --- |
-| ISO 크기 | `4,156,518,400 bytes` |
+| ISO 크기 | `4,150,394,880 bytes` |
 | MD5 | `91faf154082650e0cc67b2d35004df7b` |
 | SHA-1 | `4290125ee19dc663d2eb28e827a8e9da2add9aa3` |
 | SHA-256 | `5561d6e0592125eec1d8ef6d5c419b0c14b668868176567f8028be532ce931a3` |
@@ -34,22 +34,22 @@ PlayStation 2용 『ギャラクシーエンジェル』 일본판(시리즈 1�
 
 | 항목 | 값 |
 | --- | --- |
-| ISO 크기 | `4,156,518,400 bytes` |
-| SHA-256 | `d3ad920f5810042ba46712d0b505bc07947b82a6b7dfd9e91bb693df46360859` |
+| ISO 크기 | `4,348,301,312 bytes` |
+| SHA-256 | `79648e09d0b46ab9575bed017f763ec1505a805f0ed7ebf2f3aa93db66805622` |
 
 ## 2. 패치 적용
 
-1. [Releases](../../releases)에서 `galaxy_angel_ps2_kr_v0.1.xdelta`를 받습니다.
+1. [Releases](../../releases)에서 `galaxy_angel_ps2_kr_v0.2.xdelta`를 받습니다.
 2. xdelta3 또는 xdelta 패치를 지원하는 프로그램(예: Delta Patcher)에서 **원본 ISO를 Source로** 지정해 적용합니다.
 
    ```bash
    xdelta3 -d -s "Galaxy Angel (Japan).iso" \
-       galaxy_angel_ps2_kr_v0.1.xdelta "Galaxy_Angel_KO_v0.1.iso"
+       galaxy_angel_ps2_kr_v0.2.xdelta "Galaxy_Angel_KO_v0.2.iso"
    ```
 
 3. 결과 ISO의 SHA-256이 위 값과 같은지 확인하세요.
 
-패치 파일 자체의 SHA-256은 `aefa2483e87ad8fe16f9da4443e1fdab9dc91162d0e15d42fab567ab3ec3f49c` 입니다.
+패치 파일 자체의 SHA-256은 `f22c1974946f603de6323820cf4621b798a1267d5786a31cfe2030619497de66` 입니다.
 
 원본 게임 파일(ISO, BIOS 등)은 이 저장소에 포함되어 있지 않습니다. 정당하게 소유한 정품 이미지에만 적용하세요.
 

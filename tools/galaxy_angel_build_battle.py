@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import gzip
 import hashlib
 import json
 import mmap
@@ -26,6 +27,29 @@ import ikusa_lz
 BATTLE_HALF_SPACE = b"\xa0"
 # The character the original indents with; see encode_battle_text.
 FULL_SPACE = "　".encode("cp932")
+# 2026-09-10 real-hardware testing showed visible clipping beginning at
+# roughly 40 display columns in the battle message window.  Keep one column of
+# margin and reject anything that crosses the observed safe edge.
+BATTLE_MAX_DISPLAY_COLUMNS = 39
+BATTLE_MAX_LINES = 3
+
+
+def validate_battle_window_text(unit: dict, source: str) -> None:
+    if not unit.get("use_translation") or not unit.get("translation"):
+        return
+    lines = unit["translation"].rstrip("\r\n").split("\n")
+    if len(lines) > BATTLE_MAX_LINES:
+        raise SystemExit(
+            f"battle text has too many lines: {source}:{unit.get('id')}: "
+            f"{len(lines)} > {BATTLE_MAX_LINES}"
+        )
+    for line_number, line in enumerate(lines, 1):
+        columns = translation.display_columns(line)
+        if columns > BATTLE_MAX_DISPLAY_COLUMNS:
+            raise SystemExit(
+                f"battle text too wide: {source}:{unit.get('id')} line {line_number}: "
+                f"{columns} > {BATTLE_MAX_DISPLAY_COLUMNS} columns"
+            )
 
 
 def encode_battle_text(text: str, custom_map: dict[str, bytes]) -> bytes:
@@ -56,10 +80,26 @@ def load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def load_large_json(path: Path) -> dict:
+    """Load a large generated JSON input, falling back to its tracked .gz copy."""
+    if path.is_file():
+        return load_json(path)
+    packed = path.with_suffix(path.suffix + ".gz")
+    if packed.is_file():
+        with gzip.open(packed, "rt", encoding="utf-8") as stream:
+            return json.load(stream)
+    raise SystemExit(f"missing battle occurrence metadata: {path} (or {packed})")
+
+
 def fit_lines(text: str, count: int) -> list[str]:
     lines = text.rstrip("\r\n").splitlines()
-    if len(lines) == count:
-        return lines
+    if len(lines) <= count:
+        # Translation line breaks are authoritative.  Japanese source text often
+        # uses multiple physical fields only because it is wider, while a shorter
+        # Korean sentence fits safely on one row.  Do not re-split an explicitly
+        # one-line translation just to reproduce the source field count; blank the
+        # unused trailing fields instead so the in-game layout stays one line.
+        return lines + [""] * (count - len(lines))
     flattened = " ".join(part.strip() for part in lines if part.strip())
     if count == 1:
         return [flattened]
@@ -85,19 +125,61 @@ def collect_assets(assets: Path, gadat002: bytes | None = None) -> tuple[
 ]:
     battle_by_block: dict[int, list[dict]] = {}
     runtime_copies: dict[int, set[int]] = defaultdict(set)
-    for path in sorted((assets / "battle" / "segments").glob("*.json")):
-        payload = load_json(path)
-        offset = int(payload["block_offset"])
-        units = payload["units"]
-        battle_by_block[offset] = units
-        for unit in units:
-            for copy in unit.get("context", {}).get("runtime_copies", []):
-                if copy.get("container") == "SLGINIT":
-                    runtime_copies[offset].add(int(copy["block_offset"]))
+    authority_path = assets / "battle" / "battle_unique.json"
+    authority_by_occurrence: dict[str, dict] = {}
+    for authority in load_json(authority_path).get("units", []):
+        validate_battle_window_text(authority, "battle_unique")
+        original = authority.get("original")
+        if not original:
+            raise SystemExit(f"battle authority unit has no original: {authority.get('id')}")
+        for occurrence_id in authority.get("occurrences", []):
+            occurrence_id = str(occurrence_id)
+            previous = authority_by_occurrence.get(occurrence_id)
+            if previous is not None:
+                raise SystemExit(f"duplicate battle authority occurrence: {occurrence_id}")
+            authority_by_occurrence[occurrence_id] = authority
+
+    occurrence_payload = load_large_json(assets / "battle" / "battle_units.json")
+    seen_occurrences: set[str] = set()
+    for unit in occurrence_payload.get("units", []):
+        occurrence_id = str(unit.get("id", ""))
+        authority = authority_by_occurrence.get(occurrence_id)
+        if authority is None:
+            raise SystemExit(f"battle occurrence missing from battle_unique: {occurrence_id}")
+        if unit.get("original") != authority.get("original"):
+            raise SystemExit(
+                f"battle occurrence original mismatch: {occurrence_id}: "
+                f"metadata={unit.get('original')!r} authority={authority.get('original')!r}"
+            )
+        if occurrence_id in seen_occurrences:
+            raise SystemExit(f"duplicate battle occurrence metadata: {occurrence_id}")
+        seen_occurrences.add(occurrence_id)
+
+        context = unit.get("context", {})
+        offset = int(context["block_offset"])
+        authoritative_unit = {
+            **unit,
+            "translation": authority.get("translation"),
+            "state": authority.get("state"),
+            "use_translation": bool(authority.get("use_translation")),
+        }
+        battle_by_block.setdefault(offset, []).append(authoritative_unit)
+        for copy in context.get("runtime_copies", []):
+            if copy.get("container") == "SLGINIT":
+                runtime_copies[offset].add(int(copy["block_offset"]))
+
+    missing_metadata = set(authority_by_occurrence) - seen_occurrences
+    if missing_metadata:
+        preview = ", ".join(sorted(missing_metadata)[:8])
+        raise SystemExit(
+            "battle_unique contains occurrences missing from battle_units metadata: "
+            f"{len(missing_metadata)}; examples: {preview}"
+        )
 
     remaining_by_block: dict[int, list[dict]] = defaultdict(list)
     runtime_occurrences: dict[str, set[int]] = defaultdict(set)
-    remaining_path = assets / "remaining" / "by_container" / "GADAT002.DAT.json"
+
+    remaining_path = assets / "remaining" / "remaining_compressed_unique.json"
     remaining_units = load_json(remaining_path).get("units", [])
     translated_by_value: dict[bytes, dict] = {}
     for unit in remaining_units:

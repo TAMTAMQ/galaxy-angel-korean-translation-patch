@@ -166,6 +166,7 @@ def patch_iso(
     translations: list[Path],
     report_path: Path,
     seed_iso_path: Path | None = None,
+    cache_dir: Path | None = None,
 ) -> None:
     manifest=json.loads((extraction/"manifest.json").read_text(encoding="utf-8"))
     localizations=[json.loads(path.read_text(encoding="utf-8")) for path in translations]
@@ -250,7 +251,25 @@ def patch_iso(
         magic=struct.unpack_from("<I",container,data_offset)[0]
         compression_source="recompressed"
         if seed_container is None:
-            compressed=encode_block(patched_raw,magic)
+            if cache_dir is None:
+                compressed=encode_block(patched_raw,magic)
+            else:
+                cache_dir.mkdir(parents=True,exist_ok=True)
+                cache_key=hashlib.sha256(
+                    b"mini-image-compression-v1\0"
+                    + source_path.encode("utf-8")
+                    + b"\0"
+                    + patched_raw
+                ).hexdigest()
+                cache_path=cache_dir/f"{cache_key}.bin"
+                if cache_path.exists():
+                    compressed=cache_path.read_bytes()
+                    if len(compressed)<4 or struct.unpack_from("<I",compressed,0)[0]!=magic:
+                        raise SystemExit(f"MINI compression cache codec mismatch: {source_path}")
+                    compression_source="verified_cache"
+                else:
+                    compressed=encode_block(patched_raw,magic)
+                    cache_path.write_bytes(compressed)
         else:
             assert seed_nodes is not None and seed_paths is not None
             seed_index=seed_paths.get(source_path)
@@ -356,8 +375,16 @@ def main() -> None:
     parser.add_argument("--translations",type=Path,action="append",required=True)
     parser.add_argument("--report",type=Path,required=True)
     parser.add_argument("--seed-iso",type=Path)
+    parser.add_argument("--cache-dir",type=Path)
     args=parser.parse_args()
-    patch_iso(args.iso,args.extraction,args.translations,args.report,args.seed_iso)
+    patch_iso(
+        args.iso,
+        args.extraction,
+        args.translations,
+        args.report,
+        args.seed_iso,
+        args.cache_dir,
+    )
 
 
 if __name__=="__main__":

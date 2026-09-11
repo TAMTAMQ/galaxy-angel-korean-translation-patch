@@ -16,7 +16,12 @@
 - SLGINIT 런타임 복사본: 628블록 출현
 - 런타임 복사본이 확인되지 않은 전투 스크립트: 0블록
 
-`battle_units.json`은 모든 실제 출현 위치와 원본 바이트 오프셋을 담은 적용용
-파일이다. `segments/`에는 같은 자료를 GADAT002 압축 블록별로 나눠 두었다.
-번역문을 적용할 때는 중복 제거 번역을 모든 `occurrences`에 전파하고,
-GADAT002와 각 `runtime_copies`의 SLGINIT 복사본을 함께 패치해야 한다.
+`battle_units.json`은 모든 실제 출현 위치와 원본 바이트 오프셋을 담은 위치
+메타데이터다. Git에는 `battle_units.json.gz`가 저장되며 빌더가 압축본도 직접 읽는다.
+이 파일 안의 `translation`, `state`, `use_translation` 값은 빌드에 사용하지 않는다.
+실제 번역은 항상 `battle_unique.json`의 `occurrences` ID를 기준으로 주입한다.
+
+과거의 `segments/` 블록별 사본은 동일한 위치/번역 정보를 중복 보관해 드리프트를
+일으킬 수 있어 제거했다. 번역문을 적용할 때는 `battle_unique.json`의 값을 모든
+`occurrences`에 전파하고, GADAT002와 각 `runtime_copies`의 SLGINIT 복사본을 함께
+패치해야 한다.

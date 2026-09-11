@@ -16,7 +16,7 @@
         "voice": "GA740001,3"
       },
       "original": "敵戦闘機をのぞく攻撃目標、すべて沈黙！\n交戦圏内に敵は残っていません。\n",
-      "translation": "적 전투기를 포함한 공격 목표, 모두 침묵!\n교전권 내에 적은 남아있지 않습니다.\n",
+      "translation": "적 전투기를 제외한 공격 목표, 모두 침묵!\n교전권 내에 적은 남아있지 않습니다.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -120,7 +120,7 @@
         "voice": "GA740007,3"
       },
       "original": "民間客船をすべて落としたから、それで満足した\nとでも言うのか？\n守りきれなかった、俺たちのせいだが……。\n",
-      "translation": "민간 객선을 모두 떨어뜨렸으니, 그걸로\n만족했다 는 건가? 지켜내지 못한 우리들의\n잘못이지만……\n",
+      "translation": "민간 객선을 모두 격추했으니, 그걸로\n만족했다는 건가? 지켜내지 못한 우리들의\n잘못이지만……\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -159,7 +159,7 @@
         "voice": "GA740009,3"
       },
       "original": "フッ……どうやら、もうタイムリミットなようだ。\nボクたちはこれで失礼するよ。\n",
-      "translation": "훗…… 아무래도, 이제 타임 리미트인 모양이\n군 . 우리는 이만 실례하도록 하지.\n",
+      "translation": "훗…… 아무래도, 이제 타임 리미트인\n모양이군. 우리는 이만 실례하도록 하지.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -211,7 +211,7 @@
         "voice": "GA740011,3"
       },
       "original": "ミルフィー、キミの美しい戦いぶり、しかとこの\n目に焼きつけたよ。\n次に会う日が楽しみだ……アデュー。\n",
-      "translation": "밀피, 너의 아름다운 전투 모습, 똑똑히 이\n눈에 새겨두었어. 다음에 만날 날이 기대되는\n군 …… 아듀.\n",
+      "translation": "밀피, 너의 아름다운 전투 모습, 똑똑히 이\n눈에 새겨두었어. 다음에 만날 날이\n기대되는군…… 아듀.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -224,7 +224,7 @@
         "voice": "GA740012,3"
       },
       "original": "まだそんなこと言ってるの？\nナントカは死ななきゃ治らないって、本当なんだ。\n",
-      "translation": "아직도 그런 소리를 하는 거야? 나노카는\n죽어야 낫는다는 말, 정말이라니까.\n",
+      "translation": "아직도 그런 소리를 하는 거야? 뭐시기는\n죽어야 낫는다는 말, 정말이라니까.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -276,7 +276,7 @@
         "voice": "GA740016,3"
       },
       "original": "あーん、悔しいー！\nあんな人にやられたなんてー！\n",
-      "translation": "아앙, 분해-! 그런 사람한테 당하다니-!\n",
+      "translation": "아앙, 분해ー! 그런 사람한테 당하다니ー!\n",
       "state": "draft",
       "use_translation": true
     },
@@ -328,7 +328,7 @@
         "voice": "GA740020,3"
       },
       "original": "アタシは２秒で忘れてやるわ。\n",
-      "translation": "아타시는 2초 만에 잊어버려 줄게.\n",
+      "translation": "나는 2초 만에 잊어버려 줄게.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -393,7 +393,7 @@
         "voice": "GA740025,3"
       },
       "original": "もうお帰りですの？\nあいかわらず、退却することだけはお得意のよう\nですわね。\n",
-      "translation": "벌써 돌아가시는 건가요? 여전히, 퇴각하는\n것만큼은 특기인 모양이 군요.\n",
+      "translation": "벌써 돌아가시는 건가요? 여전히, 퇴각하는\n것만큼은 특기인 모양이군요.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -419,7 +419,7 @@
         "voice": "GA740027,3"
       },
       "original": "戦場全体では、こちらの勝ちですわ。\n……私は、タクトさんの作戦ミスで、不覚を取り\nましたが……。\n",
-      "translation": "전장 전체로 보면 이쪽의 승리예요. ……저는 택트 씨의 작전 실수로 불찰을 저질렀지만…….\n",
+      "translation": "전장 전체로 보면 이쪽의 승리예요. ……저는\n택트 씨의 작전 실수로 불찰을 저질렀지만……\n",
       "state": "draft",
       "use_translation": true
     },
@@ -497,7 +497,7 @@
         "voice": "GA740033,3"
       },
       "original": "……もうじきわかる。\n黒き力がもたらす永遠の静寂……その目で見届け\nるがいい……。\n",
-      "translation": "……머지않아 알게 될 것이다. 흑색의 힘이\n가져올 영원한 정적…… 그 눈으로 지켜\n보도록 해라……\n",
+      "translation": "……머지않아 알게 될 것이다. 흑색의 힘이\n가져올 영원한 정적…… 그 눈으로 지켜보도록\n해라……\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -510,7 +510,7 @@
         "voice": "GA740034,3"
       },
       "original": "あんたら、何するつもりだい！？\nくそっ、あたしが動ければ……。\n",
-      "translation": "당신들, 무슨 짓을 하려는 거야!? 제기랄,\n내가 움직일 수만 있다면……\n",
+      "translation": "너희들, 무슨 짓을 하려는 거야!? 제기랄,\n내가 움직일 수만 있다면……\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -536,7 +536,7 @@
         "voice": "GA740036,3"
       },
       "original": "そういうこと。\nまぁ、今回は紋章機の試運転だしな。\nこのへんで、かんべんしといてやるよ。\n",
-      "translation": "그런 거지. 뭐, 이번에는 문장기의 시운전이니\n까 말이야. 이쯤에서, 봐주도록 하지.\n",
+      "translation": "그런 거지. 뭐, 이번에는 문장기의\n시운전이니까 말이야. 이쯤에서, 봐주도록\n하지.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -562,7 +562,7 @@
         "voice": "GA740038,3"
       },
       "original": "レッド・アイの言うとおりだぜ。\nおっかねーから、オイラも早くかーえろっと。\nギャハハハ！\n",
-      "translation": "레드 아이가 말한 그대로다. 무서우니까, 나도\n얼른 가야겠어. 갸하하하!\n",
+      "translation": "레드・아이가 말한 그대로다. 무서우니까, 나도\n얼른 가야겠어. 갸하하하!\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -653,7 +653,7 @@
         "face": "281,273,0,0"
       },
       "original": "いったい、ヤツらの狙いは何だったのだ？\nこれでは、ただファーゴにいる者たちを、足止め\nしたかっただけとしか思えん。\n",
-      "translation": "도대체, 녀석들의 목적은 무엇이었던 거냐? 이\n래서는, 그저 파고에 있는 자들을 발을 묶어두\n고 싶었을 뿐이라고밖에 생각되지 않는다.\n",
+      "translation": "도대체, 녀석들의 목적은 무엇이었던 거냐?\n이래서는, 그저 파고에 있는 자들을 발을\n묶어두고 싶었을 뿐이라고밖에 생각할 수 없다.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -692,7 +692,7 @@
         "voice": "GA740045,3"
       },
       "original": "ああ……。\nただの負け惜しみとも思えないが……。\n",
-      "translation": "아아…… 단순한 패배 선언이라고는 생각되지\n않지만……\n",
+      "translation": "아아…… 그냥 오기로 하는 말이라고는\n생각되지 않지만……\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -783,7 +783,7 @@
         "voice": "GA740050,3"
       },
       "original": "周辺に集結していた友軍艦隊の、少なくとも半数\nは、何らかの被害を受けたと思われます！\n",
-      "translation": "주변에 집결해 있던 우군 함대의, 적어도 절반\n은, 어떠한 피해를 입었을 것으로 보입니다!\n",
+      "translation": "주변에 집결해 있던 우군 함대의, 적어도\n절반은, 어떠한 피해를 입었을 것으로\n보입니다!\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -1069,7 +1069,7 @@
         "voice": "GA740069,3"
       },
       "original": "軍や艦隊だけでなく、ファーゴやロームの民間人\nまでも巻きぞえにして、その力を誇示したとでも\nいうのか！？\n",
-      "translation": "군이나 함대뿐만 아니라, 파르고나 롬의\n민간인 까지 휘말리게 해서, 그 힘을 과시했다\n는 것인가!?\n",
+      "translation": "군이나 함대뿐만 아니라, 파고나 롬의 민간인\n까지 휘말리게 해서, 그 힘을 과시했다는\n것인가!?\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -1108,7 +1108,7 @@
         "voice": "GA740071,3"
       },
       "original": "ぜ……前方、先ほどの攻撃を行なった巨大な球体\nから、何かが出てきます！\n……エオニア軍の艦です！\n",
-      "translation": "전…… 전방, 방금 공격을 가했던 거대한 구체\n에서, 무언가가 나옵니다! ……에오니아군의\n함선입니다!\n",
+      "translation": "전…… 전방, 방금 공격을 가했던 거대한\n구체에서, 무언가가 나옵니다!\n……에오니아군의 함선입니다!\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -1186,7 +1186,7 @@
         "voice": "GA740075,3"
       },
       "original": "シヴァ皇子？\n",
-      "translation": "시바 황자?\n",
+      "translation": "시바 황자님?\n",
       "state": "draft",
       "use_translation": true
     },

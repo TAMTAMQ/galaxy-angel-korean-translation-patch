@@ -55,7 +55,7 @@
         "voice": "GA598003_BL,3"
       },
       "original": "前方の敵の編成は、まず駆逐艦に……\n",
-      "translation": "전방의 적 편성은, 우선 구축함에……\n",
+      "translation": "전방 적 편성은 우선 구축함……\n",
       "state": "draft",
       "use_translation": true
     },
@@ -81,7 +81,7 @@
         "voice": "GA598004_BL,3"
       },
       "original": "後方の艦隊には、新型と思われる小型艦……。\nこいつは足が速いようだ。\n",
-      "translation": "후방의 함대에는, 신형으로 보이는 소형함……\n이 녀석은 발이 빠른 모양이다.\n",
+      "translation": "후방 함대에는 신형으로 보이는 소형함……\n이 녀석은 속도가 빠른 모양이다.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -94,7 +94,7 @@
         "voice": "GA598005_BL,3"
       },
       "original": "さらに、新型の戦艦クラスが１隻。\nこいつが旗艦と思われる。\n",
-      "translation": "게다가, 신형 전함 클래스가 1척. 이것이\n기함으로 보인다.\n",
+      "translation": "게다가 신형 전함급이 1척. 이 녀석이\n기함으로 보인다.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -107,7 +107,7 @@
         "face": "221,0,0,0"
       },
       "original": "この戦艦も、図体の割に高速だ。\n要注意だぞ。\n",
-      "translation": "이 전함도, 덩치에 비해 고속이다. 주의해야\n한다.\n",
+      "translation": "이 전함도 덩치에 비해 빠르다.\n주의해야 한다.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -133,7 +133,7 @@
         "voice": "GA598006_BL,3"
       },
       "original": "よし、エルシオールは地形を利用して前方へ退避\nする。\nとにかく、敵の主力から離れよう。\n",
-      "translation": "좋아, 에르시올은 지형을 이용해 전방으로 퇴피\n한다. 어쨌든, 적의 주력으로부터 떨어지자.\n",
+      "translation": "좋아, 에르시올은 지형을 이용해 전방으로 대피\n한다. 어쨌든 적 주력에서 벗어나자.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -159,7 +159,7 @@
         "voice": "GA598006_BL,3"
       },
       "original": "ほかの艦も、こちらが攻撃することによって注意\nをそらせば、うまく足止めできるはずだ。\n",
-      "translation": "다른 함선도, 우리가 공격함으로써 주의를\n돌리면, 잘 발을 묶어둘 수 있을 것이다.\n",
+      "translation": "다른 함선도 우리가 공격해서 주의를 끌면\n충분히 발을 묶어둘 수 있을 거야.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -172,7 +172,7 @@
         "voice": "GA598006_BL,3"
       },
       "original": "補給や修理が必要になったら、すぐに指示を出す\nようにする。\nみんなも、気をつけて戦ってくれ。\n",
-      "translation": "보급이나 수리가 필요해지면, 즉시 지시를\n내리도록 하겠다. 모두들, 조심해서 싸워줘.\n",
+      "translation": "보급이나 수리가 필요해지면 바로 지시할게.\n다들 조심해서 싸워줘.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -185,7 +185,7 @@
         "voice": "GA598006_BL,3"
       },
       "original": "～敵部隊の編成～\n　駆逐艦×３　　　　　　装甲ミサイル艦×１\n　高速突撃艦×４　　　　高速戦艦×１\n　\n～勝利条件～\n　敵旗艦の破壊\n　\n～敗北条件～\n　エルシオールの破壊\n　タイムオーバー\n",
-      "translation": "～적 부대 편성～\n　구축함×３　　　　　　장갑 미사일함×１\n　고속 돌격함×４　　　　고속 전함×１\n　\n～승리 조건～\n　적 기함 파괴\n　\n～패배 조건～\n　에르시올 파괴\n　타임 오버\n",
+      "translation": "～적 부대 편성～\n　구축함×3　　　　　　장갑 미사일함×1\n　고속 돌격함×4　　　　고속 전함×1\n　\n～승리 조건～\n　적 기함 파괴\n　\n～패배 조건～\n　에르시올 파괴\n　타임 오버\n",
       "state": "draft",
       "use_translation": true
     },
@@ -224,7 +224,7 @@
         "voice": "GA198010_BL,3"
       },
       "original": "うん。\n念のため、もう一度確認しておこう。\n",
-      "translation": "응. 만약을 위해, 다시 한번 확인해 두자.\n",
+      "translation": "응. 혹시 모르니 다시 한번 확인해 두자.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -237,7 +237,7 @@
         "voice": "GA198010_BL,3"
       },
       "original": "いや、その必要はない。\nみんな、準備はいいな？\n",
-      "translation": "아니, 그럴 필요는 없다. 모두, 준비는 됐나?\n",
+      "translation": "아니, 그럴 필요는 없어. 다들 준비됐지?\n",
       "state": "draft",
       "use_translation": true
     },
@@ -250,7 +250,7 @@
         "voice": "GA198010_BL,3"
       },
       "original": "みんな、聞いてくれ。\nこれより、前方の敵艦隊に突撃をかける。\n",
-      "translation": "모두, 들어줘. 지금부터, 전방의 적 함대에\n돌격을 건다.\n",
+      "translation": "다들 들어줘. 지금부터 전방의 적 함대를 향해\n돌격한다.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -289,7 +289,7 @@
         "voice": "GA599003_BL,3"
       },
       "original": "見てのとおり、エルシオールは現在、前後を敵の\n艦隊にはさまれている状態だ。\n",
-      "translation": "보시다시피, 에르시올은 현재, 전후를 적의\n함대에 사이에 끼어 있는 상태다.\n",
+      "translation": "보시다시피 에르시올은 현재 앞뒤로\n적 함대에 끼인 상태다.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -302,7 +302,7 @@
         "voice": "GA599004_BL,3"
       },
       "original": "交戦圏内にいる敵だけでも、大型戦闘母艦に……。\n",
-      "translation": "교전권 내에 있는 적만 해도, 대형 전투\n모함에……\n",
+      "translation": "교전권 안의 적만 해도 대형 전투모함……\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -341,7 +341,7 @@
         "voice": "GA599007_MD,3"
       },
       "original": "数え上げてもきりがない。\nそのへんでいいよ。\n",
-      "translation": "일일이 세기에도 끝이 없군. 그 정도면 됐어.\n",
+      "translation": "일일이 세자면 끝도 없겠군. 그 정도면 됐어.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -354,7 +354,7 @@
         "voice": "GA599007_MD,3"
       },
       "original": "敵がどれだけいようと、ここで終わるわけにはい\nかない。\n何としても生きのびるんだ。\n",
-      "translation": "적이 아무리 많아도, 여기서 끝낼 수는 없다.\n어떻게 해서든 살아남는 거다.\n",
+      "translation": "적이 아무리 많아도 여기서 끝날 수는 없어.\n어떻게든 살아남는 거야.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -367,7 +367,7 @@
         "voice": "GA599007_MD,3"
       },
       "original": "作戦目標は、友軍の通信で指定された恒星のそば\nまで、エルシオールを無事に移動させること。\n",
-      "translation": "작전 목표는, 아군 통신으로 지정된 항성 근처\n까지 에르시올을 무사히 이동시키는 것.\n",
+      "translation": "작전 목표는 아군이 통신으로 지정한 항성 근처\n까지 에르시올을 무사히 이동시키는 것.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -393,7 +393,7 @@
         "voice": "GA599007_MD,3"
       },
       "original": "ただし、グズグズしていると、まわりから敵艦が\n押し寄せてくる。\nそうなれば、万事休すだ。\n",
-      "translation": "단, 꾸물거리고 있으면 주변에서 적함이\n몰려온다. 그렇게 되면, 만사 휴업이다.\n",
+      "translation": "단, 꾸물거리고 있으면 주변에서 적함이\n몰려온다. 그렇게 되면 모든 게 끝이야.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -406,7 +406,7 @@
         "face": "003,0,0,0"
       },
       "original": "それを避けるために、エルシオールは最短経路で\n目標エリアに向かおうと思う。\n",
-      "translation": "그것을 피하기 위해, 에르시올은 최단 경로로\n목표 구역을 향하려 한다.\n",
+      "translation": "그걸 피하려고 에르시올은 최단 경로로\n목표 구역을 향할 거야.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -419,7 +419,7 @@
         "voice": "GA599007_MD,3"
       },
       "original": "エンジェル隊は、エルシオールが敵陣を突破する\nまでの間、近づいてくる敵を撃退してくれ。\nあくまでも護衛が優先だ、深追いはするな。\n",
-      "translation": "엔젤대는, 에르시올이 적진을 돌파할 때 까지\n다가오는 적을 격퇴해 줘. 어디까지나 호위가\n우선이다, 무리하게 추격하지 마라.\n",
+      "translation": "엔젤대는 에르시올이 적진을 돌파할 때까지\n다가오는 적을 격퇴해 줘. 호위가 우선이야.\n깊숙이 쫓아가지는 마.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -432,7 +432,7 @@
         "voice": "GA599007_MD,3"
       },
       "original": "以上だ。\n何としても、ここを突破するぞ！\n",
-      "translation": "이상이다. 어떻게 해서든, 이곳을 돌파한다!\n",
+      "translation": "이상이다. 어떻게든 여길 돌파한다!\n",
       "state": "draft",
       "use_translation": true
     },
@@ -496,7 +496,7 @@
         "voice": "GA198010_BL,3"
       },
       "original": "うん。\n念のため、もう一度確認しておこう。\n",
-      "translation": "응. 만약을 위해, 다시 한번 확인해 두자.\n",
+      "translation": "응. 혹시 모르니 다시 한번 확인해 두자.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -509,7 +509,7 @@
         "voice": "GA198010_BL,3"
       },
       "original": "いや、その必要はない。\nみんな、準備はいいな？\n",
-      "translation": "아니, 그럴 필요는 없다. 모두, 준비는 됐나?\n",
+      "translation": "아니, 그럴 필요는 없어. 다들 준비됐지?\n",
       "state": "draft",
       "use_translation": true
     },
@@ -535,7 +535,7 @@
         "voice": "GA199012_BL,3"
       },
       "original": "了解！\n",
-      "translation": "네！\n",
+      "translation": "네!\n",
       "state": "draft",
       "use_translation": true
     }

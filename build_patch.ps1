@@ -23,10 +23,20 @@ $MiniImageWork = Join-Path $MiniImageExtraction 'translated_png'
 $MiniImageLocalization = Join-Path $Build 'mini_image_localization.json'
 $MiniDirectLocalization = Join-Path $Build 'mini_image_direct_additions.json'
 $MiniImagePatchReport = Join-Path $Build 'mini_image_patch_report.json'
+$MiniImageCompressionCache = Join-Path $Build 'mini_image_compression_cache'
 $MiniRuntimeReport = Join-Path $Build 'mini_runtime_image_patch_report.json'
 $MiniSeedIso = Join-Path $Build 'Galaxy Angel (Korean) MINI Updated.iso'
+$MiniRuntimeSeed = Join-Path $Build 'mini_runtime_seed.dat'
+$PreviousFinalIso = Join-Path $Build 'Galaxy Angel (Korean)_SUBTITLED_MOVIES.iso'
 $SeedArgs = @('--seed-iso', $MiniSeedIso)
-$RuntimeSeedArgs = @('--seed-runtime-iso', $MiniSeedIso)
+$RuntimeSeedArgs = @()
+if (Test-Path $MiniRuntimeSeed) {
+  $RuntimeSeedArgs = @('--seed-runtime-mini', $MiniRuntimeSeed)
+} elseif (Test-Path $PreviousFinalIso) {
+  # Bootstrap the compact seed from the last verified final ISO once.  The runtime
+  # patcher still verifies that each named translated raw matches before reuse.
+  $RuntimeSeedArgs = @('--seed-runtime-iso', $PreviousFinalIso)
+}
 $RecipeArgs = @()
 if ($FrozenImages) {
   $MiniImageExtraction = Join-Path $FrozenImages 'MINI'
@@ -35,7 +45,7 @@ if ($FrozenImages) {
   $ImageWork = Join-Path $FrozenImages 'UI'
   $MiniGameCache = Join-Path $GameRoot 'build/minigame_elf_translations.json'
   $SeedArgs = @()
-  $RuntimeSeedArgs = @('--preserve-pixels')
+  $RuntimeSeedArgs += '--preserve-pixels'
   $RecipeArgs = @('--recipe-png', (Join-Path $MiniImageExtraction 'translated_png/mini/mini00/resipi.png'))
 }
 
@@ -47,9 +57,8 @@ if ($FrozenImages) {
 # from having to be refitted with a merged palette.
 if ($SeedArgs.Count -gt 0) {
   if (-not (Test-Path $MiniSeedIso)) {
-    Write-Host 'MINI seed ISO is absent; every image block will be rebuilt.'
+    Write-Host 'MINI named-image seed ISO is absent; every named image block will be rebuilt.'
     $SeedArgs = @()
-    $RuntimeSeedArgs = @()
   } else {
     $SeedStamp = (Get-Item $MiniSeedIso).LastWriteTimeUtc
     $NewestPng = Get-ChildItem -Path (Join-Path $MiniImageExtraction 'translated_png') -Recurse -Filter *.png |
@@ -69,6 +78,9 @@ function Assert-NativeSuccess([string]$Step) {
     throw "$Step failed with exit code $LASTEXITCODE"
   }
 }
+
+# battle_unique.json is the only battle translation authority.  The battle
+# builder combines it with battle_units.json(.gz), which is position metadata only.
 
 & $Python (Join-Path $ProjectRoot 'tools\galaxy_angel_minigame_elf.py') translate `
   --input-elf (Join-Path $GameRoot 'original\SLPM_652.54') `
@@ -132,12 +144,13 @@ Assert-NativeSuccess 'MINI translation input verification'
 # verified against the current PNG hashes; its already-compressed named blocks
 # are reused byte-for-byte to avoid regenerating approved artwork or spending
 # minutes recompressing large TAG resources during every release build.
-& $Python (Join-Path $ProjectRoot 'tools\galaxy_angel_patch_minigame_images.py') `
+& $Python (Join-Path $GameRoot 'tools\galaxy_angel_patch_minigame_images.py') `
   --iso (Join-Path $Build 'Galaxy Angel (Korean).iso') `
   --extraction $MiniImageExtraction `
   --translations $MiniImageLocalization `
   --translations $MiniDirectLocalization `
   @SeedArgs `
+  --cache-dir $MiniImageCompressionCache `
   --report $MiniImagePatchReport
 Assert-NativeSuccess 'MINI image build and verification'
 
@@ -244,6 +257,7 @@ Assert-NativeSuccess 'Battle dialogue verification'
   --iso (Join-Path $Build 'Galaxy Angel (Korean).iso') `
   --mini-patch-report $MiniImagePatchReport `
   @RuntimeSeedArgs `
+  --update-seed-mini $MiniRuntimeSeed `
   --report $MiniRuntimeReport
 Assert-NativeSuccess 'MINI runtime-copy image patch'
 

@@ -16,7 +16,7 @@
         "voice": "GAE99001_BL,3"
       },
       "original": "敵戦闘機、反転してこちらに向かって来ます！\n……さっき戦ったときより、スピードが上がって\nいます！\n",
-      "translation": "적 전투기, 선회해서 이쪽으로 향해 오고\n있습니다! ……아까 싸웠을 때보다, 스피드가\n올라가 있습니다!\n",
+      "translation": "적 전투기, 반전해서 이쪽으로 향해 옵니다!\n……아까 싸웠을 때보다 속도가 빨라졌습니다!\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -29,7 +29,7 @@
         "voice": "GAE99002_BL,3"
       },
       "original": "やはり、前よりも性能が上がっているのか。\nまずいな……こっちと互角になっちまったぞ。\n",
-      "translation": "역시, 이전보다 성능이 올라간 건가. 곤란하\n군 …… 이쪽과 호각이 되어버렸어.\n",
+      "translation": "역시 이전보다 성능이 올라간 건가.\n곤란하군…… 이제 우리와 대등해졌어.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -68,7 +68,7 @@
         "voice": "GAE99004_BL,3"
       },
       "original": "……了解。\n",
-      "translation": "……라져.\n",
+      "translation": "……알겠습니다.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -159,7 +159,7 @@
         "voice": "GAE99008_BL,3"
       },
       "original": "エオニアを倒す前に、まずこの大型戦闘機を排除\nしなければならない。\n",
-      "translation": "에오니아를 쓰러뜨리기 전에, 우선 이 대형\n전투기를 배제 해야만 한다.\n",
+      "translation": "에오니아를 쓰러뜨리기 전에, 우선 이 대형\n전투기를 제거해야 한다.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -172,7 +172,7 @@
         "speaker": "001"
       },
       "original": "敵戦闘機の能力は、こちらの紋章機と互角だろう。\nためらいながら戦って勝てる相手じゃない。\n",
-      "translation": "적 전투기의 능력은, 이쪽의 문장기와 호각이겠\n지. 망설이며 싸워서 이길 수 있는 상대가\n아니다.\n",
+      "translation": "적 전투기의 능력은 우리 문장기와 대등할 거다.\n망설이며 싸워서 이길 수 있는 상대가 아니다.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -185,7 +185,7 @@
         "voice": "GAE99008_BL,3"
       },
       "original": "くれぐれも、気をつけてくれ。\n頼むぞ、みんな。\n",
-      "translation": "부디, 조심해라. 부탁한다, 모두들.\n",
+      "translation": "다들 정말 조심해 줘. 부탁한다.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -237,7 +237,7 @@
         "voice": "GA198010_BL,3"
       },
       "original": "うん。\n念のため、もう一度確認しておこう。\n",
-      "translation": "응. 만약을 위해, 다시 한번 확인해 두자.\n",
+      "translation": "응. 혹시 모르니 다시 한번 확인해 두자.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -250,7 +250,7 @@
         "voice": "GA198010_BL,3"
       },
       "original": "いや、その必要はない。\nみんな、準備はいいな？\n",
-      "translation": "아니, 그럴 필요는 없다. 모두, 준비는 됐나?\n",
+      "translation": "아니, 그럴 필요는 없어. 다들 준비됐지?\n",
       "state": "draft",
       "use_translation": true
     },
@@ -276,7 +276,7 @@
         "voice": "GA199012_BL,3"
       },
       "original": "了解！\n",
-      "translation": "네！\n",
+      "translation": "네!\n",
       "state": "draft",
       "use_translation": true
     }

@@ -15,7 +15,7 @@
         "face": "003,0,0,0"
       },
       "original": "アルモ、作戦図をモニターへ。\n",
-      "translation": "아르모, 작전도를 모니터로.\n",
+      "translation": "아르모, 작전도를 모니터에 띄워줘.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -41,7 +41,7 @@
         "voice": "GA299001_BL,3"
       },
       "original": "我々の目的は、ファーゴの人々が脱出するまでの\n間、敵を接近させないようにすることだ。\n",
-      "translation": "우리의 목적은, 파르고 사람들이 탈출할\n때까지 동안, 적을 접근시키지 않도록 하는\n것이다.\n",
+      "translation": "우리의 목적은 파고의 사람들이 탈출할 때까지\n적이 접근하지 못하게 하는 것이다.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -54,7 +54,7 @@
         "voice": "GA299001_BL,3"
       },
       "original": "しかし、『黒き月』から新手が次々と現れている\n状況では、目の前の敵をいくら叩いたところで、\nキリがない。\n",
-      "translation": "하지만, 『흑색 달』에서 새로운 적이 차례차례\n나타나고 있는 상황에서는, 눈앞의 적을\n아무리 때려눕힌다 해도, 끝이 없다.\n",
+      "translation": "하지만 『흑색 달』에서 적이 계속 나타나는 이상,\n눈앞의 적을 아무리 쓰러뜨려도 끝이 없다.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -93,7 +93,7 @@
         "voice": "GA898002_BL,3"
       },
       "original": "解析によると、攻撃衛星の一種ではないかと思わ\nれます。\n",
-      "translation": "해석에 따르면, 공격 위성의 일종이 아닐까\n생각 됩니다.\n",
+      "translation": "분석 결과, 공격 위성의 일종으로 보입니다.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -106,7 +106,7 @@
         "voice": "GA898003_BL,3"
       },
       "original": "こちらの交戦圏内にある攻撃衛星はこの１基だけ\nだ。\nしかし、ほかにも無人艦が多数確認されている。\n",
-      "translation": "이쪽의 교전권 내에 있는 공격 위성은 이\n1기뿐 이다. 하지만, 그 외에도 무인함이 다수\n확인되고 있다.\n",
+      "translation": "현재 교전권 안의 공격 위성은 이것 하나뿐이다.\n하지만 다른 무인함도 다수 확인되고 있다.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -119,7 +119,7 @@
         "voice": "GA898004_BL,3"
       },
       "original": "まずは攻撃衛星を守っている装甲ミサイル艦……。\n",
-      "translation": "우선은 공격 위성을 지키고 있는 장갑 미사일\n함 ……\n",
+      "translation": "우선 공격 위성을 지키고 있는 장갑 미사일함……\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -171,7 +171,7 @@
         "voice": "GA898006_BL,3"
       },
       "original": "なお、友軍の艦が援護についてくれた。\nこの位置だ。\n",
-      "translation": "또한, 아군 함선이 엄호에 붙어주었다. 이\n위치다.\n",
+      "translation": "또한 아군 함선이 지원에 나섰다.\n위치는 여기다.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -184,7 +184,7 @@
         "voice": "GA898006_MD,3"
       },
       "original": "今回も、共同で作戦にあたることになる。\n",
-      "translation": "이번에도, 공동으로 작전에 임하게 된다.\n",
+      "translation": "이번에도 함께 작전을 수행한다.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -197,7 +197,7 @@
         "voice": "GA898007_BL,3"
       },
       "original": "敵が紋章機と称していた、あの大型戦闘機はいま\nせんの？\n",
-      "translation": "적이 문장기라고 칭했던, 그 대형 전투기는\n지금 없는 거야?\n",
+      "translation": "적이 문장기라고 부르던 그 대형 전투기는\n지금 없나요?\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -210,7 +210,7 @@
         "voice": "GA898008_BL,3"
       },
       "original": "はい、レーダーには今のところ、それらしい反応\nはありません。\n",
-      "translation": "네, 레이더에는 현재로서는, 그것다운 반응은\n없습니다.\n",
+      "translation": "네, 현재 레이더에는 그런 반응이 없습니다.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -223,7 +223,7 @@
         "voice": "GA898009_BL,3"
       },
       "original": "さっきの戦いでボコボコにしてやったから、出て\n来られないのよ、きっと。\n",
-      "translation": "아까의 전투에서 아주 박살을 내줬으니까,\n나오지 못하는 거야, 분명.\n",
+      "translation": "아까 전투에서 아주 박살 내줬으니까,\n분명 못 나오는 거야.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -236,7 +236,7 @@
         "voice": "GA898009_BL,3"
       },
       "original": "いずれにしても、『黒き月』を放置しておくのは\n危険すぎる。\nまずは『黒き月』の防衛ラインを突破するんだ。\n",
-      "translation": "어찌 되었든, 『흑색 달』을 방치해 두는 것은\n너무 위험하다. 우선은 『흑색 달』의 방위\n라인을 돌파하는 거다.\n",
+      "translation": "어쨌든, 『흑색 달』을 방치하는 건 너무 위험하다.\n우선 『흑색 달』의 방어선을 돌파하는 거다.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -249,7 +249,7 @@
         "voice": "GA898009_BL,3"
       },
       "original": "作戦目標は、攻撃衛星の破壊だ。\n",
-      "translation": "작전 목표는, 공격 위성의 파괴다.\n",
+      "translation": "작전 목표는, 공격 위성 파괴다.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -262,7 +262,7 @@
         "face": "003,0,0,0"
       },
       "original": "敵艦は友軍に任せてもいいから、エンジェル隊は\n防衛ラインの突破を優先してほしい。\n",
-      "translation": "적함은 아군에게 맡겨도 되니까, 엔젤대는\n방위 라인 돌파를 우선해 줬으면 한다.\n",
+      "translation": "적함은 아군에게 맡겨도 되니까, 엔젤대는\n방어선 돌파를 우선해 줘.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -288,7 +288,7 @@
         "face": "223,0,0,0"
       },
       "original": "補給や修理のタイミングが重要になるだろう。\nタクト、紋章機が危なくなったら、すぐに指示を\n出せよ。\n",
-      "translation": "보급이나 수리 타이밍이 중요해질 것이다.\n택트, 문장기가 위험해지면 바로 지시를\n내려라.\n",
+      "translation": "보급과 수리 시점이 중요할 거다.\n택트, 문장기가 위험해지면 바로 지시해.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -301,7 +301,7 @@
         "face": "003,0,0,0"
       },
       "original": "ああ、わかってる。\n油断はしないつもりだ。\n",
-      "translation": "아아, 알고 있다. 방심할 생각은 없다.\n",
+      "translation": "그래, 알고 있어. 방심할 생각도 없어.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -314,7 +314,7 @@
         "voice": "GA898010_BL,3"
       },
       "original": "みんなも、気をつけてくれよ。\n以上だ。\n",
-      "translation": "모두들, 조심해라. 이상이다.\n",
+      "translation": "다들, 조심해. 이상이다.\n",
       "state": "draft",
       "use_translation": true
     },
@@ -353,7 +353,7 @@
         "voice": "GA198010_BL,3"
       },
       "original": "そうだなぁ……。\n",
-      "translation": "글쎄...\n",
+      "translation": "글쎄……\n",
       "state": "draft",
       "use_translation": true
     },
@@ -366,7 +366,7 @@
         "voice": "GA198010_BL,3"
       },
       "original": "うん。\n念のため、もう一度確認しておこう。\n",
-      "translation": "응. 만약을 위해, 다시 한번 확인해 두자.\n",
+      "translation": "응. 혹시 모르니 다시 한번 확인해 두자.\n",
       "state": "needs_human",
       "use_translation": true
     },
@@ -405,7 +405,7 @@
         "voice": "GA199012_BL,3"
       },
       "original": "了解！\n",
-      "translation": "네！\n",
+      "translation": "네!\n",
       "state": "draft",
       "use_translation": true
     }

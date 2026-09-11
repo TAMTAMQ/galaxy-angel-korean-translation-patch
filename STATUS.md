@@ -1,6 +1,25 @@
 # Galaxy Angel (PS2) 한글화 진행 상태
 
-갱신: 2026-09-07
+갱신: 2026-09-11
+
+## 2026-09-11 v0.2 최종 배포
+
+- 전투 번역 권위본을 `assets/translation/battle/battle_unique.json` 하나로 통합했다. `battle/segments/` 163개 파생 JSON은 제거했고, 빌더는 `battle_units.json(.gz)`에서 위치 메타데이터만 읽어 37,805 occurrence에 권위본 번역을 직접 적용한다.
+- MINI 런타임 이미지 재압축용 전용 seed `build/mini_runtime_seed.dat`를 도입했다. 이전 검증 ISO를 한 번 bootstrap으로 사용한 뒤 최신 `MINI.DAT`만 seed로 저장하며, 재사용 시 named translated raw가 현재 대상과 일치할 때만 기존 런타임 스트림을 사용한다.
+- 최종 MINI 검증: main `182 unique / 268 occurrence`, direct `5 unique / 8 occurrence`, runtime `63/63`, mismatch 0.
+- 전투 검증: 262블록, runtime copy 795개 PASS.
+- UI 이미지 검증: 473개 변경 이미지, runtime copy 1,417개 PASS.
+- 영상 통합 검증: 자막 영상 24/24 readback 일치, 빈 ASS 6편은 원본 유지, 허용 범위 밖 3,293,826,680 bytes byte-exact PASS.
+- 최종 통합 ISO: `build/Galaxy Angel (Korean)_SUBTITLED_MOVIES.iso`
+  - 크기: 4,348,301,312 bytes
+  - SHA-256: `79648e09d0b46ab9575bed017f763ec1505a805f0ed7ebf2f3aa93db66805622`
+- v0.2 XDelta: `release/galaxy_angel_ps2_kr_v0.2.xdelta`
+  - 크기: 541,227,742 bytes
+  - SHA-256: `f22c1974946f603de6323820cf4621b798a1267d5786a31cfe2030619497de66`
+  - 원본 ISO에 실제 decode하여 최종 ISO SHA-256과 일치함을 확인했다.
+- v0.2 ZIP: `release/Galaxy_Angel_PS2_KO_v0.2.zip`
+  - 크기: 525,379,499 bytes
+  - SHA-256: `5f7d3e3a3bf77dd9243b1b32b4225e39bb97c77dcec068251d92d2e9fba4abbc`
 
 ## 2026-09-07 빈 ASS 영상 제외 재패키징
 
@@ -160,10 +179,10 @@
   원본 행의 바이트 위치를 압축 해제 원본과 대조했으며 불일치는 0건이다.
 - 번역용 파일:
   `assets/translation/battle/battle_unique.json`
-- 전체 출현·적용 위치:
-  `assets/translation/battle/battle_units.json`
-- 블록별 파일:
-  `assets/translation/battle/segments/GADAT002_DAT_*.json` 163개
+- 전체 출현·적용 위치 메타데이터:
+  `assets/translation/battle/battle_units.json` (`.json.gz` 배포본 지원)
+- 전투 번역 권위본은 `battle_unique.json` 하나만 사용하며, 과거의 블록별
+  `battle/segments/` 사본 163개는 중복/드리프트 방지를 위해 제거했다.
 - 동일한 전투 스크립트가 `SLGINIT.DAT`에도 런타임 복사본으로 존재한다.
   전체 163블록 모두에서 복사본을 찾았고 총 628개 위치를 JSON의
   `context.runtime_copies`에 기록했다. 적용 단계에서는 GADAT002와 SLGINIT를
