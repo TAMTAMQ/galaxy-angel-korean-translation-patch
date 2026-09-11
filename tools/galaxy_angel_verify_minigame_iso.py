@@ -123,6 +123,7 @@ def verify_iso(
 
     runtime_verified = 0
     runtime_fsts_verified = 0
+    runtime_named_verified = 0
     if runtime_report_path is not None:
         runtime_report = json.loads(runtime_report_path.read_text(encoding="utf-8"))
         entries_by_offset: dict[int, list[dict]] = defaultdict(list)
@@ -151,6 +152,40 @@ def verify_iso(
             actual_sha = hashlib.sha256(decoded).hexdigest()
             expected_sha = item.get("raw_sha256")
             runtime_verified += 1
+
+            # Every translated_png is authoritative.  The runtime/FSTS copy
+            # must decode to exactly the same raw resource as the currently
+            # patched named MINI entry; never trust an old runtime report or
+            # seed as the source of truth.
+            named_index = paths.get(source_path)
+            if named_index is None:
+                mismatches.append(
+                    {
+                        "source_path": source_path,
+                        "runtime_offset": runtime_offset,
+                        "error": "named resource missing during runtime verification",
+                    }
+                )
+            else:
+                named_node = nodes[named_index]
+                named_raw = read_resource(
+                    container,
+                    int(named_node[3]),
+                    int(named_node[4]),
+                    int(named_node[5]),
+                )
+                if decoded != named_raw:
+                    mismatches.append(
+                        {
+                            "source_path": source_path,
+                            "runtime_offset": runtime_offset,
+                            "actual_runtime_raw_sha256": actual_sha,
+                            "named_raw_sha256": hashlib.sha256(named_raw).hexdigest(),
+                            "error": "runtime payload differs from current named resource",
+                        }
+                    )
+                else:
+                    runtime_named_verified += 1
             if (
                 table_raw != expected_raw_size
                 or table_compressed != expected_compressed
@@ -189,6 +224,7 @@ def verify_iso(
         "runtime_report": str(runtime_report_path) if runtime_report_path is not None else None,
         "runtime_verified_resources": runtime_verified,
         "runtime_fsts_verified": runtime_fsts_verified,
+        "runtime_named_verified": runtime_named_verified,
         "mismatch_count": len(mismatches),
         "mismatches": mismatches,
     }

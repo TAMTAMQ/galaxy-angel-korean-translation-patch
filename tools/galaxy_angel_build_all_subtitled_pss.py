@@ -174,6 +174,11 @@ def main() -> int:
             "original_pss": str(original.resolve()),
             "m2v": str(m2v.resolve()),
             "pss": str(pss.resolve()),
+            "source_sha256": sha256_file(source),
+            "subtitle_sha256": sha256_file(subtitle),
+            "original_pss_sha256": sha256_file(original),
+            "wav_sha256": sha256_file(wav),
+            "original_demux_m2v_sha256": sha256_file(original_demux_m2v),
             "original_pss_bytes": original.stat().st_size,
             "pss_bytes": pss.stat().st_size,
             "size_delta": pss.stat().st_size - original.stat().st_size,
@@ -189,7 +194,7 @@ def main() -> int:
         args.report.write_text(
             json.dumps(
                 {
-                    "schema": "galaxy-angel-all-subtitled-pss/v1",
+                    "schema": "galaxy-angel-all-subtitled-pss/v2",
                     "bitrate_kbps": args.bitrate_kbps,
                     "vbv_bytes": args.vbv_bytes,
                     "completed": len(results),

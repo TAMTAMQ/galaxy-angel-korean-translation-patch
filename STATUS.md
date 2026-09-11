@@ -2,24 +2,32 @@
 
 갱신: 2026-09-11
 
-## 2026-09-11 v0.2 최종 배포
+## 2026-09-11 v0.2 최종 배포 / stale-data 시스템 감사
 
-- 전투 번역 권위본을 `assets/translation/battle/battle_unique.json` 하나로 통합했다. `battle/segments/` 163개 파생 JSON은 제거했고, 빌더는 `battle_units.json(.gz)`에서 위치 메타데이터만 읽어 37,805 occurrence에 권위본 번역을 직접 적용한다.
-- MINI 런타임 이미지 재압축용 전용 seed `build/mini_runtime_seed.dat`를 도입했다. 이전 검증 ISO를 한 번 bootstrap으로 사용한 뒤 최신 `MINI.DAT`만 seed로 저장하며, 재사용 시 named translated raw가 현재 대상과 일치할 때만 기존 런타임 스트림을 사용한다.
-- 최종 MINI 검증: main `182 unique / 268 occurrence`, direct `5 unique / 8 occurrence`, runtime `63/63`, mismatch 0.
-- 전투 검증: 262블록, runtime copy 795개 PASS.
-- UI 이미지 검증: 473개 변경 이미지, runtime copy 1,417개 PASS.
-- 영상 통합 검증: 자막 영상 24/24 readback 일치, 빈 ASS 6편은 원본 유지, 허용 범위 밖 3,293,826,680 bytes byte-exact PASS.
-- 최종 통합 ISO: `build/Galaxy Angel (Korean)_SUBTITLED_MOVIES.iso`
+- 번역 내용 외 빌드·배포 경로를 전수 점검해, 과거 산출물이 최신 권위본 대신 들어갈 수 있는 경로를 차단했다.
+  - `build_patch.ps1 -FrozenImages`는 이제 기본적으로 실패하며, 과거 이미지 스냅샷 재현이 정말 필요한 경우에만 `-AllowFrozenImages`를 함께 줘야 한다.
+  - 시나리오·전투·GADAT032 이미지 압축 캐시는 현재 입력 해시와 압축기 버전/구현을 키로 사용하고, 캐시를 읽은 뒤 디코드 결과를 현재 raw와 재대조한다.
+  - MINI named seed는 현재 번역 이미지의 디코드 픽셀 해시와 일치해야만 재사용되고, MINI runtime seed도 현재 named translated raw와 정확히 일치하는 스트림만 재사용한다.
+  - 영상 패치 보고서는 이제 core ISO, 최종 ISO, 각 PSS와 대응 ASS의 SHA-256을 고정한다. ASS가 PSS보다 새롭거나 보고서 생성 뒤 ASS/PSS/ISO가 바뀌면 검증이 실패한다.
+- 감사 중 실제 stale/권위본 불일치 6건을 발견해 제거했다.
+  - `GADAT102.ko.ass`가 기존 M2V/PSS보다 최신이어서 최신 ASS로 다시 인코딩·mux했다.
+  - 현재 `battle_unique/remaining` 권위본과 기존 core ISO가 `GADAT002 0x5a000`에서 불일치해, core ISO를 현재 권위본부터 전체 재빌드했다.
+  - `mini/mini00/resipi.agi`는 정상 빌드에서도 현재 `translated_png/mini/mini00/resipi.png`를 쓰지 않고 역사적 글자 렌더러 결과를 사용해, 최종 ISO가 옛 백업 이미지와 100% 동일했다. 이제 현재 PNG를 항상 직접 입력하고 named/FSTS runtime을 같이 갱신한다.
+  - `mini/mini05/for_kl.agi`, `for_kr.agi`, `for_yr.agi`는 runtime 슬롯에 압축본이 들어가지 않아 팔레트 병합으로 픽셀이 달라지고 있었다. 정상 빌드에서도 `--preserve-pixels`를 강제하고 같은 FSTS 테이블의 여유 슬롯과 무손실 교환하도록 바꿨다.
+- 전체 core 재빌드 검증: 시나리오 210/210, 전투 37,805 occurrence / 262블록 / runtime copy 795개, UI 현재 폴더 482장 검증 / 473개 변경 + 9개 의도적 동일 / runtime copy 1,417개, runtime scenario index stale copy 0.
+- 최종 MINI 검증: 현재 `translated_png` 275장, manifest occurrence 274곳 + `resipi.png` 1장, 입력 문제 0건. main `182 unique / 268 occurrence`, direct `5 unique / 8 occurrence`, runtime **63/63 current named raw exact match**, palette merge 0건, 무손실 슬롯 재배치 6건, mismatch 0.
+- 영상 통합 검증: 자막 영상 24/24 readback 일치, 빈 ASS 6편은 core ISO 원본 유지, 허용 범위 밖 3,293,826,680 bytes byte-exact PASS.
+- 최종 통합 ISO: `build/Galaxy Angel (Korean)_v0.2_SUBTITLED_MOVIES.iso`
   - 크기: 4,348,301,312 bytes
-  - SHA-256: `79648e09d0b46ab9575bed017f763ec1505a805f0ed7ebf2f3aa93db66805622`
+  - SHA-256: `cd72120c770cc75cbaf57e58efa993ec21e911aee029b2e55dc3b48d093b3888`
 - v0.2 XDelta: `release/galaxy_angel_ps2_kr_v0.2.xdelta`
-  - 크기: 541,227,742 bytes
-  - SHA-256: `f22c1974946f603de6323820cf4621b798a1267d5786a31cfe2030619497de66`
-  - 원본 ISO에 실제 decode하여 최종 ISO SHA-256과 일치함을 확인했다.
+  - 크기: 541,225,659 bytes
+  - SHA-256: `9a95c31ec2cae333784d80c18a4978e6343ceae72a8814ac3e54d0947853c100`
+  - 일본판 원본 ISO에 실제 decode하여 최종 ISO SHA-256과 일치함을 확인했다.
 - v0.2 ZIP: `release/Galaxy_Angel_PS2_KO_v0.2.zip`
-  - 크기: 525,379,499 bytes
-  - SHA-256: `5f7d3e3a3bf77dd9243b1b32b4225e39bb97c77dcec068251d92d2e9fba4abbc`
+  - 크기: 525,375,282 bytes
+  - SHA-256: `c4a4683bdd61b03018661e49baba91ce2fe4be3b993a1feb7083c56a727d6942`
+- 혼선을 막기 위해 레거시 `build/galaxy_angel_kr_final.xdelta`는 제거하고, 배포 기준은 `release/galaxy_angel_ps2_kr_v0.2.xdelta` 하나로 통일했다.
 
 ## 2026-09-07 빈 ASS 영상 제외 재패키징
 

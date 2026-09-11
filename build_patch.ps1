@@ -1,5 +1,9 @@
-param([string]$FrozenImages, [string]$BuildDirectory)
+param([string]$FrozenImages, [string]$BuildDirectory, [switch]$AllowFrozenImages)
 $ErrorActionPreference = 'Stop'
+
+if ($FrozenImages -and -not $AllowFrozenImages) {
+  throw 'FrozenImages is disabled for normal/final builds because it can reintroduce stale artwork. Pass -AllowFrozenImages only for an intentional historical reproduction build.'
+}
 
 $ProjectRoot = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
 $Python = 'C:\Users\Timon\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'
@@ -29,15 +33,17 @@ $MiniSeedIso = Join-Path $Build 'Galaxy Angel (Korean) MINI Updated.iso'
 $MiniRuntimeSeed = Join-Path $Build 'mini_runtime_seed.dat'
 $PreviousFinalIso = Join-Path $Build 'Galaxy Angel (Korean)_SUBTITLED_MOVIES.iso'
 $SeedArgs = @('--seed-iso', $MiniSeedIso)
-$RuntimeSeedArgs = @()
+$RuntimeSeedArgs = @('--preserve-pixels')
 if (Test-Path $MiniRuntimeSeed) {
-  $RuntimeSeedArgs = @('--seed-runtime-mini', $MiniRuntimeSeed)
+  $RuntimeSeedArgs += @('--seed-runtime-mini', $MiniRuntimeSeed)
 } elseif (Test-Path $PreviousFinalIso) {
   # Bootstrap the compact seed from the last verified final ISO once.  The runtime
   # patcher still verifies that each named translated raw matches before reuse.
-  $RuntimeSeedArgs = @('--seed-runtime-iso', $PreviousFinalIso)
+  $RuntimeSeedArgs += @('--seed-runtime-iso', $PreviousFinalIso)
 }
-$RecipeArgs = @()
+# mini/mini00/resipi.png in the current translated_png tree is authoritative.
+# Never fall back to the historical font-rendered recipe bitmap during a normal build.
+$RecipeArgs = @('--recipe-png', (Join-Path $MiniImageExtraction 'translated_png/mini/mini00/resipi.png'))
 if ($FrozenImages) {
   $MiniImageExtraction = Join-Path $FrozenImages 'MINI'
   $MiniImageLocalization = Join-Path $FrozenImages 'mini_image_localization.json'
@@ -45,7 +51,6 @@ if ($FrozenImages) {
   $ImageWork = Join-Path $FrozenImages 'UI'
   $MiniGameCache = Join-Path $GameRoot 'build/minigame_elf_translations.json'
   $SeedArgs = @()
-  $RuntimeSeedArgs += '--preserve-pixels'
   $RecipeArgs = @('--recipe-png', (Join-Path $MiniImageExtraction 'translated_png/mini/mini00/resipi.png'))
 }
 
@@ -109,6 +114,10 @@ Assert-NativeSuccess 'Mini-game ELF patch'
   --names (Join-Path $Assets 'speaker_names.json') `
   --encoding-map (Join-Path $Build 'font_map.json')
 Assert-NativeSuccess 'Speaker-name build'
+
+& $Python (Join-Path $GameRoot 'tools\galaxy_angel_validate_honorifics.py') `
+  --assets $Assets
+Assert-NativeSuccess 'Name/title/honorific validation'
 
 & $Python (Join-Path $ProjectRoot 'tools\galaxy_angel_translation.py') apply `
   --source $Source `
@@ -260,6 +269,13 @@ Assert-NativeSuccess 'Battle dialogue verification'
   --update-seed-mini $MiniRuntimeSeed `
   --report $MiniRuntimeReport
 Assert-NativeSuccess 'MINI runtime-copy image patch'
+
+& $Python (Join-Path $GameRoot 'tools\galaxy_angel_verify_minigame_runtime_authority.py') `
+  --original-iso $OriginalIso `
+  --iso (Join-Path $Build 'Galaxy Angel (Korean).iso') `
+  --mini-patch-report $MiniImagePatchReport `
+  --report (Join-Path $Build 'mini_runtime_authority_verification.json')
+Assert-NativeSuccess 'MINI translated_png runtime authority verification'
 
 # Re-open the finished ISO after the FSTS runtime table rewrite.  This catches
 # stale compressed-size entries that cannot be detected by the named PIDX pass.

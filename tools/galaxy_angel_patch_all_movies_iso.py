@@ -166,6 +166,13 @@ def main() -> int:
     records: list[dict[str, object]] = []
     for replacement in replacements:
         name = replacement.stem
+        subtitle = args.subtitles_dir / f"{name}.ko.ass"
+        if not subtitle.is_file():
+            raise FileNotFoundError(f"{name}: subtitle source is missing: {subtitle}")
+        if subtitle.stat().st_mtime_ns > replacement.stat().st_mtime_ns:
+            raise ValueError(
+                f"{name}: subtitle is newer than the PSS; rebuild the subtitled movie first"
+            )
         rec = find_record(meta, f"{name}.PSS;1")
         old_size = int(rec["size"])
         new_size = replacement.stat().st_size
@@ -182,6 +189,8 @@ def main() -> int:
                 "delta_bytes": new_size - old_size,
                 "replacement": str(replacement.resolve()),
                 "replacement_sha256": sha256_file(replacement),
+                "subtitle": str(subtitle.resolve()),
+                "subtitle_sha256": sha256_file(subtitle),
             }
         )
 
@@ -228,9 +237,10 @@ def main() -> int:
 
     final_sectors = max(source_sectors, append_cursor)
     plan = {
-        "schema": "galaxy-angel-all-movies-iso-patch/v1",
+        "schema": "galaxy-angel-all-movies-iso-patch/v2",
         "source_iso": str(args.iso.resolve()),
         "source_iso_bytes": args.iso.stat().st_size,
+        "source_iso_sha256": sha256_file(args.iso),
         "source_iso_sectors": source_sectors,
         "movie_pools": run_plans,
         "old_movie_sectors": sum(int(r["old_sectors"]) for r in records),

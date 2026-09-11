@@ -53,8 +53,46 @@ def main() -> int:
     patch = json.loads(args.patch_report.read_text(encoding="utf-8"))
     source_size = args.source.stat().st_size
     output_size = args.output.stat().st_size
+    source_sha256 = hash_range(args.source, 0, source_size)
+    output_sha256 = hash_range(args.output, 0, output_size)
+    expected_source_sha256 = patch.get("source_iso_sha256")
+    expected_output_sha256 = patch.get("output_iso_sha256")
+    if not expected_source_sha256 or source_sha256 != expected_source_sha256:
+        raise ValueError(
+            f"movie patch report does not belong to the current source ISO: "
+            f"{source_sha256} != {expected_source_sha256}"
+        )
+    if not expected_output_sha256 or output_sha256 != expected_output_sha256:
+        raise ValueError(
+            f"movie patch report does not belong to the current output ISO: "
+            f"{output_sha256} != {expected_output_sha256}"
+        )
     if output_size != int(patch["final_iso_bytes"]):
         raise ValueError(f"output size mismatch: {output_size} != {patch['final_iso_bytes']}")
+
+    for rec in patch["records"]:
+        replacement = Path(str(rec["replacement"]))
+        subtitle = Path(str(rec["subtitle"]))
+        if not replacement.is_file():
+            raise ValueError(f"movie replacement is missing: {replacement}")
+        if not subtitle.is_file():
+            raise ValueError(f"movie subtitle source is missing: {subtitle}")
+        replacement_sha256 = hash_range(replacement, 0, replacement.stat().st_size)
+        subtitle_sha256 = hash_range(subtitle, 0, subtitle.stat().st_size)
+        if replacement_sha256 != rec["replacement_sha256"]:
+            raise ValueError(
+                f"movie replacement changed after ISO assembly: {replacement.name}: "
+                f"{replacement_sha256} != {rec['replacement_sha256']}"
+            )
+        if subtitle_sha256 != rec["subtitle_sha256"]:
+            raise ValueError(
+                f"subtitle changed after movie assembly: {subtitle.name}: "
+                f"{subtitle_sha256} != {rec['subtitle_sha256']}"
+            )
+        if subtitle.stat().st_mtime_ns > replacement.stat().st_mtime_ns:
+            raise ValueError(
+                f"subtitle is newer than the PSS: {subtitle.name}; rebuild the movie"
+            )
 
     allowed: list[tuple[int, int]] = []
     # ISO9660 primary volume descriptor's both-endian volume-space-size field.

@@ -35,7 +35,7 @@ PlayStation 2용 『ギャラクシーエンジェル』 일본판(시리즈 1�
 | 항목 | 값 |
 | --- | --- |
 | ISO 크기 | `4,348,301,312 bytes` |
-| SHA-256 | `79648e09d0b46ab9575bed017f763ec1505a805f0ed7ebf2f3aa93db66805622` |
+| SHA-256 | `cd72120c770cc75cbaf57e58efa993ec21e911aee029b2e55dc3b48d093b3888` |
 
 ## 2. 패치 적용
 
@@ -49,7 +49,7 @@ PlayStation 2용 『ギャラクシーエンジェル』 일본판(시리즈 1�
 
 3. 결과 ISO의 SHA-256이 위 값과 같은지 확인하세요.
 
-패치 파일 자체의 SHA-256은 `f22c1974946f603de6323820cf4621b798a1267d5786a31cfe2030619497de66` 입니다.
+패치 파일 자체의 SHA-256은 `9a95c31ec2cae333784d80c18a4978e6343ceae72a8814ac3e54d0947853c100` 입니다.
 
 원본 게임 파일(ISO, BIOS 등)은 이 저장소에 포함되어 있지 않습니다. 정당하게 소유한 정품 이미지에만 적용하세요.
 
@@ -90,18 +90,18 @@ PlayStation 2용 『ギャラクシーエンジェル』 일본판(시리즈 1�
 | `source/`, 추출 이미지 | **직접 준비** — 정품 ISO에서 추출 |
 | 원본 일본판 ISO | **직접 준비** |
 
-빌드는 `build_patch.ps1`이 각 단계를 순서대로 호출합니다. 배포용 패치 생성과, **그 패치를 적용해 최종 ISO를 만드는 것**은 아래와 같이 합니다.
+빌드는 `build_patch.ps1`이 각 단계를 순서대로 호출합니다. 단, `build/Galaxy Angel (Korean).iso`는 **영상 통합 전 core 중간 산출물**이므로 배포용 xdelta의 입력으로 사용하면 안 됩니다. 영상 PSS 통합·검증까지 끝난 `build/Galaxy Angel (Korean)_v0.2_SUBTITLED_MOVIES.iso`만 배포 대상으로 사용합니다. 배포용 패치 생성과, **그 패치를 적용해 최종 ISO를 만드는 것**은 아래와 같이 합니다.
 
 ```bash
 python tools/eternal_lovers_make_release.py \
     --original-iso "Galaxy Angel (Japan).iso" \
-    --patched-iso "build/Galaxy Angel (Korean).iso" \
-    --release-dir release --version v0.1 \
+    --patched-iso "build/Galaxy Angel (Korean)_v0.2_SUBTITLED_MOVIES.iso" \
+    --release-dir release --version v0.2 \
     --title "Galaxy Angel" --slug galaxy_angel
 
 python tools/galaxy_angel_apply_release_patch.py \
     --original-iso "Galaxy Angel (Japan).iso" \
-    --release-dir release --output-iso release/Galaxy_Angel_KO_v0.1.iso
+    --release-dir release --output-iso release/Galaxy_Angel_KO_v0.2.iso
 ```
 
 `galaxy_angel_apply_release_patch.py`는 원본 ISO 해시를 `release.json`과 대조하고, 적용 결과의 해시·크기까지 다시 확인합니다.
