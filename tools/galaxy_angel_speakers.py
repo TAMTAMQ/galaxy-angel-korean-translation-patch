@@ -17,12 +17,12 @@ import ikusa_lz
 ENTRY_RE = re.compile(r"(?m)^(\d{3})=([^\r\n]*)(?=\r?\n|$)")
 SAVELOAD_OFFSET = 0x1B800
 SAVELOAD_RE = re.compile(r"(?m)^(#\d{3}\s*=)(.*?)(\s*//.*)$")
-# SAVELOAD values are parsed as whitespace-delimited fields.  A normal ASCII
-# space therefore truncates Korean multi-word chapter titles (for example
-# "강운의 천칭" became only "강운의").  Use the same parser-safe half-width
-# blank byte used by the battle text path, but only inside translated titles.
-SAVELOAD_HALF_SPACE = b"\xa0"
-SAVELOAD_SPACE_MARKER = "\ue000"
+# Speaker/save-load config values are parsed as whitespace-delimited fields.
+# A normal ASCII space therefore truncates Korean multi-word values (for
+# example "우주 고래" or "강운의 천칭").  Use the same parser-safe half-width
+# blank byte used by the battle text path, but only inside translated values.
+CONFIG_HALF_SPACE = b"\xa0"
+CONFIG_SPACE_MARKER = "\ue000"
 SAVE_TITLE_BASES = {
     "エンジェル隊登場": "엔젤대 등장",
     "強運の天秤": "강운의 천칭",
@@ -71,11 +71,11 @@ def replace_compressed_block(
     return used, len(compressed)
 
 
-def encode_saveload_text(text: str, custom_map: dict[str, bytes]) -> bytes:
+def encode_config_text(text: str, custom_map: dict[str, bytes]) -> bytes:
     output = bytearray()
     for char in text:
-        if char == SAVELOAD_SPACE_MARKER:
-            output.extend(SAVELOAD_HALF_SPACE)
+        if char == CONFIG_SPACE_MARKER:
+            output.extend(CONFIG_HALF_SPACE)
         else:
             output.extend(translation.encode_text(char, custom_map))
     return bytes(output)
@@ -103,13 +103,14 @@ def main() -> None:
         if speaker_id not in names:
             return match.group(0)
         seen.add(speaker_id)
-        return f"{speaker_id}={names[speaker_id]}"
+        safe_name = names[speaker_id].replace(" ", CONFIG_SPACE_MARKER)
+        return f"{speaker_id}={safe_name}"
 
     rebuilt_text = ENTRY_RE.sub(replace, text)
     missing = sorted(set(names) - seen)
     if missing:
         raise SystemExit(f"speaker IDs missing from source table: {', '.join(missing)}")
-    rebuilt_raw = translation.encode_text(rebuilt_text, custom_map)
+    rebuilt_raw = encode_config_text(rebuilt_text, custom_map)
     speaker_old, speaker_new = replace_compressed_block(container, offset, rebuilt_raw)
 
     save_raw, _ = ikusa_lz.decompress(container, SAVELOAD_OFFSET)
@@ -125,7 +126,7 @@ def main() -> None:
             suffix = value[len(japanese):].replace("（", "(").replace("）", ")")
             suffix = suffix.replace("　", "").replace("クリア", "클리어")
             save_seen += 1
-            safe_korean = korean.replace(" ", SAVELOAD_SPACE_MARKER)
+            safe_korean = korean.replace(" ", CONFIG_SPACE_MARKER)
             return match.group(1) + safe_korean + suffix + match.group(3)
         return match.group(0)
 
@@ -134,7 +135,7 @@ def main() -> None:
         raise SystemExit(f"save title count mismatch: {save_seen}/105")
     save_old, save_new = replace_compressed_block(
         container, SAVELOAD_OFFSET,
-        encode_saveload_text(rebuilt_save_text, custom_map),
+        encode_config_text(rebuilt_save_text, custom_map),
         optimal=True,
     )
     args.output.parent.mkdir(parents=True, exist_ok=True)
