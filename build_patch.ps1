@@ -190,13 +190,6 @@ Assert-NativeSuccess 'MINI final ISO image verification'
   --report (Join-Path $Build 'mini_image_direct_iso_verification.json')
 Assert-NativeSuccess 'MINI direct-addition ISO image verification'
 
-& $Python (Join-Path $ProjectRoot 'tools\galaxy_angel_build_battle.py') `
-  --iso (Join-Path $Build 'Galaxy Angel (Korean).iso') `
-  --assets $Assets `
-  --encoding-map (Join-Path $Build 'font_map.json') `
-  --cache-dir (Join-Path $Build 'battle_compressed_cache')
-Assert-NativeSuccess 'Battle and runtime-copy build'
-
 & $Python (Join-Path $ProjectRoot 'tools\galaxy_angel_verify_localized_ui.py') `
   --source $ImageSource `
   --output $ImageWork `
@@ -252,15 +245,9 @@ Assert-NativeSuccess 'All external scenario-call verification'
   --patched-iso (Join-Path $Build 'Galaxy Angel (Korean).iso')
 Assert-NativeSuccess 'Full-ISO runtime scenario-index audit'
 
-& $Python (Join-Path $ProjectRoot 'tools\galaxy_angel_verify_battle_iso.py') `
-  --original-iso $OriginalIso `
-  --patched-iso (Join-Path $Build 'Galaxy Angel (Korean).iso') `
-  --assets $Assets `
-  --encoding-map (Join-Path $Build 'font_map.json')
-Assert-NativeSuccess 'Battle dialogue verification'
-
 # MINI.DAT has a second unindexed image-block pool used by the running game.
-# Patch it last so no later ISO pass can restore an original runtime block.
+# Patch and verify it after the earlier image passes. The final battle pass only
+# rewrites GADAT002 and its battle runtime containers.
 & $Python (Join-Path $ProjectRoot 'tools\galaxy_angel_patch_minigame_runtime_images.py') `
   --original-iso $OriginalIso `
   --iso (Join-Path $Build 'Galaxy Angel (Korean).iso') `
@@ -298,5 +285,19 @@ Assert-NativeSuccess 'MINI final runtime/FSTS verification'
   --runtime-report $MiniRuntimeReport `
   --report (Join-Path $Build 'mini_image_direct_iso_verification.json')
 Assert-NativeSuccess 'MINI direct-addition final runtime/FSTS verification'
+
+& $Python (Join-Path $GameRoot 'tools\galaxy_angel_build_battle.py') `
+  --iso (Join-Path $Build 'Galaxy Angel (Korean).iso') `
+  --assets $Assets `
+  --encoding-map (Join-Path $Build 'font_map.json') `
+  --cache-dir (Join-Path $Build 'battle_compressed_cache')
+Assert-NativeSuccess 'Battle and runtime-copy build'
+
+& $Python (Join-Path $GameRoot 'tools\galaxy_angel_verify_battle_iso.py') `
+  --original-iso $OriginalIso `
+  --patched-iso (Join-Path $Build 'Galaxy Angel (Korean).iso') `
+  --assets $Assets `
+  --encoding-map (Join-Path $Build 'font_map.json')
+Assert-NativeSuccess 'Battle dialogue verification'
 
 Stop-Transcript | Out-Null

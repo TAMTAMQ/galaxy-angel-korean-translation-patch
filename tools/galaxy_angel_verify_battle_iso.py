@@ -156,6 +156,24 @@ def main() -> None:
                     offset, raw_size, compressed_size = struct.unpack_from(
                         "<III", patched_runtime_data, record + 4
                     )
+                    if (
+                        stem == "SLGINIT"
+                        and source_offset == 0x2DC800
+                    ):
+                        try:
+                            fixed_raw, _fixed_consumed = ikusa_lz.decompress(
+                                patched, runtime_begin + copy_offset
+                            )
+                        except ValueError as exc:
+                            raise SystemExit(
+                                "SLGINIT stage 10-1 fixed runtime stream is invalid: "
+                                f"{copy_offset:#x}"
+                            ) from exc
+                        if fixed_raw != expected[source_offset]:
+                            raise SystemExit(
+                                "SLGINIT stage 10-1 runtime stream moved or was overwritten: "
+                                f"{copy_offset:#x}->{fsts_base + offset:#x}"
+                            )
                     absolute = runtime_begin + fsts_base + offset
                     raw, consumed = ikusa_lz.decompress(patched, absolute)
                     if (

@@ -590,11 +590,20 @@ def patch_runtime_copies(
     runtime_copies: dict[int, set[int]],
     cache_dir: Path,
 ) -> tuple[int, int]:
+    # Some battle transitions bypass FSTS and load the stage-entry block from
+    # its Japanese-ISO runtime offset.  Stage 10-1 is reached after the final
+    # heroine-selection event; moving this stream leaves that path reading
+    # invalid padding and hanging on a black screen.  Other streams are kept at
+    # their old address whenever their translated payload still fits around
+    # this mandatory range, so a single growth no longer shifts the whole bank.
+    pinned_copy_offsets = {0x2DC800: 0x111BF20} if stem == "SLGINIT" else {}
     runtime = builder.resolve_iso_file(files, stem)
     begin = runtime.extent * builder.SECTOR
     runtime_data = image[begin : begin + runtime.size]
     records = fsts_runtime_records(runtime_data)
-    targets_by_bank: dict[int, list[tuple[int, int, int, bytes]]] = defaultdict(list)
+    targets_by_bank: dict[
+        int, list[tuple[int, int, int, int, bytes]]
+    ] = defaultdict(list)
     for source_offset, copies in sorted(runtime_copies.items()):
         compressed, raw_size = replacements[source_offset]
         for copy_offset in sorted(copies):
@@ -604,7 +613,7 @@ def patch_runtime_copies(
             if old_raw_size <= 0:
                 raise SystemExit(f"invalid {stem} raw size: {copy_offset:#x}")
             targets_by_bank[fsts_base].append(
-                (copy_offset, record, raw_size, compressed)
+                (source_offset, copy_offset, record, raw_size, compressed)
             )
 
     bank_bases = sorted({item[0] for item in records.values()})
@@ -616,8 +625,8 @@ def patch_runtime_copies(
         if header_size != 32 or table_size != 32 + count * 16:
             raise SystemExit(f"invalid {stem} FSTS table at {fsts_base:#x}")
         replacement_by_record = {
-            record: (raw_size, compressed)
-            for _copy_offset, record, raw_size, compressed in targets
+            record: (source_offset, raw_size, compressed)
+            for source_offset, _copy_offset, record, raw_size, compressed in targets
         }
         entries = []
         for index in range(count):
@@ -626,18 +635,19 @@ def patch_runtime_copies(
                 struct.unpack_from("<4I", runtime_data, record)
             )
             if record in replacement_by_record:
-                raw_size, compressed = replacement_by_record[record]
+                source_offset, raw_size, compressed = replacement_by_record[record]
             else:
+                source_offset = None
                 raw_size = old_raw_size
                 compressed = runtime_data[
                     fsts_base + old_offset :
                     fsts_base + old_offset + old_compressed_size
                 ]
-            entries.append((record, raw_size, compressed))
+            entries.append((record, source_offset, old_offset, raw_size, compressed))
 
         original_offsets = [
-            struct.unpack_from("<I", runtime_data, record + 4)[0]
-            for record, _raw_size, _compressed in entries
+            old_offset
+            for _record, _source_offset, old_offset, _raw_size, _compressed in entries
         ]
         data_start = min(original_offsets)
         bank_index = bank_bases.index(fsts_base)
@@ -650,23 +660,60 @@ def patch_runtime_copies(
 
         def layout(current_entries):
             unique_streams: dict[bytes, bytes] = {}
-            for _record, _raw_size, compressed in current_entries:
+            fixed_positions: dict[bytes, int] = {}
+            for _record, source_offset, old_offset, _raw_size, compressed in current_entries:
+                digest = hashlib.sha256(compressed).digest()
                 unique_streams.setdefault(
-                    hashlib.sha256(compressed).digest(), compressed
+                    digest, compressed
                 )
+                fixed_copy_offset = pinned_copy_offsets.get(source_offset)
+                if fixed_copy_offset is not None:
+                    fixed_offset = fixed_copy_offset - fsts_base
+                    previous = fixed_positions.setdefault(digest, fixed_offset)
+                    if previous != fixed_offset:
+                        raise SystemExit(
+                            f"{stem} pinned stream has conflicting offsets: "
+                            f"{previous:#x}/{fixed_offset:#x}"
+                        )
+
+            fixed_ranges = sorted(
+                (offset, offset + len(unique_streams[digest]), digest)
+                for digest, offset in fixed_positions.items()
+            )
+            for (left, left_end, _), (right, _right_end, _) in zip(
+                fixed_ranges, fixed_ranges[1:]
+            ):
+                if left_end > right:
+                    raise SystemExit(
+                        f"{stem} pinned FSTS streams overlap: {left:#x}/{right:#x}"
+                    )
+
             positions: dict[bytes, int] = {}
+            positions.update(fixed_positions)
             end = data_start
             for digest, compressed in unique_streams.items():
+                if digest in positions:
+                    end = max(end, positions[digest] + len(compressed))
+                    continue
                 end = builder.align(end, 16)
+                for fixed_begin, fixed_end, _fixed_digest in fixed_ranges:
+                    if end + len(compressed) <= fixed_begin:
+                        break
+                    if end < fixed_end and end + len(compressed) > fixed_begin:
+                        end = builder.align(fixed_end, 16)
                 positions[digest] = end
                 end += len(compressed)
-            return unique_streams, positions, end
+            allocated_end = max(
+                (offset + len(unique_streams[digest]) for digest, offset in positions.items()),
+                default=data_start,
+            )
+            return unique_streams, positions, allocated_end
 
         unique, allocated, cursor = layout(entries)
         if cursor > capacity:
             translated_digests = {
                 hashlib.sha256(compressed).digest()
-                for _raw_size, compressed in replacement_by_record.values()
+                for _source_offset, _raw_size, compressed in replacement_by_record.values()
             }
             candidates = sorted(
                 unique,
@@ -693,12 +740,14 @@ def patch_runtime_copies(
                 entries = [
                     (
                         record,
+                        source_offset,
+                        old_offset,
                         raw_size,
                         optimal
                         if hashlib.sha256(entry_compressed).digest() == digest
                         else entry_compressed,
                     )
-                    for record, raw_size, entry_compressed in entries
+                    for record, source_offset, old_offset, raw_size, entry_compressed in entries
                 ]
                 unique, allocated, cursor = layout(entries)
                 print(
@@ -722,7 +771,7 @@ def patch_runtime_copies(
             image[
                 begin + fsts_base + offset : begin + fsts_base + offset + len(compressed)
             ] = compressed
-        for record, raw_size, compressed in entries:
+        for record, _source_offset, _old_offset, raw_size, compressed in entries:
             offset = allocated[hashlib.sha256(compressed).digest()]
             struct.pack_into(
                 "<III", image, begin + record + 4,
