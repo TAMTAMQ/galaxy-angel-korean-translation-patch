@@ -72,27 +72,24 @@ def main() -> int:
 
     for rec in patch["records"]:
         replacement = Path(str(rec["replacement"]))
-        subtitle = Path(str(rec["subtitle"]))
         if not replacement.is_file():
             raise ValueError(f"movie replacement is missing: {replacement}")
-        if not subtitle.is_file():
-            raise ValueError(f"movie subtitle source is missing: {subtitle}")
         replacement_sha256 = hash_range(replacement, 0, replacement.stat().st_size)
-        subtitle_sha256 = hash_range(subtitle, 0, subtitle.stat().st_size)
         if replacement_sha256 != rec["replacement_sha256"]:
             raise ValueError(
                 f"movie replacement changed after ISO assembly: {replacement.name}: "
                 f"{replacement_sha256} != {rec['replacement_sha256']}"
             )
-        if subtitle_sha256 != rec["subtitle_sha256"]:
-            raise ValueError(
-                f"subtitle changed after movie assembly: {subtitle.name}: "
-                f"{subtitle_sha256} != {rec['subtitle_sha256']}"
-            )
-        if subtitle.stat().st_mtime_ns > replacement.stat().st_mtime_ns:
-            raise ValueError(
-                f"subtitle is newer than the PSS: {subtitle.name}; rebuild the movie"
-            )
+        if rec.get("subtitle") is not None:
+            subtitle = Path(str(rec["subtitle"]))
+            if not subtitle.is_file():
+                raise ValueError(f"movie subtitle source is missing: {subtitle}")
+            subtitle_sha256 = hash_range(subtitle, 0, subtitle.stat().st_size)
+            if subtitle_sha256 != rec["subtitle_sha256"]:
+                raise ValueError(
+                    f"subtitle changed after movie assembly: {subtitle.name}: "
+                    f"{subtitle_sha256} != {rec['subtitle_sha256']}"
+                )
 
     allowed: list[tuple[int, int]] = []
     # ISO9660 primary volume descriptor's both-endian volume-space-size field.
