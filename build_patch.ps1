@@ -98,6 +98,7 @@ Assert-NativeSuccess 'Mini-game Gemma translation'
   --output-elf (Join-Path $Build 'SLPM_652.54') `
   --map-output (Join-Path $Build 'font_map.json') `
   --extra-translations $MiniGameCache `
+  --font-size 21 `
   --font (Join-Path $ProjectRoot 'vendor\pretendard\packages\pretendard\dist\public\static\alternative\Pretendard-Bold.ttf')
 Assert-NativeSuccess 'Font build'
 
