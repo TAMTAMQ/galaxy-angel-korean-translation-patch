@@ -156,23 +156,36 @@ def main() -> None:
                     offset, raw_size, compressed_size = struct.unpack_from(
                         "<III", patched_runtime_data, record + 4
                     )
-                    if (
-                        stem == "SLGINIT"
-                        and source_offset == 0x2DC800
-                    ):
+                    pinned_slot = battle.PINNED_RUNTIME_SLOTS.get(stem, {}).get(
+                        source_offset
+                    )
+                    if pinned_slot is not None:
+                        slot_begin, slot_end = pinned_slot
+                        if copy_offset != slot_begin or fsts_base + offset != slot_begin:
+                            raise SystemExit(
+                                f"{stem} pinned runtime stream moved: "
+                                f"source={source_offset:#x} "
+                                f"{copy_offset:#x}->{fsts_base + offset:#x}"
+                            )
                         try:
-                            fixed_raw, _fixed_consumed = ikusa_lz.decompress(
+                            fixed_raw, fixed_consumed = ikusa_lz.decompress(
                                 patched, runtime_begin + copy_offset
                             )
                         except ValueError as exc:
                             raise SystemExit(
-                                "SLGINIT stage 10-1 fixed runtime stream is invalid: "
-                                f"{copy_offset:#x}"
+                                f"{stem} pinned runtime stream is invalid: "
+                                f"source={source_offset:#x} offset={copy_offset:#x}"
                             ) from exc
+                        if fixed_consumed > slot_end - slot_begin:
+                            raise SystemExit(
+                                f"{stem} pinned runtime stream exceeds original slot: "
+                                f"source={source_offset:#x} compressed={fixed_consumed:#x} "
+                                f"slot={slot_end - slot_begin:#x}"
+                            )
                         if fixed_raw != expected[source_offset]:
                             raise SystemExit(
-                                "SLGINIT stage 10-1 runtime stream moved or was overwritten: "
-                                f"{copy_offset:#x}->{fsts_base + offset:#x}"
+                                f"{stem} pinned runtime stream was overwritten: "
+                                f"source={source_offset:#x} offset={copy_offset:#x}"
                             )
                     absolute = runtime_begin + fsts_base + offset
                     raw, consumed = ikusa_lz.decompress(patched, absolute)

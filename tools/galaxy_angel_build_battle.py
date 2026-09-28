@@ -33,6 +33,15 @@ FULL_SPACE = "　".encode("cp932")
 BATTLE_MAX_DISPLAY_COLUMNS = 39
 BATTLE_MAX_LINES = 3
 
+# Some stage transitions read these runtime streams from fixed physical slots
+# instead of following the FSTS offset/size pair.  Both the start and the end
+# of the original slot are therefore part of the runtime contract.
+PINNED_RUNTIME_SLOTS = {
+    "SLGINIT": {
+        0x2DC800: (0x111BF20, 0x111CDD0),
+    },
+}
+
 
 def validate_battle_window_text(unit: dict, source: str) -> None:
     if not unit.get("use_translation") or not unit.get("translation"):
@@ -437,7 +446,8 @@ def patch_container(
     original = bytearray(image[begin : begin + item.size])
     rebuilt = bytearray(original)
     recs = builder.records(original)
-    offsets = sorted(recs)
+    # Stored (" 3;0") leaves bound slots too; GADAT000 keeps menu config there.
+    offsets = sorted(set(recs) | builder.stored_leaf_offsets(original))
     append_cursor = builder.align(len(rebuilt), builder.SECTOR)
     updated: dict[int, tuple[int, int, int]] = {}
     relocated = 0
@@ -458,6 +468,7 @@ def patch_container(
             relocated += 1
         struct.pack_into("<III", rebuilt, record, new_offset, raw_size, len(compressed))
         updated[record] = (new_offset, raw_size, len(compressed))
+    builder.verify_stored_leaves_preserved(original, rebuilt, stem)
 
     required = builder.align(len(rebuilt), builder.SECTOR)
     rebuilt.extend(bytes(required - len(rebuilt)))
@@ -596,7 +607,11 @@ def patch_runtime_copies(
     # invalid padding and hanging on a black screen.  Other streams are kept at
     # their old address whenever their translated payload still fits around
     # this mandatory range, so a single growth no longer shifts the whole bank.
-    pinned_copy_offsets = {0x2DC800: 0x111BF20} if stem == "SLGINIT" else {}
+    pinned_copy_slots = PINNED_RUNTIME_SLOTS.get(stem, {})
+    pinned_copy_offsets = {
+        source_offset: slot[0]
+        for source_offset, slot in pinned_copy_slots.items()
+    }
     runtime = builder.resolve_iso_file(files, stem)
     begin = runtime.extent * builder.SECTOR
     runtime_data = image[begin : begin + runtime.size]
@@ -668,6 +683,13 @@ def patch_runtime_copies(
                 )
                 fixed_copy_offset = pinned_copy_offsets.get(source_offset)
                 if fixed_copy_offset is not None:
+                    slot_begin, slot_end = pinned_copy_slots[source_offset]
+                    if len(compressed) > slot_end - slot_begin:
+                        raise SystemExit(
+                            f"{stem} pinned stream exceeds original physical slot: "
+                            f"source={source_offset:#x} compressed={len(compressed):#x} "
+                            f"slot={slot_end - slot_begin:#x}"
+                        )
                     fixed_offset = fixed_copy_offset - fsts_base
                     previous = fixed_positions.setdefault(digest, fixed_offset)
                     if previous != fixed_offset:

@@ -104,6 +104,42 @@ def records(container: bytearray) -> dict[int, tuple[int, int, int]]:
     return found
 
 
+def stored_leaf_offsets(container: bytes | bytearray) -> set[int]:
+    """Return PIDX leaves stored uncompressed (`" 3;0"`, XOR 0x72 payload).
+
+    `records()` only returns LZ leaves, so these blocks must be added when a
+    slot boundary is computed. They are small event-transition scripts such as
+    IDS0731 (route event -> final battle) and menu configuration entries.
+    Treating the gap up to the next LZ leaf as free space zero-filled them and
+    left the game on a black screen after the route event faded out.
+    """
+    if container[:8] != b"PIDX0\0\0\0":
+        return set()
+    found = set()
+    for pos in range(0x30, min(len(container) - 12, 0x10000), 4):
+        data_offset, raw_size, stored_size = struct.unpack_from("<III", container, pos)
+        if data_offset < 0x800 or data_offset % 0x800 or data_offset + 8 > len(container):
+            continue
+        if container[data_offset : data_offset + 4] != b" 3;0":
+            continue
+        declared = struct.unpack_from("<I", container, data_offset + 4)[0]
+        if declared == raw_size and stored_size == raw_size + 8:
+            found.add(data_offset)
+    return found
+
+
+def verify_stored_leaves_preserved(
+    original: bytes | bytearray, rebuilt: bytes | bytearray, stem: str
+) -> None:
+    for offset in sorted(stored_leaf_offsets(original)):
+        size = struct.unpack_from("<I", original, offset + 4)[0] + 8
+        if rebuilt[offset : offset + size] != original[offset : offset + size]:
+            raise SystemExit(
+                f"{stem} stored PIDX leaf was overwritten at {offset:#x}; "
+                "an event-transition/config block would be lost"
+            )
+
+
 def resolve_iso_file(files: dict[str, IsoFile], stem: str) -> IsoFile:
     wanted = f"{stem}.DAT".upper()
     matches = [item for key, item in files.items() if key.rsplit("/", 1)[-1] == wanted]
@@ -499,7 +535,8 @@ def build(original_iso: Path, output_iso: Path, original_scenario: Path,
         # that cannot fit is redirected to backing storage, leaving every other
         # Japanese offset untouched.
         rebuilt = bytearray(container)
-        offsets = sorted(recs)
+        # Slot boundaries must include stored leaves; see stored_leaf_offsets().
+        offsets = sorted(set(recs) | stored_leaf_offsets(container))
         append_cursor = align(len(rebuilt), SECTOR)
         relocated_blocks = 0
         updated_by_record: dict[int, tuple[int, int, int]] = {}
@@ -569,6 +606,7 @@ def build(original_iso: Path, output_iso: Path, original_scenario: Path,
                 "<III", rebuilt, record, old_offset, raw_size, len(compressed)
             )
             updated_by_record[record] = (old_offset, raw_size, len(compressed))
+        verify_stored_leaves_preserved(container, rebuilt, stem)
         print(
             f"kept {len(recs) - relocated_blocks}/{len(recs)} PIDX blocks inside the original container; "
             f"relocated {relocated_blocks} oversized translated blocks",
