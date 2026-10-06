@@ -27,10 +27,10 @@ import ikusa_lz
 BATTLE_HALF_SPACE = b"\xa0"
 # The character the original indents with; see encode_battle_text.
 FULL_SPACE = "　".encode("cp932")
-# 2026-09-10 real-hardware testing showed visible clipping beginning at
-# roughly 40 display columns in the battle message window.  Keep one column of
-# margin and reject anything that crosses the observed safe edge.
-BATTLE_MAX_DISPLAY_COLUMNS = 39
+# 2026-09-10 testing saw clipping from roughly 40 columns, but v0.3.3 players
+# still reported victory lines running past the window.  No original row is
+# wider than 34 columns (17 full-width characters), so use that as the limit.
+BATTLE_MAX_DISPLAY_COLUMNS = 34
 BATTLE_MAX_LINES = 3
 
 # Some stage transitions read these runtime streams from fixed physical slots
@@ -102,28 +102,31 @@ def load_large_json(path: Path) -> dict:
 
 def fit_lines(text: str, count: int) -> list[str]:
     lines = text.rstrip("\r\n").splitlines()
-    if len(lines) <= count:
+    if len(lines) <= count and all(
+        translation.display_columns(line) <= BATTLE_MAX_DISPLAY_COLUMNS for line in lines
+    ):
         # Translation line breaks are authoritative.  Japanese source text often
         # uses multiple physical fields only because it is wider, while a shorter
         # Korean sentence fits safely on one row.  Do not re-split an explicitly
         # one-line translation just to reproduce the source field count; blank the
         # unused trailing fields instead so the in-game layout stays one line.
         return lines + [""] * (count - len(lines))
-    flattened = " ".join(part.strip() for part in lines if part.strip())
-    if count == 1:
-        return [flattened]
-    result: list[str] = []
-    remaining = flattened
-    for index in range(count - 1):
-        slots = count - index
-        ideal = max(1, (len(remaining) + slots - 1) // slots)
-        spaces = [position for position, char in enumerate(remaining) if char == " "]
-        split = min(spaces, key=lambda position: abs(position - ideal)) if spaces else ideal
-        split = max(1, min(split, len(remaining)))
-        result.append(remaining[:split].rstrip())
-        remaining = remaining[split:].lstrip()
-    result.append(remaining)
-    return result
+    words = " ".join(part.strip() for part in lines if part.strip()).split(" ")
+    result = [""]
+    for word in words:
+        candidate = f"{result[-1]} {word}" if result[-1] else word
+        if translation.display_columns(candidate) <= BATTLE_MAX_DISPLAY_COLUMNS:
+            result[-1] = candidate
+        else:
+            result.append(word)
+    if len(result) > count or any(
+        translation.display_columns(line) > BATTLE_MAX_DISPLAY_COLUMNS for line in result
+    ):
+        raise SystemExit(
+            f"battle text does not fit {count} row(s) of "
+            f"{BATTLE_MAX_DISPLAY_COLUMNS} columns: {text!r}"
+        )
+    return result + [""] * (count - len(result))
 
 
 def collect_assets(assets: Path, gadat002: bytes | None = None) -> tuple[
