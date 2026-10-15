@@ -144,7 +144,7 @@ def main() -> int:
 
     # The rendered PSS files are the authority. Subtitle sources and older
     # manifests may be stale or intentionally empty for video-only edits.
-    replacements = sorted(args.pss_dir.glob("GADAT*.PSS"))
+    replacements = sorted(p for p in args.pss_dir.glob("GADAT*.PSS") if (args.subtitles_dir / f"{p.stem}.ko.ass").is_file() and any(line.startswith("Dialogue:") for line in (args.subtitles_dir / f"{p.stem}.ko.ass").read_text(encoding="utf-8-sig").splitlines()))
     if not replacements:
         raise ValueError(f"no authoritative PSS files found in {args.pss_dir}")
 
