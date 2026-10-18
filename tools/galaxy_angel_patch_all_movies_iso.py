@@ -142,8 +142,7 @@ def main() -> int:
     ap.add_argument("--plan-only", action="store_true")
     args = ap.parse_args()
 
-    # The rendered PSS files are the authority. Subtitle sources and older
-    # manifests may be stale or intentionally empty for video-only edits.
+    # Use current PSS files only when their ASS contains dialogue, per user policy.
     replacements = sorted(p for p in args.pss_dir.glob("GADAT*.PSS") if (args.subtitles_dir / f"{p.stem}.ko.ass").is_file() and any(line.startswith("Dialogue:") for line in (args.subtitles_dir / f"{p.stem}.ko.ass").read_text(encoding="utf-8-sig").splitlines()))
     if not replacements:
         raise ValueError(f"no authoritative PSS files found in {args.pss_dir}")
