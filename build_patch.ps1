@@ -301,4 +301,20 @@ Assert-NativeSuccess 'Battle and runtime-copy build'
   --encoding-map (Join-Path $Build 'font_map.json')
 Assert-NativeSuccess 'Battle dialogue verification'
 
+# Battle-bank rebuilding can move UI copies after the earlier image pass.
+& $Python (Join-Path $GameRoot 'tools\verify_live_runtime_images.py') `
+  --original-iso $OriginalIso `
+  --iso (Join-Path $Build 'Galaxy Angel (Korean).iso') `
+  --image-report $ImageReport `
+  --report (Join-Path $Build 'live_runtime_image_repair.json') `
+  --repair
+Assert-NativeSuccess 'Final runtime image and FSTS size synchronization'
+
+& $Python (Join-Path $GameRoot 'tools\verify_live_runtime_images.py') `
+  --original-iso $OriginalIso `
+  --iso (Join-Path $Build 'Galaxy Angel (Korean).iso') `
+  --image-report $ImageReport `
+  --report (Join-Path $Build 'live_runtime_image_verification.json')
+Assert-NativeSuccess 'Final live-index runtime image verification'
+
 Stop-Transcript | Out-Null
