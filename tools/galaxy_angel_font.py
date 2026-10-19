@@ -139,11 +139,41 @@ def collect_custom_chars(asset_dir: Path, extra_translations: Path | None = None
     return sorted(chars)
 
 
+def load_compatibility_chars(path: Path | None) -> list[str]:
+    if path is None:
+        return []
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    if payload.get("schema") != "galaxy-angel-font-compat/v1":
+        raise SystemExit(f"unsupported font compatibility map: {path}")
+    chars = list(payload["characters"])
+    if len(chars) != payload["character_count"] or len(set(chars)) != len(chars):
+        raise SystemExit(f"invalid font compatibility character list: {path}")
+    for char in chars:
+        try:
+            char.encode("cp932")
+        except UnicodeEncodeError:
+            continue
+        raise SystemExit(f"native cp932 character in font compatibility map: {char!r}")
+    return chars
+
+
+def ordered_custom_chars(asset_dir: Path, extra_translations: Path | None,
+                         compatibility_map: Path | None) -> list[str]:
+    current = collect_custom_chars(asset_dir, extra_translations)
+    compatibility = load_compatibility_chars(compatibility_map)
+    reserved = set(compatibility)
+    added = [char for char in current if char not in reserved]
+    if compatibility_map is not None and added:
+        raise SystemExit(f"append new glyphs to the compatibility map before building: {''.join(added)}")
+    return compatibility + added
+
+
 def build_font(asset_dir: Path, input_elf: Path, output_elf: Path, map_output: Path,
                font_path: Path, font_size: int, stroke_width: int,
                stroke_level: int, font_index: int,
-               extra_translations: Path | None = None) -> None:
-    chars = collect_custom_chars(asset_dir, extra_translations)
+               extra_translations: Path | None = None,
+               compatibility_map: Path | None = None) -> None:
+    chars = ordered_custom_chars(asset_dir, extra_translations, compatibility_map)
     available_indices = [
         index for index in range(ORIGINAL_GLYPHS - 1, FIRST_REPLACEMENT_INDEX - 1, -1)
         if is_script_safe_sjis(index_to_sjis(index))
@@ -196,6 +226,8 @@ def build_font(asset_dir: Path, input_elf: Path, output_elf: Path, map_output: P
         "stroke_width": stroke_width,
         "stroke_level": stroke_level,
         "replacement_index_floor": FIRST_REPLACEMENT_INDEX,
+        "compatibility_map": str(compatibility_map) if compatibility_map is not None else None,
+        "compatibility_baseline_characters": len(load_compatibility_chars(compatibility_map)),
         "runtime_blob": str(runtime_blob),
         "runtime_address": FONT_VADDR + runtime_start_index * GLYPH_BYTES,
         "characters": mapping,
@@ -223,6 +255,7 @@ def main() -> None:
     build.add_argument("--output-elf", type=Path, required=True)
     build.add_argument("--map-output", type=Path, required=True)
     build.add_argument("--extra-translations", type=Path)
+    build.add_argument("--compatibility-map", type=Path)
     build.add_argument(
         "--font", type=Path,
         default=Path(
@@ -244,7 +277,8 @@ def main() -> None:
     else:
         build_font(args.assets, args.input_elf, args.output_elf, args.map_output,
                    args.font, args.font_size, args.stroke_width, args.stroke_level,
-                   args.font_index, args.extra_translations)
+                   args.font_index, args.extra_translations,
+                   args.compatibility_map or args.assets / "font_compat_20261019.json")
 
 
 if __name__ == "__main__":

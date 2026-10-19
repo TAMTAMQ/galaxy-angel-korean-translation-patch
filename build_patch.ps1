@@ -98,6 +98,7 @@ Assert-NativeSuccess 'Mini-game Gemma translation'
   --output-elf (Join-Path $Build 'SLPM_652.54') `
   --map-output (Join-Path $Build 'font_map.json') `
   --extra-translations $MiniGameCache `
+  --compatibility-map (Join-Path $Assets 'font_compat_20261019.json') `
   --font-size 21 `
   --font (Join-Path $ProjectRoot 'vendor\pretendard\packages\pretendard\dist\public\static\alternative\Pretendard-Bold.ttf')
 Assert-NativeSuccess 'Font build'
@@ -108,6 +109,11 @@ Assert-NativeSuccess 'Font build'
   --cache $MiniGameCache `
   --font-map (Join-Path $Build 'font_map.json')
 Assert-NativeSuccess 'Mini-game ELF patch'
+
+& $Python (Join-Path $ProjectRoot 'tools\series_save_title_boundary.py') `
+  --game base --elf (Join-Path $Build 'SLPM_652.54') `
+  --report (Join-Path $Build 'save_title_boundary_report.json')
+Assert-NativeSuccess 'Save-title character boundary patch'
 
 & $Python (Join-Path $ProjectRoot 'tools\galaxy_angel_speakers.py') `
   --input (Join-Path $GameRoot 'original\GADAT000.DAT') `
