@@ -35,21 +35,23 @@ PlayStation 2용 『ギャラクシーエンジェル』 일본판(시리즈 1�
 | 항목 | 값 |
 | --- | --- |
 | ISO 크기 | `4,348,381,184 bytes` |
-| SHA-256 | `27e349d49fb2137a49ed8f816a9d6b3a66275d0eac2e2828903b1c20f0a59681` |
+| SHA-256 | `4a51cea15e07f5d20680acdcc449e8d3046ab7c63f2f7aa3cf01c55d2689e0f5` |
 
 ## 2. 패치 적용
 
-1. [Releases](../../releases)에서 `galaxy_angel_ps2_kr_v0.3.6.xdelta`를 받습니다.
+1. [Releases](../../releases)에서 `galaxy_angel_ps2_kr_v0.3.7.xdelta`를 받습니다.
 2. xdelta3 또는 xdelta 패치를 지원하는 프로그램(예: Delta Patcher)에서 **원본 ISO를 Source로** 지정해 적용합니다.
 
    ```bash
    xdelta3 -d -s "Galaxy Angel (Japan).iso" \
-       galaxy_angel_ps2_kr_v0.3.6.xdelta "Galaxy_Angel_KO_v0.3.6.iso"
+       galaxy_angel_ps2_kr_v0.3.7.xdelta "Galaxy_Angel_KO_v0.3.7.iso"
    ```
 
 3. 결과 ISO의 SHA-256이 위 값과 같은지 확인하세요.
 
-패치 파일 자체의 SHA-256은 `57523e3a9a14b99ec7fa8522e1992708ac4b140fb7c86360d07be153d32361d1` 입니다.
+패치 파일 자체의 SHA-256은 `61c77341daf8c66e2bc3e2cbfb209c400df64f1a652e010a9881c2b51c2cc280` 입니다.
+
+이번 수정과 세이브 호환성/프리징 확인 범위는 [v0.3.7 변경 내역](release/RELEASE_NOTES_v0.3.7.md)을 참고해 주세요.
 
 원본 게임 파일(ISO, BIOS 등)은 이 저장소에 포함되어 있지 않습니다. 정당하게 소유한 정품 이미지에만 적용하세요.
 
